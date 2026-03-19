@@ -1,0 +1,19 @@
+# Python dependencies for OTC Trading Bot
+
+# Telegram client
+telethon>=1.42.0
+
+# IQ Option API
+# iqoptionapi>=0.5
+# iqoptionapi @ git+https://github.com/iqoptionapi/iqoptionapi.git@8a903cc094a74af1ed935a56a2d6b5a9ed3319d7
+
+
+# HTTP requests (for AI analysis)
+requests>=2.28.0
+
+python-dotenv>=1.0.0
+
+
+# Timezone support (Python 3.9+ has zoneinfo built-in, but good for compatibility)
+# tzdata  # Uncomment if zoneinfo has issues with timezones
+

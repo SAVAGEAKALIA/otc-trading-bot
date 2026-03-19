@@ -1,0 +1,13 @@
+{
+    "api_id": 12345,
+    "api_hash": "dummy_hash",
+    "channel_name": -1001234567890,
+    "iq_email": "dummy@example.com",
+    "iq_password": "dummy_password",
+    "send_notifications": false,
+    "debug": true,
+    "position_sizing": {
+        "method": "fixed",
+        "fixed_amount": 1.0
+    }
+}

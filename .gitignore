@@ -1,0 +1,88 @@
+# ===========================================
+# Git Ignore - OTC Trading Bot (Enhanced)
+# ===========================================
+
+# ----- SECRETS (NEVER COMMIT!) -----
+.env
+*.session
+*.session-journal
+
+# ----- Python -----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ----- Virtual Environments -----
+.venv/
+venv/
+ENV/
+env/
+
+# ----- IDE -----
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ----- Logs & Data (Internal) -----
+*.log
+trade_log.json
+bot_logs.txt
+trade_queue.db
+session_state.json
+
+# ----- Analysis & Audit Outputs -----
+# (Protects against pushing heavy or transient research data)
+*_output.txt
+deep_analysis_*.txt
+deep_micro_*.txt
+audit_output.txt
+fingerprints.json
+fingerprints_*.json
+
+# ----- Research & Analysis Scripts (Root) -----
+# (Excludes one-off scripts while keeping core main.py/otc-bot.py)
+active_options.py
+analyze_*.py
+audit_*.py
+backtest_*.py
+check_*.py
+clean_*.py
+deep_*.py
+diagnostic_*.py
+disassemble_pyc.py
+extract_strings.py
+pyinstxtractor.py
+quant_analysis.py
+run_analysis.py
+ruthless_*.py
+simulate_*.py
+test_*.py
+
+# ----- OS -----
+.DS_Store
+Thumbs.db
+
+# ----- Temporary -----
+*.tmp
+*.temp
+*.bak
+/tmp/
