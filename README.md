@@ -1,10 +1,10 @@
-# SNAPBACK V2: Supreme OTC Quant Trading Suite
+# OTC BOT
 
 A modular, multi-threaded, asynchronous trading engine designed for high-performance Binary Options trading on IQ Option OTC.
 
 ---
 
-## 🏗️ Project Architecture
+## Project Architecture
 
 ```text
 IQoption/
@@ -27,7 +27,7 @@ IQoption/
 
 ---
 
-## 🧠 Component Technical Map
+## Component Technical Map
 
 | Module | Role | Technical Responsibility |
 | :--- | :--- | :--- |
@@ -40,7 +40,7 @@ IQoption/
 
 ---
 
-## 🎰 Strategy Encyclopedia
+## Strategy Encyclopedia
 The bot employs 13+ distinct trading logics, which can be run in **Voting** or **Tournament** mode.
 
 *   **MHI Strategy**: Based on the "Most High Index" candle pattern, focusing on color dominance in 3-candle sequences.
@@ -65,7 +65,7 @@ Every signal is passed through data-proven "Hard Gates" to filter out low-probab
 
 ---
 
-## 💰 Capital Management & Risk
+## Capital Management & Risk
 
 ### 1. Fractional Kelly Criterion
 The bot uses a **¼ Kelly** (or custom fraction) to calculate trade size:
@@ -79,7 +79,7 @@ This ensures the bot grows the account exponentially during winning streaks whil
 
 ---
 
-## 📱 Telegram Administration (Self-Bot)
+## Telegram Administration (Self-Bot)
 Interact with the bot in any Telegram chat to manage your session:
 
 *   `/status`: Instant dashboard (Balance, PnL, Payouts).
@@ -116,5 +116,6 @@ Interact with the bot in any Telegram chat to manage your session:
 - **Stale Market**: If the log shows `⚠️ Stale Market Witnessed`, it means IQ Option isn't sending new price data. The bot will wait for fresh data before resuming.
 
 ---
+**Built by Saviour**
 
 > **WARNING**: Trading involves significant risk. This platform is provided for research and automation purposes. **Do not trade what you cannot afford to lose.**
