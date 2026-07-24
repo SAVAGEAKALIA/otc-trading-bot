@@ -1,8 +1,8 @@
 # ===========================================
-# Git Ignore - OTC Trading Bot (Enhanced)
+# Git Ignore - OTC Trading Bot
 # ===========================================
 
-# ----- SECRETS (NEVER COMMIT!) -----
+# ----- SECRETS  -----
 .env
 *.session
 *.session-journal
@@ -41,15 +41,14 @@ ENV/ env/
 *.swo
 *~
 
-# ----- Logs & Data (Internal) -----
+# ----- Logs & Data -----
 *.log
 trade_log.json
 bot_logs.txt
 trade_queue.db
 session_state.json
 
-# ----- Analysis & Audit Outputs -----
-# (Protects against pushing heavy or transient research data)
+# ----- Analysis -----
 *_output.txt
 deep_analysis_*.txt
 deep_micro_*.txt
@@ -59,8 +58,7 @@ fingerprints_*.json
 *.txt
 *.json
 
-# ----- Research & Analysis Scripts (Root) -----
-# (Excludes one-off scripts while keeping core main.py/otc-bot.py)
+# ----- Research -----
 active_options.py
 analyze_*.py
 audit_*.py

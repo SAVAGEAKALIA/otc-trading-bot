@@ -10,15 +10,19 @@ from enum import Enum
 import math
 try:
     from .config import STRATEGY_PROFILE
+    from .data_provider import get_completed_candles
     # Removed MHIStrategy and IndicatorStrategy as per instruction
 except (ImportError, ValueError):
     try:
         from config import STRATEGY_PROFILE
+        from data_provider import get_completed_candles
         # Removed MHIStrategy and IndicatorStrategy as per instruction
     except ImportError:
         STRATEGY_PROFILE = "trend"
         MHIStrategy = None
         IndicatorStrategy = None
+        from data_provider import get_completed_candles
+
 
 
 class VolatilityRegime(Enum):
@@ -707,8 +711,10 @@ class MarketAnalyzer:
         Optionally provide a `symbol` to maintain ATR percentiles per symbol.
         Results are cached for INDICATOR_CACHE_TTL seconds.
         """
-        if not candles or len(candles) < max(15, rsi_period + 1):
+        candles = get_completed_candles(candles, min_required=max(15, rsi_period + 1))
+        if not candles:
             return None
+
 
         # Check indicator cache
         cache_key = self._make_indicator_cache_key(candles, symbol)

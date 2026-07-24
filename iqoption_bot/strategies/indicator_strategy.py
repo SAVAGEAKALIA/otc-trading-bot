@@ -1,5 +1,6 @@
 from typing import Dict, Any, List, Optional
 from .base import BaseStrategy, StrategyResult
+from ..data_provider import get_completed_candles
 
 class IndicatorStrategy(BaseStrategy):
     """
@@ -17,7 +18,9 @@ class IndicatorStrategy(BaseStrategy):
         """
         Modularized version of calculate_signal_score.
         """
+        candles = get_completed_candles(candles, min_required=15)
         indicators_2m = kwargs.get('indicators_2m', {})
+
         indicators_5m = kwargs.get('indicators_5m')
         indicators_15m = kwargs.get('indicators_15m')
         direction = kwargs.get('direction')

@@ -2,6 +2,7 @@ import math
 from typing import Dict, Any, List
 
 from .base import BaseStrategy, StrategyResult
+from ..data_provider import get_completed_candles
 
 class RubberBandStrategy(BaseStrategy):
     """
@@ -21,8 +22,10 @@ class RubberBandStrategy(BaseStrategy):
         super().__init__("Rubber Band")
     
     def analyze(self, candles: List[Dict[str, Any]], **kwargs) -> StrategyResult:
-        if not candles or len(candles) < 2:
+        candles = get_completed_candles(candles, min_required=2)
+        if not candles:
             return self._neutral("Insufficient 2m candles")
+
             
         indicators_2m = kwargs.get('indicators_2m', {})
         indicators_5m = kwargs.get('indicators_5m', {})

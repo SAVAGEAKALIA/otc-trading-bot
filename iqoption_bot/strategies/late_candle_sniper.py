@@ -17,6 +17,7 @@ No RSI, MACD, or Bollinger — pure price structure.
 """
 from typing import Dict, Any, List
 from .base import BaseStrategy, StrategyResult
+from ..data_provider import get_completed_candles
 
 
 class LateCandleSniperStrategy(BaseStrategy):
@@ -28,8 +29,10 @@ class LateCandleSniperStrategy(BaseStrategy):
     def analyze(self, candles: List[Dict[str, Any]], **kwargs) -> StrategyResult:
         NO_TRADE = StrategyResult(0.0, "neutral", 0.0, [], [], False)
 
-        if not candles or len(candles) < 6:
+        candles = get_completed_candles(candles, min_required=6)
+        if not candles:
             return NO_TRADE
+
 
         # Work with the last completed candle
         c = candles[-1]

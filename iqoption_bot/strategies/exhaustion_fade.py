@@ -20,6 +20,7 @@ Requires indicators_2m kwargs (RSI, Stochastic, BB position, ADX).
 """
 from typing import Dict, Any, List
 from .base import BaseStrategy, StrategyResult
+from ..data_provider import get_completed_candles
 
 
 class ExhaustionFadeStrategy(BaseStrategy):
@@ -31,12 +32,14 @@ class ExhaustionFadeStrategy(BaseStrategy):
     def analyze(self, candles: List[Dict[str, Any]], **kwargs) -> StrategyResult:
         NO_TRADE = StrategyResult(0.0, "neutral", 0.0, [], [], False)
 
+        candles = get_completed_candles(candles, min_required=6)
+        if not candles:
+            return NO_TRADE
+
         indicators_2m = kwargs.get("indicators_2m", {})
         if not indicators_2m:
             return NO_TRADE
 
-        if not candles or len(candles) < 6:
-            return NO_TRADE
 
         rsi = float(indicators_2m.get("rsi", 50.0))
         stoch_k = float(indicators_2m.get("stoch_k", 50.0))

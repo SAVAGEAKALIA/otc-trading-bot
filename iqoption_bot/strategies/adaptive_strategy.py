@@ -14,6 +14,7 @@ Scoring: base 40 + ER-adjusted trend score (0-25) + KAMA distance (0-20)
 import math
 from typing import Dict, Any, List
 from .base import BaseStrategy, StrategyResult
+from ..data_provider import get_completed_candles
 
 
 class AdaptiveStrategy(BaseStrategy):
@@ -80,10 +81,12 @@ class AdaptiveStrategy(BaseStrategy):
     # ------------------------------------------------------------------
 
     def analyze(self, candles: List[Dict[str, Any]], **kwargs) -> StrategyResult:
+        candles = get_completed_candles(candles, min_required=self.er_period + 2)
+        if not candles:
+            return StrategyResult(0.0, "neutral", 0.0, [], ["Not enough candles for Adaptive"], False)
+
         indicators_2m = kwargs.get("indicators_2m", {})
 
-        if not candles or len(candles) < self.er_period + 2:
-            return StrategyResult(0.0, "neutral", 0.0, [], ["Not enough candles for Adaptive"], False)
 
         closes = self._extract_closes(candles)
         current_close = closes[-1]

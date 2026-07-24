@@ -1,5 +1,6 @@
 from typing import Dict, Any, List
 from .base import BaseStrategy, StrategyResult
+from ..data_provider import get_completed_candles
 
 class SqueezeBreakoutStrategy(BaseStrategy):
     """
@@ -17,11 +18,13 @@ class SqueezeBreakoutStrategy(BaseStrategy):
         super().__init__("Squeeze Breakout")
 
     def analyze(self, candles: List[Dict[str, Any]], **kwargs) -> StrategyResult:
+        candles = get_completed_candles(candles, min_required=3)
         indicators_2m = kwargs.get('indicators_2m', {})
         indicators_5m = kwargs.get('indicators_5m', {}) # For secondary bias
         
-        if not indicators_2m or not indicators_5m or len(candles) < 3:
+        if not candles or not indicators_2m or not indicators_5m:
             return StrategyResult(0.0, "neutral", 0.0, [], ["Requires both 2m and 5m indicators for Squeeze Breakout"], False)
+
 
         reasons: List[str] = []
         warnings: List[str] = []

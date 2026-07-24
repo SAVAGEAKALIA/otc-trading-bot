@@ -38,6 +38,50 @@ class CandleData:
         return time.time() - self.fetched_at
 
 
+def get_completed_candles(candles: list, min_required: int = 1) -> list:
+    """
+    Returns only fully closed candles, excluding the currently-forming candle.
+    IQ Option's API returns the live/incomplete candle as the last element.
+    Returns an empty list if fewer than min_required completed candles are available.
+
+    This function is idempotent: if passed a list that has already had its
+    forming candle removed (or contains only closed historical candles), it will not
+    slice off a second closed candle.
+    """
+    if not candles:
+        return []
+
+    # Check if last candle is forming vs completed using timestamp comparison if available
+    last_candle = candles[-1]
+    is_forming = True
+
+    if isinstance(last_candle, dict):
+        c_start = float(last_candle.get('at', last_candle.get('from', 0)))
+        if c_start > 0:
+            # Infer timeframe interval from candle gap if >= 2 candles, else default to 120s (2m)
+            tf = 120
+            if len(candles) >= 2 and isinstance(candles[-2], dict):
+                prev_start = float(candles[-2].get('at', candles[-2].get('from', 0)))
+                if prev_start > 0 and c_start > prev_start:
+                    tf = int(c_start - prev_start)
+
+            # If current time >= c_start + tf, then last_candle is ALREADY completed!
+            now = time.time()
+            if now >= (c_start + tf):
+                is_forming = False
+
+    if is_forming:
+        completed = candles[:-1]
+    else:
+        completed = candles
+
+    if len(completed) < min_required:
+        return []
+
+    return completed
+
+
+
 @dataclass
 class MTFBundle:
     """

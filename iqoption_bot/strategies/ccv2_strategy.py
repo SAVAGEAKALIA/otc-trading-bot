@@ -12,6 +12,7 @@ Scoring: base 55 + streak bonus (0-20) + RSI confirmation (0-15)
 """
 from typing import Dict, Any, List
 from .base import BaseStrategy, StrategyResult
+from ..data_provider import get_completed_candles
 
 
 class CCV2Strategy(BaseStrategy):
@@ -27,10 +28,12 @@ class CCV2Strategy(BaseStrategy):
         self.max_streak = max_streak
 
     def analyze(self, candles: List[Dict[str, Any]], **kwargs) -> StrategyResult:
+        candles = get_completed_candles(candles, min_required=self.min_streak + 1)
+        if not candles:
+            return StrategyResult(0.0, "neutral", 0.0, [], ["Not enough candles for CCV2"], False)
+
         indicators_2m = kwargs.get("indicators_2m", {})
 
-        if not candles or len(candles) < self.min_streak + 1:
-            return StrategyResult(0.0, "neutral", 0.0, [], ["Not enough candles for CCV2"], False)
 
         # ------------------------------------------------------------------
         # 1.  Count the *current* consecutive same-color streak (newest first)

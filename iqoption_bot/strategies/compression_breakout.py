@@ -17,6 +17,7 @@ No Bollinger, no Keltner, no indicators — pure price structure.
 """
 from typing import Dict, Any, List
 from .base import BaseStrategy, StrategyResult
+from ..data_provider import get_completed_candles
 
 
 class CompressionBreakoutStrategy(BaseStrategy):
@@ -28,8 +29,10 @@ class CompressionBreakoutStrategy(BaseStrategy):
     def analyze(self, candles: List[Dict[str, Any]], **kwargs) -> StrategyResult:
         NO_TRADE = StrategyResult(0.0, "neutral", 0.0, [], [], False)
 
-        if not candles or len(candles) < 25:
+        candles = get_completed_candles(candles, min_required=25)
+        if not candles:
             return NO_TRADE
+
 
         # Extract OHLC for last 25 candles
         def _f(c, key, *alts):

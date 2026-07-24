@@ -18,6 +18,7 @@ No RSI, MACD, or Bollinger — pure price structure.
 """
 from typing import Dict, Any, List
 from .base import BaseStrategy, StrategyResult
+from ..data_provider import get_completed_candles
 
 
 class MomentumCascadeStrategy(BaseStrategy):
@@ -29,8 +30,10 @@ class MomentumCascadeStrategy(BaseStrategy):
     def analyze(self, candles: List[Dict[str, Any]], **kwargs) -> StrategyResult:
         NO_TRADE = StrategyResult(0.0, "neutral", 0.0, [], [], False)
 
-        if not candles or len(candles) < 5:
+        candles = get_completed_candles(candles, min_required=4)
+        if not candles:
             return NO_TRADE
+
 
         # Extract last 4 completed candles (index -4 to -1)
         recent = candles[-4:]

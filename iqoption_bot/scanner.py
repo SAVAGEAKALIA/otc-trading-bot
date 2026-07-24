@@ -19,7 +19,9 @@ from dataclasses import dataclass, field
 from enum import Enum
 
 from .analytics import MarketAnalyzer, SignalGatekeeper, VolatilityRegime, SignalScore
+from .data_provider import get_completed_candles
 from .strategy_engine import StrategyEngine, TradeDecision
+
 from .strategies.mhi_strategy import MHIStrategy
 from .strategies.indicator_strategy import IndicatorStrategy
 from .strategies.ccv2_strategy import CCV2Strategy
@@ -174,7 +176,7 @@ class ScannerConfig:
     rsi_extreme_low: float = 30.0
     rsi_extreme_high: float = 70.0
     expansion_trap_block: bool = True   # Block body > 1.2x previous (34.5% WR)
-    expansion_trap_max: float = 1.33      # DATA: median winners 1.33, median losers 1.82 (Gold Zone: 0.8-1.5)
+    expansion_trap_max: float = 1.2      # DATA: median winners 1.33, median losers 1.82 (Gold Zone: 0.8-1.5)
     wick_magnet_block: bool = True      # Block if rejection wick > 40% (20% WR)
     wick_magnet_max: float = 0.4
     calm_confluence_gate: bool = True   # Require 2m+5m trend alignment (58.7% vs 34.9%)
@@ -1390,29 +1392,37 @@ class OTCScanner:
                     self._stale_assets_notified.remove(asset)
 
 
+            # Pre-filter completed candles for defense-in-depth boundary
+            completed_2m = get_completed_candles(mtf_bundle.entry_tf.candles)
+
             # Calculate indicators for 2m (entry timeframe)
-            indicators_2m = self.analyzer.calculate_indicators(mtf_bundle.entry_tf.candles, symbol=asset)
+            indicators_2m = self.analyzer.calculate_indicators(completed_2m, symbol=asset)
             if not indicators_2m:
                 self._cycle_no_indicators += 1
                 return None
 
             # Calculate previous indicators for 2m (for trapdoor/momentum delta)
             indicators_2m_prev = None
-            if len(mtf_bundle.entry_tf.candles) > 30:
-                indicators_2m_prev = self.analyzer.calculate_indicators(mtf_bundle.entry_tf.candles[:-1], symbol=asset)
+            if len(completed_2m) > 30:
+                indicators_2m_prev = self.analyzer.calculate_indicators(completed_2m[:-1], symbol=asset)
 
             # Calculate indicators for higher timeframes (confirmation)
             indicators_5m = None
             indicators_15m = None
 
             if mtf_bundle.mid_tf and mtf_bundle.mid_tf.is_valid:
-                indicators_5m = self.analyzer.calculate_indicators(mtf_bundle.mid_tf.candles, symbol=asset)
+                completed_5m = get_completed_candles(mtf_bundle.mid_tf.candles)
+                if completed_5m:
+                    indicators_5m = self.analyzer.calculate_indicators(completed_5m, symbol=asset)
 
             if mtf_bundle.high_tf and mtf_bundle.high_tf.is_valid:
-                indicators_15m = self.analyzer.calculate_indicators(mtf_bundle.high_tf.candles, symbol=asset)
+                completed_15m = get_completed_candles(mtf_bundle.high_tf.candles)
+                if completed_15m:
+                    indicators_15m = self.analyzer.calculate_indicators(completed_15m, symbol=asset)
 
             # Pattern analysis on 2m candles
-            pattern_analysis = self.pattern_analyzer.analyze(mtf_bundle.entry_tf.candles)
+            pattern_analysis = self.pattern_analyzer.analyze(completed_2m)
+
 
             # ==========================================
             # STRATEGY ENGINE EVALUATION

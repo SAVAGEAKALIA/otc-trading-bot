@@ -1,6 +1,7 @@
 from typing import Dict, Any, List, Optional
 from datetime import datetime
 from .base import BaseStrategy, StrategyResult
+from ..data_provider import get_completed_candles
 
 class MHIStrategy(BaseStrategy):
     """
@@ -30,26 +31,14 @@ class MHIStrategy(BaseStrategy):
         """
         # Use instance cluster size (set at construction), not runtime kwarg
         cluster_size = self._cluster_size
+        candles = get_completed_candles(candles, min_required=cluster_size)
+        if not candles:
+            return StrategyResult(0.0, "neutral", 0.0, [], [f"Insufficient candles for {self._variant}"], False)
+
         profile = kwargs.get('profile', 'reversal')
         indicators_15m = kwargs.get('indicators_15m', {})
         indicators_2m = kwargs.get('indicators_2m', {})  # For RSI guard
-        
-        # 0. Liquidity Block (Session Filter)
-        # Block Reversals fail in low-volume chop. Only trade during high-activity overlaps.
-        # 08:00-11:00 EST = 13:00-16:00 UTC
-        # 14:00-16:00 EST = 19:00-21:00 UTC
-        current_utc_hour = datetime.utcnow().hour
-        is_london_ny = 13 <= current_utc_hour < 16
-        is_late_ny = 19 <= current_utc_hour < 21
-        
-        # if not (is_london_ny or is_late_ny):
-        #     return StrategyResult(0.0, "neutral", 0.0, [], [f"Rejected: {self._variant.upper()} Block Close strategy only valid during high-liquidity overlaps (Currently {current_utc_hour}:xx UTC)"], False)
 
-        if not candles:
-            return StrategyResult(0.0, "neutral", 0.0, [], ["No candles"], False)
-
-        if len(candles) < cluster_size:
-            return StrategyResult(0.0, "neutral", 0.0, [], [f"Insufficient candles for {self._variant}"], False)
 
         cluster = candles[-cluster_size:]
         label = {'mhi': 'MHI', 'majority': 'Majority', 'r7': 'R7'}.get(self._variant, 'MHI')
