@@ -53,36 +53,66 @@ class TradeDecision:
     agreeing_strategies: List[str] = field(default_factory=list)  # Names of all strategies that agreed
 
 
+# RATIONALE FOR SEPARATING PRIMARY AND MARTINGALE STATS:
+# A strategy's recovery-step outcomes reflect martingale mechanics (multiplier,
+# max steps, re-analyzer behavior) as much as original signal quality.
+# Mixing martingale outcomes into win_rate would distort effective_weight calculation.
+# Therefore, effective_weight reads ONLY from primary trade stats.
+
 @dataclass
 class StrategySlot:
     """A registered strategy with its weight and performance stats."""
     strategy: BaseStrategy
     weight: float = 1.0
     
-    # Performance tracking
+    # Primary trade performance tracking (used for effective_weight calculation)
     wins: int = 0
     losses: int = 0
     ties: int = 0
-    
+
+    # Martingale recovery-step performance tracking (tracked for reporting/visibility only)
+    martingale_wins: int = 0
+    martingale_losses: int = 0
+    martingale_ties: int = 0
+
+    @property
+    def total_primary_trades(self) -> int:
+        return self.wins + self.losses + self.ties
+
+    @property
+    def total_martingale_trades(self) -> int:
+        return self.martingale_wins + self.martingale_losses + self.martingale_ties
+
     @property
     def total_trades(self) -> int:
-        return self.wins + self.losses + self.ties
+        return self.total_primary_trades + self.total_martingale_trades
     
     @property
     def win_rate(self) -> float:
+        """Primary trade win rate (used for effective_weight calculation)."""
         decided = self.wins + self.losses
         return self.wins / decided if decided > 0 else 0.5
 
     @property
+    def martingale_win_rate(self) -> float:
+        """Martingale recovery-step win rate (for reporting/visibility only)."""
+        decided = self.martingale_wins + self.martingale_losses
+        return self.martingale_wins / decided if decided > 0 else 0.5
+
+    @property
     def effective_weight(self) -> float:
         """Dynamic weight: base weight × performance multiplier.
+        Reads ONLY from primary trade stats.
         
         Performance multiplier:
-          - Cold start (< 20 trades): use base weight
-          - Win rate > 55%: boost weight up to 1.5×
-          - Win rate < 45%: reduce weight to 0.3×
+          - Cold start (< 20 primary trades): use base weight
+          - Win rate >= 60%: boost weight up to 1.5×
+          - Win rate >= 55%: boost weight up to 1.2×
+          - Win rate >= 45%: base weight (1.0×)
+          - Win rate >= 40%: reduce weight to 0.6×
+          - Win rate < 40%: reduce weight to 0.3×
         """
-        if self.total_trades < 20:
+        if self.total_primary_trades < 20:
             return self.weight
         
         wr = self.win_rate
@@ -134,23 +164,43 @@ class StrategyEngine:
         """Return list of all registered strategy names (lowercase)."""
         return [name.lower() for name in self.strategies.keys()]
 
-    def record_result(self, strategy_name: str, result: str):
+    def record_result(self, strategy_name: str, result: str, is_martingale: bool = False):
         """Record a trade outcome for a specific strategy.
         
         Args:
             strategy_name: Name of the strategy (matches BaseStrategy.name)
             result: 'win', 'loss', or 'tie'
+            is_martingale: True if trade was a martingale recovery step
         """
-        if strategy_name not in self.strategies:
+        slot = None
+        if strategy_name in self.strategies:
+            slot = self.strategies[strategy_name]
+        else:
+            # Fallback for case variations (e.g. "mhi" vs "MHI")
+            s_low = strategy_name.lower()
+            for k, v in self.strategies.items():
+                if k.lower() == s_low:
+                    slot = v
+                    break
+
+        if not slot:
             return
         
-        slot = self.strategies[strategy_name]
-        if result == 'win':
-            slot.wins += 1
-        elif result == 'loss':
-            slot.losses += 1
-        elif result == 'tie':
-            slot.ties += 1
+        if is_martingale:
+            if result == 'win':
+                slot.martingale_wins += 1
+            elif result == 'loss':
+                slot.martingale_losses += 1
+            elif result == 'tie':
+                slot.martingale_ties += 1
+        else:
+            if result == 'win':
+                slot.wins += 1
+            elif result == 'loss':
+                slot.losses += 1
+            elif result == 'tie':
+                slot.ties += 1
+
 
     def evaluate(self, candles: List[Dict[str, Any]], symbol: str = "Unknown", **kwargs) -> TradeDecision:
         """

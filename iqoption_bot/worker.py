@@ -1229,7 +1229,10 @@ class APIWorker:
                     "confidence": request.ai_confidence,
                     "source": getattr(request, 'source', 'telegram'),
                     "strategy_used": getattr(request, 'strategy_used', ''),
+                    "winning_strategy": getattr(request.engine_decision, 'winning_strategy', '') if getattr(request, 'engine_decision', None) else getattr(request, 'strategy_used', ''),
+                    "agreeing_strategies": getattr(request.engine_decision, 'agreeing_strategies', []) if getattr(request, 'engine_decision', None) else [],
                 }
+
 
                 print(f"   ⏱️ Result will be checked in ~{trade_duration} min 5 sec")
                 print(f"   📋 Active trades being monitored: {len(self.active_trades)}")

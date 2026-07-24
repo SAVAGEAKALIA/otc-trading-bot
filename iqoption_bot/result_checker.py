@@ -257,8 +257,28 @@ class ResultChecker:
             if asset_name and hasattr(self._w, 'scanner'):
                 self._w.scanner.record_asset_result(asset_name, result == "win")
 
+        # Update StrategyEngine win/loss tracking for dynamic effective_weight calculation
+        if result in ("win", "lose", "tie"):
+            if not trade_info.get('result_recorded', False):
+                engine = None
+                if hasattr(self._w, 'scanner') and self._w.scanner and hasattr(self._w.scanner, 'strategy_engine'):
+                    engine = self._w.scanner.strategy_engine
+                elif hasattr(self._w, 'strategy_engine') and self._w.strategy_engine:
+                    engine = self._w.strategy_engine
+
+                if engine:
+                    winning_strat = trade_info.get('winning_strategy', '') or trade_info.get('strategy_used', '')
+                    if winning_strat:
+                        strat_name = winning_strat.split('+')[0].strip()
+                        is_martingale = (martingale_step > 0)
+                        engine.record_result(strat_name, result, is_martingale=is_martingale)
+                        print(f"   📊 StrategyEngine recorded {result.upper()} for [{strat_name}] (Martingale: {is_martingale})")
+
+                trade_info['result_recorded'] = True
+
         # Phase 3 Fingerprint Saving
         if result in ("win", "lose", "tie"):
+
             # Ensure we only log the fingerprint once per trade
             if not trade_info.get('fingerprinted', False):
                 fingerprint = trade_info.get('fingerprint')
