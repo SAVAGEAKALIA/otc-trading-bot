@@ -177,7 +177,7 @@ Fixed after review:
 - Minute-of-hour features are added.
 
 The band rule is **pre-registered** in
-`docs/research/preregistered_contrarian_band.md` (sha256 `441701f5…`). It may
+`docs/archive/otc-binary/research/preregistered_contrarian_band.md` (sha256 `441701f5…`). It may
 only be tested on candles after Oct 8. Its "exactly 0 or 1" wording is affected
 by the same mistake, but the band 0.30 <= |mood - 0.5| < 0.45 already excludes
 every degenerate reading, so the rule itself is unchanged. If the true rate is
@@ -187,7 +187,7 @@ slippage or payout changes.
 
 ### 1f. Round 2: model-family tournament (Kaggle T4 x2, 16 min)
 
-The rubric was frozen first: `docs/research/kaggle_tournament_round2_rubric.md`,
+The rubric was frozen first: `docs/archive/otc-binary/research/kaggle_tournament_round2_rubric.md`,
 sha256 `9d22827d…`.
 
 - The data is the 2m matrix rebuilt with clean mood and minute features:
@@ -234,7 +234,7 @@ band, which is snooped, rising, and pre-registered for a forward test.
 
 ### 1g. Round 3: follow vs fade the crowd (walk-forward, real payouts)
 
-The rubric was frozen first: `docs/research/round3_crowd_rubric.md`, sha256
+The rubric was frozen first: `docs/archive/otc-binary/research/round3_crowd_rubric.md`, sha256
 `c131bc32…`.
 
 - The universe is 228,203 2m candles from Jul 31 to Oct 8 with a clean mood
