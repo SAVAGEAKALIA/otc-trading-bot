@@ -73,6 +73,35 @@ pre-registered forward test on data collected after Oct 8.
 Scripts: `trading_platform/research/studies/otc_tick_settlement.py` and
 `trading_platform/research/studies/otc_crowd_contrarian.py`.
 
+### 1c. Kaggle model search: frozen rubric
+
+The rubric was written and hashed before any training:
+`/tmp/otc-kaggle-edge/critique/rubric.md`, sha256 `a5a65f56…`.
+
+- **Splits** are by the label candle's open (UTC):
+  - train: before Sep 8
+  - validation: Sep 8 01:00 to Sep 22
+  - holdout: Sep 22 01:00 to Oct 8
+  - A 1-hour purge sits before validation and before holdout.
+- **Thresholds** are picked on validation only: the confidence quantile in
+  {0, .5, .8, .9, .95, .98} with the best validation win rate and at least 300
+  validation trades.
+- **PASS** requires all of the following on the holdout:
+  - The Wilson lower bound is above 54.05%, at a Bonferroni z for K = 14 configs.
+  - At least 300 trades.
+  - Both holdout halves are above 54.05%.
+  - Local onnxruntime reproduces the holdout trades and wins exactly.
+
+Code lives in `trading_platform/research/studies/`:
+- `otc_feature_matrix.py` builds the causal matrix: 30 body lags, wicks,
+  returns, RSI, range position, streak, cross-asset market factor, time, and
+  crowd mood with deltas. Its tests rewrite the future and assert the past is
+  unchanged. Five leak mutants are each caught.
+- `kaggle_edge_search/train_edge_search.py` is the GPU kernel with 7 strategies
+  for each of the 2m and 5m expiries.
+- `kaggle_edge_search/push.sh` uploads a private dataset and runs the kernel.
+- `kaggle_edge_search/verify_onnx.py` re-scores the ONNX models locally.
+
 ## 2. What was cut in this pass
 
 - `trading_platform/legacy/archived/`: 2,147 lines, unreachable from any entry point.
