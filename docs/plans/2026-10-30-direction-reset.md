@@ -34,6 +34,45 @@ External research agrees:
 - ESMA banned retail binaries in the EU (2018). ASIC found about 80% of retail
   clients lost money and extended its ban to 2031.
 
+### 1b. Re-run on the server's own IQ Option stream (Jul 31 to Oct 8)
+
+The tables above used local copies that end Aug 20. The server's
+`market_context.sqlite` (5.7 GB) holds the live realtime stream to Oct 8.
+That data was exported and tested separately:
+
+```bash
+DB=~/IQoption/data/ml/market_context.sqlite   # on the server, via sudo sqlite3 -readonly -csv
+"select broker_asset, timeframe_sec, candle_start_ms, open, close from realtime_candles where finalized=1 and timeframe_sec in (120,300,900)"
+"select broker_asset, candle_start_ms, close from realtime_candles where finalized=1 and timeframe_sec=1"
+"select broker_asset, instrument_type, observed_bucket_ms, call_fraction from mood_samples"
+```
+
+| Test | Sample | Best result | Breakeven |
+|---|---:|---:|---:|
+| `edge_audit` candle rules, 2m / 5m / 15m | 601k / 242k / 82k | 50.27% / 50.26% / 50.06% | 54.05% |
+| Real contract on 1s ticks: entry at second 58 (also 0 and 30), strike at entry, settle at +120s, 21 rules | about 10.7k per entry second | 50.84%; every full-sample rule's 95% upper bound is at or below 51.8% | 54.05% |
+| Walk-forward logistic and gradient boosting on the 1s features | about 3.2k test | best 51.3%, CI [49.6%, 53.0%]; log-loss 0.6937 to 0.7189, worse than ln 2 | 54.05% |
+| Crowd contrarian: bet against the most one-sided 10% of trader mood | 49.6k per side | 50.8%, CI [50.35%, 51.23%] | 54.05% |
+
+The 1s stream is recorded in bursts of about 28 seconds and covers about 15%
+of the period. That is why only about 10.7k clean 120s settlements exist per
+entry second.
+
+**The one real effect is crowd-contrarian.** The price leans slightly against
+the side the crowd bets on. It replicates on both datasets, and it grew from
+50.5% in the first half of the server period to 51.4% in the second. It is
+still about 3 points short of breakeven overall, and 2.7 points short in the
+stronger second half.
+
+No single pair or UTC hour clears breakeven after a Bonferroni correction
+across 39 slices. The best slice is EUR/USD at 52.8%. Split by time, EUR/USD
+goes from 50.4% in the first half to 54.9% in the second. That number was found
+by searching slices, so it is a lead, not a result. The only valid test is a
+pre-registered forward test on data collected after Oct 8.
+
+Scripts: `trading_platform/research/studies/otc_tick_settlement.py` and
+`trading_platform/research/studies/otc_crowd_contrarian.py`.
+
 ## 2. What was cut in this pass
 
 - `trading_platform/legacy/archived/`: 2,147 lines, unreachable from any entry point.
