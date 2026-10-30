@@ -169,17 +169,68 @@ Two caveats change how to read "NO EDGE":
    in the data.
 
 Fixed after review:
-- `clean_mood` drops readings of exactly 0 or 1.
+- `clean_mood` drops degenerate readings. The first version only dropped
+  exact 0/1 values, and none exist. The degenerate readings actually sit at
+  <= 0.001 or >= 0.999, so the threshold is now 1e-3.
 - No-mood rows can no longer count as trades.
 - `meta_contrarian` now reports log-loss.
 - Minute-of-hour features are added.
 
 The band rule is **pre-registered** in
-`/tmp/otc-kaggle-edge/critique/preregistered_contrarian_band.md`
-(sha256 `441701f5…`). It may only be tested on candles after Oct 8. If the true
-rate is 54.9%, confirming it takes about 33k trades, roughly 55 days of
-harvesting at the observed band rate. Even then it is worth about +1.6% ROI per
-trade before slippage or payout changes.
+`docs/research/preregistered_contrarian_band.md` (sha256 `441701f5…`). It may
+only be tested on candles after Oct 8. Its "exactly 0 or 1" wording is affected
+by the same mistake, but the band 0.30 <= |mood - 0.5| < 0.45 already excludes
+every degenerate reading, so the rule itself is unchanged. If the true rate is
+54.9%, confirming it takes about 33k trades, roughly 55 days of harvesting at
+the observed band rate. Even then it is worth about +1.6% ROI per trade before
+slippage or payout changes.
+
+### 1f. Round 2: model-family tournament (Kaggle T4 x2, 16 min)
+
+The rubric was frozen first: `docs/research/kaggle_tournament_round2_rubric.md`,
+sha256 `9d22827d…`.
+
+- The data is the 2m matrix rebuilt with clean mood and minute features:
+  1.74M rows, 75 features.
+- Holdout rows were removed before upload, and the kernel refuses to run if any
+  are present.
+- The test is walk-forward over five weekly folds from Aug 18 to Sep 21. Each
+  fold trains on everything earlier.
+- Thresholds for each week come only from earlier weeks' out-of-sample
+  predictions. There were about 307k out-of-sample predictions per family.
+
+| Family | Log-loss minus ln 2 (95% day-bootstrap) | Pooled trades | Win rate | Bonferroni CI | Weeks > BE |
+|---|---|---:|---:|---|---:|
+| xgboost | -0.00004 [-0.00008, -0.00001] | 87,292 | 50.32% | [49.85%, 50.79%] | 1 |
+| lightgbm | -0.00004 [-0.00006, -0.00001] | 141,420 | 50.22% | [49.85%, 50.59%] | 0 |
+| gru | -0.00002 [-0.00007, +0.00004] | 79,825 | 50.78% | [50.29%, 51.27%] | 0 |
+| tcn | -0.00001 [-0.00006, +0.00005] | 75,583 | 50.46% | [49.96%, 50.97%] | 0 |
+| mlp | -0.00001 [-0.00005, +0.00004] | 32,347 | 50.79% | [50.02%, 51.56%] | 1 |
+| cross_asset_transformer | -0.00001 [-0.00008, +0.00006] | 88,070 | 50.41% | [49.95%, 50.88%] | 0 |
+| lightgbm_rolling14 | +0.00001 [-0.00002, +0.00005] | 126,715 | 49.97% | [49.58%, 50.36%] | 0 |
+| logistic | +0.00006 [-0.00001, +0.00014] | 9,160 | 52.02% | [50.57%, 53.46%] | 0 |
+| knn_pattern | +0.00479 [+0.00450, +0.00511] | 5,815 | 50.37% | [48.55%, 52.19%] | 0 |
+
+- **No family is a candidate.** The best pooled win rate is 52.0% (logistic),
+  and its Bonferroni CI tops out at 53.5%. No family has 3 weeks above 54.05%.
+- **Only the two gradient-boosting libraries learned anything.** XGBoost and
+  LightGBM have log-loss CIs entirely below ln 2. The gain is 0.00004 nats,
+  roughly 0.3 percentage points of accuracy. It is real and about 13 times too
+  small to trade.
+- **Retraining on a rolling 14-day window did worse**, so the drift seen in the
+  crowd effect is not a learnable regime for these features.
+- **Verification:** `verify_tournament.py` recomputed every family's pooled
+  result exactly from `oos_predictions.parquet`. It re-ran all 7 tabular ONNX
+  models on the 74,916 week-5 rows, with max diff 1.2e-7. The transformer's
+  two-input parity was checked inside the kernel at 1.2e-7. kNN has no ONNX
+  export by design, because it stores its training rows. Evidence:
+  `/tmp/otc-kaggle-edge/critique/verify_run2.txt`.
+
+**Conclusion across both rounds:** 23 model configurations covered 9 families
+(linear, 3 gradient-boosting libraries, MLP, GRU, TCN, transformer, kNN), plus
+rule and meta-label strategies. Nothing beats breakeven out of sample. The only
+consistent structure is crowd-contrarian. At its best it is the 0.30-0.45 mood
+band, which is snooped, rising, and pre-registered for a forward test.
 
 ## 2. What was cut in this pass
 
