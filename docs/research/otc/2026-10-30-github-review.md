@@ -2,7 +2,7 @@
 
 ## Decision
 
-Revalidate the existing IQ Option adapter behind a narrow, tested boundary; scikit-learn for null/logistic/gradient-boosting baselines; CatBoost as the first nonlinear challenger; `arch` for dependence-aware uncertainty. Build only the small broker-specific settlement/replay contract that generic backtesters do not supply. Defer full trading frameworks, reinforcement learning, language-model trade decisions, and large sequence models until simpler models demonstrate out-of-sample value. This is a recommendation from source inspection, not an observed profitable result.
+Revalidate the existing IQ Option adapter behind a narrow, tested boundary; scikit-learn for null/logistic/gradient-boosting baselines; CatBoost as the first nonlinear challenger; `arch` for dependence-aware uncertainty. For this project, the combined plan selects the already-used LightGBM under the reuse exception below, rather than adding CatBoost. The combined plan controls prospective decisions. Build only the small broker-specific settlement/replay contract that generic backtesters do not supply. Defer full trading frameworks, reinforcement learning, language-model trade decisions, and large sequence models until simpler models demonstrate out-of-sample value. This is a recommendation from source inspection, not an observed profitable result.
 
 ## Method and evidence boundaries
 

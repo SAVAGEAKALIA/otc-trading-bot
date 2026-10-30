@@ -46,6 +46,8 @@ The model searches use per-trade Wilson bounds, while trades across assets and t
 
 The preregistered band file declares two expiries and two looks (z=2.50 early, z=2.241 final). Do not casually call this invalid alpha spending: two lower-tail decisions per expiry imply a conservative union-bound family alpha of about 0.0374, below one-sided 0.05. But the file does not clearly state one-/two-sided family convention, block dependence assumptions, expiry-specific scheduling, and stopping disposition. Its fixed 0.540541 gate assumes 0.85 payout even though actual payouts changed. Freeze a dated addendum before any new data is examined; retain original rule unchanged for historical comparability and do not relabel results as the original preregistration.
 
+The combined plan controls prospective decisions: preserve the original band definition and protocol as historical evidence, but use the newly registered payout-aware protocol for promotion.
+
 The old September-October holdout is spent and the round-3 “unseen” label means not used to discover that particular lead, not globally untouched across all prior research. Post-October-8 data is necessary for genuine confirmation.
 
 ## Reuse and bloat decisions
