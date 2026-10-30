@@ -12,7 +12,7 @@
   - OTC docs in `docs/archive/otc-binary/`
   - research artifacts and server exports in `data/archive/otc-binary-2026-10-30/`
     (local only, checksummed)
-- The crypto plan is in `docs/plans/` and is awaiting approval.
+- The crypto plan, awaiting approval: [docs/plans/2026-10-30-crypto-plan.md](docs/plans/2026-10-30-crypto-plan.md).
 
 ## What is here now
 
