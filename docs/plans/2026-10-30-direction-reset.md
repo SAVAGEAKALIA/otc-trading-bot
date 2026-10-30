@@ -232,6 +232,60 @@ rule and meta-label strategies. Nothing beats breakeven out of sample. The only
 consistent structure is crowd-contrarian. At its best it is the 0.30-0.45 mood
 band, which is snooped, rising, and pre-registered for a forward test.
 
+### 1g. Round 3: follow vs fade the crowd (walk-forward, real payouts)
+
+The rubric was frozen first: `docs/research/round3_crowd_rubric.md`, sha256
+`c131bc32…`.
+
+- The universe is 228,203 2m candles from Jul 31 to Oct 8 with a clean mood
+  reading taken at least 1s before the open and no more than 60s old.
+- Each trade uses the live turbo-option payout, 0.82-0.89 across 528k samples.
+- Crowd features: mood level and its 1/2/5/10-minute deltas, the 10-minute
+  max/min/std, a 24h z-score, the market-wide crowd, crowd versus market, and
+  whether the crowd agrees with the last candle.
+- Code: `trading_platform/research/studies/otc_crowd_study.py`. Its 5 tests
+  cover causality, the fade label, a planted 60% fade edge being found, noise
+  being rejected, and no trading of a cell before it has a prior record.
+
+**Following the crowd loses in every band, in both periods (44.5-49.9%).**
+Fading beats following everywhere. On unseen weeks, though, it peaks at 51.8%
+(band 0.30-0.35) against a 54.2% payout-adjusted breakeven.
+
+| Strategy (walk-forward) | Unseen trades | Win rate | Breakeven | ROI | Profitable weeks | Fade share |
+|---|---:|---:|---:|---:|---:|---:|
+| follow/fade grid (80 rules) | 0 | n/a | n/a | n/a | n/a | n/a |
+| lightgbm meta-model | 74,088 | 51.51% | 54.25% | -5.0% | 0/5 | 100% |
+| xgboost meta-model | 60,892 | 50.80% | 54.15% | -6.2% | 0/4 | 88% |
+| logistic meta-model | 7,768 | 51.87% | 54.16% | -4.2% | 0/5 | 70% |
+
+The grid made no trades: no rule ever cleared breakeven on its prior record.
+The models learned to fade, but not by enough. **No candidate.**
+
+The fade effect is non-stationary. In the 0.30-0.45 band it rose week by week:
+
+| Weeks | Fade win rate | ROI |
+|---|---:|---:|
+| Jul 27 - Aug 2 | 49.2% | |
+| Aug 3 - Aug 23 | 50.1% to 50.8% | |
+| Aug 31 - Sep 20 | 52.4% to 53.5% | |
+| Sep 21-27 | 55.7% | +2.0% |
+| Sep 28 - Oct 4 | 55.0% | +0.6% |
+| Oct 5-8 (1,477 trades) | 52.2% | -5.0% |
+
+Average payout fell from 0.847 to 0.821 over the same weeks, which moved
+breakeven from 54.0% to 54.9%. Payout does not track the crowd trade by trade
+(corr(payout, fade win) = 0.0001), but the falling payout level absorbed most
+of the growing effect.
+
+**Conclusion of three rounds:**
+- The IQ Option crowd is wrong slightly more often than right, and that is the
+  only consistent structure in the data.
+- It is too weak and too unstable to trade.
+- In the only two weeks it beat breakeven, ROI was +2.0% and +0.6%. The next
+  week it was -5%.
+- Only post-Oct-8 data can tell whether the late-September strength was a
+  lasting shift or a peak. The pre-registered band rule (1e) is the test for it.
+
 ## 2. What was cut in this pass
 
 - `trading_platform/legacy/archived/`: 2,147 lines, unreachable from any entry point.
