@@ -1,6 +1,0 @@
-schema_version: research_contract_v1
-experiment_id: otc-lstm-regime-mtf-v1
-trainer: lstm_regime_mtf
-dataset_id: replace-with-export-dataset-id
-data: enriched/enriched_candles.parquet
-options: {}

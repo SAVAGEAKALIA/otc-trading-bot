@@ -1,2 +1,0 @@
-from trading_platform.strategies.otc.implementations.ml_catboost_directional_strategy import MLDirectionalCatBoostStrategy
-__all__ = ["MLDirectionalCatBoostStrategy"]
