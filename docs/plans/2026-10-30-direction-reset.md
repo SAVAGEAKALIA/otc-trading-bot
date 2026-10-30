@@ -102,6 +102,85 @@ Code lives in `trading_platform/research/studies/`:
 - `kaggle_edge_search/push.sh` uploads a private dataset and runs the kernel.
 - `kaggle_edge_search/verify_onnx.py` re-scores the ONNX models locally.
 
+### 1d. Kaggle result (run 1, 2026-10-30, T4 x2, 3.2 min)
+
+The run used 2,918,345 rows and 73 features, and evaluated K = 14 configs
+(Bonferroni z = 2.914). **No config passes.** Validation log-loss for every
+model is 0.6930-0.6932 (ln 2 = 0.69315), so the models found nothing to learn
+before any threshold was applied.
+
+| Strategy | Expiry | Holdout trades | Holdout win rate | Bonferroni CI | ROI |
+|---|---|---:|---:|---|---:|
+| meta_contrarian | 2m | 767 | 53.98% | [48.7%, 59.1%] | -0.1% |
+| catboost_all | 2m | 2,500 | 52.52% | [49.6%, 55.4%] | -2.8% |
+| ensemble | 2m | 12,757 | 51.75% | [50.5%, 53.0%] | -4.3% |
+| mlp | 2m | 2,690 | 51.67% | [48.9%, 54.5%] | -4.4% |
+| catboost_mood | 2m | 3,112 | 51.51% | [48.9%, 54.1%] | -4.7% |
+| meta_contrarian | 5m | 3,209 | 51.60% | [49.0%, 54.2%] | -4.5% |
+| gru | 2m | 28,691 | 50.89% | [50.0%, 51.8%] | -5.9% |
+| the other 7 configs | 2m/5m | | 49.2% to 50.2% | | -7% to -9% |
+
+- **meta_contrarian at 2m is the only result near breakeven.** Its holdout
+  halves were 55.96% and 51.97%, so it fails criterion 3. Its CI is 10 points
+  wide, so it fails criterion 1. It is a model on top of the crowd-contrarian
+  effect from 1b, and the plain contrarian rule scored 52.1% on the same rows.
+- **ONNX:** native-to-ONNX parity is within 6.0e-8 for every model. A local
+  onnxruntime re-run reproduced 13 of 14 configs exactly. The 14th
+  (catboost_all, 5m) differs by 3 trades out of 6,083. Those 3 come from 57
+  rows within 1e-6 of the threshold, where float32 rounding flips the
+  selection. Evidence: `/tmp/otc-kaggle-edge/critique/verify_run1.txt`.
+- **The holdout is now spent.** Any further model search needs data collected
+  after Oct 8 as its holdout. Re-using this holdout would turn it into a
+  validation set.
+- **Disclosure:** the frozen rubric said ONNX must reproduce the holdout
+  "exactly". The tolerance for boundary ties (rows within 1e-6 of the cut) was
+  added to `verify_onnx.py` after run 1. It excuses at most the number of rows
+  inside that band, and only one config used it.
+
+### 1e. Adversarial review and what it changes
+
+A separate critic reviewed the code, the matrix, and the run outputs without
+seeing my reasoning. Verdict: **RESULT HOLDS.**
+
+- Labels match raw candles in 100% of 858,211 checked rows.
+- No leakage was found.
+- The kernel detects injected edges: a 58% global edge in 9 of 14 configs, a
+  70% edge on a 5.8% subset in 7 of 14, and the unmodified sample in 0 of 14.
+
+Two caveats change how to read "NO EDGE":
+
+1. **Power.** Thresholds mostly kept 2,500-3,900 holdout trades. At z = 2.91,
+   passing then needs a true win rate of about 57%. A real 55% edge would
+   probably have been missed. The defensible claim is "no edge of about 57% or
+   more at the selected volumes, and no model learned anything (ln 2)".
+2. **Bad mood readings.** 28.7% of raw mood samples are exactly 0 or 1. They
+   look like no-volume snapshots, and they made up 64% of the
+   `meta_contrarian` training subset. Restricted to 0.30 <= |mood - 0.5| < 0.45,
+   plain contrarian at 2m scored:
+
+   | Split | Win rate | Trades |
+   |---|---:|---:|
+   | Train | 50.8% | |
+   | Validation | 53.2% | |
+   | Holdout | 54.9% | 9,794 |
+
+   The holdout Bonferroni lower bound is 53.4%, so it fails. The band was also
+   chosen after seeing the holdout. It is the strongest and only rising effect
+   in the data.
+
+Fixed after review:
+- `clean_mood` drops readings of exactly 0 or 1.
+- No-mood rows can no longer count as trades.
+- `meta_contrarian` now reports log-loss.
+- Minute-of-hour features are added.
+
+The band rule is **pre-registered** in
+`/tmp/otc-kaggle-edge/critique/preregistered_contrarian_band.md`
+(sha256 `441701f5…`). It may only be tested on candles after Oct 8. If the true
+rate is 54.9%, confirming it takes about 33k trades, roughly 55 days of
+harvesting at the observed band rate. Even then it is worth about +1.6% ROI per
+trade before slippage or payout changes.
+
 ## 2. What was cut in this pass
 
 - `trading_platform/legacy/archived/`: 2,147 lines, unreachable from any entry point.

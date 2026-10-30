@@ -72,7 +72,8 @@ def bonferroni_z(k: int) -> float:
 
 
 def logloss(y, p):
-    p = np.clip(p, 1e-7, 1 - 1e-7)
+    keep = ~np.isnan(p)  # NaN = no prediction (e.g. no mood)
+    y, p = np.asarray(y)[keep], np.clip(p[keep], 1e-7, 1 - 1e-7)
     return float(-np.mean(y * np.log(p) + (1 - y) * np.log(1 - p)))
 
 
@@ -221,7 +222,8 @@ def score(name, tf, val, hold, z):
 
 
 def direction_eval(p, y, t):
-    return {"conf": np.abs(p - 0.5), "win": (p > 0.5) == (y == 1), "t": t}
+    traded = ~np.isnan(p)
+    return {"conf": np.abs(p[traded] - 0.5), "win": ((p > 0.5) == (y == 1))[traded], "t": t[traded]}
 
 
 # ---------------------------------------------------------------- main
@@ -291,8 +293,10 @@ def main():
                                y["va"][has["va"]], iters)
             path = out / "models" / f"catboost_mood_{tf}.onnx"
             m.save_model(str(path), format="onnx")
-            p_va = np.full(len(y["va"]), 0.5)
-            p_ho = np.full(len(y["ho"]), 0.5)  # no mood -> no trade (confidence 0)
+            # No mood -> no trade. NaN confidence never passes the threshold,
+            # even when the q=0 cut is 0.
+            p_va = np.full(len(y["va"]), np.nan)
+            p_ho = np.full(len(y["ho"]), np.nan)
             p_va[has["va"]] = m.predict_proba(X["va"][has["va"]][:, mi])[:, 1]
             p_ho[has["ho"]] = m.predict_proba(X["ho"][has["ho"]][:, mi])[:, 1]
             finish("catboost_mood", p_va, p_ho)
@@ -317,6 +321,8 @@ def main():
                 results.append(score("meta_contrarian", int(tf), ev["va"], ev["ho"], z))
                 base = {k: float(win[k][sub[k]].mean()) for k in ("va", "ho")}
                 results[-1]["plain_contrarian_win_rate"] = base
+                results[-1]["val_logloss"] = logloss(win["va"][sub["va"]].astype(int), ev["va"]["conf"])
+                results[-1]["holdout_logloss"] = logloss(win["ho"][sub["ho"]].astype(int), ev["ho"]["conf"])
                 if sub["ho"].any():
                     parity[f"meta_contrarian_{tf}"] = float(np.max(np.abs(onnx_predict(path, X["ho"][sub["ho"]]) - ev["ho"]["conf"])))
                 print(f"  meta_contrarian -> {results[-1]['verdict']} (plain contrarian {base})", flush=True)

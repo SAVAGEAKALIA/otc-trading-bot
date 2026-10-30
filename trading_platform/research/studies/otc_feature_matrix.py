@@ -29,6 +29,17 @@ SPLITS = (  # frozen rubric, /tmp/otc-kaggle-edge/critique/rubric.md
 MOOD_MAX_AGE_MS = 60_000
 
 
+def clean_mood(raw: pd.DataFrame) -> pd.DataFrame:
+    """Average duplicate samples and drop readings of exactly 0 or 1.
+
+    About 29% of raw samples are exactly 0 or 1. They behave like no-volume
+    snapshots, not real one-sided crowds (contrarian wins ~51% on them), so
+    they are dropped. The previous genuine reading within 60s is used instead.
+    """
+    mood = raw.groupby(["asset", "mood_ms"], as_index=False)["call"].mean()
+    return mood[(mood["call"] > 0) & (mood["call"] < 1)].reset_index(drop=True)
+
+
 def _ms(ts: str) -> int:
     return int(pd.Timestamp(ts).value // 1_000_000)
 
@@ -128,6 +139,8 @@ def build_matrix(candles: pd.DataFrame, tf_sec: int, mood: pd.DataFrame | None) 
     ts = pd.to_datetime(df["target_start_ms"], unit="ms", utc=True)
     df["hour_sin"] = np.sin(2 * np.pi * ts.dt.hour / 24)
     df["hour_cos"] = np.cos(2 * np.pi * ts.dt.hour / 24)
+    df["minute_sin"] = np.sin(2 * np.pi * ts.dt.minute / 60)
+    df["minute_cos"] = np.cos(2 * np.pi * ts.dt.minute / 60)
     df["dow"] = ts.dt.dayofweek.astype(np.int8)
     if mood is not None:
         df = add_mood(df, mood)
@@ -166,7 +179,7 @@ def main(argv: list[str] | None = None) -> int:
     a = p.parse_args(argv)
     candles = load_candles(a.historical, a.realtime)
     mood = pd.read_csv(a.mood, names=["asset", "itype", "mood_ms", "call"])
-    mood = mood.groupby(["asset", "mood_ms"], as_index=False)["call"].mean()
+    mood = clean_mood(mood)
     frames = [build_matrix(candles[candles["tf"] == tf].drop(columns="tf"), tf, mood) for tf in a.timeframes]
     out = pd.concat(frames, ignore_index=True)
     out.to_parquet(a.out, index=False)
