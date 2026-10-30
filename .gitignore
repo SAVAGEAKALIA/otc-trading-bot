@@ -58,6 +58,10 @@ fingerprints_*.json
 *.txt
 *.json
 
+# Keep dependency manifests visible even though generated text reports are
+# ignored above.
+!requirements*.txt
+
 # ----- Research -----
 active_options.py
 analyze_*.py
@@ -81,8 +85,14 @@ plan-*.md
 audit-winrate-assessment.md
 
 # ----- Tests & Scripts -----
-tests/
-scripts/
+/scripts/
+# Tests and config are source code and must remain reviewable/versioned.
+# These negations override the broad research patterns above
+# (test_*.py, *.json, *.txt).
+!tests/**/*.py
+!trading_platform/**/*.py
+!trading_platform/**/*.json
+!trading_platform/configs/**
 
 # ----- OS -----
 .DS_Store
@@ -93,3 +103,19 @@ Thumbs.db
 *.temp
 *.bak
 /tmp/
+
+# Runtime data and local tooling state
+data/
+catboost_info/
+.codegraph/
+.pytest_cache/
+trading_platform/legacy/iqoption_bot/.env
+
+# Model weights and binary artifacts (store outside git)
+*.cbm
+*.joblib
+*.onnx
+*.pkl
+*.parquet
+*.sqlite
+trading_platform/research/registry/*.csv

@@ -10,9 +10,12 @@ venv/
 .idea/
 .vscode/
 .git/
+.codegraph/
 .gitignore
 *.md
 backup/
+!tests/
+requirements-training.txt
 *.log
 trade_log.json
 debug_assets.py

@@ -1,0 +1,6 @@
+schema_version: research_contract_v1
+experiment_id: otc-lstm-stationary-v1
+trainer: lstm_stationary
+dataset_id: replace-with-export-dataset-id
+data: enriched/enriched_candles.parquet
+options: {}

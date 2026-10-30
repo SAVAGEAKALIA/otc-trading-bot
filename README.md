@@ -8,19 +8,36 @@ A modular, multi-threaded, asynchronous trading engine designed for high-perform
 
 ```text
 IQoption/
-├── iqoption_bot/           # CORE BOT LOGIC
-│   ├── strategies/         # Strategy Encyclopedia (13+ Algorithms)
+├── trading_platform/       # CANONICAL PROJECT PACKAGE
+│   ├── domain/              # Immutable domain contracts
+│   ├── application/         # Ports and application services
+│   ├── brokers/             # IQ Option, Bybit, simulated adapters
+│   ├── execution/           # OMS and reconciliation
+│   ├── risk/                # Deterministic risk engine
+│   ├── storage/             # Ledger, outbox, migrations
+│   ├── market_data/         # Market-data providers
+│   ├── strategies/otc/      # OTC strategy implementations
+│   ├── research/            # Training and artifact workflows
+│   ├── interfaces/          # Operator interfaces
+│   ├── apps/                # Application entry points
+│   ├── legacy/iqoption_bot/ # Compatibility runtime during migration
+│   ├── ml/                  # Shared ML compatibility exports
+│   ├── configs/             # Platform configs
+│   ├── scripts/             # Collectors and trainers
+│   └── vendor/              # Vendored IQ Option client
+├── backup/                  # Historical backups (kept at root)
+│   ├── strategies/         # Legacy compatibility only
 │   ├── analytics.py        # Indicator Engine & Quality Filters
 │   ├── bot.py              # Main Orchestrator
 │   ├── scanner.py          # Autonomous OTC Universe Scanner
 │   ├── worker.py           # IQ Option API Wrapper & Heartbeat
+│   ├── ml/                 # Shared causal telemetry/features
 │   ├── strategy_engine.py  # Weighted Voting & Performance Tracking
 │   ├── sizing.py           # Fractional Kelly & Risk Engine
 │   └── ...                 # Helpers (Parser, Session, Logging)
-├── iqoptionapi/            # Protocol Implementation
 ├── data/                   # JSON Persistence (Trade Logs, ML Models)
-├── main.py                 # Main Entry Point
-├── otc-bot.py              # Dedicated OTC Scanner Entry
+├── tests/                  # Root-level test suite
+├── docs/                   # Architecture and operations docs
 ├── Dockerfile              # Containerized Deployment
 └── .env.example            # Environment Template
 ```
@@ -37,6 +54,9 @@ IQoption/
 | **`analytics.py`** | **The Filter** | Calculates oscillators (Wilder RSI, EMA MACD) and enforces the "Guardian" Hard Gates. |
 | **`sizing.py`** | **The Wallet** | Implements the **Fractional Kelly Criterion** for optimal capital allocation. |
 | **`bot.py`** | **The Captain** | Coordinates between the Telegram Listener, Scanner, and Trade Queue. |
+| **`ML_LSTM`** | **ML Direction** | Proposes CALL/PUT from closed candles and causally available market context. |
+| **Directional CatBoost** | **ML Direction** | Predicts the next exact 2m candle from enriched candle/context features. |
+| **CatBoost gate** | **ML Selection** | Later scores an existing strategy candidate; never creates or reverses direction. |
 
 ---
 
@@ -87,6 +107,13 @@ Interact with the bot in any Telegram chat to manage your session:
 *   `/stats`: View the win rate breakdown of every active strategy.
 *   `/heartbeat`: Force a 30-minute market stagnation report.
 *   `/pause` / `/resume`: Safety switch for all trading activity.
+
+See the complete, current [Telegram command reference](docs/telegram-commands.md)
+for supported commands, safety constraints, and the verified-performance model.
+The complete data, Kaggle training, artifact deployment, shadow validation, and
+rollback flow is in the [enriched ML pipeline](docs/enriched-ml-pipeline.md).
+The immediate candle-based workflow is in the
+[directional CatBoost guide](docs/directional-catboost-training.md).
 
 ---
 

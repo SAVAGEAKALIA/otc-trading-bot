@@ -16,11 +16,12 @@ import re
 import time
 import json
 import asyncio
+import os
 from datetime import datetime
 from threading import Thread, Lock
 from typing import Optional, Tuple, Dict, Any, Callable
 from telethon import TelegramClient, events
-from iqoptionapi.stable_api import IQ_Option
+from trading_platform.vendor.iqoptionapi.iqoptionapi.stable_api import IQ_Option
 import requests
 
 
@@ -849,13 +850,13 @@ if __name__ == "__main__":
     # ========================================
     config = {
         # Telegram API (get from my.telegram.org)
-        "api_id": 35090640,
-        "api_hash": "eddb54d5272a6bb0487e260ef0fa5585",
-        "channel_name": -1002885860160,  # Channel ID or username
+        "api_id": int(os.environ.get("TG_API_ID", "0")),
+        "api_hash": os.environ.get("TG_API_HASH", ""),
+        "channel_name": int(os.environ.get("TG_CHANNEL_ID", "0")),
 
         # IQ Option Credentials
-        "iq_email": "akaliasaviour@gmail.com",
-        "iq_password": "Daddy123$$",
+        "iq_email": os.environ.get("IQ_EMAIL", ""),
+        "iq_password": os.environ.get("IQ_PASSWORD", ""),
         "account_type": "PRACTICE",  # "PRACTICE" or "REAL"
 
         # Trading Settings
