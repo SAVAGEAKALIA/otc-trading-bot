@@ -1,0 +1,523 @@
+{
+  "raw_sha256": "1969cf4f62d913527383ac66875d9f23efd4fddcf9b7d7bb7a8994a46e137a1a",
+  "row_count": 121328,
+  "interpretation": "Funding-only diagnostic, not investable returns. Capital scenario assumes 2N, no reserves or idle yield.",
+  "series": [
+    {
+      "venue": "bybit",
+      "symbol": "BTCUSDT",
+      "observations": 7230,
+      "duplicates": 0,
+      "first_utc": "2020-03-25T16:00:00+00:00",
+      "last_utc": "2026-10-30T08:00:00+00:00",
+      "whole_missing_days": 0,
+      "daily_print_count_distribution": {
+        "1": 1,
+        "2": 1,
+        "3": 2409
+      },
+      "max_gap_hours": 8.0,
+      "final_position_open": true,
+      "unbooked_terminal_exit_per_notional": 0.00155,
+      "minimum_ann_for_2x_7d_cost_cover": 0.3232857142857143,
+      "years": [
+        {
+          "year": 2020,
+          "days": 282,
+          "annualized_notional_proxy": 0.16907478226950357,
+          "annualized_2x_capital_proxy": 0.08453739113475178,
+          "period_notional_proxy": 0.13062764000000002,
+          "transitions": 9
+        },
+        {
+          "year": 2021,
+          "days": 365,
+          "annualized_notional_proxy": 0.3525178,
+          "annualized_2x_capital_proxy": 0.1762589,
+          "period_notional_proxy": 0.3525178,
+          "transitions": 18
+        },
+        {
+          "year": 2022,
+          "days": 365,
+          "annualized_notional_proxy": -0.0015800999999999968,
+          "annualized_2x_capital_proxy": -0.0007900499999999984,
+          "period_notional_proxy": -0.001580099999999997,
+          "transitions": 16
+        },
+        {
+          "year": 2023,
+          "days": 365,
+          "annualized_notional_proxy": 0.07933975,
+          "annualized_2x_capital_proxy": 0.039669875,
+          "period_notional_proxy": 0.07933975,
+          "transitions": 4
+        },
+        {
+          "year": 2024,
+          "days": 366,
+          "annualized_notional_proxy": 0.09752399098360658,
+          "annualized_2x_capital_proxy": 0.04876199549180329,
+          "period_notional_proxy": 0.09779118,
+          "transitions": 7
+        },
+        {
+          "year": 2025,
+          "days": 365,
+          "annualized_notional_proxy": 0.018024300000000004,
+          "annualized_2x_capital_proxy": 0.009012150000000002,
+          "period_notional_proxy": 0.018024300000000004,
+          "transitions": 8
+        },
+        {
+          "year": 2026,
+          "days": 303,
+          "annualized_notional_proxy": 0.008382869471947196,
+          "annualized_2x_capital_proxy": 0.004191434735973598,
+          "period_notional_proxy": 0.00695893,
+          "transitions": 1
+        }
+      ]
+    },
+    {
+      "venue": "bybit",
+      "symbol": "DOGEUSDT",
+      "observations": 5928,
+      "duplicates": 0,
+      "first_utc": "2021-06-02T16:00:00+00:00",
+      "last_utc": "2026-10-30T08:00:00+00:00",
+      "whole_missing_days": 0,
+      "daily_print_count_distribution": {
+        "1": 1,
+        "2": 1,
+        "3": 1975
+      },
+      "max_gap_hours": 8.0,
+      "final_position_open": false,
+      "unbooked_terminal_exit_per_notional": 0,
+      "minimum_ann_for_2x_7d_cost_cover": 0.3232857142857143,
+      "years": [
+        {
+          "year": 2021,
+          "days": 213,
+          "annualized_notional_proxy": 0.31488478028169015,
+          "annualized_2x_capital_proxy": 0.15744239014084507,
+          "period_notional_proxy": 0.18375468,
+          "transitions": 9
+        },
+        {
+          "year": 2022,
+          "days": 365,
+          "annualized_notional_proxy": 0.06628838000000001,
+          "annualized_2x_capital_proxy": 0.033144190000000004,
+          "period_notional_proxy": 0.06628838000000001,
+          "transitions": 10
+        },
+        {
+          "year": 2023,
+          "days": 365,
+          "annualized_notional_proxy": 0.08237950000000001,
+          "annualized_2x_capital_proxy": 0.041189750000000004,
+          "period_notional_proxy": 0.08237950000000001,
+          "transitions": 8
+        },
+        {
+          "year": 2024,
+          "days": 366,
+          "annualized_notional_proxy": 0.14709507978142078,
+          "annualized_2x_capital_proxy": 0.07354753989071039,
+          "period_notional_proxy": 0.14749808,
+          "transitions": 4
+        },
+        {
+          "year": 2025,
+          "days": 365,
+          "annualized_notional_proxy": 0.015991700000000005,
+          "annualized_2x_capital_proxy": 0.007995850000000002,
+          "period_notional_proxy": 0.015991700000000005,
+          "transitions": 9
+        },
+        {
+          "year": 2026,
+          "days": 303,
+          "annualized_notional_proxy": -0.0025733463696369628,
+          "annualized_2x_capital_proxy": -0.0012866731848184814,
+          "period_notional_proxy": -0.0021362299999999994,
+          "transitions": 4
+        }
+      ]
+    },
+    {
+      "venue": "bybit",
+      "symbol": "ETHUSDT",
+      "observations": 6601,
+      "duplicates": 0,
+      "first_utc": "2020-10-21T08:00:00+00:00",
+      "last_utc": "2026-10-30T08:00:00+00:00",
+      "whole_missing_days": 0,
+      "daily_print_count_distribution": {
+        "2": 2,
+        "3": 2199
+      },
+      "max_gap_hours": 8.0,
+      "final_position_open": false,
+      "unbooked_terminal_exit_per_notional": 0,
+      "minimum_ann_for_2x_7d_cost_cover": 0.3232857142857143,
+      "years": [
+        {
+          "year": 2020,
+          "days": 72,
+          "annualized_notional_proxy": 0.48941699236111114,
+          "annualized_2x_capital_proxy": 0.24470849618055557,
+          "period_notional_proxy": 0.09654253,
+          "transitions": 1
+        },
+        {
+          "year": 2021,
+          "days": 365,
+          "annualized_notional_proxy": 0.41239999999999993,
+          "annualized_2x_capital_proxy": 0.20619999999999997,
+          "period_notional_proxy": 0.4124,
+          "transitions": 8
+        },
+        {
+          "year": 2022,
+          "days": 365,
+          "annualized_notional_proxy": 0.008131320000000003,
+          "annualized_2x_capital_proxy": 0.004065660000000001,
+          "period_notional_proxy": 0.008131320000000003,
+          "transitions": 12
+        },
+        {
+          "year": 2023,
+          "days": 365,
+          "annualized_notional_proxy": 0.07604657000000001,
+          "annualized_2x_capital_proxy": 0.038023285000000004,
+          "period_notional_proxy": 0.07604657000000001,
+          "transitions": 4
+        },
+        {
+          "year": 2024,
+          "days": 366,
+          "annualized_notional_proxy": 0.11333900218579235,
+          "annualized_2x_capital_proxy": 0.056669501092896174,
+          "period_notional_proxy": 0.11364952,
+          "transitions": 4
+        },
+        {
+          "year": 2025,
+          "days": 365,
+          "annualized_notional_proxy": 0.009559310000000001,
+          "annualized_2x_capital_proxy": 0.004779655000000001,
+          "period_notional_proxy": 0.009559310000000001,
+          "transitions": 11
+        },
+        {
+          "year": 2026,
+          "days": 303,
+          "annualized_notional_proxy": -0.000676382343234323,
+          "annualized_2x_capital_proxy": -0.0003381911716171615,
+          "period_notional_proxy": -0.0005614899999999997,
+          "transitions": 2
+        }
+      ]
+    },
+    {
+      "venue": "bybit",
+      "symbol": "SOLUSDT",
+      "observations": 6208,
+      "duplicates": 0,
+      "first_utc": "2021-06-29T08:00:00+00:00",
+      "last_utc": "2026-10-30T08:00:00+00:00",
+      "whole_missing_days": 0,
+      "daily_print_count_distribution": {
+        "2": 2,
+        "3": 1907,
+        "6": 1,
+        "9": 1,
+        "12": 39
+      },
+      "max_gap_hours": 8.0,
+      "final_position_open": false,
+      "unbooked_terminal_exit_per_notional": 0,
+      "minimum_ann_for_2x_7d_cost_cover": 0.3232857142857143,
+      "years": [
+        {
+          "year": 2021,
+          "days": 186,
+          "annualized_notional_proxy": 0.3578919193548387,
+          "annualized_2x_capital_proxy": 0.17894595967741936,
+          "period_notional_proxy": 0.1823778,
+          "transitions": 1
+        },
+        {
+          "year": 2022,
+          "days": 365,
+          "annualized_notional_proxy": 0.011989550000000003,
+          "annualized_2x_capital_proxy": 0.005994775000000002,
+          "period_notional_proxy": 0.011989550000000003,
+          "transitions": 9
+        },
+        {
+          "year": 2023,
+          "days": 365,
+          "annualized_notional_proxy": 0.06570982,
+          "annualized_2x_capital_proxy": 0.03285491,
+          "period_notional_proxy": 0.06570982,
+          "transitions": 11
+        },
+        {
+          "year": 2024,
+          "days": 366,
+          "annualized_notional_proxy": 0.1280700830601093,
+          "annualized_2x_capital_proxy": 0.06403504153005465,
+          "period_notional_proxy": 0.12842096,
+          "transitions": 6
+        },
+        {
+          "year": 2025,
+          "days": 365,
+          "annualized_notional_proxy": 0.006320860000000001,
+          "annualized_2x_capital_proxy": 0.0031604300000000005,
+          "period_notional_proxy": 0.006320860000000002,
+          "transitions": 9
+        },
+        {
+          "year": 2026,
+          "days": 303,
+          "annualized_notional_proxy": -0.002777348844884488,
+          "annualized_2x_capital_proxy": -0.001388674422442244,
+          "period_notional_proxy": -0.0023055799999999998,
+          "transitions": 2
+        }
+      ]
+    },
+    {
+      "venue": "bybit",
+      "symbol": "XRPUSDT",
+      "observations": 5988,
+      "duplicates": 0,
+      "first_utc": "2021-05-13T16:00:00+00:00",
+      "last_utc": "2026-10-30T08:00:00+00:00",
+      "whole_missing_days": 0,
+      "daily_print_count_distribution": {
+        "1": 1,
+        "2": 1,
+        "3": 1995
+      },
+      "max_gap_hours": 8.0,
+      "final_position_open": false,
+      "unbooked_terminal_exit_per_notional": 0,
+      "minimum_ann_for_2x_7d_cost_cover": 0.3232857142857143,
+      "years": [
+        {
+          "year": 2021,
+          "days": 233,
+          "annualized_notional_proxy": 0.24911094914163093,
+          "annualized_2x_capital_proxy": 0.12455547457081546,
+          "period_notional_proxy": 0.15902151,
+          "transitions": 14
+        },
+        {
+          "year": 2022,
+          "days": 365,
+          "annualized_notional_proxy": 0.008991900000000004,
+          "annualized_2x_capital_proxy": 0.004495950000000002,
+          "period_notional_proxy": 0.008991900000000004,
+          "transitions": 16
+        },
+        {
+          "year": 2023,
+          "days": 365,
+          "annualized_notional_proxy": 0.09275085000000001,
+          "annualized_2x_capital_proxy": 0.046375425000000005,
+          "period_notional_proxy": 0.09275085000000001,
+          "transitions": 7
+        },
+        {
+          "year": 2024,
+          "days": 366,
+          "annualized_notional_proxy": 0.13797889562841528,
+          "annualized_2x_capital_proxy": 0.06898944781420764,
+          "period_notional_proxy": 0.13835692,
+          "transitions": 2
+        },
+        {
+          "year": 2025,
+          "days": 365,
+          "annualized_notional_proxy": 0.023399460000000004,
+          "annualized_2x_capital_proxy": 0.011699730000000002,
+          "period_notional_proxy": 0.023399460000000004,
+          "transitions": 7
+        },
+        {
+          "year": 2026,
+          "days": 303,
+          "annualized_notional_proxy": -0.003477052640264026,
+          "annualized_2x_capital_proxy": -0.001738526320132013,
+          "period_notional_proxy": -0.0028864299999999997,
+          "transitions": 4
+        }
+      ]
+    },
+    {
+      "venue": "hyperliquid",
+      "symbol": "BTC",
+      "observations": 29791,
+      "duplicates": 0,
+      "first_utc": "2023-06-01T00:00:00.139000+00:00",
+      "last_utc": "2026-10-30T12:00:00.038000+00:00",
+      "whole_missing_days": 0,
+      "daily_print_count_distribution": {
+        "3": 7,
+        "13": 1,
+        "23": 3,
+        "24": 1237
+      },
+      "max_gap_hours": 8.000092222222221,
+      "final_position_open": true,
+      "unbooked_terminal_exit_per_notional": 0.00115,
+      "minimum_ann_for_2x_7d_cost_cover": 0.23985714285714285,
+      "years": [
+        {
+          "year": 2023,
+          "days": 214,
+          "annualized_notional_proxy": 0.1608703307686916,
+          "annualized_2x_capital_proxy": 0.0804351653843458,
+          "period_notional_proxy": 0.0943184953,
+          "transitions": 5
+        },
+        {
+          "year": 2024,
+          "days": 366,
+          "annualized_notional_proxy": 0.2331362835560109,
+          "annualized_2x_capital_proxy": 0.11656814177800545,
+          "period_notional_proxy": 0.23377501309999998,
+          "transitions": 4
+        },
+        {
+          "year": 2025,
+          "days": 365,
+          "annualized_notional_proxy": 0.0973090518,
+          "annualized_2x_capital_proxy": 0.0486545259,
+          "period_notional_proxy": 0.0973090518,
+          "transitions": 4
+        },
+        {
+          "year": 2026,
+          "days": 303,
+          "annualized_notional_proxy": 0.035355864856435645,
+          "annualized_2x_capital_proxy": 0.017677932428217823,
+          "period_notional_proxy": 0.029350211100000002,
+          "transitions": 6
+        }
+      ]
+    },
+    {
+      "venue": "hyperliquid",
+      "symbol": "ETH",
+      "observations": 29791,
+      "duplicates": 0,
+      "first_utc": "2023-06-01T00:00:00.139000+00:00",
+      "last_utc": "2026-10-30T12:00:00.038000+00:00",
+      "whole_missing_days": 0,
+      "daily_print_count_distribution": {
+        "3": 7,
+        "13": 1,
+        "23": 3,
+        "24": 1237
+      },
+      "max_gap_hours": 8.000092222222221,
+      "final_position_open": true,
+      "unbooked_terminal_exit_per_notional": 0.00115,
+      "minimum_ann_for_2x_7d_cost_cover": 0.23985714285714285,
+      "years": [
+        {
+          "year": 2023,
+          "days": 214,
+          "annualized_notional_proxy": 0.19747268052102804,
+          "annualized_2x_capital_proxy": 0.09873634026051402,
+          "period_notional_proxy": 0.1157785031,
+          "transitions": 11
+        },
+        {
+          "year": 2024,
+          "days": 366,
+          "annualized_notional_proxy": 0.2001530918647541,
+          "annualized_2x_capital_proxy": 0.10007654593237705,
+          "period_notional_proxy": 0.20070145650000001,
+          "transitions": 10
+        },
+        {
+          "year": 2025,
+          "days": 365,
+          "annualized_notional_proxy": 0.0662306324,
+          "annualized_2x_capital_proxy": 0.0331153162,
+          "period_notional_proxy": 0.0662306324,
+          "transitions": 10
+        },
+        {
+          "year": 2026,
+          "days": 303,
+          "annualized_notional_proxy": 0.03861646406435643,
+          "annualized_2x_capital_proxy": 0.019308232032178217,
+          "period_notional_proxy": 0.0320569551,
+          "transitions": 6
+        }
+      ]
+    },
+    {
+      "venue": "hyperliquid",
+      "symbol": "SOL",
+      "observations": 29791,
+      "duplicates": 0,
+      "first_utc": "2023-06-01T00:00:00.139000+00:00",
+      "last_utc": "2026-10-30T12:00:00.038000+00:00",
+      "whole_missing_days": 0,
+      "daily_print_count_distribution": {
+        "3": 7,
+        "13": 1,
+        "23": 3,
+        "24": 1237
+      },
+      "max_gap_hours": 8.000092222222221,
+      "final_position_open": true,
+      "unbooked_terminal_exit_per_notional": 0.00115,
+      "minimum_ann_for_2x_7d_cost_cover": 0.23985714285714285,
+      "years": [
+        {
+          "year": 2023,
+          "days": 214,
+          "annualized_notional_proxy": 0.2068203619042056,
+          "annualized_2x_capital_proxy": 0.1034101809521028,
+          "period_notional_proxy": 0.1212590615,
+          "transitions": 7
+        },
+        {
+          "year": 2024,
+          "days": 366,
+          "annualized_notional_proxy": 0.2723353961270492,
+          "annualized_2x_capital_proxy": 0.1361676980635246,
+          "period_notional_proxy": 0.2730815205,
+          "transitions": 6
+        },
+        {
+          "year": 2025,
+          "days": 365,
+          "annualized_notional_proxy": 0.0378771827,
+          "annualized_2x_capital_proxy": 0.01893859135,
+          "period_notional_proxy": 0.0378771827,
+          "transitions": 14
+        },
+        {
+          "year": 2026,
+          "days": 303,
+          "annualized_notional_proxy": 0.01890838422937294,
+          "annualized_2x_capital_proxy": 0.00945419211468647,
+          "period_notional_proxy": 0.015696549100000002,
+          "transitions": 6
+        }
+      ]
+    }
+  ]
+}

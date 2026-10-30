@@ -19,5 +19,10 @@ python3 realized_carry.py funding.json 0.08
 ```
 
 Returns are per unit of hedged notional (spot long plus 1x perp short).
-Required capital is higher, about 1.0-1.5x notional depending on the margin
-mode, so divide the returns by that multiplier.
+For fully paid spot plus a separately stablecoin-margined 1x short, required
+capital is approximately 2x notional before reserves. Cross-margin offsets
+require a separate verified collateral model; do not assume 1.0-1.5x.
+These scripts measure a funding-minus-simplified-fees proxy, not full portfolio
+returns, drawdown or investability. See the
+[2026-10-30 audit](../crypto-review-2026-10-30/README.md) for limitations and
+reproducible denominator sensitivities.
