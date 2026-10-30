@@ -1,5 +1,9 @@
 # OTC BOT
 
+> **Status (2026-10-30):** measured with no edge. 250 live trades won 53.2% against a 54.2% breakeven, and 1.27M OTC candles show no rule above 50.1%.
+> Live trading is stopped pending a direction decision. See [docs/plans/2026-10-30-direction-reset.md](docs/plans/2026-10-30-direction-reset.md).
+> Check any strategy or trade log with `python -m trading_platform.apps.edge_audit --help`.
+
 A modular, multi-threaded, asynchronous trading engine designed for high-performance Binary Options trading on IQ Option OTC.
 
 ---
