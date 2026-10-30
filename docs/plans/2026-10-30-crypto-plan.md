@@ -119,6 +119,13 @@ The dated-futures comparator follows the [CME description of cash-settled Micro 
 
 First register a small tournament: cash baseline, gated BTC/ETH carry, dated-basis comparator if eligible, and one fixed unlevered daily trend ensemble. Compare approach variants blind where possible. Do not search every liquid perp until a winner appears.
 
+Optional fifth trial, decided at the R1 freeze and counted in the multiple-testing budget if included:
+- **Model:** zero-shot [Kronos](https://github.com/shiyu-coder/Kronos)-small, a candle foundation model, with pinned weights and code and no finetuning on viewed data. Its job is timing BTC/ETH daily spot exposure.
+- **Comparators:** Chronos-2 as a generic control, plus the naive and fixed-trend baselines.
+- **Prior:** the archived OTC research found candle-direction prediction at ln 2, so the prior is skeptical.
+- **Runtime:** the Kaggle GPU account already used for the OTC runs. It ran on 2 x Tesla T4 per [direction-reset](2026-10-30-direction-reset.md), section 1d.
+- **Evidence:** see the [ecosystem review](../research/crypto-ecosystem-2026-10-30/gap_closure.md).
+
 Before running the portfolio experiment, freeze: data manifest and hash, universe as known at each time, inclusion/exclusion rules, signal timing, trial list, fees, cost model, benchmark, sizing, stress suite and rejection thresholds. Register every failed trial. Source publications and already viewed data belong to development. Revisions restart the forward evaluation for the revised strategy; they do not erase its failed predecessor.
 
 Required data: funding settlement times and actual rates, spot/perp tradeable prices and bid/ask, mark/index, instrument metadata and contract multipliers, fee schedules, delistings, funding-interval changes and collateral rules. Record source, retrieval time, coverage, missing intervals and duplicates. Missing data means unavailable trading or explicit exclusion, never a silent zero funding payment. Where historical order books cannot be recovered, use conservative cost scenarios and label capacity unvalidated.
@@ -157,6 +164,34 @@ SQLite WAL with one owning writer and off-box verified snapshots is a reasonable
 
 **Framework corrections:** Hummingbot documents [spot-perpetual arbitrage](https://hummingbot.org/strategies/v1-strategies/spot-perpetual-arbitrage/), so the draft's claim that no framework handles it is false. That does not prove it fits our recovery and maintenance requirements. Freqtrade is a candidate runner for the optional trend experiment, not a reason to bolt on a second live risk authority. Its funding and exchange limitations must be checked for the exact mode. See [technical review](../research/crypto-review-2026-10-30/execution_research.md). Reject unsupported “500 lines”, star counts and memory claims as selection criteria. Pin versions and run contract tests instead.
 
+**Ecosystem decisions** (35 repositories reviewed at pinned commits; none installed or run; full ranked table in the [ecosystem review](../research/crypto-ecosystem-2026-10-30/README.md)):
+
+- **Adapt:**
+  - CCXT, behind the existing broker contract
+  - ai-hedge-fund's mandate/ledger ideas only; the framework itself is deferred
+  - freqtrade, as the spot-trend research and paper lane on a separate account
+  - the RD-Agent research pattern, on local Claude Code
+- **Gated research pilots**, outside the stack:
+  - Vibe-Trading research workbench. It needs explicit approval first, with no credentials on the host and a pinned revision that includes its spot-cost fix (#2088). Its source warns its tool filters are not a sandbox, and it can run arbitrary Python and has experimental broker tools.
+  - the quant-bench evaluation protocol, offline only
+- **Runner-up executor:** Hummingbot, only after an isolated parity experiment on our incident fixtures.
+- **Long-term alternative:** a pinned stable NautilusTrader 1.x migration, as a replacement and never as a second OMS.
+- **Research-tool runner-up:** Jesse. **AI-research runner-up:** Qlib.
+- **Defer:**
+  - TradingAgents, until a local-Claude client is tested; never order authority
+  - FinRL, FinRL-X, LEAN, OpenBB, vectorbt, backtesting.py, LumiBot, Superalgos, hftbacktest and hummingbot-api
+  - Kronos/Chronos-2, only as the optional section 6 trial
+
+  See the ranked table for the reasons.
+- **Reject** for this mandate:
+  - autonomous or agent-held trading authority: NOFX Autopilot, Condor as agent authority, elizaOS (wallet-signing plugins; duplicate agent runtime), and OctoBot, rejected for the initial stack because of its LLM-opinion trading mode, beta interface and pending Bybit support
+  - martingale bots: passivbot's default trailing martingale
+  - stale or perp-perp funding-arb templates
+  - write-capable MCP servers
+  - outside this mandate: FinRobot and FinGPT (equity research/sentiment), TimesFM (one generic forecasting control is enough), CryptoSignal (historical reference only)
+
+  No reviewed project provides independently verified live profitability.
+
 ### Two-leg state machine
 
 `FLAT -> APPROVED -> OPENING -> HEDGED -> CLOSING -> FLAT`; any stage can enter `RECONCILING`, `HALTED` or `UNRESOLVED_EXPOSURE`.
@@ -186,7 +221,7 @@ Monitoring needs a second failure domain. A process on the dead VPS cannot rescu
 
 Use local Claude Code for hypotheses, source summaries, journals and incident explanations. Deterministic code owns data transformations, calculations, order states, limits and accounting. Do not let the model choose its own test or widen a failed threshold.
 
-Tool flags are not a sandbox. Run under a separate OS identity with no exchange secrets, no production mount and no network path to the trading authority. Restrict built-in tools explicitly, disable unneeded MCP servers and pass only sanitized read-only artifacts. `--allowedTools` is not an exclusive security allowlist. Validate JSON against schema, reject malformed output and cap wall-clock time, concurrency and spending. `flock` prevents overlapping scheduled runs but does not isolate credentials.
+Tool flags are not a sandbox. Run under a separate OS identity with no exchange secrets, no production mount and no network path to the trading authority. Restrict built-in tools explicitly, disable unneeded MCP servers and pass only sanitized read-only artifacts. Never attach a write-capable trading MCP server. The reviewed [freqtrade-mcp](https://github.com/kukapay/freqtrade-mcp) exposes `place_trade`, and [mcp-server-ccxt](https://github.com/doggybee/mcp-server-ccxt) exposes `place-market-order` once keys are present. Any market-data MCP runs with no exchange keys in its environment. `--allowedTools` is not an exclusive security allowlist. Validate JSON against schema, reject malformed output and cap wall-clock time, concurrency and spending. `flock` prevents overlapping scheduled runs but does not isolate credentials.
 
 Unattended subscription permission and billing behavior remain an account/terms verification gate. Do not assume `--max-budget-usd` controls subscription usage. If unavailable, keep research manual; the trading system must work without an LLM. “Best available model” is an explicit recorded model choice, with no silent downgrade.
 

@@ -1,0 +1,917 @@
+{
+  "retrieved_at": "2026-10-30T19:18:51.102516+00:00",
+  "repositories": [
+    {
+      "requested_repository": "ccxt/ccxt",
+      "repository": "ccxt/ccxt",
+      "stars": 44625,
+      "archived": false,
+      "license_spdx": "MIT",
+      "default_branch": "master",
+      "pushed_at": "2026-10-30T11:43:48Z",
+      "latest_commit_sha": "a1bd1dd550c67db735107447b698a34a34c2efa6",
+      "latest_commit_at": "2026-10-30T11:43:47Z",
+      "latest_commit_url": "https://github.com/ccxt/ccxt/commit/a1bd1dd550c67db735107447b698a34a34c2efa6",
+      "metadata_evidence": {
+        "url": "https://api.github.com/repos/ccxt/ccxt",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:18:53 GMT"
+      },
+      "commit_evidence": {
+        "url": "https://api.github.com/repos/ccxt/ccxt/commits?per_page=1",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:18:54 GMT"
+      }
+    },
+    {
+      "requested_repository": "freqtrade/freqtrade",
+      "repository": "freqtrade/freqtrade",
+      "stars": 56162,
+      "archived": false,
+      "license_spdx": "GPL-3.0",
+      "default_branch": "develop",
+      "pushed_at": "2026-10-30T14:33:37Z",
+      "latest_commit_sha": "7fea5ea24b3c3193cfdd4143b243f7baab66d661",
+      "latest_commit_at": "2026-10-30T14:33:29Z",
+      "latest_commit_url": "https://github.com/freqtrade/freqtrade/commit/7fea5ea24b3c3193cfdd4143b243f7baab66d661",
+      "metadata_evidence": {
+        "url": "https://api.github.com/repos/freqtrade/freqtrade",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:18:53 GMT"
+      },
+      "commit_evidence": {
+        "url": "https://api.github.com/repos/freqtrade/freqtrade/commits?per_page=1",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:18:54 GMT"
+      }
+    },
+    {
+      "requested_repository": "hummingbot/hummingbot",
+      "repository": "hummingbot/hummingbot",
+      "stars": 20833,
+      "archived": false,
+      "license_spdx": "Apache-2.0",
+      "default_branch": "master",
+      "pushed_at": "2026-10-20T03:18:44Z",
+      "latest_commit_sha": "9af100d6822da7d2d0291a906c730ef172284ee2",
+      "latest_commit_at": "2026-09-22T08:53:54Z",
+      "latest_commit_url": "https://github.com/hummingbot/hummingbot/commit/9af100d6822da7d2d0291a906c730ef172284ee2",
+      "metadata_evidence": {
+        "url": "https://api.github.com/repos/hummingbot/hummingbot",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:18:53 GMT"
+      },
+      "commit_evidence": {
+        "url": "https://api.github.com/repos/hummingbot/hummingbot/commits?per_page=1",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:18:54 GMT"
+      }
+    },
+    {
+      "requested_repository": "hummingbot/condor",
+      "repository": "hummingbot/condor",
+      "stars": 247,
+      "archived": false,
+      "license_spdx": "MIT",
+      "default_branch": "main",
+      "pushed_at": "2026-10-30T15:23:43Z",
+      "latest_commit_sha": "f825393daa8f98c89ffe9e5708f1b7cefcd37dfc",
+      "latest_commit_at": "2026-10-30T15:23:43Z",
+      "latest_commit_url": "https://github.com/hummingbot/condor/commit/f825393daa8f98c89ffe9e5708f1b7cefcd37dfc",
+      "metadata_evidence": {
+        "url": "https://api.github.com/repos/hummingbot/condor",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:18:55 GMT"
+      },
+      "commit_evidence": {
+        "url": "https://api.github.com/repos/hummingbot/condor/commits?per_page=1",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:18:56 GMT"
+      }
+    },
+    {
+      "requested_repository": "jesse-ai/jesse",
+      "repository": "jesse-ai/jesse",
+      "stars": 8738,
+      "archived": false,
+      "license_spdx": "MIT",
+      "default_branch": "master",
+      "pushed_at": "2026-10-30T10:49:44Z",
+      "latest_commit_sha": "aded4b9d51d432d411a8f7fbf45e47572dff6629",
+      "latest_commit_at": "2026-10-30T10:49:36Z",
+      "latest_commit_url": "https://github.com/jesse-ai/jesse/commit/aded4b9d51d432d411a8f7fbf45e47572dff6629",
+      "metadata_evidence": {
+        "url": "https://api.github.com/repos/jesse-ai/jesse",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:18:55 GMT"
+      },
+      "commit_evidence": {
+        "url": "https://api.github.com/repos/jesse-ai/jesse/commits?per_page=1",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:18:56 GMT"
+      }
+    },
+    {
+      "requested_repository": "Drakkar-Software/OctoBot",
+      "repository": "Drakkar-Software/OctoBot",
+      "stars": 6875,
+      "archived": false,
+      "license_spdx": "GPL-3.0",
+      "default_branch": "master",
+      "pushed_at": "2026-10-27T12:29:50Z",
+      "latest_commit_sha": "c45fdc2c95c5bd3d649251fa90c327e2e8f86b00",
+      "latest_commit_at": "2026-10-07T08:50:21Z",
+      "latest_commit_url": "https://github.com/Drakkar-Software/OctoBot/commit/c45fdc2c95c5bd3d649251fa90c327e2e8f86b00",
+      "metadata_evidence": {
+        "url": "https://api.github.com/repos/Drakkar-Software/OctoBot",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:18:55 GMT"
+      },
+      "commit_evidence": {
+        "url": "https://api.github.com/repos/Drakkar-Software/OctoBot/commits?per_page=1",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:18:56 GMT"
+      }
+    },
+    {
+      "requested_repository": "enarjord/passivbot",
+      "repository": "enarjord/passivbot",
+      "stars": 2150,
+      "archived": false,
+      "license_spdx": "Unlicense",
+      "default_branch": "master",
+      "pushed_at": "2026-10-30T17:00:34Z",
+      "latest_commit_sha": "f6ffee98c3abe22b321a9b14641bc3133d7855cd",
+      "latest_commit_at": "2026-10-30T17:00:34Z",
+      "latest_commit_url": "https://github.com/enarjord/passivbot/commit/f6ffee98c3abe22b321a9b14641bc3133d7855cd",
+      "metadata_evidence": {
+        "url": "https://api.github.com/repos/enarjord/passivbot",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:18:57 GMT"
+      },
+      "commit_evidence": {
+        "url": "https://api.github.com/repos/enarjord/passivbot/commits?per_page=1",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:18:58 GMT"
+      }
+    },
+    {
+      "requested_repository": "nautechsystems/nautilus_trader",
+      "repository": "nautechsystems/nautilus_trader",
+      "stars": 31074,
+      "archived": false,
+      "license_spdx": "LGPL-3.0",
+      "default_branch": "develop",
+      "pushed_at": "2026-10-30T14:15:26Z",
+      "latest_commit_sha": "6dc35da8be6582c9ea71a21e5f6d19f7e9164533",
+      "latest_commit_at": "2026-10-30T14:07:13Z",
+      "latest_commit_url": "https://github.com/nautechsystems/nautilus_trader/commit/6dc35da8be6582c9ea71a21e5f6d19f7e9164533",
+      "metadata_evidence": {
+        "url": "https://api.github.com/repos/nautechsystems/nautilus_trader",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:18:57 GMT"
+      },
+      "commit_evidence": {
+        "url": "https://api.github.com/repos/nautechsystems/nautilus_trader/commits?per_page=1",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:18:58 GMT"
+      }
+    },
+    {
+      "requested_repository": "QuantConnect/Lean",
+      "repository": "QuantConnect/Lean",
+      "stars": 22307,
+      "archived": false,
+      "license_spdx": "Apache-2.0",
+      "default_branch": "master",
+      "pushed_at": "2026-10-30T17:34:52Z",
+      "latest_commit_sha": "6f30bf4995deeb5d8a9189e304dbf00bd246e37f",
+      "latest_commit_at": "2026-10-30T17:34:52Z",
+      "latest_commit_url": "https://github.com/QuantConnect/Lean/commit/6f30bf4995deeb5d8a9189e304dbf00bd246e37f",
+      "metadata_evidence": {
+        "url": "https://api.github.com/repos/QuantConnect/Lean",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:18:57 GMT"
+      },
+      "commit_evidence": {
+        "url": "https://api.github.com/repos/QuantConnect/Lean/commits?per_page=1",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:18:58 GMT"
+      }
+    },
+    {
+      "requested_repository": "Lumiwealth/lumibot",
+      "repository": "Lumiwealth/lumibot",
+      "stars": 2187,
+      "archived": false,
+      "license_spdx": "GPL-3.0",
+      "default_branch": "dev",
+      "pushed_at": "2026-10-30T11:21:53Z",
+      "latest_commit_sha": "a5f0ee6d80e22d81f491611535b9eff6408fe159",
+      "latest_commit_at": "2026-10-28T04:53:07Z",
+      "latest_commit_url": "https://github.com/Lumiwealth/lumibot/commit/a5f0ee6d80e22d81f491611535b9eff6408fe159",
+      "metadata_evidence": {
+        "url": "https://api.github.com/repos/Lumiwealth/lumibot",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:00 GMT"
+      },
+      "commit_evidence": {
+        "url": "https://api.github.com/repos/Lumiwealth/lumibot/commits?per_page=1",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:00 GMT"
+      }
+    },
+    {
+      "requested_repository": "polakowo/vectorbt",
+      "repository": "polakowo/vectorbt",
+      "stars": 9595,
+      "archived": false,
+      "license_spdx": "NOASSERTION",
+      "default_branch": "master",
+      "pushed_at": "2026-10-28T19:18:42Z",
+      "latest_commit_sha": "70da8fe7c2a57948ca065ac362fc416bcf31458c",
+      "latest_commit_at": "2026-10-28T19:18:41Z",
+      "latest_commit_url": "https://github.com/polakowo/vectorbt/commit/70da8fe7c2a57948ca065ac362fc416bcf31458c",
+      "metadata_evidence": {
+        "url": "https://api.github.com/repos/polakowo/vectorbt",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:18:59 GMT"
+      },
+      "commit_evidence": {
+        "url": "https://api.github.com/repos/polakowo/vectorbt/commits?per_page=1",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:01 GMT"
+      }
+    },
+    {
+      "requested_repository": "kernc/backtesting.py",
+      "repository": "kernc/backtesting.py",
+      "stars": 9164,
+      "archived": false,
+      "license_spdx": "AGPL-3.0",
+      "default_branch": "master",
+      "pushed_at": "2026-08-05T12:39:16Z",
+      "latest_commit_sha": "ca2e2611621e472542ba90f7243a1fa06a7d7108",
+      "latest_commit_at": "2026-08-05T12:39:16Z",
+      "latest_commit_url": "https://github.com/kernc/backtesting.py/commit/ca2e2611621e472542ba90f7243a1fa06a7d7108",
+      "metadata_evidence": {
+        "url": "https://api.github.com/repos/kernc/backtesting.py",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:18:59 GMT"
+      },
+      "commit_evidence": {
+        "url": "https://api.github.com/repos/kernc/backtesting.py/commits?per_page=1",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:00 GMT"
+      }
+    },
+    {
+      "requested_repository": "OpenBB-finance/OpenBB",
+      "repository": "openbq-org/OpenBB",
+      "stars": 74912,
+      "archived": false,
+      "license_spdx": "NOASSERTION",
+      "default_branch": "develop",
+      "pushed_at": "2026-10-24T09:08:28Z",
+      "latest_commit_sha": "7df7d0c5592bf25be88e87e130a05c71e243d2d8",
+      "latest_commit_at": "2026-10-24T07:01:56Z",
+      "latest_commit_url": "https://github.com/openbq-org/OpenBB/commit/7df7d0c5592bf25be88e87e130a05c71e243d2d8",
+      "metadata_evidence": {
+        "url": "https://api.github.com/repos/OpenBB-finance/OpenBB",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:02 GMT"
+      },
+      "commit_evidence": {
+        "url": "https://api.github.com/repos/OpenBB-finance/OpenBB/commits?per_page=1",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:04 GMT"
+      }
+    },
+    {
+      "requested_repository": "CryptoSignal/Crypto-Signal",
+      "repository": "CryptoSignal/Crypto-Signal",
+      "stars": 5654,
+      "archived": false,
+      "license_spdx": "MIT",
+      "default_branch": "master",
+      "pushed_at": "2024-07-07T15:33:11Z",
+      "latest_commit_sha": "7cb9c5c6cd226c6fe2d345e4bda3bec8156cefec",
+      "latest_commit_at": "2022-08-09T13:26:32Z",
+      "latest_commit_url": "https://github.com/CryptoSignal/Crypto-Signal/commit/7cb9c5c6cd226c6fe2d345e4bda3bec8156cefec",
+      "metadata_evidence": {
+        "url": "https://api.github.com/repos/CryptoSignal/Crypto-Signal",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:02 GMT"
+      },
+      "commit_evidence": {
+        "url": "https://api.github.com/repos/CryptoSignal/Crypto-Signal/commits?per_page=1",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:03 GMT"
+      }
+    },
+    {
+      "requested_repository": "microsoft/RD-Agent",
+      "repository": "microsoft/RD-Agent",
+      "stars": 15148,
+      "archived": false,
+      "license_spdx": "MIT",
+      "default_branch": "main",
+      "pushed_at": "2026-10-21T16:01:22Z",
+      "latest_commit_sha": "484776c211e4fbbeef03e0ec00d6bbee7362a4f4",
+      "latest_commit_at": "2026-09-23T11:05:10Z",
+      "latest_commit_url": "https://github.com/microsoft/RD-Agent/commit/484776c211e4fbbeef03e0ec00d6bbee7362a4f4",
+      "metadata_evidence": {
+        "url": "https://api.github.com/repos/microsoft/RD-Agent",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:02 GMT"
+      },
+      "commit_evidence": {
+        "url": "https://api.github.com/repos/microsoft/RD-Agent/commits?per_page=1",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:03 GMT"
+      }
+    },
+    {
+      "requested_repository": "microsoft/qlib",
+      "repository": "microsoft/qlib",
+      "stars": 49836,
+      "archived": false,
+      "license_spdx": "MIT",
+      "default_branch": "main",
+      "pushed_at": "2026-10-30T05:12:38Z",
+      "latest_commit_sha": "54355232463878d2eebb91fe0ee5fa7fa1f5976c",
+      "latest_commit_at": "2026-10-08T10:15:27Z",
+      "latest_commit_url": "https://github.com/microsoft/qlib/commit/54355232463878d2eebb91fe0ee5fa7fa1f5976c",
+      "metadata_evidence": {
+        "url": "https://api.github.com/repos/microsoft/qlib",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:04 GMT"
+      },
+      "commit_evidence": {
+        "url": "https://api.github.com/repos/microsoft/qlib/commits?per_page=1",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:05 GMT"
+      }
+    },
+    {
+      "requested_repository": "TauricResearch/TradingAgents",
+      "repository": "TauricResearch/TradingAgents",
+      "stars": 118638,
+      "archived": false,
+      "license_spdx": "Apache-2.0",
+      "default_branch": "main",
+      "pushed_at": "2026-10-27T08:43:04Z",
+      "latest_commit_sha": "c4544913a14ed3df5f1ed7b9e8483270ce20682a",
+      "latest_commit_at": "2026-10-27T08:38:40Z",
+      "latest_commit_url": "https://github.com/TauricResearch/TradingAgents/commit/c4544913a14ed3df5f1ed7b9e8483270ce20682a",
+      "metadata_evidence": {
+        "url": "https://api.github.com/repos/TauricResearch/TradingAgents",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:04 GMT"
+      },
+      "commit_evidence": {
+        "url": "https://api.github.com/repos/TauricResearch/TradingAgents/commits?per_page=1",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:05 GMT"
+      }
+    },
+    {
+      "requested_repository": "virattt/ai-hedge-fund",
+      "repository": "virattt/ai-hedge-fund",
+      "stars": 64366,
+      "archived": false,
+      "license_spdx": "MIT",
+      "default_branch": "main",
+      "pushed_at": "2026-10-30T18:02:58Z",
+      "latest_commit_sha": "d3a2b6b2bc3579cf0f5bde9cebeea9754f1eae15",
+      "latest_commit_at": "2026-10-30T18:02:56Z",
+      "latest_commit_url": "https://github.com/virattt/ai-hedge-fund/commit/d3a2b6b2bc3579cf0f5bde9cebeea9754f1eae15",
+      "metadata_evidence": {
+        "url": "https://api.github.com/repos/virattt/ai-hedge-fund",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:05 GMT"
+      },
+      "commit_evidence": {
+        "url": "https://api.github.com/repos/virattt/ai-hedge-fund/commits?per_page=1",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:06 GMT"
+      }
+    },
+    {
+      "requested_repository": "AI4Finance-Foundation/FinRobot",
+      "repository": "AI4Finance-Foundation/FinRobot",
+      "stars": 8337,
+      "archived": false,
+      "license_spdx": "Apache-2.0",
+      "default_branch": "master",
+      "pushed_at": "2026-10-24T13:58:26Z",
+      "latest_commit_sha": "63e1884a42ea7b729551a5424b4bd6a65af636e0",
+      "latest_commit_at": "2026-10-24T13:58:26Z",
+      "latest_commit_url": "https://github.com/AI4Finance-Foundation/FinRobot/commit/63e1884a42ea7b729551a5424b4bd6a65af636e0",
+      "metadata_evidence": {
+        "url": "https://api.github.com/repos/AI4Finance-Foundation/FinRobot",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:06 GMT"
+      },
+      "commit_evidence": {
+        "url": "https://api.github.com/repos/AI4Finance-Foundation/FinRobot/commits?per_page=1",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:07 GMT"
+      }
+    },
+    {
+      "requested_repository": "AI4Finance-Foundation/FinRL",
+      "repository": "AI4Finance-Foundation/FinRL",
+      "stars": 16901,
+      "archived": false,
+      "license_spdx": "MIT",
+      "default_branch": "master",
+      "pushed_at": "2026-10-25T13:49:47Z",
+      "latest_commit_sha": "7e98df461cbc7772f16a545a2f13b521e5d0b8f4",
+      "latest_commit_at": "2026-10-25T13:49:47Z",
+      "latest_commit_url": "https://github.com/AI4Finance-Foundation/FinRL/commit/7e98df461cbc7772f16a545a2f13b521e5d0b8f4",
+      "metadata_evidence": {
+        "url": "https://api.github.com/repos/AI4Finance-Foundation/FinRL",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:06 GMT"
+      },
+      "commit_evidence": {
+        "url": "https://api.github.com/repos/AI4Finance-Foundation/FinRL/commits?per_page=1",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:07 GMT"
+      }
+    },
+    {
+      "requested_repository": "AI4Finance-Foundation/FinRL-Trading",
+      "repository": "AI4Finance-Foundation/FinRL-Trading",
+      "stars": 3879,
+      "archived": false,
+      "license_spdx": "Apache-2.0",
+      "default_branch": "master",
+      "pushed_at": "2026-09-18T01:13:20Z",
+      "latest_commit_sha": "4409abe925c904e570be78ebfb5e77ac3491dff8",
+      "latest_commit_at": "2026-09-18T01:13:20Z",
+      "latest_commit_url": "https://github.com/AI4Finance-Foundation/FinRL-Trading/commit/4409abe925c904e570be78ebfb5e77ac3491dff8",
+      "metadata_evidence": {
+        "url": "https://api.github.com/repos/AI4Finance-Foundation/FinRL-Trading",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:07 GMT"
+      },
+      "commit_evidence": {
+        "url": "https://api.github.com/repos/AI4Finance-Foundation/FinRL-Trading/commits?per_page=1",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:08 GMT"
+      }
+    },
+    {
+      "requested_repository": "NoFxAiOS/nofx",
+      "repository": "NoFxAiOS/nofx",
+      "stars": 13174,
+      "archived": false,
+      "license_spdx": "AGPL-3.0",
+      "default_branch": "dev",
+      "pushed_at": "2026-10-21T14:02:05Z",
+      "latest_commit_sha": "4a5e9ac2a13e6696a276440a3243b2055206512c",
+      "latest_commit_at": "2026-10-21T13:58:13Z",
+      "latest_commit_url": "https://github.com/NoFxAiOS/nofx/commit/4a5e9ac2a13e6696a276440a3243b2055206512c",
+      "metadata_evidence": {
+        "url": "https://api.github.com/repos/NoFxAiOS/nofx",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:08 GMT"
+      },
+      "commit_evidence": {
+        "url": "https://api.github.com/repos/NoFxAiOS/nofx/commits?per_page=1",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:09 GMT"
+      }
+    },
+    {
+      "requested_repository": "HKUDS/Vibe-Trading",
+      "repository": "HKUDS/Vibe-Trading",
+      "stars": 37227,
+      "archived": false,
+      "license_spdx": "MIT",
+      "default_branch": "main",
+      "pushed_at": "2026-10-30T03:45:49Z",
+      "latest_commit_sha": "78fab6b3f998583f640820db60c155ffa5641a62",
+      "latest_commit_at": "2026-10-30T03:45:47Z",
+      "latest_commit_url": "https://github.com/HKUDS/Vibe-Trading/commit/78fab6b3f998583f640820db60c155ffa5641a62",
+      "metadata_evidence": {
+        "url": "https://api.github.com/repos/HKUDS/Vibe-Trading",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:08 GMT"
+      },
+      "commit_evidence": {
+        "url": "https://api.github.com/repos/HKUDS/Vibe-Trading/commits?per_page=1",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:09 GMT"
+      }
+    },
+    {
+      "requested_repository": "Starlien95/Awesome-TradingAI",
+      "repository": "Starlien95/Awesome-TradingAI",
+      "stars": 1,
+      "archived": false,
+      "license_spdx": "MIT",
+      "default_branch": "main",
+      "pushed_at": "2026-10-29T19:38:22Z",
+      "latest_commit_sha": "905773c573888c015b60a46da919f88314280bce",
+      "latest_commit_at": "2026-10-29T19:38:20Z",
+      "latest_commit_url": "https://github.com/Starlien95/Awesome-TradingAI/commit/905773c573888c015b60a46da919f88314280bce",
+      "metadata_evidence": {
+        "url": "https://api.github.com/repos/Starlien95/Awesome-TradingAI",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:09 GMT"
+      },
+      "commit_evidence": {
+        "url": "https://api.github.com/repos/Starlien95/Awesome-TradingAI/commits?per_page=1",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:10 GMT"
+      }
+    },
+    {
+      "requested_repository": "Superalgos/Superalgos",
+      "repository": "Superalgos/Superalgos",
+      "stars": 5749,
+      "archived": false,
+      "license_spdx": "Apache-2.0",
+      "default_branch": "master",
+      "pushed_at": "2026-10-27T07:46:12Z",
+      "latest_commit_sha": "9f0fb59edd4bae7afa08d06c366e0bcb48103aec",
+      "latest_commit_at": "2026-05-07T15:06:57Z",
+      "latest_commit_url": "https://github.com/Superalgos/Superalgos/commit/9f0fb59edd4bae7afa08d06c366e0bcb48103aec",
+      "metadata_evidence": {
+        "url": "https://api.github.com/repos/Superalgos/Superalgos",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:10 GMT"
+      },
+      "commit_evidence": {
+        "url": "https://api.github.com/repos/Superalgos/Superalgos/commits?per_page=1",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:11 GMT"
+      }
+    },
+    {
+      "requested_repository": "elizaOS/eliza",
+      "repository": "elizaOS/eliza",
+      "stars": 19736,
+      "archived": false,
+      "license_spdx": "MIT",
+      "default_branch": "develop",
+      "pushed_at": "2026-10-30T19:08:14Z",
+      "latest_commit_sha": "215e23ca5a2604997fc9eb6c63fdd67bdd0c6644",
+      "latest_commit_at": "2026-10-30T15:04:15Z",
+      "latest_commit_url": "https://github.com/elizaOS/eliza/commit/215e23ca5a2604997fc9eb6c63fdd67bdd0c6644",
+      "metadata_evidence": {
+        "url": "https://api.github.com/repos/elizaOS/eliza",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:10 GMT"
+      },
+      "commit_evidence": {
+        "url": "https://api.github.com/repos/elizaOS/eliza/commits?per_page=1",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:11 GMT"
+      }
+    },
+    {
+      "requested_repository": "shiyu-coder/Kronos",
+      "repository": "shiyu-coder/Kronos",
+      "stars": 44122,
+      "archived": false,
+      "license_spdx": "MIT",
+      "default_branch": "master",
+      "pushed_at": "2026-04-13T12:38:49Z",
+      "latest_commit_sha": "67b630e67f6a18c9e9be918d9b4337c960db1e9a",
+      "latest_commit_at": "2026-04-13T12:38:49Z",
+      "latest_commit_url": "https://github.com/shiyu-coder/Kronos/commit/67b630e67f6a18c9e9be918d9b4337c960db1e9a",
+      "metadata_evidence": {
+        "url": "https://api.github.com/repos/shiyu-coder/Kronos",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:11 GMT"
+      },
+      "commit_evidence": {
+        "url": "https://api.github.com/repos/shiyu-coder/Kronos/commits?per_page=1",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:12 GMT"
+      }
+    },
+    {
+      "requested_repository": "AI4Finance-Foundation/FinGPT",
+      "repository": "AI4Finance-Foundation/FinGPT",
+      "stars": 21492,
+      "archived": false,
+      "license_spdx": "MIT",
+      "default_branch": "master",
+      "pushed_at": "2026-10-25T13:49:15Z",
+      "latest_commit_sha": "ac5c5443fbeeafad801e7a3c188e4f24cfaad4d8",
+      "latest_commit_at": "2026-10-25T13:49:15Z",
+      "latest_commit_url": "https://github.com/AI4Finance-Foundation/FinGPT/commit/ac5c5443fbeeafad801e7a3c188e4f24cfaad4d8",
+      "metadata_evidence": {
+        "url": "https://api.github.com/repos/AI4Finance-Foundation/FinGPT",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:12 GMT"
+      },
+      "commit_evidence": {
+        "url": "https://api.github.com/repos/AI4Finance-Foundation/FinGPT/commits?per_page=1",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:13 GMT"
+      }
+    },
+    {
+      "requested_repository": "amazon-science/chronos-forecasting",
+      "repository": "amazon-science/chronos-forecasting",
+      "stars": 6211,
+      "archived": false,
+      "license_spdx": "Apache-2.0",
+      "default_branch": "main",
+      "pushed_at": "2026-10-05T14:25:02Z",
+      "latest_commit_sha": "1224fafa91e1ecd6674f5204066b159e40b5e4a1",
+      "latest_commit_at": "2026-10-05T14:25:02Z",
+      "latest_commit_url": "https://github.com/amazon-science/chronos-forecasting/commit/1224fafa91e1ecd6674f5204066b159e40b5e4a1",
+      "metadata_evidence": {
+        "url": "https://api.github.com/repos/amazon-science/chronos-forecasting",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:12 GMT"
+      },
+      "commit_evidence": {
+        "url": "https://api.github.com/repos/amazon-science/chronos-forecasting/commits?per_page=1",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:14 GMT"
+      }
+    },
+    {
+      "requested_repository": "google-research/timesfm",
+      "repository": "google-research/timesfm",
+      "stars": 34839,
+      "archived": false,
+      "license_spdx": "Apache-2.0",
+      "default_branch": "master",
+      "pushed_at": "2026-09-29T19:36:25Z",
+      "latest_commit_sha": "e51928e27119cb17bebc005be2696b75e0a9e688",
+      "latest_commit_at": "2026-09-29T19:36:24Z",
+      "latest_commit_url": "https://github.com/google-research/timesfm/commit/e51928e27119cb17bebc005be2696b75e0a9e688",
+      "metadata_evidence": {
+        "url": "https://api.github.com/repos/google-research/timesfm",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:13 GMT"
+      },
+      "commit_evidence": {
+        "url": "https://api.github.com/repos/google-research/timesfm/commits?per_page=1",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:14 GMT"
+      }
+    },
+    {
+      "requested_repository": "nkaz001/hftbacktest",
+      "repository": "nkaz001/hftbacktest",
+      "stars": 5026,
+      "archived": false,
+      "license_spdx": "MIT",
+      "default_branch": "master",
+      "pushed_at": "2025-12-23T15:57:58Z",
+      "latest_commit_sha": "5f3ec40b2afb764e0fea112f941ed85523ef4e88",
+      "latest_commit_at": "2025-12-23T15:31:05Z",
+      "latest_commit_url": "https://github.com/nkaz001/hftbacktest/commit/5f3ec40b2afb764e0fea112f941ed85523ef4e88",
+      "metadata_evidence": {
+        "url": "https://api.github.com/repos/nkaz001/hftbacktest",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:14 GMT"
+      },
+      "commit_evidence": {
+        "url": "https://api.github.com/repos/nkaz001/hftbacktest/commits?per_page=1",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:15 GMT"
+      }
+    },
+    {
+      "requested_repository": "kukapay/freqtrade-mcp",
+      "repository": "kukapay/freqtrade-mcp",
+      "stars": 148,
+      "archived": false,
+      "license_spdx": "MIT",
+      "default_branch": "main",
+      "pushed_at": "2025-12-06T01:04:13Z",
+      "latest_commit_sha": "6762093f9a294f770c886edcc1eda1c5a5ddeaf8",
+      "latest_commit_at": "2025-12-06T00:58:46Z",
+      "latest_commit_url": "https://github.com/kukapay/freqtrade-mcp/commit/6762093f9a294f770c886edcc1eda1c5a5ddeaf8",
+      "metadata_evidence": {
+        "url": "https://api.github.com/repos/kukapay/freqtrade-mcp",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:15 GMT"
+      },
+      "commit_evidence": {
+        "url": "https://api.github.com/repos/kukapay/freqtrade-mcp/commits?per_page=1",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:16 GMT"
+      }
+    },
+    {
+      "requested_repository": "doggybee/mcp-server-ccxt",
+      "repository": "doggybee/mcp-server-ccxt",
+      "stars": 145,
+      "archived": false,
+      "license_spdx": "MIT",
+      "default_branch": "main",
+      "pushed_at": "2025-06-03T03:55:44Z",
+      "latest_commit_sha": "b0b532334a3f37f47d40c439aee505d8853ae3e8",
+      "latest_commit_at": "2025-06-03T03:51:06Z",
+      "latest_commit_url": "https://github.com/doggybee/mcp-server-ccxt/commit/b0b532334a3f37f47d40c439aee505d8853ae3e8",
+      "metadata_evidence": {
+        "url": "https://api.github.com/repos/doggybee/mcp-server-ccxt",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:16 GMT"
+      },
+      "commit_evidence": {
+        "url": "https://api.github.com/repos/doggybee/mcp-server-ccxt/commits?per_page=1",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:18 GMT"
+      }
+    },
+    {
+      "requested_repository": "50shadesofgwei/funding-rate-arbitrage",
+      "repository": "50shadesofgwei/funding-rate-arbitrage",
+      "stars": 184,
+      "archived": false,
+      "license_spdx": null,
+      "default_branch": "main",
+      "pushed_at": "2025-07-29T11:42:21Z",
+      "latest_commit_sha": "5adff2585283d27154cff25151b707c5fb16e48a",
+      "latest_commit_at": "2025-07-29T11:42:00Z",
+      "latest_commit_url": "https://github.com/50shadesofgwei/funding-rate-arbitrage/commit/5adff2585283d27154cff25151b707c5fb16e48a",
+      "metadata_evidence": {
+        "url": "https://api.github.com/repos/50shadesofgwei/funding-rate-arbitrage",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:16 GMT"
+      },
+      "commit_evidence": {
+        "url": "https://api.github.com/repos/50shadesofgwei/funding-rate-arbitrage/commits?per_page=1",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:17 GMT"
+      }
+    },
+    {
+      "requested_repository": "hummingbot/hummingbot-api",
+      "repository": "hummingbot/hummingbot-api",
+      "stars": 152,
+      "archived": false,
+      "license_spdx": "MIT",
+      "default_branch": "main",
+      "pushed_at": "2026-10-20T00:02:24Z",
+      "latest_commit_sha": "7ae108f11bf20651682dbdff639a8717068c5883",
+      "latest_commit_at": "2026-10-15T17:01:44Z",
+      "latest_commit_url": "https://github.com/hummingbot/hummingbot-api/commit/7ae108f11bf20651682dbdff639a8717068c5883",
+      "metadata_evidence": {
+        "url": "https://api.github.com/repos/hummingbot/hummingbot-api",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:17 GMT"
+      },
+      "commit_evidence": {
+        "url": "https://api.github.com/repos/hummingbot/hummingbot-api/commits?per_page=1",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:18 GMT"
+      }
+    }
+  ],
+  "issue_samples": [
+    {
+      "repository": "freqtrade/freqtrade",
+      "selection": "most recently updated commented issue via search (is:issue comments:>0)",
+      "listing_url": "https://api.github.com/search/issues?q=repo%3Afreqtrade/freqtrade%20is%3Aissue%20comments%3A%3E0&sort=updated&order=desc&per_page=5",
+      "listing_ok": true,
+      "issue": {
+        "number": 13671,
+        "html_url": "https://github.com/freqtrade/freqtrade/issues/13671",
+        "title": "Hyperliquid: stop filled after a partial exit is booked at the original order size (filled = origSz - sz)",
+        "created_at": "2026-10-13T16:55:00Z",
+        "updated_at": "2026-10-30T14:33:38Z",
+        "state": "closed",
+        "comments": 4
+      },
+      "comments_evidence": {
+        "url": "https://api.github.com/repos/freqtrade/freqtrade/issues/13671/comments?per_page=100",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:21 GMT"
+      },
+      "comments_examined": 4,
+      "first_maintainer_response": {
+        "hours": 1.0447222222222223,
+        "url": "https://github.com/freqtrade/freqtrade/issues/13671#issuecomment-6151833700",
+        "association": "MEMBER"
+      },
+      "closed_issue_count": 25,
+      "closed_count_window": [
+        "2026-09-30",
+        "2026-10-30"
+      ],
+      "closed_count_evidence": {
+        "url": "https://api.github.com/search/issues?q=repo%3Afreqtrade/freqtrade%20is%3Aissue%20is%3Aclosed%20closed%3A2026-09-30..2026-10-30&per_page=1",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:22 GMT"
+      },
+      "closed_count_incomplete": false
+    },
+    {
+      "repository": "hummingbot/hummingbot",
+      "selection": "most recently updated commented issue via search (is:issue comments:>0)",
+      "listing_url": "https://api.github.com/search/issues?q=repo%3Ahummingbot/hummingbot%20is%3Aissue%20comments%3A%3E0&sort=updated&order=desc&per_page=5",
+      "listing_ok": true,
+      "issue": {
+        "number": 8504,
+        "html_url": "https://github.com/hummingbot/hummingbot/issues/8504",
+        "title": "Lighter perpetual: filled market orders recorded with zero executed amount (Condor/HAPI)",
+        "created_at": "2026-10-18T01:58:49Z",
+        "updated_at": "2026-10-28T18:40:32Z",
+        "state": "open",
+        "comments": 1
+      },
+      "comments_evidence": {
+        "url": "https://api.github.com/repos/hummingbot/hummingbot/issues/8504/comments?per_page=100",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:24 GMT"
+      },
+      "comments_examined": 1,
+      "first_maintainer_response": null,
+      "closed_issue_count": 4,
+      "closed_count_window": [
+        "2026-09-30",
+        "2026-10-30"
+      ],
+      "closed_count_evidence": {
+        "url": "https://api.github.com/search/issues?q=repo%3Ahummingbot/hummingbot%20is%3Aissue%20is%3Aclosed%20closed%3A2026-09-30..2026-10-30&per_page=1",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:25 GMT"
+      },
+      "closed_count_incomplete": false
+    },
+    {
+      "repository": "TauricResearch/TradingAgents",
+      "selection": "most recently updated commented issue via search (is:issue comments:>0)",
+      "listing_url": "https://api.github.com/search/issues?q=repo%3ATauricResearch/TradingAgents%20is%3Aissue%20comments%3A%3E0&sort=updated&order=desc&per_page=5",
+      "listing_ok": true,
+      "issue": {
+        "number": 1551,
+        "html_url": "https://github.com/TauricResearch/TradingAgents/issues/1551",
+        "title": "Changes to operating system",
+        "created_at": "2026-10-20T02:29:55Z",
+        "updated_at": "2026-10-27T08:50:52Z",
+        "state": "closed",
+        "comments": 1
+      },
+      "comments_evidence": {
+        "url": "https://api.github.com/repos/TauricResearch/TradingAgents/issues/1551/comments?per_page=100",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:29 GMT"
+      },
+      "comments_examined": 1,
+      "first_maintainer_response": null,
+      "closed_issue_count": 33,
+      "closed_count_window": [
+        "2026-09-30",
+        "2026-10-30"
+      ],
+      "closed_count_evidence": {
+        "url": "https://api.github.com/search/issues?q=repo%3ATauricResearch/TradingAgents%20is%3Aissue%20is%3Aclosed%20closed%3A2026-09-30..2026-10-30&per_page=1",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:30 GMT"
+      },
+      "closed_count_incomplete": false
+    },
+    {
+      "repository": "microsoft/RD-Agent",
+      "selection": "most recently updated commented issue via search (is:issue comments:>0)",
+      "listing_url": "https://api.github.com/search/issues?q=repo%3Amicrosoft/RD-Agent%20is%3Aissue%20comments%3A%3E0&sort=updated&order=desc&per_page=5",
+      "listing_ok": true,
+      "issue": {
+        "number": 880,
+        "html_url": "https://github.com/microsoft/RD-Agent/issues/880",
+        "title": "Update QR Code of RD-Agent's WeChat group",
+        "created_at": "2025-05-16T06:05:35Z",
+        "updated_at": "2026-10-21T13:18:47Z",
+        "state": "open",
+        "comments": 89
+      },
+      "comments_evidence": {
+        "url": "https://api.github.com/repos/microsoft/RD-Agent/issues/880/comments?per_page=100",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:33 GMT"
+      },
+      "comments_examined": 89,
+      "first_maintainer_response": {
+        "hours": 1604.3841666666667,
+        "url": "https://github.com/microsoft/RD-Agent/issues/880#issuecomment-3100526039",
+        "association": "COLLABORATOR"
+      },
+      "closed_issue_count": 0,
+      "closed_count_window": [
+        "2026-09-30",
+        "2026-10-30"
+      ],
+      "closed_count_evidence": {
+        "url": "https://api.github.com/search/issues?q=repo%3Amicrosoft/RD-Agent%20is%3Aissue%20is%3Aclosed%20closed%3A2026-09-30..2026-10-30&per_page=1",
+        "ok": true,
+        "server_date": "Fri, 30 Oct 2026 19:19:34 GMT"
+      },
+      "closed_count_incomplete": false
+    }
+  ]
+}

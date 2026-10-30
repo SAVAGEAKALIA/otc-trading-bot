@@ -119,3 +119,7 @@ trading_platform/legacy/iqoption_bot/.env
 *.parquet
 *.sqlite
 trading_platform/research/registry/*.csv
+
+# Research evidence (scripts, reports, snapshots, tests) is source and must be versioned.
+!docs/research/**
+docs/research/**/__pycache__/
