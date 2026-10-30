@@ -27,17 +27,20 @@ SPLITS = (  # frozen rubric, /tmp/otc-kaggle-edge/critique/rubric.md
     ("holdout", "2026-09-22T01:00:00Z", None),
 )
 MOOD_MAX_AGE_MS = 60_000
+MOOD_DEGENERATE = 1e-3
 
 
 def clean_mood(raw: pd.DataFrame) -> pd.DataFrame:
-    """Average duplicate samples and drop readings of exactly 0 or 1.
+    """Average duplicate samples and drop degenerate readings (<= 0.001 or >= 0.999).
 
-    About 29% of raw samples are exactly 0 or 1. They behave like no-volume
-    snapshots, not real one-sided crowds (contrarian wins ~51% on them), so
-    they are dropped. The previous genuine reading within 60s is used instead.
+    About 29% of raw samples sit at 0.0001-0.0006 or the mirror near 1. They
+    behave like no-volume snapshots, not real one-sided crowds (contrarian wins
+    ~51% on them), so they are dropped. The previous genuine reading within 60s
+    is used instead.
     """
     mood = raw.groupby(["asset", "mood_ms"], as_index=False)["call"].mean()
-    return mood[(mood["call"] > 0) & (mood["call"] < 1)].reset_index(drop=True)
+    keep = (mood["call"] > MOOD_DEGENERATE) & (mood["call"] < 1 - MOOD_DEGENERATE)
+    return mood[keep].reset_index(drop=True)
 
 
 def _ms(ts: str) -> int:

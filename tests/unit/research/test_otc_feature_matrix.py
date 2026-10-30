@@ -90,12 +90,13 @@ def test_degenerate_mood_readings_are_dropped_and_duplicates_averaged():
     from trading_platform.research.studies.otc_feature_matrix import clean_mood
 
     raw = pd.DataFrame({
-        "asset": ["A", "A", "A", "A", "B"],
+        "asset": ["A", "A", "A", "A", "A", "B"],
         "itype": "turbo-option",
-        "mood_ms": [1000, 1000, 2000, 3000, 1000],
-        "call": [0.2, 0.4, 0.0, 1.0, 0.7],
+        "mood_ms": [1000, 1000, 2000, 3000, 4000, 1000],
+        "call": [0.2, 0.4, 0.0006, 0.9995, 0.0011, 0.7],
     })
-    assert clean_mood(raw)[["asset", "mood_ms", "call"]].values.tolist() == [["A", 1000, pytest.approx(0.3)], ["B", 1000, 0.7]]
+    assert clean_mood(raw)[["asset", "mood_ms", "call"]].values.tolist() == [
+        ["A", 1000, pytest.approx(0.3)], ["A", 4000, 0.0011], ["B", 1000, 0.7]]
 
 
 def test_minute_features_come_from_the_target_candle():
