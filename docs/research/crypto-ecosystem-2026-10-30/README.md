@@ -29,7 +29,7 @@ capital-allocation plan
 | Optional spot-trend sleeve (research + paper) | **Adapt [freqtrade](https://github.com/freqtrade/freqtrade)**, separate account, spot long/flat | Dry-run, bias checks (`lookahead-analysis`, `recursive-analysis`). It never touches the carry account. |
 | Research process | **Adapt the [RD-Agent](https://github.com/microsoft/RD-Agent) pattern** on local Claude Code: the agent proposes, a deterministic runner tests, and every trial is registered | Supported by the authors' own historical-market paper ([arXiv 2505.15155](https://arxiv.org/abs/2505.15155)), not independently replicated; we adopt the process, not the runtime |
 | Agent tools | **No write-capable MCP or trading tools**; sanitized read-only artifacts only | freqtrade-mcp exposes `place_trade`, and mcp-server-ccxt exposes `place-market-order` when keys are set ([gap_closure.md](gap_closure.md)) |
-| Forecasting challenger (optional) | **Defer [Kronos](https://github.com/shiyu-coder/Kronos)-small, zero-shot**, as one pre-registered R2 trial; Chronos-2 as the generic control | This is the only research family that is new since the OTC work. The skeptical prior applies, and it is counted in the trial budget. |
+| Forecasting challenger (optional) | **Defer [Kronos](https://github.com/shiyu-coder/Kronos)-small, zero-shot**, as one pre-registered R2 trial; Chronos-2 as the generic control | An additional forecasting candidate, not an established edge. The skeptical prior applies, and it is counted in the trial budget. |
 
 **Gated research pilots** (outside the stack). Each needs explicit approval and runs on an isolated host with no exchange credentials:
 - the Vibe-Trading research workbench, at a pinned revision
