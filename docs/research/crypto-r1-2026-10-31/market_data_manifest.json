@@ -1,0 +1,613 @@
+{
+  "snapshot_root": "data/research/crypto-r1/bybit-90d-20261031",
+  "cutoff_utc": "2026-10-31T00:00:00Z",
+  "start_utc": "2026-08-02T00:00:00+00:00",
+  "report_sha256": "917e2161acf13a5d28f1921f9a75a500bd587f2a8d1f8e648bbe05a7477abda6",
+  "raw_manifest_sha256": "16573c2980637ae5e1e4ef2f498e36c6606ef4842f9022739bb7a0b91bfb6422",
+  "request_count": 75,
+  "raw_bytes": 2541379,
+  "funding_rows": 2700,
+  "daily_candle_rows": 3600,
+  "requests": [
+    {
+      "file": "0000.json",
+      "url": "https://api.bybit.com/v5/market/time?",
+      "retrieved_at": "2026-10-31T02:07:12.949655+00:00",
+      "sha256": "0d82e9f803d87a588a6cedbcf5d3005423d5350f43db021628914f4aec0f97d6",
+      "bytes": 134,
+      "venue_time_ms": 1793412433859
+    },
+    {
+      "file": "0001.json",
+      "url": "https://api.bybit.com/v5/market/instruments-info?category=spot",
+      "retrieved_at": "2026-10-31T02:07:36.382508+00:00",
+      "sha256": "0a6c98fd7c57af3dc4d1b29a783b44e3309a63d9d6fbf52d727e8584e1cade11",
+      "bytes": 282105,
+      "venue_time_ms": 1793412455734
+    },
+    {
+      "file": "0002.json",
+      "url": "https://api.bybit.com/v5/market/instruments-info?category=linear&limit=1000&cursor=",
+      "retrieved_at": "2026-10-31T02:07:38.292379+00:00",
+      "sha256": "3ab6059cb65ffb78157fcc314157b757c0b939e4df46fa46ac1cf4e2e61fa74e",
+      "bytes": 865821,
+      "venue_time_ms": 1793412457115
+    },
+    {
+      "file": "0003.json",
+      "url": "https://api.bybit.com/v5/market/tickers?category=spot",
+      "retrieved_at": "2026-10-31T02:07:38.813010+00:00",
+      "sha256": "76ec4228546a83f310d137eba61ed445302c58d82128994f87836c5b960c90d4",
+      "bytes": 157963,
+      "venue_time_ms": 1793412458907
+    },
+    {
+      "file": "0004.json",
+      "url": "https://api.bybit.com/v5/market/tickers?category=linear",
+      "retrieved_at": "2026-10-31T02:07:40.150005+00:00",
+      "sha256": "dd73d0272c18268211964a7b1171f4f88b4305a8e7f010ba30fb09b585c23f80",
+      "bytes": 690803,
+      "venue_time_ms": 1793412459450
+    },
+    {
+      "file": "0005.json",
+      "url": "https://api.bybit.com/v5/market/risk-limit?category=linear&symbol=BTCUSDT",
+      "retrieved_at": "2026-10-31T02:07:40.549073+00:00",
+      "sha256": "81dbd25e98158a558cdfb504da04ecec187e62dad49c64105c4d03a09065ccf9",
+      "bytes": 6091,
+      "venue_time_ms": 1793412460922
+    },
+    {
+      "file": "0006.json",
+      "url": "https://api.bybit.com/v5/market/funding/history?category=linear&symbol=BTCUSDT&startTime=1785628800000&endTime=1793404799999&limit=200",
+      "retrieved_at": "2026-10-31T02:07:40.961378+00:00",
+      "sha256": "a0bb0ba28df9808f4d1db0a57e1a2acf8b2b764aa86e28653a5b481d43a06dc1",
+      "bytes": 17463,
+      "venue_time_ms": 1793412461359
+    },
+    {
+      "file": "0007.json",
+      "url": "https://api.bybit.com/v5/market/funding/history?category=linear&symbol=BTCUSDT&startTime=1785628800000&endTime=1787644799999&limit=200",
+      "retrieved_at": "2026-10-31T02:07:41.420739+00:00",
+      "sha256": "43e538dde5c34a5e201b8f9fe70adfc121e70c352e15dfc98ff5a3f1111023fb",
+      "bytes": 6136,
+      "venue_time_ms": 1793412461871
+    },
+    {
+      "file": "0008.json",
+      "url": "https://api.bybit.com/v5/market/kline?category=spot&symbol=BTCUSDT&interval=D&start=1785628800000&end=1793404799999&limit=1000",
+      "retrieved_at": "2026-10-31T02:07:42.272426+00:00",
+      "sha256": "c6784a209e1c175d44a095cf8d8cce7394f43d6bc893095be2615fc04c87c7a7",
+      "bytes": 8403,
+      "venue_time_ms": 1793412462787
+    },
+    {
+      "file": "0009.json",
+      "url": "https://api.bybit.com/v5/market/kline?category=linear&symbol=BTCUSDT&interval=D&start=1785628800000&end=1793404799999&limit=1000",
+      "retrieved_at": "2026-10-31T02:07:42.648466+00:00",
+      "sha256": "337f2ce57ebd00bd1782e632152987df1a2aeab0e2b4a7fd345d8ef0ec684697",
+      "bytes": 7871,
+      "venue_time_ms": 1793412463200
+    },
+    {
+      "file": "0010.json",
+      "url": "https://api.bybit.com/v5/market/mark-price-kline?category=linear&symbol=BTCUSDT&interval=D&start=1785628800000&end=1793404799999&limit=1000",
+      "retrieved_at": "2026-10-31T02:07:43.024555+00:00",
+      "sha256": "2fd34836811ae061777bf33490fa87588b9ccb932bc2cb629a456bec53e31624",
+      "bytes": 5450,
+      "venue_time_ms": 1793412463608
+    },
+    {
+      "file": "0011.json",
+      "url": "https://api.bybit.com/v5/market/index-price-kline?category=linear&symbol=BTCUSDT&interval=D&start=1785628800000&end=1793404799999&limit=1000",
+      "retrieved_at": "2026-10-31T02:07:43.403658+00:00",
+      "sha256": "a90c991ec57c0583492fd7477df1891c8f83f7d781dc7f316f1e4e664f2beb32",
+      "bytes": 5665,
+      "venue_time_ms": 1793412464020
+    },
+    {
+      "file": "0012.json",
+      "url": "https://api.bybit.com/v5/market/risk-limit?category=linear&symbol=ETHUSDT",
+      "retrieved_at": "2026-10-31T02:07:43.791659+00:00",
+      "sha256": "f798fdc8fb8f5209d7d582927d3a9d13f077313ca5a3a0935ccdaf24198c0bea",
+      "bytes": 6087,
+      "venue_time_ms": 1793412464443
+    },
+    {
+      "file": "0013.json",
+      "url": "https://api.bybit.com/v5/market/funding/history?category=linear&symbol=ETHUSDT&startTime=1785628800000&endTime=1793404799999&limit=200",
+      "retrieved_at": "2026-10-31T02:07:44.186185+00:00",
+      "sha256": "c15194b64e9523c33058cf0c5e5bf52c14f49cb2c284623da78736510f9e5f48",
+      "bytes": 17447,
+      "venue_time_ms": 1793412464864
+    },
+    {
+      "file": "0014.json",
+      "url": "https://api.bybit.com/v5/market/funding/history?category=linear&symbol=ETHUSDT&startTime=1785628800000&endTime=1787644799999&limit=200",
+      "retrieved_at": "2026-10-31T02:07:44.606353+00:00",
+      "sha256": "11552d276fd2b39ffde23908a61d2772333335c3e9841726b1d1f0a9fffc943d",
+      "bytes": 6136,
+      "venue_time_ms": 1793412465329
+    },
+    {
+      "file": "0015.json",
+      "url": "https://api.bybit.com/v5/market/kline?category=spot&symbol=ETHUSDT&interval=D&start=1785628800000&end=1793404799999&limit=1000",
+      "retrieved_at": "2026-10-31T02:07:44.995212+00:00",
+      "sha256": "9c7a893b970456c3fcbdbdc8193ff440a984fbe9f76bc9028695332bc6d587f1",
+      "bytes": 8311,
+      "venue_time_ms": 1793412465748
+    },
+    {
+      "file": "0016.json",
+      "url": "https://api.bybit.com/v5/market/kline?category=linear&symbol=ETHUSDT&interval=D&start=1785628800000&end=1793404799999&limit=1000",
+      "retrieved_at": "2026-10-31T02:07:45.378984+00:00",
+      "sha256": "d8a606cbab5c75a901cb1a73f97955cfa1ccb3691bf09d5371c9643917cc303e",
+      "bytes": 7955,
+      "venue_time_ms": 1793412466169
+    },
+    {
+      "file": "0017.json",
+      "url": "https://api.bybit.com/v5/market/mark-price-kline?category=linear&symbol=ETHUSDT&interval=D&start=1785628800000&end=1793404799999&limit=1000",
+      "retrieved_at": "2026-10-31T02:07:46.267249+00:00",
+      "sha256": "0ec7727e5374e84c5bf0801d68fe62a1e1e0f0292fa64f6b3a872d4393b57048",
+      "bytes": 5276,
+      "venue_time_ms": 1793412467099
+    },
+    {
+      "file": "0018.json",
+      "url": "https://api.bybit.com/v5/market/index-price-kline?category=linear&symbol=ETHUSDT&interval=D&start=1785628800000&end=1793404799999&limit=1000",
+      "retrieved_at": "2026-10-31T02:07:46.710281+00:00",
+      "sha256": "2a4daa114a12b360588ded4ca580c096b1f30ff01823c2e3e97bf4d5a0923939",
+      "bytes": 5286,
+      "venue_time_ms": 1793412467579
+    },
+    {
+      "file": "0019.json",
+      "url": "https://api.bybit.com/v5/market/risk-limit?category=linear&symbol=SOLUSDT",
+      "retrieved_at": "2026-10-31T02:07:47.129266+00:00",
+      "sha256": "880bea09fcecb3fdc332ad9f248968e37a0cdcacfbc1b796d120bfeacc7dc4dd",
+      "bytes": 6124,
+      "venue_time_ms": 1793412468003
+    },
+    {
+      "file": "0020.json",
+      "url": "https://api.bybit.com/v5/market/funding/history?category=linear&symbol=SOLUSDT&startTime=1785628800000&endTime=1793404799999&limit=200",
+      "retrieved_at": "2026-10-31T02:07:47.535354+00:00",
+      "sha256": "87750a713e10e8caf5fdc12cbab8d9e4028a82532a74d3d9cd991fc7d504e26c",
+      "bytes": 17405,
+      "venue_time_ms": 1793412468456
+    },
+    {
+      "file": "0021.json",
+      "url": "https://api.bybit.com/v5/market/funding/history?category=linear&symbol=SOLUSDT&startTime=1785628800000&endTime=1787644799999&limit=200",
+      "retrieved_at": "2026-10-31T02:07:47.905507+00:00",
+      "sha256": "e5ae32fbbd2a0c7afee7022220dffaaec5efb7f13a94305ee34a046a44f72696",
+      "bytes": 6101,
+      "venue_time_ms": 1793412468856
+    },
+    {
+      "file": "0022.json",
+      "url": "https://api.bybit.com/v5/market/kline?category=spot&symbol=SOLUSDT&interval=D&start=1785628800000&end=1793404799999&limit=1000",
+      "retrieved_at": "2026-10-31T02:07:48.791711+00:00",
+      "sha256": "c887b46296620639f09ef76cc45595679f505f1df87f2c3acf2b0b44c9d15b84",
+      "bytes": 7699,
+      "venue_time_ms": 1793412469805
+    },
+    {
+      "file": "0023.json",
+      "url": "https://api.bybit.com/v5/market/kline?category=linear&symbol=SOLUSDT&interval=D&start=1785628800000&end=1793404799999&limit=1000",
+      "retrieved_at": "2026-10-31T02:07:49.658968+00:00",
+      "sha256": "1f1882a2f73f4f3a896aa1be8c329ca7dde89aed9048c172ec265019bbbb2082",
+      "bytes": 7328,
+      "venue_time_ms": 1793412470739
+    },
+    {
+      "file": "0024.json",
+      "url": "https://api.bybit.com/v5/market/mark-price-kline?category=linear&symbol=SOLUSDT&interval=D&start=1785628800000&end=1793404799999&limit=1000",
+      "retrieved_at": "2026-10-31T02:07:50.134594+00:00",
+      "sha256": "c1cc0b97f39039e0f7f845843d21534470e2c50e5ee69b2a386bc93eb8d1991c",
+      "bytes": 4962,
+      "venue_time_ms": 1793412471249
+    },
+    {
+      "file": "0025.json",
+      "url": "https://api.bybit.com/v5/market/index-price-kline?category=linear&symbol=SOLUSDT&interval=D&start=1785628800000&end=1793404799999&limit=1000",
+      "retrieved_at": "2026-10-31T02:07:50.537978+00:00",
+      "sha256": "c918c13fa9d40f4ed3891b4f72d78dfd0af3747cdebe6a4a95017877330f2747",
+      "bytes": 5176,
+      "venue_time_ms": 1793412471681
+    },
+    {
+      "file": "0026.json",
+      "url": "https://api.bybit.com/v5/market/risk-limit?category=linear&symbol=XRPUSDT",
+      "retrieved_at": "2026-10-31T02:07:50.927816+00:00",
+      "sha256": "eec33f46c7154c014e9a5414ac1a4959882df685bb3f49e73ba4a25bf079e976",
+      "bytes": 6089,
+      "venue_time_ms": 1793412472102
+    },
+    {
+      "file": "0027.json",
+      "url": "https://api.bybit.com/v5/market/funding/history?category=linear&symbol=XRPUSDT&startTime=1785628800000&endTime=1793404799999&limit=200",
+      "retrieved_at": "2026-10-31T02:07:51.327232+00:00",
+      "sha256": "3b31a9caff0032e790047996bf7d0ffb5e87a57ba7931ae2bb8ad7bdada71ab3",
+      "bytes": 17347,
+      "venue_time_ms": 1793412472513
+    },
+    {
+      "file": "0028.json",
+      "url": "https://api.bybit.com/v5/market/funding/history?category=linear&symbol=XRPUSDT&startTime=1785628800000&endTime=1787644799999&limit=200",
+      "retrieved_at": "2026-10-31T02:07:51.711175+00:00",
+      "sha256": "dc3c0783c1827b06a896b3ec8807e27ade2396d6e3fc461467ec9afe9ab7e9d7",
+      "bytes": 6113,
+      "venue_time_ms": 1793412472944
+    },
+    {
+      "file": "0029.json",
+      "url": "https://api.bybit.com/v5/market/kline?category=spot&symbol=XRPUSDT&interval=D&start=1785628800000&end=1793404799999&limit=1000",
+      "retrieved_at": "2026-10-31T02:07:52.111861+00:00",
+      "sha256": "afafc1bf7f4f41a486c3e5a8adbe71c9c958c5b79137021159445f5046b2df59",
+      "bytes": 7792,
+      "venue_time_ms": 1793412473367
+    },
+    {
+      "file": "0030.json",
+      "url": "https://api.bybit.com/v5/market/kline?category=linear&symbol=XRPUSDT&interval=D&start=1785628800000&end=1793404799999&limit=1000",
+      "retrieved_at": "2026-10-31T02:07:52.562622+00:00",
+      "sha256": "d39701298eb3fa1b6e181112c022f8313a20dae07cd73faf4ea4990e46e905eb",
+      "bytes": 7788,
+      "venue_time_ms": 1793412473857
+    },
+    {
+      "file": "0031.json",
+      "url": "https://api.bybit.com/v5/market/mark-price-kline?category=linear&symbol=XRPUSDT&interval=D&start=1785628800000&end=1793404799999&limit=1000",
+      "retrieved_at": "2026-10-31T02:07:52.938350+00:00",
+      "sha256": "824523d1b5ba33954e0565401d745d28248084005293d4a140f1158e4a2a9210",
+      "bytes": 4941,
+      "venue_time_ms": 1793412474260
+    },
+    {
+      "file": "0032.json",
+      "url": "https://api.bybit.com/v5/market/index-price-kline?category=linear&symbol=XRPUSDT&interval=D&start=1785628800000&end=1793404799999&limit=1000",
+      "retrieved_at": "2026-10-31T02:07:53.322567+00:00",
+      "sha256": "14b90054b2ffa3ce1770e1a1bc3c6de761a4ff688d29d05585b51caa40832f0e",
+      "bytes": 4947,
+      "venue_time_ms": 1793412474674
+    },
+    {
+      "file": "0033.json",
+      "url": "https://api.bybit.com/v5/market/risk-limit?category=linear&symbol=DOGEUSDT",
+      "retrieved_at": "2026-10-31T02:07:54.186146+00:00",
+      "sha256": "b957fc6c4ba76366d5c5c29fc8df6b4ec7b88121cc308f4f1a5bc27bdf439d3e",
+      "bytes": 5227,
+      "venue_time_ms": 1793412475595
+    },
+    {
+      "file": "0034.json",
+      "url": "https://api.bybit.com/v5/market/funding/history?category=linear&symbol=DOGEUSDT&startTime=1785628800000&endTime=1793404799999&limit=200",
+      "retrieved_at": "2026-10-31T02:07:54.589640+00:00",
+      "sha256": "e5545495ba51556ba488ec4deaadfbd8998f8189714898081f9f2bedd712b5f0",
+      "bytes": 17584,
+      "venue_time_ms": 1793412476012
+    },
+    {
+      "file": "0035.json",
+      "url": "https://api.bybit.com/v5/market/funding/history?category=linear&symbol=DOGEUSDT&startTime=1785628800000&endTime=1787644799999&limit=200",
+      "retrieved_at": "2026-10-31T02:07:54.985787+00:00",
+      "sha256": "51e8a196e550f88d2d22f3f3590a4ab5dc714085e4c45b3b5eb822bdf8fc9251",
+      "bytes": 6147,
+      "venue_time_ms": 1793412476444
+    },
+    {
+      "file": "0036.json",
+      "url": "https://api.bybit.com/v5/market/kline?category=spot&symbol=DOGEUSDT&interval=D&start=1785628800000&end=1793404799999&limit=1000",
+      "retrieved_at": "2026-10-31T02:07:55.376708+00:00",
+      "sha256": "fedb9e6036c95e06b5b4063f52de0218a53dd94afef11c059d882121e23c7aa4",
+      "bytes": 8054,
+      "venue_time_ms": 1793412476864
+    },
+    {
+      "file": "0037.json",
+      "url": "https://api.bybit.com/v5/market/kline?category=linear&symbol=DOGEUSDT&interval=D&start=1785628800000&end=1793404799999&limit=1000",
+      "retrieved_at": "2026-10-31T02:07:56.842308+00:00",
+      "sha256": "8c441f5ef2cf1ab3b03183de929111b2b186161ccff6a4ea9471355d974d3dbd",
+      "bytes": 7997,
+      "venue_time_ms": 1793412478434
+    },
+    {
+      "file": "0038.json",
+      "url": "https://api.bybit.com/v5/market/mark-price-kline?category=linear&symbol=DOGEUSDT&interval=D&start=1785628800000&end=1793404799999&limit=1000",
+      "retrieved_at": "2026-10-31T02:07:57.236264+00:00",
+      "sha256": "d4156e33b90e4dbb64f77e205d9f6773db5db2d67642de557eb919b6d184ad3e",
+      "bytes": 5302,
+      "venue_time_ms": 1793412478851
+    },
+    {
+      "file": "0039.json",
+      "url": "https://api.bybit.com/v5/market/index-price-kline?category=linear&symbol=DOGEUSDT&interval=D&start=1785628800000&end=1793404799999&limit=1000",
+      "retrieved_at": "2026-10-31T02:07:57.654681+00:00",
+      "sha256": "1ebe28ca6592b63878f8df7a82582059afdd722041e02d3837a5c0bb026ed7bc",
+      "bytes": 5302,
+      "venue_time_ms": 1793412479306
+    },
+    {
+      "file": "0040.json",
+      "url": "https://api.bybit.com/v5/market/risk-limit?category=linear&symbol=ADAUSDT",
+      "retrieved_at": "2026-10-31T02:07:58.068721+00:00",
+      "sha256": "f6f9e4c53bb59b54dc0bdce37ed7b80ab853a71d485d90334bb0143eb28b48b0",
+      "bytes": 5172,
+      "venue_time_ms": 1793412479746
+    },
+    {
+      "file": "0041.json",
+      "url": "https://api.bybit.com/v5/market/funding/history?category=linear&symbol=ADAUSDT&startTime=1785628800000&endTime=1793404799999&limit=200",
+      "retrieved_at": "2026-10-31T02:07:58.506739+00:00",
+      "sha256": "39266eeea5b3e39eeecba6b913def3085c6265c8437c4ba554beb1d631f535d1",
+      "bytes": 17247,
+      "venue_time_ms": 1793412480216
+    },
+    {
+      "file": "0042.json",
+      "url": "https://api.bybit.com/v5/market/funding/history?category=linear&symbol=ADAUSDT&startTime=1785628800000&endTime=1787644799999&limit=200",
+      "retrieved_at": "2026-10-31T02:07:58.913847+00:00",
+      "sha256": "30fe16efa0216b7e88aba0e18d3b9e7ae8b8bec8f90fde5b5427300454899f9e",
+      "bytes": 6047,
+      "venue_time_ms": 1793412480655
+    },
+    {
+      "file": "0043.json",
+      "url": "https://api.bybit.com/v5/market/kline?category=spot&symbol=ADAUSDT&interval=D&start=1785628800000&end=1793404799999&limit=1000",
+      "retrieved_at": "2026-10-31T02:07:59.337307+00:00",
+      "sha256": "b1161968ab355cf186ad9e32ee127a45c01e770099fdac475dfdc8a2844d406f",
+      "bytes": 7723,
+      "venue_time_ms": 1793412481108
+    },
+    {
+      "file": "0044.json",
+      "url": "https://api.bybit.com/v5/market/kline?category=linear&symbol=ADAUSDT&interval=D&start=1785628800000&end=1793404799999&limit=1000",
+      "retrieved_at": "2026-10-31T02:07:59.861348+00:00",
+      "sha256": "88d9f2eda8c0d549fd1dd311af6e25800c30184a9c0895d67fa4ad40e374e609",
+      "bytes": 7467,
+      "venue_time_ms": 1793412481666
+    },
+    {
+      "file": "0045.json",
+      "url": "https://api.bybit.com/v5/market/mark-price-kline?category=linear&symbol=ADAUSDT&interval=D&start=1785628800000&end=1793404799999&limit=1000",
+      "retrieved_at": "2026-10-31T02:08:00.273441+00:00",
+      "sha256": "3cf324600a69c160f4264bbd34546cd9ec1a7aacb0e456e29cd6d3be1bab72cf",
+      "bytes": 4935,
+      "venue_time_ms": 1793412482114
+    },
+    {
+      "file": "0046.json",
+      "url": "https://api.bybit.com/v5/market/index-price-kline?category=linear&symbol=ADAUSDT&interval=D&start=1785628800000&end=1793404799999&limit=1000",
+      "retrieved_at": "2026-10-31T02:08:00.732470+00:00",
+      "sha256": "37d8ef16af0a86bb9de0d93e6bc8bccbf25bb2f54f88686a095cb9a4422f0510",
+      "bytes": 4951,
+      "venue_time_ms": 1793412482602
+    },
+    {
+      "file": "0047.json",
+      "url": "https://api.bybit.com/v5/market/risk-limit?category=linear&symbol=LINKUSDT",
+      "retrieved_at": "2026-10-31T02:08:01.142868+00:00",
+      "sha256": "cccc546628ceee7cae6f104da898ba7a204cbba27552eb1f7d07d9e3367aaf90",
+      "bytes": 5416,
+      "venue_time_ms": 1793412483046
+    },
+    {
+      "file": "0048.json",
+      "url": "https://api.bybit.com/v5/market/funding/history?category=linear&symbol=LINKUSDT&startTime=1785628800000&endTime=1793404799999&limit=200",
+      "retrieved_at": "2026-10-31T02:08:01.530430+00:00",
+      "sha256": "7b97315eab427837252c2012b804020875b1f5206f7d4c82fab9d7f9d8fb4367",
+      "bytes": 17518,
+      "venue_time_ms": 1793412483464
+    },
+    {
+      "file": "0049.json",
+      "url": "https://api.bybit.com/v5/market/funding/history?category=linear&symbol=LINKUSDT&startTime=1785628800000&endTime=1787644799999&limit=200",
+      "retrieved_at": "2026-10-31T02:08:02.062592+00:00",
+      "sha256": "de0aa5265b253534d651386735e8a5e8d939e8ebf65266f23a6c7102fe391d25",
+      "bytes": 6177,
+      "venue_time_ms": 1793412483917
+    },
+    {
+      "file": "0050.json",
+      "url": "https://api.bybit.com/v5/market/kline?category=spot&symbol=LINKUSDT&interval=D&start=1785628800000&end=1793404799999&limit=1000",
+      "retrieved_at": "2026-10-31T02:08:02.635291+00:00",
+      "sha256": "650428f8107c6a73348aa5be190e38026cf666a6ea4a81cef2376f76b057e582",
+      "bytes": 7750,
+      "venue_time_ms": 1793412484459
+    },
+    {
+      "file": "0051.json",
+      "url": "https://api.bybit.com/v5/market/kline?category=linear&symbol=LINKUSDT&interval=D&start=1785628800000&end=1793404799999&limit=1000",
+      "retrieved_at": "2026-10-31T02:08:03.297481+00:00",
+      "sha256": "04e4d4917590f963e40dfd86529ba06d5d55841809356561d2d359dd730d6650",
+      "bytes": 7367,
+      "venue_time_ms": 1793412485341
+    },
+    {
+      "file": "0052.json",
+      "url": "https://api.bybit.com/v5/market/mark-price-kline?category=linear&symbol=LINKUSDT&interval=D&start=1785628800000&end=1793404799999&limit=1000",
+      "retrieved_at": "2026-10-31T02:08:04.012575+00:00",
+      "sha256": "8c335f4b6e716e0da25437d53ad8cc5630148f885eec45409974df9bf725a441",
+      "bytes": 4876,
+      "venue_time_ms": 1793412486107
+    },
+    {
+      "file": "0053.json",
+      "url": "https://api.bybit.com/v5/market/index-price-kline?category=linear&symbol=LINKUSDT&interval=D&start=1785628800000&end=1793404799999&limit=1000",
+      "retrieved_at": "2026-10-31T02:08:06.917122+00:00",
+      "sha256": "cc948fb7e43e71de20890fcddf21a2e42acc215828d22c3cbd871cd127f8e0d0",
+      "bytes": 4878,
+      "venue_time_ms": 1793412486764
+    },
+    {
+      "file": "0054.json",
+      "url": "https://api.bybit.com/v5/market/risk-limit?category=linear&symbol=AVAXUSDT",
+      "retrieved_at": "2026-10-31T02:08:07.382661+00:00",
+      "sha256": "2285e28db73c6e0921fac6901abb4187df985327f0384e2eeb5f406d647b9f47",
+      "bytes": 5413,
+      "venue_time_ms": 1793412487263
+    },
+    {
+      "file": "0055.json",
+      "url": "https://api.bybit.com/v5/market/funding/history?category=linear&symbol=AVAXUSDT&startTime=1785628800000&endTime=1793404799999&limit=200",
+      "retrieved_at": "2026-10-31T02:08:07.865698+00:00",
+      "sha256": "4ab115ac520a4316fc1500f459008004ab952df175a1f7c5e2315072476377f2",
+      "bytes": 17531,
+      "venue_time_ms": 1793412487762
+    },
+    {
+      "file": "0056.json",
+      "url": "https://api.bybit.com/v5/market/funding/history?category=linear&symbol=AVAXUSDT&startTime=1785628800000&endTime=1787644799999&limit=200",
+      "retrieved_at": "2026-10-31T02:08:08.376800+00:00",
+      "sha256": "ba85cdd39b7ad7c79a34a17f7902743e768ff378b18119a49611d1c03712d2a9",
+      "bytes": 6156,
+      "venue_time_ms": 1793412488313
+    },
+    {
+      "file": "0057.json",
+      "url": "https://api.bybit.com/v5/market/kline?category=spot&symbol=AVAXUSDT&interval=D&start=1785628800000&end=1793404799999&limit=1000",
+      "retrieved_at": "2026-10-31T02:08:08.831667+00:00",
+      "sha256": "9d8ce77662831f858cd4d3b2232f58992a6d6b062c8db594336041818c1ee4ee",
+      "bytes": 7400,
+      "venue_time_ms": 1793412488800
+    },
+    {
+      "file": "0058.json",
+      "url": "https://api.bybit.com/v5/market/kline?category=linear&symbol=AVAXUSDT&interval=D&start=1785628800000&end=1793404799999&limit=1000",
+      "retrieved_at": "2026-10-31T02:08:09.334833+00:00",
+      "sha256": "3de2fcd071f4627fab32ace9c0f78503b70d08f4b8781a49beb458ffb588dc6c",
+      "bytes": 7203,
+      "venue_time_ms": 1793412489319
+    },
+    {
+      "file": "0059.json",
+      "url": "https://api.bybit.com/v5/market/mark-price-kline?category=linear&symbol=AVAXUSDT&interval=D&start=1785628800000&end=1793404799999&limit=1000",
+      "retrieved_at": "2026-10-31T02:08:09.786733+00:00",
+      "sha256": "6e3be44e11eb6db3ac4f5900d27ef99dca08d1181d729937ef70a0cd0feeeb3f",
+      "bytes": 4702,
+      "venue_time_ms": 1793412489827
+    },
+    {
+      "file": "0060.json",
+      "url": "https://api.bybit.com/v5/market/index-price-kline?category=linear&symbol=AVAXUSDT&interval=D&start=1785628800000&end=1793404799999&limit=1000",
+      "retrieved_at": "2026-10-31T02:08:10.184514+00:00",
+      "sha256": "209c5d8f878f7468f10fb557bc32286d168fc3d0610a816a1ff881e7e5fd4f07",
+      "bytes": 4694,
+      "venue_time_ms": 1793412490243
+    },
+    {
+      "file": "0061.json",
+      "url": "https://api.bybit.com/v5/market/risk-limit?category=linear&symbol=LTCUSDT",
+      "retrieved_at": "2026-10-31T02:08:10.598030+00:00",
+      "sha256": "6b49ff7dfb02f5adcae417e9daf2f07bb7c9803bbd271ddf412c0ae4bafcfd00",
+      "bytes": 5353,
+      "venue_time_ms": 1793412490684
+    },
+    {
+      "file": "0062.json",
+      "url": "https://api.bybit.com/v5/market/funding/history?category=linear&symbol=LTCUSDT&startTime=1785628800000&endTime=1793404799999&limit=200",
+      "retrieved_at": "2026-10-31T02:08:11.278399+00:00",
+      "sha256": "35d03964dcdbc66817e651be16d47d079070562bdb1b023e23eb6b8c8a2e26b4",
+      "bytes": 17323,
+      "venue_time_ms": 1793412491400
+    },
+    {
+      "file": "0063.json",
+      "url": "https://api.bybit.com/v5/market/funding/history?category=linear&symbol=LTCUSDT&startTime=1785628800000&endTime=1787644799999&limit=200",
+      "retrieved_at": "2026-10-31T02:08:11.667528+00:00",
+      "sha256": "c5f0ad5d39a11214bca69621c69d68b7b291618d0d9b29c9120016a81afc73d5",
+      "bytes": 6125,
+      "venue_time_ms": 1793412491814
+    },
+    {
+      "file": "0064.json",
+      "url": "https://api.bybit.com/v5/market/kline?category=spot&symbol=LTCUSDT&interval=D&start=1785628800000&end=1793404799999&limit=1000",
+      "retrieved_at": "2026-10-31T02:08:12.064942+00:00",
+      "sha256": "151095bc9e26870954129ab610b2741142cd225cb93b436e92a2d4bc0617ece7",
+      "bytes": 7477,
+      "venue_time_ms": 1793412492213
+    },
+    {
+      "file": "0065.json",
+      "url": "https://api.bybit.com/v5/market/kline?category=linear&symbol=LTCUSDT&interval=D&start=1785628800000&end=1793404799999&limit=1000",
+      "retrieved_at": "2026-10-31T02:08:12.478825+00:00",
+      "sha256": "48a561ffefccb5706a14a73f9b8ebd08bd04739b4f46dd00f761bde9bfb5b8a4",
+      "bytes": 6895,
+      "venue_time_ms": 1793412492648
+    },
+    {
+      "file": "0066.json",
+      "url": "https://api.bybit.com/v5/market/mark-price-kline?category=linear&symbol=LTCUSDT&interval=D&start=1785628800000&end=1793404799999&limit=1000",
+      "retrieved_at": "2026-10-31T02:08:12.891301+00:00",
+      "sha256": "d0f3b6369183e23f88759eafe1f34699cd81a74ee89fa0dac6b650bcc84b739f",
+      "bytes": 4581,
+      "venue_time_ms": 1793412493079
+    },
+    {
+      "file": "0067.json",
+      "url": "https://api.bybit.com/v5/market/index-price-kline?category=linear&symbol=LTCUSDT&interval=D&start=1785628800000&end=1793404799999&limit=1000",
+      "retrieved_at": "2026-10-31T02:08:13.508287+00:00",
+      "sha256": "ca0e2abd6875a7e0479aea80d3a2dfc327c0a633dce10f59690424c1e3beb763",
+      "bytes": 4570,
+      "venue_time_ms": 1793412493748
+    },
+    {
+      "file": "0068.json",
+      "url": "https://api.bybit.com/v5/market/risk-limit?category=linear&symbol=BCHUSDT",
+      "retrieved_at": "2026-10-31T02:08:14.041774+00:00",
+      "sha256": "cb27fe056e461d30d84efefca2ebd0d690f345e385f86f6c3b997bdffa73b250",
+      "bytes": 5351,
+      "venue_time_ms": 1793412494323
+    },
+    {
+      "file": "0069.json",
+      "url": "https://api.bybit.com/v5/market/funding/history?category=linear&symbol=BCHUSDT&startTime=1785628800000&endTime=1793404799999&limit=200",
+      "retrieved_at": "2026-10-31T02:08:14.505562+00:00",
+      "sha256": "d2471949e7e4b138f552555edae2e552f1d7c3f33366f2aa9077d9984bc2008b",
+      "bytes": 17316,
+      "venue_time_ms": 1793412494822
+    },
+    {
+      "file": "0070.json",
+      "url": "https://api.bybit.com/v5/market/funding/history?category=linear&symbol=BCHUSDT&startTime=1785628800000&endTime=1787644799999&limit=200",
+      "retrieved_at": "2026-10-31T02:08:14.921235+00:00",
+      "sha256": "f58b8e5db3433019b10cf3cb9dee14380a4389e90236a853798a45e1b0679860",
+      "bytes": 6076,
+      "venue_time_ms": 1793412495273
+    },
+    {
+      "file": "0071.json",
+      "url": "https://api.bybit.com/v5/market/kline?category=spot&symbol=BCHUSDT&interval=D&start=1785628800000&end=1793404799999&limit=1000",
+      "retrieved_at": "2026-10-31T02:08:15.315439+00:00",
+      "sha256": "acaaa44f7bee67439c919fb8a154091293b4dadd67dd17f13a4e4de5aee065cd",
+      "bytes": 7127,
+      "venue_time_ms": 1793412495704
+    },
+    {
+      "file": "0072.json",
+      "url": "https://api.bybit.com/v5/market/kline?category=linear&symbol=BCHUSDT&interval=D&start=1785628800000&end=1793404799999&limit=1000",
+      "retrieved_at": "2026-10-31T02:08:15.699570+00:00",
+      "sha256": "c8a64c99807b17cf81dc736ad8b11a9086c4f92451ff9730cf9bf3694a9118c5",
+      "bytes": 6965,
+      "venue_time_ms": 1793412496116
+    },
+    {
+      "file": "0073.json",
+      "url": "https://api.bybit.com/v5/market/mark-price-kline?category=linear&symbol=BCHUSDT&interval=D&start=1785628800000&end=1793404799999&limit=1000",
+      "retrieved_at": "2026-10-31T02:08:16.111366+00:00",
+      "sha256": "8679b9b9caa216a26b3cf146c759ce22efb1f945d8986f7f040535b5f1bd3ca0",
+      "bytes": 4820,
+      "venue_time_ms": 1793412496568
+    },
+    {
+      "file": "0074.json",
+      "url": "https://api.bybit.com/v5/market/index-price-kline?category=linear&symbol=BCHUSDT&interval=D&start=1785628800000&end=1793404799999&limit=1000",
+      "retrieved_at": "2026-10-31T02:08:17.090387+00:00",
+      "sha256": "20b346bbf8362a498197f4d82faae2e761cae4afcdcc2b266a553715905e5ec8",
+      "bytes": 4949,
+      "venue_time_ms": 1793412497621
+    }
+  ]
+}

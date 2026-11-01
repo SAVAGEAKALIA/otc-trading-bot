@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "archived_at_utc": "2026-10-31T02:06:50.605013+00:00",
+  "relative_path": "data/research/archive/1969cf4f62d913527383ac66875d9f23efd4fddcf9b7d7bb7a8994a46e137a1a.json",
+  "source_path": "/tmp/claude-1000/-home-saviour-PycharmProjects-I2-IQoption/e632c59c-6a70-40c5-8d7c-d83dec295f79/scratchpad/funding/funding.json",
+  "sha256": "1969cf4f62d913527383ac66875d9f23efd4fddcf9b7d7bb7a8994a46e137a1a",
+  "bytes": 6016763,
+  "rows": 121328,
+  "replication": "local workspace only; no off-host backup claimed",
+  "purpose": "preserve existing public historical funding evidence; no source data modified"
+}

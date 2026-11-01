@@ -23,13 +23,13 @@ Run from the repository root. The new diagnostic and tests require Python's stan
 ```bash
 python3 docs/research/crypto-review-2026-10-30/carry_audit_test.py
 
-CRYPTO_FUNDING_INPUT='/tmp/claude-1000/-home-saviour-PycharmProjects-I2-IQoption/e632c59c-6a70-40c5-8d7c-d83dec295f79/scratchpad/funding/funding.json'
+CRYPTO_FUNDING_INPUT='data/research/archive/1969cf4f62d913527383ac66875d9f23efd4fddcf9b7d7bb7a8994a46e137a1a.json'
 python3 docs/research/crypto-review-2026-10-30/carry_audit.py "$CRYPTO_FUNDING_INPUT" > /tmp/crypto-carry-audit.json
 cmp docs/research/crypto-review-2026-10-30/carry_audit_results.json /tmp/crypto-carry-audit.json
 venv/bin/python docs/research/crypto-evidence-2026-10-30/realized_carry.py "$CRYPTO_FUNDING_INPUT" 0.08
 ```
 
-`cmp` exits zero without output when the snapshot reproduction matches. The input SHA256 must be `1969cf4f62d913527383ac66875d9f23efd4fddcf9b7d7bb7a8994a46e137a1a`. The script reports its actual hash. Raw market data is not committed; the current snapshot lives in ephemeral `/tmp`. If unavailable, the original public collector can fetch a **new** snapshot, but it will not reproduce this exact hash or end date. Archive the exact snapshot to an approved durable data store before relying on it for subsequent investment decisions. No credentials are required for this diagnostic.
+`cmp` exits zero without output when the snapshot reproduction matches. The input SHA256 must be `1969cf4f62d913527383ac66875d9f23efd4fddcf9b7d7bb7a8994a46e137a1a`. The script reports its actual hash. Raw market data is not committed. R1 follow-up preserved the exact snapshot in content-addressed local storage outside `/tmp`; see [archive manifest](../crypto-r1-2026-10-31/archive_manifest.json). This is local-only, not an off-host backup. If unavailable, the original public collector can fetch a **new** snapshot, but it will not reproduce this exact hash or end date. Preserve an off-host copy through an approved storage route before long-term reliance; this task did not upload the data. No credentials are required for this diagnostic.
 
 The original report's byte comparison also used the local, untracked `docs/research/crypto-evidence-2026-10-30/realized_carry_report.txt`. The new committed JSON provides the portable computed reference; the original local text file is not required for the commands above.
 

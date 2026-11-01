@@ -1,11 +1,11 @@
 # Crypto capital-allocation plan
 
-Date: 2026-10-30. Status: revised proposal, awaiting approval to implement.
-Residence: **Nigeria**, confirmed by Saviour. Capital and loss budgets: configurable, deliberately unset.
+Date: 2026-10-30; R1 delivery updated 2026-11-01. Status: R1 approved and public research delivered; final admission/experiment lock pending. R2 and live trading are not authorized.
+Residence: **Nigeria**, confirmed by Saviour. Reference currency: **USDT**. Existing Bybit, WEEX and Binance accounts are user-reported. Capital and loss budgets remain configurable and unset. See the [R1 delivery](../research/crypto-r1-2026-10-31/README.md) for actual collection results and remaining lock fields.
 
 ## 1. Decision in one page
 
-**Do not approve a carry bot on the existing return table. Approve a bounded research stage only if its cost is justified.** The table reproduces, but measures annualized funding less simplified fees per hedged notional. It does not establish investable returns on total capital. There is no verified live edge yet.
+**Do not approve a carry bot on the existing return table. R1 public research is now delivered under the user's approval, with zero external service spending.** The table reproduces, but measures annualized funding less simplified fees per hedged notional. It does not establish investable returns on total capital. There is no verified live edge yet.
 
 The ambitious outcome is a capital-allocation process that earns the right to trade: compare eligible cash, perpetual funding carry, dated-futures basis and simple trend on the same accounting basis; deploy only a passing candidate; return to cash when no candidate qualifies. Building an elaborate trading stack is not itself success.
 
@@ -116,6 +116,8 @@ No current benchmark yield is inserted: the investable instrument, account acces
 The dated-futures comparator follows the [CME description of cash-settled Micro Bitcoin contracts](https://www.cmegroup.com/education/articles-and-reports/how-to-trade-micro-bitcoin-futures) and [BIS carry mechanism](https://www.bis.org/publ/work1087.htm). Cash settlement does not guarantee an exact hedge against a spot fill at a different time or index. No current yield or Nigerian broker access is claimed.
 
 ## 6. Research design and promotion policy
+
+**R1 selection:** the [versioned experiment specification](../research/crypto-r1-2026-10-31/experiment_spec.md) now governs the first proposed lock: BTC/ETH carry is the sole confirmatory portfolio, the ten-asset universe is descriptive, and dated basis/spot trend are descriptive comparators. Kronos/Chronos and other model trials are excluded from this first lock. Its fixed 180-day prospective horizon supersedes the earlier generic minimum-12-week promotion wording below; 12 weeks is an operational review only. Account/config/data fields must be resolved before the final lock. This is specification work, not R2 authorization.
 
 First register a small tournament: cash baseline, gated BTC/ETH carry, dated-basis comparator if eligible, and one fixed unlevered daily trend ensemble. Compare approach variants blind where possible. Do not search every liquid perp until a winner appears.
 
@@ -234,14 +236,14 @@ Keep development/backtests away from the execution host. Decide VPS shape from m
 | Phase | Deliverable | Exit gate |
 |---|---|---|
 | R0: this review | Reproduced screening audit, corrected proposal, source ledger, failure model | Completed as research; unresolved account facts explicitly listed |
-| R1: bounded research, approval required | Nigeria eligibility dossier, chosen benchmark, cost/budget configuration; data-quality manifest and frozen tournament | Eligible products and sufficient data; budget/time ceiling approved before implementation. Otherwise stop before executor work |
+| R1: approved; public work delivered | Nigeria/USDT dossier, configurable scenarios, ten-asset 90-day dataset and provisional exact protocol | Final account/product, cost/risk settings and execution-grade data evidence remain admission/lock blockers; no executor or R2 work authorized |
 | R2: portfolio experiment | Full capital accounting and reproducible candidate reports, adverse-cost/stress tests, trial registry | At least one candidate meets section 6 economic, uncertainty and stress gates; independent critic can reproduce it. Otherwise cash/no-build |
 | R3: execution paper and chaos | Adapter/recovery contracts, ledger reconciliation, replay and operational measurement | Minimum 4 weeks operational paper plus all failure cases; zero unexplained position/order/balance differences. Cash residual tolerance fixed in quote-currency units from exchange rounding, never percentage of profit. Unknown orders resolved before new risk |
 | R4: forward strategy observation | Frozen strategy/config and independently timestamped shadow decisions | Minimum 12 weeks from freeze, continuing through R3 where possible; economics meet pre-registered uncertainty gates. Too little evidence means extend within budget or stop |
 | R5: separately approved micro-live | Minimum practical position under the configured capital and catastrophe budgets; one eligible venue; passing sleeve only | At least 8 weeks execution evidence; all fills/funding accounted for, measured slippage inside tested model, incident responses exercised, no unexplained loss/limit breach. This validates operations, not annual expected return |
 | R6: scale or retire | Incremental allocation decision using live evidence | Each increase separately approved, after at least 4 further clean weeks, with liquidity/margin/concentration rechecked. Clock alone never promotes |
 
-No account creation, deposit, trade, production deployment or code deletion is authorized by this document. Research approval does not imply approval for micro-live. If eligibility fails for carry, do not quietly substitute an offshore venue: evaluate an eligible spot candidate or stop.
+R1 approval authorizes the delivered public-data and research utilities only. No account creation, deposit, trade, production deployment or code deletion is authorized by this document. Research approval does not imply approval for micro-live. If eligibility fails for carry, do not quietly substitute an offshore venue: evaluate an eligible spot candidate or stop.
 
 Each implemented feature must include deterministic gate tests, service evals and documentation in the same change. Fast local checks cover units, timestamp availability, fill replay, conservation of equity and configuration rejection. Periodic evals cover historical replay, stress scenarios, forward monitoring and, only where a model is involved, local Claude quality evaluation. Keep paid evals outside pre-commit. Independent critics review each unit against a frozen reference; preserve verdict artifacts outside Git.
 
@@ -257,4 +259,4 @@ Outstanding facts are finite and actionable:
 4. Prospective edge and live fills: only passage of time and approved experiments can provide them. This review cannot manufacture them.
 5. Unattended Claude account permission: verify before scheduling; optional agent work never blocks deterministic strategy research.
 
-Next decision: approve or reject **R1 only**, with a configurable research spending/time ceiling. Keep live disabled. No service restart is required for this documentation and audit change.
+Next action: resolve the R1 report's account/configuration/data lock fields, then review a separately authorized R2 run. Keep live disabled. No service restart is required for these offline research utilities and documents.

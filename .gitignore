@@ -123,3 +123,8 @@ trading_platform/research/registry/*.csv
 # Research evidence (scripts, reports, snapshots, tests) is source and must be versioned.
 !docs/research/**
 docs/research/**/__pycache__/
+
+# Self-contained R1 research service code, tests and example configuration.
+!services/market_data_r1/**/*.py
+!services/research_r1/**/*.py
+!services/research_r1/config.example.json

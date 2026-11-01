@@ -1,0 +1,6 @@
+#!/bin/sh
+# Deterministic local R1 gates only. No network, paid evals or trading.
+set -eu
+python3 -m unittest discover -s services/market_data_r1/tests -q
+python3 -m unittest discover -s services/research_r1/tests -q
+git diff --cached --check

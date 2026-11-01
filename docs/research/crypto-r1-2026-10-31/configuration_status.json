@@ -1,0 +1,24 @@
+{
+  "rows": 54,
+  "configuration": {
+    "schema_version": 1,
+    "research_scenarios_ready": true,
+    "configuration_complete": false,
+    "r2_freeze_ready": false,
+    "unresolved": [
+      "capital_budget_usdt",
+      "max_loss_usdt",
+      "max_drawdown_pct",
+      "venue_loss_budget_usdt",
+      "stablecoin_loss_budget_usdt",
+      "risk_premium_bps",
+      "minimum_profit_usdt_year",
+      "eligibility_verified",
+      "fees_verified",
+      "data_quality_passed",
+      "trial_spec_signed"
+    ],
+    "live_enabled": false,
+    "warning": "scenario values are not approved allocations; final R2 lock requires independent evidence/signature outside this diagnostic"
+  }
+}

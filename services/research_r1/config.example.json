@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "mode": "research",
+  "live_enabled": false,
+  "residence": "Nigeria",
+  "reference_currency": "USDT",
+  "user_reported_accounts": [
+    "Bybit",
+    "WEEX",
+    "Binance"
+  ],
+  "benchmark": "non-interest-bearing USDT holding, not USD risk-free",
+  "benchmark_apr": "0",
+  "capital_budget_usdt": null,
+  "max_loss_usdt": null,
+  "max_drawdown_pct": null,
+  "venue_loss_budget_usdt": null,
+  "stablecoin_loss_budget_usdt": null,
+  "risk_premium_bps": null,
+  "minimum_profit_usdt_year": null,
+  "research_external_spend_usd": "0",
+  "eligibility_verified": false,
+  "fees_verified": false,
+  "data_quality_passed": false,
+  "trial_spec_signed": false,
+  "scenario_capital_usdt": [
+    "1000",
+    "5000",
+    "10000"
+  ],
+  "scenario_net_notional_apr": [
+    "-.05",
+    "0",
+    ".02",
+    ".05",
+    ".10",
+    ".20"
+  ],
+  "scenario_annual_fixed_cost_usdt": [
+    "0",
+    "120",
+    "360"
+  ],
+  "scenario_reserve_per_notional": ".5",
+  "scenario_short_leverage": "1"
+}
