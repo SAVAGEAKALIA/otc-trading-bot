@@ -14,6 +14,8 @@ Evidence collected October 31, 2026; integrated November 1, 2026. R1 was explici
 
 ## What was actually collected
 
+November 1 follow-up: [intraday and independent USD data feasibility](data_admission.md) now includes a full 90-day hourly BTC/ETH price dataset, independent hourly USDT/USD marks, one-day five-minute consistency checks and archive schema probes. This supplements the original daily dataset; it does not admit execution depth. Saviour confirmed willingness to relocate USDT when needed; current custody/Earn status and account-specific permissions/fees remain unknown.
+
 The current instrument scan found 288 Bybit USDT spot/perpetual base-asset intersections. The bounded collection covered the ten predeclared assets over **August 2 through October 30, 2026 inclusive**, with an exclusive cutoff of October 31 at 00:00 UTC.
 
 There are 75 saved public responses, 2,700 settled funding records and 3,600 daily candles (spot, perpetual, mark and index). All ten matched current pairs and passed the declared one-time spread/turnover screen. No whole missing days or duplicate timestamps were found; observed funding spacing is eight hours in this sample. This does not independently verify all historical cadence rules, intraday prices or trading capacity. Read [the complete data audit](market_data.md) and its [manifest](market_data_manifest.json).

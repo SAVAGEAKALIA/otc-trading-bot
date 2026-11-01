@@ -4,6 +4,8 @@ Research date: **2026-10-31**, Africa/Lagos client date. Public-source review on
 
 ## Decision and confirmed context
 
+User clarification, November 1: USDT can be moved to the selected setup. No transfer destination, current Earn status, entity, product permission or authenticated rate was supplied. This changes custody flexibility only; no funds are moved or allocated by this review.
+
 Saviour confirmed Nigerian residence and answered the account/currency question with **USDT, Bybit, WEEX and Binance**, adding willingness to switch venues. Treat those accounts as **user-reported**, not independently verified product permissions. Switching is an option, not authorization to open or fund another account.
 
 **Research priority: Bybit spot/USDT-linear carry first; WEEX as a conditional comparator; Binance public history as reference data only pending its regulatory question; Hyperliquid as a later comparator.** This prioritization follows existing accounts, public data/rule accessibility and minimal new settlement/bridge dependencies. It is not a legal clearance or a finding that Bybit is safer or more profitable.
