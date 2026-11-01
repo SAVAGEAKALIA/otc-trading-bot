@@ -221,6 +221,8 @@ Monitoring needs a second failure domain. A process on the dead VPS cannot rescu
 
 ## 9. Agent scope and operations
 
+Multi-agent research addendum (2026-11-01): [signal production, communication and selection](../research/crypto-multi-agent-2026-11-01/README.md). Proposed comparison: deterministic baseline, single analyst, independent ensemble, bounded debate and compute-matched self-review. Source review is complete and independently reviewed (PASS); economic superiority is untested. This is not a runtime or R2 approval. Preserve independent first opinions, source provenance, abstention and deterministic risk authority.
+
 Use local Claude Code for hypotheses, source summaries, journals and incident explanations. Deterministic code owns data transformations, calculations, order states, limits and accounting. Do not let the model choose its own test or widen a failed threshold.
 
 Tool flags are not a sandbox. Run under a separate OS identity with no exchange secrets, no production mount and no network path to the trading authority. Restrict built-in tools explicitly, disable unneeded MCP servers and pass only sanitized read-only artifacts. Never attach a write-capable trading MCP server. The reviewed [freqtrade-mcp](https://github.com/kukapay/freqtrade-mcp) exposes `place_trade`, and [mcp-server-ccxt](https://github.com/doggybee/mcp-server-ccxt) exposes `place-market-order` once keys are present. Any market-data MCP runs with no exchange keys in its environment. `--allowedTools` is not an exclusive security allowlist. Validate JSON against schema, reject malformed output and cap wall-clock time, concurrency and spending. `flock` prevents overlapping scheduled runs but does not isolate credentials.
