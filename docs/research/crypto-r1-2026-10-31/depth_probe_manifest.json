@@ -1,0 +1,171 @@
+{
+  "review_date": "2026-11-02",
+  "scope": "quarantined archive prefixes; not admitted execution data",
+  "raw_directory": "data/research/r1-depth-20261102",
+  "probes": [
+    {
+      "name": "spot-BTCUSDT",
+      "url": "https://quote-saver.bycsi.com/orderbook/spot/BTCUSDT/",
+      "retrieved_utc": "2026-11-02T10:40:34.946255+00:00",
+      "official_provenance_verified": false,
+      "status": 200,
+      "index_sha256": "3cbe2a60385959f8d23863bd53f0ba909ac5725ae8a79bd268ff875769c8c8b7",
+      "index_bytes": 57764,
+      "matching_links": [
+        "2026-10-30_BTCUSDT_ob200.data.zip"
+      ],
+      "sample_url": "https://quote-saver.bycsi.com/orderbook/spot/BTCUSDT/2026-10-30_BTCUSDT_ob200.data.zip",
+      "sample_http_status": 206,
+      "content_range": "bytes 0-65535/70375044",
+      "content_length": "65536",
+      "sample_bytes": 65536,
+      "sample_sha256": "91f841ded28d9b5c2e0be6a188e933c6bab660a5d33b442b0d53ea1434901271",
+      "full_zip_validated": false
+    },
+    {
+      "name": "spot-ETHUSDT",
+      "url": "https://quote-saver.bycsi.com/orderbook/spot/ETHUSDT/",
+      "retrieved_utc": "2026-11-02T10:40:36.390838+00:00",
+      "official_provenance_verified": false,
+      "status": 200,
+      "index_sha256": "52973e0495dfa045f7258adc59221a459546d261ec3ad0649382aa267d9aae39",
+      "index_bytes": 57764,
+      "matching_links": [
+        "2026-10-30_ETHUSDT_ob200.data.zip"
+      ],
+      "sample_url": "https://quote-saver.bycsi.com/orderbook/spot/ETHUSDT/2026-10-30_ETHUSDT_ob200.data.zip",
+      "sample_http_status": 206,
+      "content_range": "bytes 0-65535/74858036",
+      "content_length": "65536",
+      "sample_bytes": 65536,
+      "sample_sha256": "1eb5ca862084d69fe51079bd342961e55e706cdf4f8ad63ad2c9751f6627b093",
+      "full_zip_validated": false
+    },
+    {
+      "name": "linear-BTCUSDT",
+      "url": "https://quote-saver.bycsi.com/orderbook/linear/BTCUSDT/",
+      "retrieved_utc": "2026-11-02T10:40:38.324330+00:00",
+      "official_provenance_verified": false,
+      "status": 200,
+      "index_sha256": "1a66e4b2c1e72d5621d8c7c947d82cbdd404d686224535d9b9fa485926d78e55",
+      "index_bytes": 144296,
+      "matching_links": [
+        "2026-10-30_BTCUSDT_ob200.data.zip"
+      ],
+      "sample_url": "https://quote-saver.bycsi.com/orderbook/linear/BTCUSDT/2026-10-30_BTCUSDT_ob200.data.zip",
+      "sample_http_status": 206,
+      "content_range": "bytes 0-65535/295531862",
+      "content_length": "65536",
+      "sample_bytes": 65536,
+      "sample_sha256": "4636cc28874ba040ee67fe0ef208dfeac1e86a1c60b035f64abf0e74b1b697a6",
+      "full_zip_validated": false
+    },
+    {
+      "name": "linear-ETHUSDT",
+      "url": "https://quote-saver.bycsi.com/orderbook/linear/ETHUSDT/",
+      "retrieved_utc": "2026-11-02T10:40:40.381842+00:00",
+      "official_provenance_verified": false,
+      "status": 200,
+      "index_sha256": "0802446e6513c7a8e279a6480ee65a067eeb2aae2c779b4e7068c376a75fe7bc",
+      "index_bytes": 144296,
+      "matching_links": [
+        "2026-10-30_ETHUSDT_ob200.data.zip"
+      ],
+      "sample_url": "https://quote-saver.bycsi.com/orderbook/linear/ETHUSDT/2026-10-30_ETHUSDT_ob200.data.zip",
+      "sample_http_status": 206,
+      "content_range": "bytes 0-65535/263614884",
+      "content_length": "65536",
+      "sample_bytes": 65536,
+      "sample_sha256": "a4ac052a47e4047249c444f628cf8dbb0fa325fc7e24a3c222d5fbdbcc8a3eb9",
+      "full_zip_validated": false
+    }
+  ],
+  "prefix_checks": [
+    {
+      "name": "spot-BTCUSDT",
+      "complete_json_lines": 408,
+      "snapshots": 1,
+      "backwards_system_timestamps": 0,
+      "locked_or_crossed_states": 0,
+      "first_ts_ms": 1793318400895,
+      "last_ts_ms": 1793318441597,
+      "first_type": "snapshot",
+      "topic": "orderbook.200.BTCUSDT",
+      "observed_numeric_and_symbol_checks_passed": true,
+      "sequence_continuity_proven": false,
+      "full_zip_crc_verified": false,
+      "official_provenance_verified": false
+    },
+    {
+      "name": "spot-ETHUSDT",
+      "complete_json_lines": 314,
+      "snapshots": 1,
+      "backwards_system_timestamps": 0,
+      "locked_or_crossed_states": 0,
+      "first_ts_ms": 1793318402014,
+      "last_ts_ms": 1793318433314,
+      "first_type": "snapshot",
+      "topic": "orderbook.200.ETHUSDT",
+      "observed_numeric_and_symbol_checks_passed": true,
+      "sequence_continuity_proven": false,
+      "full_zip_crc_verified": false,
+      "official_provenance_verified": false
+    },
+    {
+      "name": "linear-BTCUSDT",
+      "complete_json_lines": 86,
+      "snapshots": 1,
+      "backwards_system_timestamps": 0,
+      "locked_or_crossed_states": 0,
+      "first_ts_ms": 1793318400496,
+      "last_ts_ms": 1793318408995,
+      "first_type": "snapshot",
+      "topic": "orderbook.200.BTCUSDT",
+      "observed_numeric_and_symbol_checks_passed": true,
+      "sequence_continuity_proven": false,
+      "full_zip_crc_verified": false,
+      "official_provenance_verified": false
+    },
+    {
+      "name": "linear-ETHUSDT",
+      "complete_json_lines": 105,
+      "snapshots": 1,
+      "backwards_system_timestamps": 0,
+      "locked_or_crossed_states": 0,
+      "first_ts_ms": 1793318400054,
+      "last_ts_ms": 1793318410453,
+      "first_type": "snapshot",
+      "topic": "orderbook.200.ETHUSDT",
+      "observed_numeric_and_symbol_checks_passed": true,
+      "sequence_continuity_proven": false,
+      "full_zip_crc_verified": false,
+      "official_provenance_verified": false
+    }
+  ],
+  "scripts": {
+    "probe.py": "b72d086ba1969961299d5716b22d371842104e7926be117336a6f699d9025134",
+    "check_prefix.py": "2729fd743306cdee83f90c6592b3632eb0cb8de71cfa5f1856fbeea6cde82291"
+  },
+  "admission": {
+    "official_archive_provenance_verified": false,
+    "complete_zip_crc_verified": false,
+    "historical_sequence_continuity_verified": false,
+    "historical_margin_tiers_verified": false,
+    "r2_freeze_ready": false
+  },
+  "margin_notice": {
+    "url": "https://announcements.bybit.com/en/article/risk-limit-adjustment-for-selected-perpetual-contracts-aug-20-2026--artd5e4344ee603/",
+    "publication_date": "2026-08-18",
+    "publication_timezone": "not established",
+    "stated_effective_by_utc": "2026-08-20T08:00:00Z",
+    "observed_exact_effective_at": null,
+    "symbols": [
+      "BTCUSDT",
+      "ETHUSDT"
+    ],
+    "maximum_leverage_before": 100,
+    "maximum_leverage_after": 150,
+    "complete_tier_history_verified": false,
+    "account_applied_transition_verified": false
+  }
+}
