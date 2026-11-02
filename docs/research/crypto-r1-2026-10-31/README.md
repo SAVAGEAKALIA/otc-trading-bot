@@ -14,6 +14,8 @@ Evidence collected October 31, 2026; integrated November 1, 2026. R1 was explici
 
 ## What was actually collected
 
+Later November 2 update: [official archive provenance is now verified](archive_provenance.md) for the four sampled files. Complete-file download was stopped after slow transfers and a range-test timeout; retained files are explicitly partial. CRC, full-day replay and historical rule admission remain pending.
+
 November 2 follow-up: [depth and margin-history evidence](depth_and_margin_history.md) verifies accessible candidate ZIP prefixes for both BTC/ETH legs and a dated leverage-change notice. Official archive provenance, full-file continuity and complete historical margin tiers remain unverified; execution/liquidation admission stays blocked.
 
 November 1 follow-up: [intraday and independent USD data feasibility](data_admission.md) now includes a full 90-day hourly BTC/ETH price dataset, independent hourly USDT/USD marks, one-day five-minute consistency checks and archive schema probes. This supplements the original daily dataset; it does not admit execution depth. Saviour confirmed willingness to relocate USDT when needed; current custody/Earn status and account-specific permissions/fees remain unknown.

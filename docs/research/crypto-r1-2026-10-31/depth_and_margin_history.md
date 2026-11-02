@@ -4,6 +4,8 @@ Review completed November 2, 2026, continuing November 1 research. R1 public-dat
 
 ## Decision
 
+Update: the later [official catalog inspection](archive_provenance.md) resolves publisher provenance for the four named archives. The observations below remain the original probe record; integrity, continuity and rule-history limitations still apply.
+
 **Historical execution and liquidation admission remain blocked.** We now have accessible candidate depth files and a confirmed in-window leverage-change notice. Neither establishes a complete, officially sourced history of executable books and account-applied margin parameters.
 
 Continue to use the acquired prices for explicitly hypothetical research. Do not describe an adverse-cost simulation as historical execution validation. Resolve archive provenance before a large depth backfill. If historical evidence cannot be obtained, use prospective public capture with explicit gaps and newly observed rule versions; it cannot repair the old 90-day window.

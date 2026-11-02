@@ -1,0 +1,113 @@
+{
+  "research_date": "2026-11-02",
+  "official_page": "https://www.bybit.com/en/derivative-activity/history-data",
+  "source_chain": "official page -> official JS -> official public catalog -> exact archive URLs",
+  "artifacts": {
+    "provenance/browser-files.js": {
+      "sha256": "bdfd2ce1fe5186a54b9211234b47c0c653a0fc880f279a30ba488e096a918b00",
+      "bytes": 1134
+    },
+    "provenance/network.json": {
+      "sha256": "cb8bbc1a897633b15b032cc97f1d6ccd2bfb0f39796291fabeb3e9b3f87a0a02",
+      "bytes": 7011
+    },
+    "provenance/page.html": {
+      "sha256": "43e100466459d4ac36504faa400df760ea631a013f1a01facfdb0dc8fd7541bf",
+      "bytes": 467842
+    },
+    "provenance/contract-list-files.json": {
+      "sha256": "d91d3ad83fd5fad3d1c5b34a6031973438c9580ed216eef18fc834f9a4196f3e",
+      "bytes": 999
+    },
+    "provenance/history-chunk.js": {
+      "sha256": "720fa1982d9117b06830bfc280a9ecc666ff88e82115dafdbe07c7b11c80eaf4",
+      "bytes": 43981
+    },
+    "provenance/list-products.json": {
+      "sha256": "14af60285d594e1184ba294d45a55282805dbe098329c5c1f1acafde0245e2ae",
+      "bytes": 1409
+    },
+    "provenance/spot-list-files.json": {
+      "sha256": "4951eafc44abedf6716800da1f7c9c16263e5a9c33e9c8fc7bf52231ab5d2204",
+      "bytes": 981
+    }
+  },
+  "files": [
+    {
+      "bizType": "spot",
+      "productId": "orderbook",
+      "interval": "daily",
+      "symbol": "BTCUSDT",
+      "date": "2026-10-30",
+      "filename": "2026-10-30_BTCUSDT_ob200.data.zip",
+      "size": "70375044",
+      "url": "https://quote-saver.bycsi.com/orderbook/spot/BTCUSDT/2026-10-30_BTCUSDT_ob200.data.zip",
+      "period": "",
+      "source_catalog_url": "https://www.bybit.com/x-api/quote/public/support/download/list-files?bizType=spot&productId=orderbook&symbols=BTCUSDT%2CETHUSDT&interval=daily&periods=&startDay=2026-10-30&endDay=2026-10-30",
+      "official_catalog_link_verified": true,
+      "full_file_integrity_verified": false,
+      "download_status": "partial_stopped",
+      "local_file": "data/research/r1-depth-20261102/complete/spot-2026-10-30_BTCUSDT_ob200.data.zip.partial",
+      "downloaded_bytes": 5242880,
+      "partial_sha256": "e0282e87fb3e87fce1baf373a0b18096fd9ff8259a006be496393257c1aeeef8"
+    },
+    {
+      "bizType": "spot",
+      "productId": "orderbook",
+      "interval": "daily",
+      "symbol": "ETHUSDT",
+      "date": "2026-10-30",
+      "filename": "2026-10-30_ETHUSDT_ob200.data.zip",
+      "size": "74858036",
+      "url": "https://quote-saver.bycsi.com/orderbook/spot/ETHUSDT/2026-10-30_ETHUSDT_ob200.data.zip",
+      "period": "",
+      "source_catalog_url": "https://www.bybit.com/x-api/quote/public/support/download/list-files?bizType=spot&productId=orderbook&symbols=BTCUSDT%2CETHUSDT&interval=daily&periods=&startDay=2026-10-30&endDay=2026-10-30",
+      "official_catalog_link_verified": true,
+      "full_file_integrity_verified": false,
+      "download_status": "partial_stopped",
+      "local_file": "data/research/r1-depth-20261102/complete/spot-2026-10-30_ETHUSDT_ob200.data.zip.partial",
+      "downloaded_bytes": 5242880,
+      "partial_sha256": "050466e79f5575ede4224f887403b598a13b8d2f64507e216487583b6cceb656"
+    },
+    {
+      "bizType": "contract",
+      "productId": "orderbook",
+      "interval": "daily",
+      "symbol": "BTCUSDT",
+      "date": "2026-10-30",
+      "filename": "2026-10-30_BTCUSDT_ob200.data.zip",
+      "size": "295531862",
+      "url": "https://quote-saver.bycsi.com/orderbook/linear/BTCUSDT/2026-10-30_BTCUSDT_ob200.data.zip",
+      "period": "",
+      "source_catalog_url": "https://www.bybit.com/x-api/quote/public/support/download/list-files?bizType=contract&productId=orderbook&symbols=BTCUSDT%2CETHUSDT&interval=daily&periods=&startDay=2026-10-30&endDay=2026-10-30",
+      "official_catalog_link_verified": true,
+      "full_file_integrity_verified": false,
+      "download_status": "not_started",
+      "downloaded_bytes": 0
+    },
+    {
+      "bizType": "contract",
+      "productId": "orderbook",
+      "interval": "daily",
+      "symbol": "ETHUSDT",
+      "date": "2026-10-30",
+      "filename": "2026-10-30_ETHUSDT_ob200.data.zip",
+      "size": "263614884",
+      "url": "https://quote-saver.bycsi.com/orderbook/linear/ETHUSDT/2026-10-30_ETHUSDT_ob200.data.zip",
+      "period": "",
+      "source_catalog_url": "https://www.bybit.com/x-api/quote/public/support/download/list-files?bizType=contract&productId=orderbook&symbols=BTCUSDT%2CETHUSDT&interval=daily&periods=&startDay=2026-10-30&endDay=2026-10-30",
+      "official_catalog_link_verified": true,
+      "full_file_integrity_verified": false,
+      "download_status": "not_started",
+      "downloaded_bytes": 0
+    }
+  ],
+  "downloaded_bytes": 10485760,
+  "expected_total_bytes": 704379826,
+  "full_zip_crc_verified": false,
+  "full_day_replay_completed": false,
+  "historical_margin_tiers_verified": false,
+  "r2_freeze_ready": false,
+  "transfer_status": "stopped; slow whole-file streams and timed-out larger range test; 65536-byte HTTP2 range succeeded",
+  "independent_source_verdict": "/tmp/crypto-r1-provenance/critique/source.md"
+}
