@@ -10,7 +10,7 @@ On November 4, 2026, Bybit's official catalog listed all 360 expected BTC/ETH sp
 
 The [file inventory](depth_catalog_inventory.csv) contains exact URLs and listed byte sizes. The [manifest](depth_catalog_inventory.json) records request URLs and response hashes. Validation checked unique date/symbol/market keys, positive sizes, expected filenames and archive paths. Raw catalog evidence and the acquisition and check scripts are in the ignored local directory `data/research/r1-depth-20261102/inventory/`.
 
-The four October 30 files have passed transfer and full replay. The remaining 356 files represent 37,246,519,705 listed bytes and still require transfer, integrity checks and replay. The current downloader allowlist covers the four October 30 URLs. A broader run needs an inventory-bound allowlist and storage controls for staging, completed files and retained chunks. [October 30 replay](full_day_archive.md)
+The four October 30 files have passed transfer and full replay. At inventory time, the remaining 356 files represented 37,246,519,705 listed bytes. The catalog batch helper now accepts one to seven days from the pinned inventory. See the pilot update below. [October 30 replay](full_day_archive.md)
 
 ## Historical margin rules
 
@@ -23,3 +23,14 @@ The UTA guide lists a USDT collateral ratio of 100% for its cross/portfolio calc
 Full effective-dated BTC/ETH tier, deduction and collateral history remains unverified. Keep historical liquidation admission closed. Prospectively retain rule snapshots and match applicable account settings before testing venue-specific liquidation behavior. Raw snapshot hashes are in the manifest.
 
 Independent review passed. See `/tmp/r1-inventory/critique/final.md` and `verification.txt` in the same directory. Self-rating 9/10. Proud of the verified inventory and source checks. The historical margin schedule remains the gap. No restart is required.
+
+
+## Catalog batch pilot
+
+The August 2 batch acquired and CRC-verified all four archives, 268,698,982 bytes, with zero transfer errors. Eight files across two dates now have ZIP integrity evidence. Four October 30 files have full replay evidence. The August 2 [pilot manifest](first_catalog_batch.json) preserves hashes and versions.
+
+The catalog entry point pins the inventory SHA-256, validates all four market/symbol keys per requested day, and requires twice the selected bytes plus 1 GiB of available output space. I chose a seven-day maximum and conservative resume budget to limit resource use. The original October 30 manifest entry point is preserved. The final storage-guard changes were covered by offline tests after the live run started. The live pilot exercised the same catalog selection and transfer path. [Usage](../../../services/archive_transfer_r1/README.md)
+
+Twenty-eight service tests passed. The catalog eval partitions the same 360 unique archives at every batch size from one to seven days. No historical margin or R2 admission flags changed.
+
+Independent pilot review passed at `/tmp/r1-batch/critique/final.md`. Independent checks matched all four ZIP hashes, sizes and CRCs. Self-rating 9/10 for the catalog downloader and pilot. Proud of the transfer result. The August 2 order-book replay remains pending. No restart required.

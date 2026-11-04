@@ -1,0 +1,52 @@
+{
+  "files": [
+    {
+      "chunk_bytes": 1048576,
+      "etag": "\"201507f9b67014b37d30a6df357a17d6\"",
+      "local_file": "/home/saviour/PycharmProjects/I2/IQoption/data/research/r1-depth-batches/2026-08-02/linear-2026-08-02_BTCUSDT_ob200.data.zip",
+      "sha256": "84da8b87448eb4e2b533aad8e1a412db0df5a038b7b520a52fd78ac7e22666a2",
+      "size": 106412624,
+      "url": "https://quote-saver.bycsi.com/orderbook/linear/BTCUSDT/2026-08-02_BTCUSDT_ob200.data.zip",
+      "version": 1,
+      "zip_crc_verified": true
+    },
+    {
+      "chunk_bytes": 1048576,
+      "etag": "\"982d62d6e39c7592d40d27bfe794cb54\"",
+      "local_file": "/home/saviour/PycharmProjects/I2/IQoption/data/research/r1-depth-batches/2026-08-02/linear-2026-08-02_ETHUSDT_ob200.data.zip",
+      "sha256": "23f58c587eac3a8fc34a43a6147b72be59f7d7b4639569c189698b00f19a88ee",
+      "size": 98544555,
+      "url": "https://quote-saver.bycsi.com/orderbook/linear/ETHUSDT/2026-08-02_ETHUSDT_ob200.data.zip",
+      "version": 1,
+      "zip_crc_verified": true
+    },
+    {
+      "chunk_bytes": 1048576,
+      "etag": "\"28d1665ac732099abca5599bdb028bbe\"",
+      "local_file": "/home/saviour/PycharmProjects/I2/IQoption/data/research/r1-depth-batches/2026-08-02/spot-2026-08-02_BTCUSDT_ob200.data.zip",
+      "sha256": "293aa6e3056cb2d9b09a6aa81ddf81a09fd69148eb819d78ac29b718540a91e1",
+      "size": 33973861,
+      "url": "https://quote-saver.bycsi.com/orderbook/spot/BTCUSDT/2026-08-02_BTCUSDT_ob200.data.zip",
+      "version": 1,
+      "zip_crc_verified": true
+    },
+    {
+      "chunk_bytes": 1048576,
+      "etag": "\"4edb50587ae5936eec84a6e4deb7d3c0\"",
+      "local_file": "/home/saviour/PycharmProjects/I2/IQoption/data/research/r1-depth-batches/2026-08-02/spot-2026-08-02_ETHUSDT_ob200.data.zip",
+      "sha256": "0f3d614ff004983ae81c0853bf00e4a2dd0a3853c16372de35e57e5b805768ea",
+      "size": 29767942,
+      "url": "https://quote-saver.bycsi.com/orderbook/spot/ETHUSDT/2026-08-02_ETHUSDT_ob200.data.zip",
+      "version": 1,
+      "zip_crc_verified": true
+    }
+  ],
+  "full_day_replay_completed": false,
+  "full_zip_crc_verified": true,
+  "status": "complete",
+  "research_date": "2026-11-04",
+  "catalog_day": "2026-08-02",
+  "compressed_bytes": 268698982,
+  "scope": "one-day catalog acquisition and ZIP integrity",
+  "historical_90d_depth_admitted": false
+}

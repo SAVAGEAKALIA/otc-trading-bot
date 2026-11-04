@@ -37,3 +37,18 @@ python3 services/archive_transfer_r1/evals/eval_deadline.py
 ```
 
 The audit hashes the ZIP, reads the sole member through EOF for CRC, and processes all messages. A snapshot replaces the book. Zero sizes delete levels. Exact Decimal comparisons preserve ordering. A backwards timestamp, out-of-window message, or backwards update identifier on a delta taints state until a fresh valid snapshot. Report counts for such intervals separately. Minute coverage and observed gaps describe available records. They cannot establish feed completeness or executable fills.
+
+## Download a catalog batch
+
+The catalog mode accepts the SHA-256 pinned R1 inventory CSV and an inclusive range of one to seven UTC dates from August 2 through October 30. Each selected day must include both symbols and both legs. Use a separate output directory for each batch. Rerun with the same dates, output directory and chunk size to reuse verified chunks.
+
+```bash
+python3 services/archive_transfer_r1/transfer.py \
+  docs/research/crypto-r1-2026-10-31/depth_catalog_inventory.csv \
+  --start 2026-08-02 --end 2026-08-02 \
+  --output data/research/r1-depth-batches/2026-08-02 \
+  --progress /tmp/r1-batch/progress.log
+python3 services/archive_transfer_r1/evals/eval_catalog.py
+```
+
+Before starting network requests, the downloader checks free space under the output lock. It requires twice the selected compressed bytes plus 1 GiB for retained chunks, assembled archives and working overhead. This deliberately budgets a fresh copy even during resume. Catalog mode requires chunks of at least 1 MiB and an output filesystem with allocation units no larger than 64 KiB. Chunk directories must share that filesystem. The check applies to the output filesystem and does not reserve capacity against unrelated writes or concurrent batches in other directories. Keep one batch active per filesystem. Use the replay command above for ZIPs from each batch, with the matching symbol and UTC timestamps. The original October 30 JSON manifest entry point remains available without date flags.

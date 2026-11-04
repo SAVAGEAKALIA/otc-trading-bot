@@ -1,5 +1,8 @@
 """Pinned public archive range transfer; Python standard library only."""
 import argparse
+import csv
+from datetime import date, timedelta
+import shutil
 from concurrent.futures import ThreadPoolExecutor, wait, FIRST_COMPLETED
 from contextlib import closing
 import fcntl
@@ -19,6 +22,61 @@ import urllib.request
 import zipfile
 
 URL = re.compile(r'https://quote-saver\.bycsi\.com/orderbook/(spot|linear)/(BTCUSDT|ETHUSDT)/2026-10-30_\2_ob200\.data\.zip\Z')
+
+CATALOG_URL = re.compile(
+    r'https://quote-saver\.bycsi\.com/orderbook/(spot|linear)/(BTCUSDT|ETHUSDT)/'
+    r'(2026-(?:08|09|10)-[0-9]{2})_\2_ob200\.data\.zip\Z'
+)
+CATALOG_DIGEST = 'e5e4dd582849c56469bff177d53cdce405ef988da73d8ed7ef42a936537cb7c6'
+WINDOW_START, WINDOW_END = date(2026, 8, 2), date(2026, 10, 30)
+DISK_RESERVE = 1024**3
+
+
+def catalog_batch(path, start, end):
+    if not WINDOW_START <= start <= end <= WINDOW_END or (end-start).days >= 7:
+        raise Invalid('select one to seven days inside the catalog window')
+    raw = path.read_bytes()
+    if digest(raw) != CATALOG_DIGEST:
+        raise Invalid('catalog SHA-256 differs from the reviewed inventory')
+    selected = {}
+    for row in csv.DictReader(io.StringIO(raw.decode())):
+        day = date.fromisoformat(row['date'])
+        if not start <= day <= end:
+            continue
+        match = CATALOG_URL.fullmatch(row['url'])
+        expected_leg = {'spot': 'spot', 'contract': 'linear'}.get(row['bizType'])
+        if (not match or match.groups() != (expected_leg, row['symbol'], day.isoformat())
+                or row['filename'] != row['url'].rsplit('/', 1)[1]
+                or not 0 < int(row['size']) <= 2**40):
+            raise Invalid('invalid catalog row')
+        key = (day, expected_leg, row['symbol'])
+        if key in selected:
+            raise Invalid('duplicate archive')
+        selected[key] = row
+    expected = {(start+timedelta(days=i), leg, symbol)
+                for i in range((end-start).days+1)
+                for leg in ('spot', 'linear') for symbol in ('BTCUSDT','ETHUSDT')}
+    if selected.keys() != expected:
+        raise Invalid('incomplete four-leg catalog batch')
+    return [selected[key] for key in sorted(selected)]
+
+
+def check_batch_space(output, items):
+    # Conservatively budget a full additional chunk set and assembled ZIPs.
+    required = 2 * sum(int(item['size']) for item in items) + DISK_RESERVE
+    if os.statvfs(output).f_frsize > 65536:
+        raise Invalid('catalog output allocation unit exceeds 64 KiB')
+    device = Path(output).stat().st_dev
+    for item in items:
+        match = CATALOG_URL.fullmatch(item['url'])
+        chunks = Path(output) / (match[1] + '-' + item['filename'] + '.chunks')
+        if chunks.is_symlink() or (chunks.exists() and chunks.stat().st_dev != device):
+            raise Invalid('catalog chunk directory must share the output filesystem')
+    available = shutil.disk_usage(output).free
+    if available < required:
+        raise Invalid(f'batch needs {required} free bytes including reserve, found {available}')
+    return required
+
 
 class Invalid(Exception):
     """Evidence or response violates the archive contract."""
@@ -114,10 +172,13 @@ def load(path):
     return json.loads(path.read_text())
 
 class Downloader:
-    def __init__(self, output, *, workers=8, chunk_bytes=1048576, timeout=20, attempts=4,
+    def __init__(self, output, *, catalog_items=(), workers=8, chunk_bytes=1048576, timeout=20, attempts=4,
                  opener=transport, progress=None, sleeper=time.sleep):
         if not 1 <= workers <= 32 or not 1 <= chunk_bytes <= 16*1024*1024 or not 0 < timeout <= 300 or not 1 <= attempts <= 10:
             raise ValueError('invalid transfer bounds')
+        if catalog_items and chunk_bytes < 1048576:
+            raise Invalid('catalog mode requires chunks of at least 1 MiB')
+        self.catalog_items = {item['url']: int(item['size']) for item in catalog_items}
         self.output = Path(output).absolute()
         self.workers, self.chunk_bytes = workers, chunk_bytes
         self.timeout, self.attempts, self.opener = timeout, attempts, opener
@@ -197,13 +258,13 @@ class Downloader:
 
     def archive(self, item):
         url = item['url']
-        match = URL.fullmatch(url)
-        if not match:
+        match = CATALOG_URL.fullmatch(url) if self.catalog_items else URL.fullmatch(url)
+        if not match or (self.catalog_items and self.catalog_items.get(url) != int(item['size'])):
             raise Invalid('URL outside fixed allowlist')
         size = int(item['size'])
         if not 0 < size <= 2**40:
             raise Invalid('invalid size')
-        name = f'{match[1]}-2026-10-30_{match[2]}_ob200.data.zip'
+        name = f'{match[1]}-{url.rsplit("/", 1)[1]}'
         work = self.output/(name+'.chunks')
         safe_dir(work)
         lockpath = work/'lock'
@@ -340,6 +401,8 @@ def run(downloader, items):
         save(manifest, dict(files=[], full_zip_crc_verified=False, status='running'))
         save(output/'run_status.json', dict(status='running'))
         try:
+            if downloader.catalog_items:
+                check_batch_space(output, items)
             results = [downloader.archive(item) for item in items]
             save(manifest, dict(files=results, status='complete', full_zip_crc_verified=True,
                                 full_day_replay_completed=False))
@@ -358,12 +421,22 @@ def main():
     parser.add_argument('--progress', required=True, type=Path)
     parser.add_argument('--workers', type=int, default=8)
     parser.add_argument('--chunk-bytes', type=int, default=1048576)
+    parser.add_argument('--start', type=date.fromisoformat)
+    parser.add_argument('--end', type=date.fromisoformat)
     args = parser.parse_args()
-    items = load(args.manifest)['files']
-    urls = [item['url'] for item in items]
-    if len(items) != 4 or len(set(urls)) != 4 or any(not URL.fullmatch(url) for url in urls):
-        parser.error('manifest must contain the four unique allowlisted archives')
-    downloader = Downloader(args.output, workers=args.workers, chunk_bytes=args.chunk_bytes, progress=args.progress)
+    if args.start or args.end:
+        if not (args.start and args.end):
+            parser.error('catalog mode requires both --start and --end')
+        items = catalog_batch(args.manifest, args.start, args.end)
+        downloader = Downloader(args.output, catalog_items=items, workers=args.workers,
+                                chunk_bytes=args.chunk_bytes, progress=args.progress)
+    else:
+        items = load(args.manifest)['files']
+        urls = [item['url'] for item in items]
+        if len(items) != 4 or len(set(urls)) != 4 or any(not URL.fullmatch(url) for url in urls):
+            parser.error('manifest must contain the four unique allowlisted archives')
+        downloader = Downloader(args.output, workers=args.workers,
+                                chunk_bytes=args.chunk_bytes, progress=args.progress)
     run(downloader, items)
 
 if __name__ == '__main__':
