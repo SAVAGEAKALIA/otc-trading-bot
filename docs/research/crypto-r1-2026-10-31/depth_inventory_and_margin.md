@@ -27,10 +27,23 @@ Independent review passed. See `/tmp/r1-inventory/critique/final.md` and `verifi
 
 ## Catalog batch pilot
 
-The August 2 batch acquired and CRC-verified all four archives, 268,698,982 bytes, with zero transfer errors. Eight files across two dates now have ZIP integrity evidence. Four October 30 files have full replay evidence. The August 2 [pilot manifest](first_catalog_batch.json) preserves hashes and versions.
+The August 2 batch acquired and CRC-verified all four archives, 268,698,982 bytes, with zero transfer errors. Eight files across two dates now have ZIP integrity evidence. The four October 30 files and four August 2 files now have full replay evidence. The August 2 [pilot manifest](first_catalog_batch.json) preserves hashes and versions.
 
 The catalog entry point pins the inventory SHA-256, validates all four market/symbol keys per requested day, and requires twice the selected bytes plus 1 GiB of available output space. I chose a seven-day maximum and conservative resume budget to limit resource use. The original October 30 manifest entry point is preserved. The final storage-guard changes were covered by offline tests after the live run started. The live pilot exercised the same catalog selection and transfer path. [Usage](../../../services/archive_transfer_r1/README.md)
 
 Twenty-eight service tests passed. The catalog eval partitions the same 360 unique archives at every batch size from one to seven days. No historical margin or R2 admission flags changed.
 
-Independent pilot review passed at `/tmp/r1-batch/critique/final.md`. Independent checks matched all four ZIP hashes, sizes and CRCs. Self-rating 9/10 for the catalog downloader and pilot. Proud of the transfer result. The August 2 order-book replay remains pending. No restart required.
+Independent pilot review passed at `/tmp/r1-batch/critique/final.md`. Independent checks matched all four ZIP hashes, sizes and CRCs. Self-rating 9/10 for the catalog downloader and pilot. Proud of the transfer result. The pilot transfer review preceded the August 2 replay below. No restart required.
+
+
+## August 2 replay and why we need the history
+
+All four files completed replay. Independent checks matched 2,970,590 messages and coverage of all 1,440 UTC minutes per file. The replay excluded 70 post-midnight messages and reconstructed 2,970,520 in-window states. [Replay manifest](august02_replay_manifest.json) · Independent review at `/tmp/r1-aug02/critique/independent-review.md`.
+
+The objective is to establish whether a signal retains value after realistic execution costs. Funding and price history support a cheap first screen. Depth replay adds historical spreads, displayed size and changes between leg submissions. For spot/perpetual carry, compare funding plus the change in basis against fees on entry and exit, spread, modeled slippage and any unhedged exposure. Compare the result with holding USDT over the same interval.
+
+For multi-agent signals, use the same simulator, sizing, costs and decision times for a deterministic baseline, a single analyst, independent votes and bounded debate. Keep development history separate from the prospective evaluation. A better forecast or a more persuasive rationale only matters if it produces a measured improvement after costs.
+
+The 90-day catalog establishes availability. Before a full 37.95 GB backfill, freeze the hypotheses, decision cadence and sampling rule. Use selected periods to check the replay and estimate cost sensitivity. Expand coverage when the experiment needs it. A sparse sample cannot validate performance across the full window. Displayed depth can inform a simulated taker fill, but the replay does not observe the user's queue position, network delays or market response to a hypothetical order. Historical liquidation also needs effective-dated margin rules and account inputs.
+
+Self-rating 9/10. Proud of the second verified replay. The development sample covers two days, so broader execution-cost coverage remains unmeasured. No restart required.

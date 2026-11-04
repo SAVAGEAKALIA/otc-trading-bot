@@ -1,0 +1,336 @@
+{
+  "research_date": "2026-11-04",
+  "window_start_utc": "2026-08-02T00:00:00Z",
+  "window_end_exclusive_utc": "2026-08-03T00:00:00Z",
+  "replays": [
+    {
+      "file": "data/research/r1-depth-batches/2026-08-02/linear-2026-08-02_BTCUSDT_ob200.data.zip",
+      "sha256": "84da8b87448eb4e2b533aad8e1a412db0df5a038b7b520a52fd78ac7e22666a2",
+      "compressed_bytes": 106412624,
+      "uncompressed_bytes": 686837968,
+      "zip_crc_verified": true,
+      "counts": {
+        "messages": 856945,
+        "snapshot": 2,
+        "replayed_valid_states": 856942,
+        "delta": 856943,
+        "outside_window": 3,
+        "untrusted_states": 3
+      },
+      "first_ts_ms": 1785628800128,
+      "last_ts_ms": 1785715200129,
+      "largest_observed_ts_gap_ms": 600,
+      "observed_minutes": 1440,
+      "anomaly_examples": [
+        {
+          "message": 856943,
+          "ts": 1785715200029,
+          "reasons": [
+            "outside_window"
+          ]
+        },
+        {
+          "message": 856944,
+          "ts": 1785715200129,
+          "reasons": [
+            "outside_window"
+          ]
+        },
+        {
+          "message": 856945,
+          "ts": 1785715200129,
+          "reasons": [
+            "outside_window"
+          ]
+        }
+      ],
+      "all_messages_processed": true,
+      "sequence_completeness_proven": false,
+      "fill_or_liquidation_validated": false
+    },
+    {
+      "file": "data/research/r1-depth-batches/2026-08-02/linear-2026-08-02_ETHUSDT_ob200.data.zip",
+      "sha256": "23f58c587eac3a8fc34a43a6147b72be59f7d7b4639569c189698b00f19a88ee",
+      "compressed_bytes": 98544555,
+      "uncompressed_bytes": 562097116,
+      "zip_crc_verified": true,
+      "counts": {
+        "messages": 839991,
+        "snapshot": 2,
+        "replayed_valid_states": 839973,
+        "delta": 839989,
+        "outside_window": 18,
+        "untrusted_states": 18
+      },
+      "first_ts_ms": 1785628801731,
+      "last_ts_ms": 1785715201730,
+      "largest_observed_ts_gap_ms": 1001,
+      "observed_minutes": 1440,
+      "anomaly_examples": [
+        {
+          "message": 839974,
+          "ts": 1785715200030,
+          "reasons": [
+            "outside_window"
+          ]
+        },
+        {
+          "message": 839975,
+          "ts": 1785715200130,
+          "reasons": [
+            "outside_window"
+          ]
+        },
+        {
+          "message": 839976,
+          "ts": 1785715200231,
+          "reasons": [
+            "outside_window"
+          ]
+        },
+        {
+          "message": 839977,
+          "ts": 1785715200330,
+          "reasons": [
+            "outside_window"
+          ]
+        },
+        {
+          "message": 839978,
+          "ts": 1785715200430,
+          "reasons": [
+            "outside_window"
+          ]
+        },
+        {
+          "message": 839979,
+          "ts": 1785715200531,
+          "reasons": [
+            "outside_window"
+          ]
+        },
+        {
+          "message": 839980,
+          "ts": 1785715200631,
+          "reasons": [
+            "outside_window"
+          ]
+        },
+        {
+          "message": 839981,
+          "ts": 1785715200731,
+          "reasons": [
+            "outside_window"
+          ]
+        },
+        {
+          "message": 839982,
+          "ts": 1785715200830,
+          "reasons": [
+            "outside_window"
+          ]
+        },
+        {
+          "message": 839983,
+          "ts": 1785715200931,
+          "reasons": [
+            "outside_window"
+          ]
+        }
+      ],
+      "all_messages_processed": true,
+      "sequence_completeness_proven": false,
+      "fill_or_liquidation_validated": false
+    },
+    {
+      "file": "data/research/r1-depth-batches/2026-08-02/spot-2026-08-02_BTCUSDT_ob200.data.zip",
+      "sha256": "293aa6e3056cb2d9b09a6aa81ddf81a09fd69148eb819d78ac29b718540a91e1",
+      "compressed_bytes": 33973861,
+      "uncompressed_bytes": 231296457,
+      "zip_crc_verified": true,
+      "counts": {
+        "messages": 714143,
+        "snapshot": 2,
+        "replayed_valid_states": 714117,
+        "delta": 714141,
+        "outside_window": 26,
+        "untrusted_states": 26
+      },
+      "first_ts_ms": 1785628802416,
+      "last_ts_ms": 1785715202416,
+      "largest_observed_ts_gap_ms": 1802,
+      "observed_minutes": 1440,
+      "anomaly_examples": [
+        {
+          "message": 714118,
+          "ts": 1785715200016,
+          "reasons": [
+            "outside_window"
+          ]
+        },
+        {
+          "message": 714119,
+          "ts": 1785715200116,
+          "reasons": [
+            "outside_window"
+          ]
+        },
+        {
+          "message": 714120,
+          "ts": 1785715200216,
+          "reasons": [
+            "outside_window"
+          ]
+        },
+        {
+          "message": 714121,
+          "ts": 1785715200316,
+          "reasons": [
+            "outside_window"
+          ]
+        },
+        {
+          "message": 714122,
+          "ts": 1785715200416,
+          "reasons": [
+            "outside_window"
+          ]
+        },
+        {
+          "message": 714123,
+          "ts": 1785715200516,
+          "reasons": [
+            "outside_window"
+          ]
+        },
+        {
+          "message": 714124,
+          "ts": 1785715200618,
+          "reasons": [
+            "outside_window"
+          ]
+        },
+        {
+          "message": 714125,
+          "ts": 1785715200717,
+          "reasons": [
+            "outside_window"
+          ]
+        },
+        {
+          "message": 714126,
+          "ts": 1785715200816,
+          "reasons": [
+            "outside_window"
+          ]
+        },
+        {
+          "message": 714127,
+          "ts": 1785715200916,
+          "reasons": [
+            "outside_window"
+          ]
+        }
+      ],
+      "all_messages_processed": true,
+      "sequence_completeness_proven": false,
+      "fill_or_liquidation_validated": false
+    },
+    {
+      "file": "data/research/r1-depth-batches/2026-08-02/spot-2026-08-02_ETHUSDT_ob200.data.zip",
+      "sha256": "0f3d614ff004983ae81c0853bf00e4a2dd0a3853c16372de35e57e5b805768ea",
+      "compressed_bytes": 29767942,
+      "uncompressed_bytes": 182975718,
+      "zip_crc_verified": true,
+      "counts": {
+        "messages": 559511,
+        "snapshot": 2,
+        "replayed_valid_states": 559488,
+        "delta": 559509,
+        "outside_window": 23,
+        "untrusted_states": 23
+      },
+      "first_ts_ms": 1785628802455,
+      "last_ts_ms": 1785715202455,
+      "largest_observed_ts_gap_ms": 3200,
+      "observed_minutes": 1440,
+      "anomaly_examples": [
+        {
+          "message": 559489,
+          "ts": 1785715200056,
+          "reasons": [
+            "outside_window"
+          ]
+        },
+        {
+          "message": 559490,
+          "ts": 1785715200153,
+          "reasons": [
+            "outside_window"
+          ]
+        },
+        {
+          "message": 559491,
+          "ts": 1785715200253,
+          "reasons": [
+            "outside_window"
+          ]
+        },
+        {
+          "message": 559492,
+          "ts": 1785715200353,
+          "reasons": [
+            "outside_window"
+          ]
+        },
+        {
+          "message": 559493,
+          "ts": 1785715200553,
+          "reasons": [
+            "outside_window"
+          ]
+        },
+        {
+          "message": 559494,
+          "ts": 1785715200653,
+          "reasons": [
+            "outside_window"
+          ]
+        },
+        {
+          "message": 559495,
+          "ts": 1785715200753,
+          "reasons": [
+            "outside_window"
+          ]
+        },
+        {
+          "message": 559496,
+          "ts": 1785715200856,
+          "reasons": [
+            "outside_window"
+          ]
+        },
+        {
+          "message": 559497,
+          "ts": 1785715200954,
+          "reasons": [
+            "outside_window"
+          ]
+        },
+        {
+          "message": 559498,
+          "ts": 1785715201054,
+          "reasons": [
+            "outside_window"
+          ]
+        }
+      ],
+      "all_messages_processed": true,
+      "sequence_completeness_proven": false,
+      "fill_or_liquidation_validated": false
+    }
+  ],
+  "historical_90d_depth_admitted": false,
+  "r2_freeze_ready": false
+}
