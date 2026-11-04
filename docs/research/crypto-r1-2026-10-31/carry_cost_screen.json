@@ -1,0 +1,735 @@
+{
+  "scope": "funding-only development diagnostic, hypothetical costs",
+  "funding_manifest_sha256": "16573c2980637ae5e1e4ef2f498e36c6606ef4842f9022739bb7a0b91bfb6422",
+  "source_responses": [
+    {
+      "file": "0006.json",
+      "sha256": "a0bb0ba28df9808f4d1db0a57e1a2acf8b2b764aa86e28653a5b481d43a06dc1"
+    },
+    {
+      "file": "0007.json",
+      "sha256": "43e538dde5c34a5e201b8f9fe70adfc121e70c352e15dfc98ff5a3f1111023fb"
+    },
+    {
+      "file": "0013.json",
+      "sha256": "c15194b64e9523c33058cf0c5e5bf52c14f49cb2c284623da78736510f9e5f48"
+    },
+    {
+      "file": "0014.json",
+      "sha256": "11552d276fd2b39ffde23908a61d2772333335c3e9841726b1d1f0a9fffc943d"
+    }
+  ],
+  "other_cost_bps": "0",
+  "roundtrip_cost_cases_bps": [
+    "0",
+    "15",
+    "24",
+    "31",
+    "62"
+  ],
+  "results": {
+    "BTCUSDT": {
+      "decisions": 83,
+      "settlements": 270,
+      "max_funding_bps": "15.91590000",
+      "max_dates": [
+        "2026-08-26"
+      ],
+      "min_funding_bps": "3.56700000",
+      "max_roundtrip_cost_ceiling_bps_exclusive": "7.95795000",
+      "pass_counts": {
+        "0": 83,
+        "15": 0,
+        "24": 0,
+        "31": 0,
+        "62": 0
+      },
+      "rows": [
+        {
+          "decision_date": "2026-08-09",
+          "funding_bps": "7.06020000"
+        },
+        {
+          "decision_date": "2026-08-10",
+          "funding_bps": "6.71580000"
+        },
+        {
+          "decision_date": "2026-08-11",
+          "funding_bps": "7.62650000"
+        },
+        {
+          "decision_date": "2026-08-12",
+          "funding_bps": "6.60140000"
+        },
+        {
+          "decision_date": "2026-08-13",
+          "funding_bps": "6.66550000"
+        },
+        {
+          "decision_date": "2026-08-14",
+          "funding_bps": "7.76480000"
+        },
+        {
+          "decision_date": "2026-08-15",
+          "funding_bps": "8.02120000"
+        },
+        {
+          "decision_date": "2026-08-16",
+          "funding_bps": "8.90340000"
+        },
+        {
+          "decision_date": "2026-08-17",
+          "funding_bps": "8.80650000"
+        },
+        {
+          "decision_date": "2026-08-18",
+          "funding_bps": "8.13130000"
+        },
+        {
+          "decision_date": "2026-08-19",
+          "funding_bps": "7.88940000"
+        },
+        {
+          "decision_date": "2026-08-20",
+          "funding_bps": "7.81090000"
+        },
+        {
+          "decision_date": "2026-08-21",
+          "funding_bps": "8.10860000"
+        },
+        {
+          "decision_date": "2026-08-22",
+          "funding_bps": "9.59670000"
+        },
+        {
+          "decision_date": "2026-08-23",
+          "funding_bps": "10.99720000"
+        },
+        {
+          "decision_date": "2026-08-24",
+          "funding_bps": "13.27460000"
+        },
+        {
+          "decision_date": "2026-08-25",
+          "funding_bps": "15.04670000"
+        },
+        {
+          "decision_date": "2026-08-26",
+          "funding_bps": "15.91590000"
+        },
+        {
+          "decision_date": "2026-08-27",
+          "funding_bps": "15.30120000"
+        },
+        {
+          "decision_date": "2026-08-28",
+          "funding_bps": "14.53850000"
+        },
+        {
+          "decision_date": "2026-08-29",
+          "funding_bps": "13.87350000"
+        },
+        {
+          "decision_date": "2026-08-30",
+          "funding_bps": "12.77140000"
+        },
+        {
+          "decision_date": "2026-08-31",
+          "funding_bps": "11.56560000"
+        },
+        {
+          "decision_date": "2026-09-01",
+          "funding_bps": "10.66260000"
+        },
+        {
+          "decision_date": "2026-09-02",
+          "funding_bps": "10.42840000"
+        },
+        {
+          "decision_date": "2026-09-03",
+          "funding_bps": "11.39070000"
+        },
+        {
+          "decision_date": "2026-09-04",
+          "funding_bps": "12.84680000"
+        },
+        {
+          "decision_date": "2026-09-05",
+          "funding_bps": "13.24060000"
+        },
+        {
+          "decision_date": "2026-09-06",
+          "funding_bps": "11.11060000"
+        },
+        {
+          "decision_date": "2026-09-07",
+          "funding_bps": "9.98320000"
+        },
+        {
+          "decision_date": "2026-09-08",
+          "funding_bps": "8.41960000"
+        },
+        {
+          "decision_date": "2026-09-09",
+          "funding_bps": "8.19760000"
+        },
+        {
+          "decision_date": "2026-09-10",
+          "funding_bps": "8.54440000"
+        },
+        {
+          "decision_date": "2026-09-11",
+          "funding_bps": "7.37830000"
+        },
+        {
+          "decision_date": "2026-09-12",
+          "funding_bps": "6.77820000"
+        },
+        {
+          "decision_date": "2026-09-13",
+          "funding_bps": "7.56840000"
+        },
+        {
+          "decision_date": "2026-09-14",
+          "funding_bps": "8.30000000"
+        },
+        {
+          "decision_date": "2026-09-15",
+          "funding_bps": "9.35100000"
+        },
+        {
+          "decision_date": "2026-09-16",
+          "funding_bps": "8.85390000"
+        },
+        {
+          "decision_date": "2026-09-17",
+          "funding_bps": "8.43630000"
+        },
+        {
+          "decision_date": "2026-09-18",
+          "funding_bps": "8.94240000"
+        },
+        {
+          "decision_date": "2026-09-19",
+          "funding_bps": "9.73500000"
+        },
+        {
+          "decision_date": "2026-09-20",
+          "funding_bps": "11.93320000"
+        },
+        {
+          "decision_date": "2026-09-21",
+          "funding_bps": "12.32930000"
+        },
+        {
+          "decision_date": "2026-09-22",
+          "funding_bps": "13.57130000"
+        },
+        {
+          "decision_date": "2026-09-23",
+          "funding_bps": "15.09930000"
+        },
+        {
+          "decision_date": "2026-09-24",
+          "funding_bps": "15.29000000"
+        },
+        {
+          "decision_date": "2026-09-25",
+          "funding_bps": "13.51650000"
+        },
+        {
+          "decision_date": "2026-09-26",
+          "funding_bps": "11.63910000"
+        },
+        {
+          "decision_date": "2026-09-27",
+          "funding_bps": "9.12900000"
+        },
+        {
+          "decision_date": "2026-09-28",
+          "funding_bps": "8.41690000"
+        },
+        {
+          "decision_date": "2026-09-29",
+          "funding_bps": "5.93660000"
+        },
+        {
+          "decision_date": "2026-09-30",
+          "funding_bps": "4.20780000"
+        },
+        {
+          "decision_date": "2026-10-01",
+          "funding_bps": "3.56700000"
+        },
+        {
+          "decision_date": "2026-10-02",
+          "funding_bps": "4.88220000"
+        },
+        {
+          "decision_date": "2026-10-03",
+          "funding_bps": "7.22070000"
+        },
+        {
+          "decision_date": "2026-10-04",
+          "funding_bps": "6.12030000"
+        },
+        {
+          "decision_date": "2026-10-05",
+          "funding_bps": "5.88540000"
+        },
+        {
+          "decision_date": "2026-10-06",
+          "funding_bps": "7.04070000"
+        },
+        {
+          "decision_date": "2026-10-07",
+          "funding_bps": "7.20430000"
+        },
+        {
+          "decision_date": "2026-10-08",
+          "funding_bps": "6.42000000"
+        },
+        {
+          "decision_date": "2026-10-09",
+          "funding_bps": "5.45380000"
+        },
+        {
+          "decision_date": "2026-10-10",
+          "funding_bps": "4.56190000"
+        },
+        {
+          "decision_date": "2026-10-11",
+          "funding_bps": "5.13750000"
+        },
+        {
+          "decision_date": "2026-10-12",
+          "funding_bps": "4.32310000"
+        },
+        {
+          "decision_date": "2026-10-13",
+          "funding_bps": "3.96610000"
+        },
+        {
+          "decision_date": "2026-10-14",
+          "funding_bps": "4.30810000"
+        },
+        {
+          "decision_date": "2026-10-15",
+          "funding_bps": "4.32780000"
+        },
+        {
+          "decision_date": "2026-10-16",
+          "funding_bps": "5.49110000"
+        },
+        {
+          "decision_date": "2026-10-17",
+          "funding_bps": "5.61200000"
+        },
+        {
+          "decision_date": "2026-10-18",
+          "funding_bps": "7.53880000"
+        },
+        {
+          "decision_date": "2026-10-19",
+          "funding_bps": "8.52250000"
+        },
+        {
+          "decision_date": "2026-10-20",
+          "funding_bps": "8.81760000"
+        },
+        {
+          "decision_date": "2026-10-21",
+          "funding_bps": "9.57530000"
+        },
+        {
+          "decision_date": "2026-10-22",
+          "funding_bps": "12.17970000"
+        },
+        {
+          "decision_date": "2026-10-23",
+          "funding_bps": "11.47000000"
+        },
+        {
+          "decision_date": "2026-10-24",
+          "funding_bps": "10.91700000"
+        },
+        {
+          "decision_date": "2026-10-25",
+          "funding_bps": "10.14290000"
+        },
+        {
+          "decision_date": "2026-10-26",
+          "funding_bps": "10.93160000"
+        },
+        {
+          "decision_date": "2026-10-27",
+          "funding_bps": "11.36160000"
+        },
+        {
+          "decision_date": "2026-10-28",
+          "funding_bps": "11.60920000"
+        },
+        {
+          "decision_date": "2026-10-29",
+          "funding_bps": "11.32080000"
+        },
+        {
+          "decision_date": "2026-10-30",
+          "funding_bps": "12.08690000"
+        }
+      ]
+    },
+    "ETHUSDT": {
+      "decisions": 83,
+      "settlements": 270,
+      "max_funding_bps": "17.96040000",
+      "max_dates": [
+        "2026-08-26"
+      ],
+      "min_funding_bps": "0.79770000",
+      "max_roundtrip_cost_ceiling_bps_exclusive": "8.98020000",
+      "pass_counts": {
+        "0": 83,
+        "15": 0,
+        "24": 0,
+        "31": 0,
+        "62": 0
+      },
+      "rows": [
+        {
+          "decision_date": "2026-08-09",
+          "funding_bps": "4.65400000"
+        },
+        {
+          "decision_date": "2026-08-10",
+          "funding_bps": "5.31120000"
+        },
+        {
+          "decision_date": "2026-08-11",
+          "funding_bps": "6.00810000"
+        },
+        {
+          "decision_date": "2026-08-12",
+          "funding_bps": "5.55130000"
+        },
+        {
+          "decision_date": "2026-08-13",
+          "funding_bps": "7.25060000"
+        },
+        {
+          "decision_date": "2026-08-14",
+          "funding_bps": "8.06450000"
+        },
+        {
+          "decision_date": "2026-08-15",
+          "funding_bps": "8.17730000"
+        },
+        {
+          "decision_date": "2026-08-16",
+          "funding_bps": "9.28360000"
+        },
+        {
+          "decision_date": "2026-08-17",
+          "funding_bps": "9.67900000"
+        },
+        {
+          "decision_date": "2026-08-18",
+          "funding_bps": "9.79520000"
+        },
+        {
+          "decision_date": "2026-08-19",
+          "funding_bps": "10.25810000"
+        },
+        {
+          "decision_date": "2026-08-20",
+          "funding_bps": "10.10590000"
+        },
+        {
+          "decision_date": "2026-08-21",
+          "funding_bps": "11.08150000"
+        },
+        {
+          "decision_date": "2026-08-22",
+          "funding_bps": "12.93650000"
+        },
+        {
+          "decision_date": "2026-08-23",
+          "funding_bps": "14.75710000"
+        },
+        {
+          "decision_date": "2026-08-24",
+          "funding_bps": "15.88990000"
+        },
+        {
+          "decision_date": "2026-08-25",
+          "funding_bps": "17.39560000"
+        },
+        {
+          "decision_date": "2026-08-26",
+          "funding_bps": "17.96040000"
+        },
+        {
+          "decision_date": "2026-08-27",
+          "funding_bps": "16.63070000"
+        },
+        {
+          "decision_date": "2026-08-28",
+          "funding_bps": "14.91800000"
+        },
+        {
+          "decision_date": "2026-08-29",
+          "funding_bps": "13.22690000"
+        },
+        {
+          "decision_date": "2026-08-30",
+          "funding_bps": "10.82120000"
+        },
+        {
+          "decision_date": "2026-08-31",
+          "funding_bps": "8.70470000"
+        },
+        {
+          "decision_date": "2026-09-01",
+          "funding_bps": "7.52050000"
+        },
+        {
+          "decision_date": "2026-09-02",
+          "funding_bps": "7.61300000"
+        },
+        {
+          "decision_date": "2026-09-03",
+          "funding_bps": "7.92920000"
+        },
+        {
+          "decision_date": "2026-09-04",
+          "funding_bps": "9.34130000"
+        },
+        {
+          "decision_date": "2026-09-05",
+          "funding_bps": "10.70050000"
+        },
+        {
+          "decision_date": "2026-09-06",
+          "funding_bps": "10.91200000"
+        },
+        {
+          "decision_date": "2026-09-07",
+          "funding_bps": "10.98190000"
+        },
+        {
+          "decision_date": "2026-09-08",
+          "funding_bps": "10.19290000"
+        },
+        {
+          "decision_date": "2026-09-09",
+          "funding_bps": "9.63800000"
+        },
+        {
+          "decision_date": "2026-09-10",
+          "funding_bps": "10.13670000"
+        },
+        {
+          "decision_date": "2026-09-11",
+          "funding_bps": "6.75810000"
+        },
+        {
+          "decision_date": "2026-09-12",
+          "funding_bps": "6.03620000"
+        },
+        {
+          "decision_date": "2026-09-13",
+          "funding_bps": "5.64130000"
+        },
+        {
+          "decision_date": "2026-09-14",
+          "funding_bps": "5.77380000"
+        },
+        {
+          "decision_date": "2026-09-15",
+          "funding_bps": "6.36750000"
+        },
+        {
+          "decision_date": "2026-09-16",
+          "funding_bps": "4.39110000"
+        },
+        {
+          "decision_date": "2026-09-17",
+          "funding_bps": "2.33360000"
+        },
+        {
+          "decision_date": "2026-09-18",
+          "funding_bps": "4.23630000"
+        },
+        {
+          "decision_date": "2026-09-19",
+          "funding_bps": "4.78530000"
+        },
+        {
+          "decision_date": "2026-09-20",
+          "funding_bps": "7.37440000"
+        },
+        {
+          "decision_date": "2026-09-21",
+          "funding_bps": "7.66960000"
+        },
+        {
+          "decision_date": "2026-09-22",
+          "funding_bps": "8.73420000"
+        },
+        {
+          "decision_date": "2026-09-23",
+          "funding_bps": "11.39930000"
+        },
+        {
+          "decision_date": "2026-09-24",
+          "funding_bps": "13.16960000"
+        },
+        {
+          "decision_date": "2026-09-25",
+          "funding_bps": "13.43730000"
+        },
+        {
+          "decision_date": "2026-09-26",
+          "funding_bps": "11.44200000"
+        },
+        {
+          "decision_date": "2026-09-27",
+          "funding_bps": "9.03350000"
+        },
+        {
+          "decision_date": "2026-09-28",
+          "funding_bps": "9.15990000"
+        },
+        {
+          "decision_date": "2026-09-29",
+          "funding_bps": "6.59270000"
+        },
+        {
+          "decision_date": "2026-09-30",
+          "funding_bps": "7.19340000"
+        },
+        {
+          "decision_date": "2026-10-01",
+          "funding_bps": "7.43830000"
+        },
+        {
+          "decision_date": "2026-10-02",
+          "funding_bps": "7.91460000"
+        },
+        {
+          "decision_date": "2026-10-03",
+          "funding_bps": "9.40770000"
+        },
+        {
+          "decision_date": "2026-10-04",
+          "funding_bps": "8.65540000"
+        },
+        {
+          "decision_date": "2026-10-05",
+          "funding_bps": "8.97890000"
+        },
+        {
+          "decision_date": "2026-10-06",
+          "funding_bps": "10.31020000"
+        },
+        {
+          "decision_date": "2026-10-07",
+          "funding_bps": "9.07760000"
+        },
+        {
+          "decision_date": "2026-10-08",
+          "funding_bps": "7.86040000"
+        },
+        {
+          "decision_date": "2026-10-09",
+          "funding_bps": "5.58030000"
+        },
+        {
+          "decision_date": "2026-10-10",
+          "funding_bps": "3.96250000"
+        },
+        {
+          "decision_date": "2026-10-11",
+          "funding_bps": "4.36030000"
+        },
+        {
+          "decision_date": "2026-10-12",
+          "funding_bps": "1.86980000"
+        },
+        {
+          "decision_date": "2026-10-13",
+          "funding_bps": "1.38440000"
+        },
+        {
+          "decision_date": "2026-10-14",
+          "funding_bps": "0.79770000"
+        },
+        {
+          "decision_date": "2026-10-15",
+          "funding_bps": "0.92860000"
+        },
+        {
+          "decision_date": "2026-10-16",
+          "funding_bps": "3.43000000"
+        },
+        {
+          "decision_date": "2026-10-17",
+          "funding_bps": "5.01870000"
+        },
+        {
+          "decision_date": "2026-10-18",
+          "funding_bps": "6.92510000"
+        },
+        {
+          "decision_date": "2026-10-19",
+          "funding_bps": "8.28270000"
+        },
+        {
+          "decision_date": "2026-10-20",
+          "funding_bps": "8.37090000"
+        },
+        {
+          "decision_date": "2026-10-21",
+          "funding_bps": "8.72860000"
+        },
+        {
+          "decision_date": "2026-10-22",
+          "funding_bps": "11.02610000"
+        },
+        {
+          "decision_date": "2026-10-23",
+          "funding_bps": "9.36870000"
+        },
+        {
+          "decision_date": "2026-10-24",
+          "funding_bps": "8.78490000"
+        },
+        {
+          "decision_date": "2026-10-25",
+          "funding_bps": "7.48940000"
+        },
+        {
+          "decision_date": "2026-10-26",
+          "funding_bps": "8.48310000"
+        },
+        {
+          "decision_date": "2026-10-27",
+          "funding_bps": "8.09650000"
+        },
+        {
+          "decision_date": "2026-10-28",
+          "funding_bps": "8.73170000"
+        },
+        {
+          "decision_date": "2026-10-29",
+          "funding_bps": "8.49010000"
+        },
+        {
+          "decision_date": "2026-10-30",
+          "funding_bps": "9.65460000"
+        }
+      ]
+    }
+  },
+  "r2_freeze_ready": false
+}

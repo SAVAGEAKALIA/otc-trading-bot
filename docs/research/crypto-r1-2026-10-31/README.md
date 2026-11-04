@@ -14,6 +14,8 @@ Evidence collected October 31, 2026; integrated November 1, 2026. R1 was explici
 
 ## What was actually collected
 
+The [funding-only cost screen](carry_cost_decision.md) found no BTC/ETH entries under the provisional VIP 0 taker scenario, even with spread and impact set to zero. Defer the rest of the depth download for this candidate until a verified cost or a separately defined hypothesis justifies it.
+
 The [90-day catalog inventory](depth_inventory_and_margin.md) confirms 360 listed depth archives totaling 37.95 GB. Four October 30 files have passed full replay. Effective-dated historical margin tiers remain unverified.
 
 November 4 follow-up: [all four October 30 depth archives passed complete transfer and full replay](full_day_archive.md). This validates the bounded sample and closes its earlier transfer gap. Historical rule and full-window depth admission remain open.
