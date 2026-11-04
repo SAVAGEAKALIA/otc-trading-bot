@@ -14,6 +14,8 @@ Evidence collected October 31, 2026; integrated November 1, 2026. R1 was explici
 
 ## What was actually collected
 
+The [90-day catalog inventory](depth_inventory_and_margin.md) confirms 360 listed depth archives totaling 37.95 GB. Four October 30 files have passed full replay. Effective-dated historical margin tiers remain unverified.
+
 November 4 follow-up: [all four October 30 depth archives passed complete transfer and full replay](full_day_archive.md). This validates the bounded sample and closes its earlier transfer gap. Historical rule and full-window depth admission remain open.
 
 Later November 2 update: [official archive provenance is now verified](archive_provenance.md) for the four sampled files. Complete-file download was stopped after slow transfers and a range-test timeout; retained files are explicitly partial. CRC, full-day replay and historical rule admission remain pending.
