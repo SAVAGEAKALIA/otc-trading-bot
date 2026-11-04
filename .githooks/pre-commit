@@ -3,4 +3,5 @@
 set -eu
 python3 -m unittest discover -s services/market_data_r1/tests -q
 python3 -m unittest discover -s services/research_r1/tests -q
+python3 -m unittest discover -s services/archive_transfer_r1/tests -q
 git diff --cached --check

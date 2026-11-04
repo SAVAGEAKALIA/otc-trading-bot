@@ -128,3 +128,5 @@ docs/research/**/__pycache__/
 !services/market_data_r1/**/*.py
 !services/research_r1/**/*.py
 !services/research_r1/config.example.json
+
+!services/archive_transfer_r1/**/*.py
