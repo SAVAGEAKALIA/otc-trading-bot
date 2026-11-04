@@ -4,6 +4,8 @@ Research date: November 2, 2026. This addendum supersedes only the **unverified 
 
 ## Result
 
+November 4 update: [the four downloads and full replays are complete](full_day_archive.md). The interrupted transfer below is retained as the original attempt record.
+
 A fresh visible Chromium session loaded the [official historical-data page](https://www.bybit.com/en/derivative-activity/history-data). Its public JavaScript calls `/quote/public/support/download/list-products`, `list-options` and `list-files` through the site's `/x-api/` route. The product response names OrderBook. The official file-list responses return the exact four October 30 BTCUSDT/ETHUSDT spot/perpetual ZIP URLs on `quote-saver.bycsi.com`, with sizes matching the earlier candidate probes.
 
 This establishes that Bybit's public download catalog publishes these exact links. It does not establish legal ownership of every host, verify every file ever hosted there, or certify correctness and completeness of the downloaded market data. The earlier third-party lead is now corroborated by a primary-source link chain.
