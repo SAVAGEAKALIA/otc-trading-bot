@@ -1,5 +1,7 @@
 # D3 spot trend data readiness
 
+Follow-up: the [completed quote check](spot_quote_readiness.md) now covers all 15 symbol/date windows across the nine decision dates. The one-date probe and open coverage gap below describe the original readiness checkpoint.
+
 November 5, 2026. BTCUSDT and ETHUSDT each have 190 consecutive completed daily spot candles from April 24 through October 30 UTC. The first 100 are warm-up for the original 20/55/100 entry lookbacks. The 90 subsequent signal bars overlap the earlier R1 snapshot exactly for each symbol. Source URLs, hashes and coverage are in the [preview manifest](spot_trend_preview.json). [Bybit daily kline contract](https://bybit-exchange.github.io/docs/v5/market/kline)
 
 The preview applies the existing strict conditions to every eligible completed close. It excludes the signal bar from the preceding high/low threshold. August 2 through October 30 are **signal-bar dates**. The corresponding scheduled decisions run August 3 through October 31 at 00:05 UTC. A retrospective daily response verifies candle contents. Historical publication before the decision remains unverified. [Existing comparator specification](experiment_spec.md)

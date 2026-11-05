@@ -1,0 +1,198 @@
+{
+  "scope": "public tutorial source captures and local diagnostic evidence; not video transcripts or deployment verification",
+  "preserved_at_utc": "2026-11-05T03:36:48.995522+00:00",
+  "storage": "ignored local data; no off-host replication",
+  "freecodecamp_source_commit": "d549ec2a15f0f6a5738ebfc54213afc944b2af36",
+  "missing_capture_timestamps": "null means original retrieval time was not recorded; preservation time is not retrieval time",
+  "sources": [
+    {
+      "local_path": "data/research/r1-tutorial-sources-20261105/freecodecamp/finished-momentum_calculator.py",
+      "source_url": "https://raw.githubusercontent.com/nickmccullum/algorithmic-trading/d549ec2a15f0f6a5738ebfc54213afc944b2af36/project1/trading/services/momentum_calculator.py",
+      "source_retrieved_at_utc": null,
+      "bytes": 14160,
+      "sha256": "6fb2a18f044b80659a86064e917c1bb8f639921df76c016d604febfcd7844c56"
+    },
+    {
+      "local_path": "data/research/r1-tutorial-sources-20261105/freecodecamp/finished-strategy_engine.py",
+      "source_url": "https://raw.githubusercontent.com/nickmccullum/algorithmic-trading/d549ec2a15f0f6a5738ebfc54213afc944b2af36/project1/trading/services/strategy_engine.py",
+      "source_retrieved_at_utc": null,
+      "bytes": 12918,
+      "sha256": "52a0e8b39408989f3352098cf7262f974c641bb1f80790d94dab282a110bc5e7"
+    },
+    {
+      "local_path": "data/research/r1-tutorial-sources-20261105/freecodecamp/finished-snaptrade_client.py",
+      "source_url": "https://raw.githubusercontent.com/nickmccullum/algorithmic-trading/d549ec2a15f0f6a5738ebfc54213afc944b2af36/project1/trading/services/snaptrade_client.py",
+      "source_retrieved_at_utc": null,
+      "bytes": 11818,
+      "sha256": "2740c8c4fe3e88f7c6e2707fc6574af1a9dd5853aa5bf21c8339664146006231"
+    },
+    {
+      "local_path": "data/research/r1-tutorial-sources-20261105/freecodecamp/variant-trading-views.py",
+      "source_url": "https://raw.githubusercontent.com/nickmccullum/algorithmic-trading/d549ec2a15f0f6a5738ebfc54213afc944b2af36/project1/trading/views.py",
+      "source_retrieved_at_utc": null,
+      "bytes": 28398,
+      "sha256": "e28981edab466794c35b0998690b012ad32729149683171b9dfaeecf72b4b73d"
+    },
+    {
+      "local_path": "data/research/r1-tutorial-sources-20261105/freecodecamp/variant-trading-services-massive_client.py",
+      "source_url": "https://raw.githubusercontent.com/nickmccullum/algorithmic-trading/d549ec2a15f0f6a5738ebfc54213afc944b2af36/project1/trading/services/massive_client.py",
+      "source_retrieved_at_utc": null,
+      "bytes": 19267,
+      "sha256": "982d7cf1b680fba74a9d43c40784d1b5fc5d115f3a58d30d6410c0276fc30bf5"
+    },
+    {
+      "local_path": "data/research/r1-tutorial-sources-20261105/freecodecamp/variant-trading-management-commands-execute_rebalance.py",
+      "source_url": "https://raw.githubusercontent.com/nickmccullum/algorithmic-trading/d549ec2a15f0f6a5738ebfc54213afc944b2af36/project1/trading/management/commands/execute_rebalance.py",
+      "source_retrieved_at_utc": null,
+      "bytes": 6212,
+      "sha256": "b478adbd89bb3a5d650d83f0f9353fc340554cea429aa1beb9b311cc8a33f178"
+    },
+    {
+      "local_path": "data/research/r1-tutorial-sources-20261105/freecodecamp/snaptrade.html",
+      "source_url": "https://snaptrade.com/freecodecamp/algorithmic-trading",
+      "source_retrieved_at_utc": null,
+      "bytes": 496261,
+      "sha256": "41543044ee0f375c6a158541921d79a58dc5345dcdab6e9f66235ce1dd7a4889"
+    },
+    {
+      "local_path": "data/research/r1-tutorial-sources-20261105/freecodecamp/finished-README.md",
+      "source_url": "https://raw.githubusercontent.com/nickmccullum/algorithmic-trading/d549ec2a15f0f6a5738ebfc54213afc944b2af36/project1/README.md",
+      "source_retrieved_at_utc": null,
+      "bytes": 9200,
+      "sha256": "4e6cc28a0aa3309416c135a541cc5bbb98168fd3cbcc3e697677b5fd683233af"
+    },
+    {
+      "local_path": "data/research/r1-tutorial-sources-20261105/freecodecamp/oembed.json",
+      "source_url": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DzH2Mg782XhA&format=json",
+      "source_retrieved_at_utc": null,
+      "bytes": 913,
+      "sha256": "e2c9057e48d48f38c90e2c59016ae4470ec88d78b0dc539ba61b5f31158e96ae"
+    },
+    {
+      "local_path": "data/research/r1-tutorial-sources-20261105/diagnostics/variant-source-checks.py",
+      "source_url": null,
+      "source_retrieved_at_utc": null,
+      "bytes": 3694,
+      "sha256": "7562809a68417e731d70f32ffa14aa2475551a3cd38a8db5fe755147a278c108"
+    },
+    {
+      "local_path": "data/research/r1-tutorial-sources-20261105/diagnostics/variant-source-checks.json",
+      "source_url": null,
+      "source_retrieved_at_utc": null,
+      "bytes": 1191,
+      "sha256": "4dce78899960b3761c6189a8f1411abc92c4dbd807f81b0058d04c4ce4b626bd"
+    },
+    {
+      "local_path": "data/research/r1-tutorial-sources-20261105/diagnostics/variant-source-integrity.json",
+      "source_url": null,
+      "source_retrieved_at_utc": null,
+      "bytes": 2016,
+      "sha256": "6321424ee75c21fbb9ccc7e1a46f4ccdc97e75f5eaa194b2a82c4a8c79c30698"
+    },
+    {
+      "local_path": "data/research/r1-tutorial-sources-20261105/additional/embed.html",
+      "source_url": "https://www.youtube.com/embed/R9psI7Bj2MI",
+      "source_retrieved_at_utc": "2026-11-05T03:30:15.379854+00:00",
+      "bytes": 135374,
+      "sha256": "6e497ff0eae6faad5315911e3416106b7ae0856bd68cf61fc9a35d3f729c77cb"
+    },
+    {
+      "local_path": "data/research/r1-tutorial-sources-20261105/additional/input-provenance.json",
+      "source_url": null,
+      "source_retrieved_at_utc": null,
+      "bytes": 730,
+      "sha256": "12cb8d91d34b6dc0a685f86c7bda2b0edcd0c420d6043b6a7318c68c2e5590c8"
+    },
+    {
+      "local_path": "data/research/r1-tutorial-sources-20261105/additional/openzeppelin-safeerc20-v5.sol",
+      "source_url": "https://raw.githubusercontent.com/OpenZeppelin/openzeppelin-contracts/v5.0.2/contracts/token/ERC20/utils/SafeERC20.sol",
+      "source_retrieved_at_utc": "2026-11-05T03:30:15.409063+00:00",
+      "bytes": 5770,
+      "sha256": "471157c89111d7b9eab456b53ebe9042bc69504a64cb5cc980d38da9103379ae"
+    },
+    {
+      "local_path": "data/research/r1-tutorial-sources-20261105/additional/openzeppelin-safeerc20.sol",
+      "source_url": "https://raw.githubusercontent.com/OpenZeppelin/openzeppelin-contracts/v4.9.6/contracts/token/ERC20/utils/SafeERC20.sol",
+      "source_retrieved_at_utc": "2026-11-05T03:30:15.401123+00:00",
+      "bytes": 6936,
+      "sha256": "82dc918d8df553e2461b96595580e565424b407d73dab8a7ce4bde479810fb2a"
+    },
+    {
+      "local_path": "data/research/r1-tutorial-sources-20261105/additional/paste.txt",
+      "source_url": "https://paste.debian.net/plainh/85ed3dae",
+      "source_retrieved_at_utc": "2026-11-05T03:32:17.757086+00:00",
+      "bytes": 9508,
+      "sha256": "ae0abdf8b5713bde0a6a361694cb668f104f7c25e09fa86a7df923043cb83c7d"
+    },
+    {
+      "local_path": "data/research/r1-tutorial-sources-20261105/additional/player.json",
+      "source_url": null,
+      "source_retrieved_at_utc": null,
+      "bytes": 2491,
+      "sha256": "f81148b77a2a939f238a63c46b7f507666f1d5cf1addf0e837b74d4be9a57a16"
+    },
+    {
+      "local_path": "data/research/r1-tutorial-sources-20261105/additional/source-fetches.json",
+      "source_url": null,
+      "source_retrieved_at_utc": null,
+      "bytes": 2397,
+      "sha256": "b3918fbf805012f85c3aa450a1561f476844b2a4d68fafb8b0c17e0f24b32c6b"
+    },
+    {
+      "local_path": "data/research/r1-tutorial-sources-20261105/additional/source-followups.json",
+      "source_url": null,
+      "source_retrieved_at_utc": null,
+      "bytes": 1578,
+      "sha256": "7d779ebaeb278f946511c1493ade965ca344ec19f49ecc4265130af1f40fdf8d"
+    },
+    {
+      "local_path": "data/research/r1-tutorial-sources-20261105/additional/static-checks.json",
+      "source_url": null,
+      "source_retrieved_at_utc": null,
+      "bytes": 1234,
+      "sha256": "1e2e87ad2705475312c3358391ba35f9ef96620a30d23a36434b26a52074c7c1"
+    },
+    {
+      "local_path": "data/research/r1-tutorial-sources-20261105/additional/timedtext-list.xml",
+      "source_url": "https://www.youtube.com/api/timedtext?v=R9psI7Bj2MI&type=list",
+      "source_retrieved_at_utc": "2026-11-05T03:30:58.627631+00:00",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "local_path": "data/research/r1-tutorial-sources-20261105/additional/uniswap-commit.json",
+      "source_url": "https://api.github.com/repos/Uniswap/v3-periphery/commits/main",
+      "source_retrieved_at_utc": "2026-11-05T03:30:57.946430+00:00",
+      "bytes": 6339,
+      "sha256": "75e26c686bfc74d7572b87fb1cd0257972d095e4a776f8111e648414b7908a26"
+    },
+    {
+      "local_path": "data/research/r1-tutorial-sources-20261105/additional/uniswap-path.sol",
+      "source_url": "https://raw.githubusercontent.com/Uniswap/v3-periphery/24ccf014fe7f81d74a14c1689d6fdf123f280e45/contracts/libraries/Path.sol",
+      "source_retrieved_at_utc": "2026-11-05T03:30:59.768701+00:00",
+      "bytes": 2787,
+      "sha256": "42edaa8b6c577bee7a24b2f1d377fa7fb7649526a935040ccdd1a91a7f3b46a0"
+    },
+    {
+      "local_path": "data/research/r1-tutorial-sources-20261105/additional/uniswap-router-interface.sol",
+      "source_url": "https://raw.githubusercontent.com/Uniswap/v3-periphery/24ccf014fe7f81d74a14c1689d6fdf123f280e45/contracts/interfaces/ISwapRouter.sol",
+      "source_retrieved_at_utc": "2026-11-05T03:31:00.398334+00:00",
+      "bytes": 2720,
+      "sha256": "2a20983cecf24e172b51877b60efb052956b8e1ddcaa2fdebf3f54bbf1f5d92e"
+    },
+    {
+      "local_path": "data/research/r1-tutorial-sources-20261105/additional/uniswap-router.sol",
+      "source_url": "https://raw.githubusercontent.com/Uniswap/v3-periphery/24ccf014fe7f81d74a14c1689d6fdf123f280e45/contracts/SwapRouter.sol",
+      "source_retrieved_at_utc": "2026-11-05T03:31:01.017333+00:00",
+      "bytes": 9116,
+      "sha256": "294862900a81290434058b9e777aca7f9db6efc56979ce760fcdbfc82aa32144"
+    },
+    {
+      "local_path": "data/research/r1-tutorial-sources-20261105/additional/video-oembed.json",
+      "source_url": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DR9psI7Bj2MI&format=json",
+      "source_retrieved_at_utc": "2026-11-05T03:32:18.682544+00:00",
+      "bytes": 876,
+      "sha256": "cc17ee50e64d02b1fed00b251ad9e1a6f4a60c0cbedc3028dfed5556780184e4"
+    }
+  ]
+}

@@ -31,6 +31,9 @@ Sources are ranked: official documentation, exchange documentation, peer-reviewe
 | SRC-023 | Paper | https://www.davidhbailey.com/dhbpapers/deflated-sharpe.pdf | Deflated Sharpe ratio | Accepted methodology source |
 | SRC-024 | Paper | https://doi.org/10.1016/j.jfineco.2011.11.003 | Time-series momentum evidence | Hypothesis source only |
 | SRC-025 | Paper | https://doi.org/10.1080/14697680701381228 | Inventory-aware market-making theory | Hypothesis/architecture source only |
+| SRC-026 | Course and pinned source | [freeCodeCamp course](https://www.youtube.com/watch?v=zH2Mg782XhA), [source d549ec2](https://github.com/nickmccullum/algorithmic-trading/tree/d549ec2a15f0f6a5738ebfc54213afc944b2af36/project1) | Stock-momentum paper workflow, source defects, no performance evidence | Metadata, companion and code reviewed 2026-11-05; [review](crypto-r1-2026-10-31/freecodecamp_course_review.md) |
+| SRC-027 | User-supplied video | [Claude AI Trading Review](https://www.youtube.com/watch?v=R9psI7Bj2MI) | Claimed crypto-bot tutorial; attribution and content access limits | Metadata reviewed 2026-11-05; transcript and relationship to paste unverified; [review](crypto-r1-2026-10-31/additional_video_and_paste_review.md) |
+| SRC-028 | User-supplied Solidity source | [MultiHopSwap paste](https://paste.debian.net/plainh/85ed3dae) | Static swap-helper study; no AI, strategy or profit engine | Exact bytes reviewed 2026-11-05; no deployment verified; [review](crypto-r1-2026-10-31/additional_video_and_paste_review.md) |
 
 ## Source maintenance rules
 

@@ -14,7 +14,9 @@ Evidence collected October 31, 2026; integrated November 1, 2026. R1 was explici
 
 ## What was actually collected
 
-The [D3 spot trend preview](spot_trend_readiness.md) now has full daily warm-up coverage and nine next-day quote-check dates. One date has a verified archived quote probe for both symbols. This is a development diagnostic.
+The [D3 spot trend preview](spot_trend_readiness.md) has full daily warm-up coverage. The [completed quote check](spot_quote_readiness.md) found an observed two-sided quote in all 15 symbol/date windows across nine decision dates, including October 31. It does not establish fills or returns. Freeze D3 allocation, holdings and accounting before deriving further order and valuation data requirements.
+
+The [freeCodeCamp course review](freecodecamp_course_review.md) assesses its stock-momentum source as a teaching reference for paper-order workflows. The [additional video and Solidity paste review](additional_video_and_paste_review.md) examines the supplied crypto-bot claim and swap helper separately. Neither changes the registered strategy or supplies performance evidence.
 
 The [funding-only cost screen](carry_cost_decision.md) found no BTC/ETH entries under the provisional VIP 0 taker scenario, even with spread and impact set to zero. Defer the rest of the depth download for this candidate until a verified cost or a separately defined hypothesis justifies it.
 
@@ -38,6 +40,10 @@ The old 121,328-row funding snapshot was copied outside `/tmp` to ignored, conte
 
 | Artifact | Purpose |
 |---|---|
+| [D3 quote evidence](spot_quote_readiness.md) | All 15 archived decision windows, reproduction, tests and adverse eval |
+| [freeCodeCamp course review](freecodecamp_course_review.md) | Exact source identity, verified execution defects and scoped reuse |
+| [Additional video and paste review](additional_video_and_paste_review.md) | Video access limits, swap-helper behavior and source trust boundaries |
+| [Tutorial source manifest](tutorial_sources_manifest.json) | Exact source hashes, public URLs, capture times where recorded and ignored local storage |
 | [Eligibility and benchmark dossier](eligibility_benchmark.md) | Current-source venue/product, fee, USDT benchmark and withdrawal findings; unresolved account fields |
 | [Market-data audit](market_data.md) | Universe, filters, coverage, limitations and exact replay commands |
 | [Experiment specification](experiment_spec.md) | Selected design, candidate definitions, timing, capital, costs, statistical procedure, stop rules and lock blockers |
@@ -87,5 +93,7 @@ Current flags deliberately keep `r2_freeze_ready=false` and `live_enabled=false`
 ## Review and operational status
 
 Independent critic artifacts are stored under `/tmp/crypto-r1/critique/`. Deterministic gate tests and offline adverse-case evals apply; no paid LLM eval is relevant to these non-LLM services. Findings are corrected before delivery, with regressions preserving the failure cases.
+
+November 5 quote/source follow-up: independent quote and source reviews passed at `/tmp/r1-video-review/critique/quote-final.md` and `/tmp/r1-video-review/critique/sources-final.md`. The quote suite has 15 passing tests and 114/114 offline eval scenarios; a saved-evidence regression also rejects the incomplete intermediate result. Status is **DONE_WITH_CONCERNS** for the bounded research delivery. P2: neither video's spoken content was accessible for verification; obtain transcripts or accessible spoken content before attributing instructions or performance claims. P2: the full pre-commit gate exceeds its two-second budget, including the unchanged baseline. Component tests took 10.125 seconds under high CPU contention; the quote test body took 0.381 seconds. Recheck and profile the shared gate on an idle host; no measured shortcut justifies skipping checks. Timing evidence is in `/tmp/r1-video-review/critique/gate-timing-summary.json`.
 
 No service restart is required. Next: resolve the listed account/configuration inputs, then review the final locked R2 experiment before running it. R1 approval does not authorize R2, deposits or live trading.
