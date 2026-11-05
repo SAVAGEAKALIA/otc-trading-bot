@@ -1,0 +1,125 @@
+{
+  "scope": "historical threshold preview only",
+  "source": {
+    "start_utc": "2026-04-24T00:00:00+00:00",
+    "end_exclusive_utc": "2026-10-31T00:00:00+00:00",
+    "scope": "public spot daily warmup feasibility, no strategy run",
+    "records": [
+      {
+        "symbol": "BTCUSDT",
+        "url": "https://api.bybit.com/v5/market/kline?category=spot&symbol=BTCUSDT&interval=D&start=1776988800000&end=1793404799999&limit=200",
+        "sha256": "7aaaec34bf5378766be9eb9fca10afee1b1c583b2a57683a2429e1d40a85eb17",
+        "bytes": 17610,
+        "rows": 190,
+        "prior_sha256": "c6784a209e1c175d44a095cf8d8cce7394f43d6bc893095be2615fc04c87c7a7",
+        "overlap_rows": 90,
+        "overlap_mismatches": []
+      },
+      {
+        "symbol": "ETHUSDT",
+        "url": "https://api.bybit.com/v5/market/kline?category=spot&symbol=ETHUSDT&interval=D&start=1776988800000&end=1793404799999&limit=200",
+        "sha256": "e782001e3da5d89d80fa1e50bec8af913c75580783888b56bdd9724a3b6d88bb",
+        "bytes": 17419,
+        "rows": 190,
+        "prior_sha256": "9c7a893b970456c3fcbdbdc8193ff440a984fbe9f76bc9028695332bc6d587f1",
+        "overlap_rows": 90,
+        "overlap_mismatches": []
+      }
+    ]
+  },
+  "warmup_start": "2026-04-24",
+  "signal_first": "2026-08-02",
+  "signal_last": "2026-10-30",
+  "decision_first": "2026-08-03T00:05:00Z",
+  "decision_last": "2026-10-31T00:05:00Z",
+  "results": {
+    "BTCUSDT": [
+      {
+        "entry_lookback": 20,
+        "exit_lookback": 10,
+        "eligible_signal_days": 90,
+        "entry_condition_dates": [
+          "2026-08-19",
+          "2026-08-20",
+          "2026-08-21",
+          "2026-09-21"
+        ],
+        "exit_condition_dates": [
+          "2026-09-15",
+          "2026-10-08",
+          "2026-10-29",
+          "2026-10-30"
+        ]
+      },
+      {
+        "entry_lookback": 55,
+        "exit_lookback": 20,
+        "eligible_signal_days": 90,
+        "entry_condition_dates": [
+          "2026-08-19",
+          "2026-08-20",
+          "2026-08-21",
+          "2026-09-21"
+        ],
+        "exit_condition_dates": [
+          "2026-09-15",
+          "2026-10-29",
+          "2026-10-30"
+        ]
+      },
+      {
+        "entry_lookback": 100,
+        "exit_lookback": 50,
+        "eligible_signal_days": 90,
+        "entry_condition_dates": [
+          "2026-09-21"
+        ],
+        "exit_condition_dates": []
+      }
+    ],
+    "ETHUSDT": [
+      {
+        "entry_lookback": 20,
+        "exit_lookback": 10,
+        "eligible_signal_days": 90,
+        "entry_condition_dates": [
+          "2026-08-19",
+          "2026-08-21",
+          "2026-09-21"
+        ],
+        "exit_condition_dates": [
+          "2026-09-15",
+          "2026-10-07",
+          "2026-10-08",
+          "2026-10-29"
+        ]
+      },
+      {
+        "entry_lookback": 55,
+        "exit_lookback": 20,
+        "eligible_signal_days": 90,
+        "entry_condition_dates": [
+          "2026-08-19",
+          "2026-08-21",
+          "2026-09-21"
+        ],
+        "exit_condition_dates": [
+          "2026-10-29"
+        ]
+      },
+      {
+        "entry_lookback": 100,
+        "exit_lookback": 50,
+        "eligible_signal_days": 90,
+        "entry_condition_dates": [
+          "2026-08-21",
+          "2026-09-21"
+        ],
+        "exit_condition_dates": [
+          "2026-10-29"
+        ]
+      }
+    ]
+  },
+  "r2_freeze_ready": false
+}

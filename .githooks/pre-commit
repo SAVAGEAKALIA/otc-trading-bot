@@ -6,4 +6,5 @@ python3 -m unittest discover -s services/research_r1/tests -q
 python3 -m unittest discover -s services/archive_transfer_r1/tests -q
 python3 -m unittest discover -s docs/research/crypto-r1-2026-10-31 -p test_carry_cost_screen.py -q
 python3 -m unittest discover -s docs/research/crypto-r1-2026-10-31 -p test_fee_ladder.py -q
+python3 -m unittest discover -s docs/research/crypto-r1-2026-10-31 -p test_spot_trend_preview.py -q
 git diff --cached --check

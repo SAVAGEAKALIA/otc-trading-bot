@@ -1,0 +1,28 @@
+{
+  "scope": "first valid observed update at/after 00:10 UTC, not client receipt or fill",
+  "scheduled_quote_window_start_utc": "2026-10-30T00:10:00Z",
+  "rows": [
+    {
+      "symbol": "BTCUSDT",
+      "archive_sha256": "b8e5b0e5cc5a59e1ebdecfbb73e98215e9247cc9948b740289a01007482c2514",
+      "ts_ms": 1793319000095,
+      "offset_ms": 95,
+      "bid": "77880",
+      "ask": "77880.1",
+      "bid_size": "0.151478",
+      "ask_size": "0.116101",
+      "spread_bps": "0.01284025883393757451362704569"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "archive_sha256": "eea12fb0d75c2c88974a9ec7392003bd4b7b51df894d471e8ae4b77cad40af59",
+      "ts_ms": 1793319000014,
+      "offset_ms": 14,
+      "bid": "2245.54",
+      "ask": "2245.55",
+      "bid_size": "1.15651",
+      "ask_size": "2.2095",
+      "spread_bps": "0.04453261903012409014292744078"
+    }
+  ]
+}
