@@ -27,3 +27,5 @@ python3 -m unittest discover -s docs/research/crypto-r1-2026-10-31 -p test_carry
 ```
 
 Independent review passed at `/tmp/r1-cost/critique/final.md`. The raw-data replay matched the maxima and pass counts. The JSON reproduced byte for byte, and tests caught four mutations of the threshold and boundary rules. Self-rating 9/10. Proud of the acquisition decision. Account fees and historical availability remain unverified. No restart required.
+
+November 5 follow-up: [all seven published fee tiers and 16 execution assignments](fee_ladder_decision.md) preserve the depth deferral for the all-taker candidate.

@@ -1,0 +1,1581 @@
+{
+  "as_of": "2026-11-05",
+  "scope": "published base fees only",
+  "policy_order": [
+    "spot_entry",
+    "spot_exit",
+    "perp_entry",
+    "perp_exit"
+  ],
+  "cases": [
+    {
+      "tier": "VIP 0",
+      "policy": "MMMM",
+      "roundtrip_fee_bps": "24",
+      "strict_threshold_bps": "48",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-16.04205000",
+        "ETHUSDT": "-15.01980000"
+      }
+    },
+    {
+      "tier": "VIP 0",
+      "policy": "MMMT",
+      "roundtrip_fee_bps": "27.5",
+      "strict_threshold_bps": "55.0",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-19.54205000",
+        "ETHUSDT": "-18.51980000"
+      }
+    },
+    {
+      "tier": "VIP 0",
+      "policy": "MMTM",
+      "roundtrip_fee_bps": "27.5",
+      "strict_threshold_bps": "55.0",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-19.54205000",
+        "ETHUSDT": "-18.51980000"
+      }
+    },
+    {
+      "tier": "VIP 0",
+      "policy": "MMTT",
+      "roundtrip_fee_bps": "31.0",
+      "strict_threshold_bps": "62.0",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-23.04205000",
+        "ETHUSDT": "-22.01980000"
+      }
+    },
+    {
+      "tier": "VIP 0",
+      "policy": "MTMM",
+      "roundtrip_fee_bps": "24",
+      "strict_threshold_bps": "48",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-16.04205000",
+        "ETHUSDT": "-15.01980000"
+      }
+    },
+    {
+      "tier": "VIP 0",
+      "policy": "MTMT",
+      "roundtrip_fee_bps": "27.5",
+      "strict_threshold_bps": "55.0",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-19.54205000",
+        "ETHUSDT": "-18.51980000"
+      }
+    },
+    {
+      "tier": "VIP 0",
+      "policy": "MTTM",
+      "roundtrip_fee_bps": "27.5",
+      "strict_threshold_bps": "55.0",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-19.54205000",
+        "ETHUSDT": "-18.51980000"
+      }
+    },
+    {
+      "tier": "VIP 0",
+      "policy": "MTTT",
+      "roundtrip_fee_bps": "31.0",
+      "strict_threshold_bps": "62.0",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-23.04205000",
+        "ETHUSDT": "-22.01980000"
+      }
+    },
+    {
+      "tier": "VIP 0",
+      "policy": "TMMM",
+      "roundtrip_fee_bps": "24",
+      "strict_threshold_bps": "48",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-16.04205000",
+        "ETHUSDT": "-15.01980000"
+      }
+    },
+    {
+      "tier": "VIP 0",
+      "policy": "TMMT",
+      "roundtrip_fee_bps": "27.5",
+      "strict_threshold_bps": "55.0",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-19.54205000",
+        "ETHUSDT": "-18.51980000"
+      }
+    },
+    {
+      "tier": "VIP 0",
+      "policy": "TMTM",
+      "roundtrip_fee_bps": "27.5",
+      "strict_threshold_bps": "55.0",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-19.54205000",
+        "ETHUSDT": "-18.51980000"
+      }
+    },
+    {
+      "tier": "VIP 0",
+      "policy": "TMTT",
+      "roundtrip_fee_bps": "31.0",
+      "strict_threshold_bps": "62.0",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-23.04205000",
+        "ETHUSDT": "-22.01980000"
+      }
+    },
+    {
+      "tier": "VIP 0",
+      "policy": "TTMM",
+      "roundtrip_fee_bps": "24",
+      "strict_threshold_bps": "48",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-16.04205000",
+        "ETHUSDT": "-15.01980000"
+      }
+    },
+    {
+      "tier": "VIP 0",
+      "policy": "TTMT",
+      "roundtrip_fee_bps": "27.5",
+      "strict_threshold_bps": "55.0",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-19.54205000",
+        "ETHUSDT": "-18.51980000"
+      }
+    },
+    {
+      "tier": "VIP 0",
+      "policy": "TTTM",
+      "roundtrip_fee_bps": "27.5",
+      "strict_threshold_bps": "55.0",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-19.54205000",
+        "ETHUSDT": "-18.51980000"
+      }
+    },
+    {
+      "tier": "VIP 0",
+      "policy": "TTTT",
+      "roundtrip_fee_bps": "31.0",
+      "strict_threshold_bps": "62.0",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-23.04205000",
+        "ETHUSDT": "-22.01980000"
+      }
+    },
+    {
+      "tier": "VIP 1",
+      "policy": "MMMM",
+      "roundtrip_fee_bps": "17.10",
+      "strict_threshold_bps": "34.20",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-9.14205000",
+        "ETHUSDT": "-8.11980000"
+      }
+    },
+    {
+      "tier": "VIP 1",
+      "policy": "MMMT",
+      "roundtrip_fee_bps": "19.30",
+      "strict_threshold_bps": "38.60",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-11.34205000",
+        "ETHUSDT": "-10.31980000"
+      }
+    },
+    {
+      "tier": "VIP 1",
+      "policy": "MMTM",
+      "roundtrip_fee_bps": "19.30",
+      "strict_threshold_bps": "38.60",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-11.34205000",
+        "ETHUSDT": "-10.31980000"
+      }
+    },
+    {
+      "tier": "VIP 1",
+      "policy": "MMTT",
+      "roundtrip_fee_bps": "21.50",
+      "strict_threshold_bps": "43.00",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-13.54205000",
+        "ETHUSDT": "-12.51980000"
+      }
+    },
+    {
+      "tier": "VIP 1",
+      "policy": "MTMM",
+      "roundtrip_fee_bps": "18.35",
+      "strict_threshold_bps": "36.70",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-10.39205000",
+        "ETHUSDT": "-9.36980000"
+      }
+    },
+    {
+      "tier": "VIP 1",
+      "policy": "MTMT",
+      "roundtrip_fee_bps": "20.55",
+      "strict_threshold_bps": "41.10",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-12.59205000",
+        "ETHUSDT": "-11.56980000"
+      }
+    },
+    {
+      "tier": "VIP 1",
+      "policy": "MTTM",
+      "roundtrip_fee_bps": "20.55",
+      "strict_threshold_bps": "41.10",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-12.59205000",
+        "ETHUSDT": "-11.56980000"
+      }
+    },
+    {
+      "tier": "VIP 1",
+      "policy": "MTTT",
+      "roundtrip_fee_bps": "22.75",
+      "strict_threshold_bps": "45.50",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-14.79205000",
+        "ETHUSDT": "-13.76980000"
+      }
+    },
+    {
+      "tier": "VIP 1",
+      "policy": "TMMM",
+      "roundtrip_fee_bps": "18.35",
+      "strict_threshold_bps": "36.70",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-10.39205000",
+        "ETHUSDT": "-9.36980000"
+      }
+    },
+    {
+      "tier": "VIP 1",
+      "policy": "TMMT",
+      "roundtrip_fee_bps": "20.55",
+      "strict_threshold_bps": "41.10",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-12.59205000",
+        "ETHUSDT": "-11.56980000"
+      }
+    },
+    {
+      "tier": "VIP 1",
+      "policy": "TMTM",
+      "roundtrip_fee_bps": "20.55",
+      "strict_threshold_bps": "41.10",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-12.59205000",
+        "ETHUSDT": "-11.56980000"
+      }
+    },
+    {
+      "tier": "VIP 1",
+      "policy": "TMTT",
+      "roundtrip_fee_bps": "22.75",
+      "strict_threshold_bps": "45.50",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-14.79205000",
+        "ETHUSDT": "-13.76980000"
+      }
+    },
+    {
+      "tier": "VIP 1",
+      "policy": "TTMM",
+      "roundtrip_fee_bps": "19.6",
+      "strict_threshold_bps": "39.2",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-11.64205000",
+        "ETHUSDT": "-10.61980000"
+      }
+    },
+    {
+      "tier": "VIP 1",
+      "policy": "TTMT",
+      "roundtrip_fee_bps": "21.8",
+      "strict_threshold_bps": "43.6",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-13.84205000",
+        "ETHUSDT": "-12.81980000"
+      }
+    },
+    {
+      "tier": "VIP 1",
+      "policy": "TTTM",
+      "roundtrip_fee_bps": "21.8",
+      "strict_threshold_bps": "43.6",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-13.84205000",
+        "ETHUSDT": "-12.81980000"
+      }
+    },
+    {
+      "tier": "VIP 1",
+      "policy": "TTTT",
+      "roundtrip_fee_bps": "24",
+      "strict_threshold_bps": "48",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-16.04205000",
+        "ETHUSDT": "-15.01980000"
+      }
+    },
+    {
+      "tier": "VIP 2",
+      "policy": "MMMM",
+      "roundtrip_fee_bps": "16.2",
+      "strict_threshold_bps": "32.4",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-8.24205000",
+        "ETHUSDT": "-7.21980000"
+      }
+    },
+    {
+      "tier": "VIP 2",
+      "policy": "MMMT",
+      "roundtrip_fee_bps": "18.35",
+      "strict_threshold_bps": "36.70",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-10.39205000",
+        "ETHUSDT": "-9.36980000"
+      }
+    },
+    {
+      "tier": "VIP 2",
+      "policy": "MMTM",
+      "roundtrip_fee_bps": "18.35",
+      "strict_threshold_bps": "36.70",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-10.39205000",
+        "ETHUSDT": "-9.36980000"
+      }
+    },
+    {
+      "tier": "VIP 2",
+      "policy": "MMTT",
+      "roundtrip_fee_bps": "20.50",
+      "strict_threshold_bps": "41.00",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-12.54205000",
+        "ETHUSDT": "-11.51980000"
+      }
+    },
+    {
+      "tier": "VIP 2",
+      "policy": "MTMM",
+      "roundtrip_fee_bps": "17.45",
+      "strict_threshold_bps": "34.90",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-9.49205000",
+        "ETHUSDT": "-8.46980000"
+      }
+    },
+    {
+      "tier": "VIP 2",
+      "policy": "MTMT",
+      "roundtrip_fee_bps": "19.60",
+      "strict_threshold_bps": "39.20",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-11.64205000",
+        "ETHUSDT": "-10.61980000"
+      }
+    },
+    {
+      "tier": "VIP 2",
+      "policy": "MTTM",
+      "roundtrip_fee_bps": "19.60",
+      "strict_threshold_bps": "39.20",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-11.64205000",
+        "ETHUSDT": "-10.61980000"
+      }
+    },
+    {
+      "tier": "VIP 2",
+      "policy": "MTTT",
+      "roundtrip_fee_bps": "21.75",
+      "strict_threshold_bps": "43.50",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-13.79205000",
+        "ETHUSDT": "-12.76980000"
+      }
+    },
+    {
+      "tier": "VIP 2",
+      "policy": "TMMM",
+      "roundtrip_fee_bps": "17.45",
+      "strict_threshold_bps": "34.90",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-9.49205000",
+        "ETHUSDT": "-8.46980000"
+      }
+    },
+    {
+      "tier": "VIP 2",
+      "policy": "TMMT",
+      "roundtrip_fee_bps": "19.60",
+      "strict_threshold_bps": "39.20",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-11.64205000",
+        "ETHUSDT": "-10.61980000"
+      }
+    },
+    {
+      "tier": "VIP 2",
+      "policy": "TMTM",
+      "roundtrip_fee_bps": "19.60",
+      "strict_threshold_bps": "39.20",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-11.64205000",
+        "ETHUSDT": "-10.61980000"
+      }
+    },
+    {
+      "tier": "VIP 2",
+      "policy": "TMTT",
+      "roundtrip_fee_bps": "21.75",
+      "strict_threshold_bps": "43.50",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-13.79205000",
+        "ETHUSDT": "-12.76980000"
+      }
+    },
+    {
+      "tier": "VIP 2",
+      "policy": "TTMM",
+      "roundtrip_fee_bps": "18.70",
+      "strict_threshold_bps": "37.40",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-10.74205000",
+        "ETHUSDT": "-9.71980000"
+      }
+    },
+    {
+      "tier": "VIP 2",
+      "policy": "TTMT",
+      "roundtrip_fee_bps": "20.85",
+      "strict_threshold_bps": "41.70",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-12.89205000",
+        "ETHUSDT": "-11.86980000"
+      }
+    },
+    {
+      "tier": "VIP 2",
+      "policy": "TTTM",
+      "roundtrip_fee_bps": "20.85",
+      "strict_threshold_bps": "41.70",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-12.89205000",
+        "ETHUSDT": "-11.86980000"
+      }
+    },
+    {
+      "tier": "VIP 2",
+      "policy": "TTTT",
+      "roundtrip_fee_bps": "23.00",
+      "strict_threshold_bps": "46.00",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-15.04205000",
+        "ETHUSDT": "-14.01980000"
+      }
+    },
+    {
+      "tier": "VIP 3",
+      "policy": "MMMM",
+      "roundtrip_fee_bps": "15.30",
+      "strict_threshold_bps": "30.60",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-7.34205000",
+        "ETHUSDT": "-6.31980000"
+      }
+    },
+    {
+      "tier": "VIP 3",
+      "policy": "MMMT",
+      "roundtrip_fee_bps": "17.40",
+      "strict_threshold_bps": "34.80",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-9.44205000",
+        "ETHUSDT": "-8.41980000"
+      }
+    },
+    {
+      "tier": "VIP 3",
+      "policy": "MMTM",
+      "roundtrip_fee_bps": "17.40",
+      "strict_threshold_bps": "34.80",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-9.44205000",
+        "ETHUSDT": "-8.41980000"
+      }
+    },
+    {
+      "tier": "VIP 3",
+      "policy": "MMTT",
+      "roundtrip_fee_bps": "19.50",
+      "strict_threshold_bps": "39.00",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-11.54205000",
+        "ETHUSDT": "-10.51980000"
+      }
+    },
+    {
+      "tier": "VIP 3",
+      "policy": "MTMM",
+      "roundtrip_fee_bps": "16.55",
+      "strict_threshold_bps": "33.10",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-8.59205000",
+        "ETHUSDT": "-7.56980000"
+      }
+    },
+    {
+      "tier": "VIP 3",
+      "policy": "MTMT",
+      "roundtrip_fee_bps": "18.65",
+      "strict_threshold_bps": "37.30",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-10.69205000",
+        "ETHUSDT": "-9.66980000"
+      }
+    },
+    {
+      "tier": "VIP 3",
+      "policy": "MTTM",
+      "roundtrip_fee_bps": "18.65",
+      "strict_threshold_bps": "37.30",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-10.69205000",
+        "ETHUSDT": "-9.66980000"
+      }
+    },
+    {
+      "tier": "VIP 3",
+      "policy": "MTTT",
+      "roundtrip_fee_bps": "20.75",
+      "strict_threshold_bps": "41.50",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-12.79205000",
+        "ETHUSDT": "-11.76980000"
+      }
+    },
+    {
+      "tier": "VIP 3",
+      "policy": "TMMM",
+      "roundtrip_fee_bps": "16.55",
+      "strict_threshold_bps": "33.10",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-8.59205000",
+        "ETHUSDT": "-7.56980000"
+      }
+    },
+    {
+      "tier": "VIP 3",
+      "policy": "TMMT",
+      "roundtrip_fee_bps": "18.65",
+      "strict_threshold_bps": "37.30",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-10.69205000",
+        "ETHUSDT": "-9.66980000"
+      }
+    },
+    {
+      "tier": "VIP 3",
+      "policy": "TMTM",
+      "roundtrip_fee_bps": "18.65",
+      "strict_threshold_bps": "37.30",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-10.69205000",
+        "ETHUSDT": "-9.66980000"
+      }
+    },
+    {
+      "tier": "VIP 3",
+      "policy": "TMTT",
+      "roundtrip_fee_bps": "20.75",
+      "strict_threshold_bps": "41.50",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-12.79205000",
+        "ETHUSDT": "-11.76980000"
+      }
+    },
+    {
+      "tier": "VIP 3",
+      "policy": "TTMM",
+      "roundtrip_fee_bps": "17.8",
+      "strict_threshold_bps": "35.6",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-9.84205000",
+        "ETHUSDT": "-8.81980000"
+      }
+    },
+    {
+      "tier": "VIP 3",
+      "policy": "TTMT",
+      "roundtrip_fee_bps": "19.9",
+      "strict_threshold_bps": "39.8",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-11.94205000",
+        "ETHUSDT": "-10.91980000"
+      }
+    },
+    {
+      "tier": "VIP 3",
+      "policy": "TTTM",
+      "roundtrip_fee_bps": "19.9",
+      "strict_threshold_bps": "39.8",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-11.94205000",
+        "ETHUSDT": "-10.91980000"
+      }
+    },
+    {
+      "tier": "VIP 3",
+      "policy": "TTTT",
+      "roundtrip_fee_bps": "22.0",
+      "strict_threshold_bps": "44.0",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-14.04205000",
+        "ETHUSDT": "-13.01980000"
+      }
+    },
+    {
+      "tier": "VIP 4",
+      "policy": "MMMM",
+      "roundtrip_fee_bps": "12.4",
+      "strict_threshold_bps": "24.8",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-4.44205000",
+        "ETHUSDT": "-3.41980000"
+      }
+    },
+    {
+      "tier": "VIP 4",
+      "policy": "MMMT",
+      "roundtrip_fee_bps": "14.4",
+      "strict_threshold_bps": "28.8",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-6.44205000",
+        "ETHUSDT": "-5.41980000"
+      }
+    },
+    {
+      "tier": "VIP 4",
+      "policy": "MMTM",
+      "roundtrip_fee_bps": "14.4",
+      "strict_threshold_bps": "28.8",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-6.44205000",
+        "ETHUSDT": "-5.41980000"
+      }
+    },
+    {
+      "tier": "VIP 4",
+      "policy": "MMTT",
+      "roundtrip_fee_bps": "16.4",
+      "strict_threshold_bps": "32.8",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-8.44205000",
+        "ETHUSDT": "-7.41980000"
+      }
+    },
+    {
+      "tier": "VIP 4",
+      "policy": "MTMM",
+      "roundtrip_fee_bps": "13.4",
+      "strict_threshold_bps": "26.8",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-5.44205000",
+        "ETHUSDT": "-4.41980000"
+      }
+    },
+    {
+      "tier": "VIP 4",
+      "policy": "MTMT",
+      "roundtrip_fee_bps": "15.4",
+      "strict_threshold_bps": "30.8",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-7.44205000",
+        "ETHUSDT": "-6.41980000"
+      }
+    },
+    {
+      "tier": "VIP 4",
+      "policy": "MTTM",
+      "roundtrip_fee_bps": "15.4",
+      "strict_threshold_bps": "30.8",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-7.44205000",
+        "ETHUSDT": "-6.41980000"
+      }
+    },
+    {
+      "tier": "VIP 4",
+      "policy": "MTTT",
+      "roundtrip_fee_bps": "17.4",
+      "strict_threshold_bps": "34.8",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-9.44205000",
+        "ETHUSDT": "-8.41980000"
+      }
+    },
+    {
+      "tier": "VIP 4",
+      "policy": "TMMM",
+      "roundtrip_fee_bps": "13.4",
+      "strict_threshold_bps": "26.8",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-5.44205000",
+        "ETHUSDT": "-4.41980000"
+      }
+    },
+    {
+      "tier": "VIP 4",
+      "policy": "TMMT",
+      "roundtrip_fee_bps": "15.4",
+      "strict_threshold_bps": "30.8",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-7.44205000",
+        "ETHUSDT": "-6.41980000"
+      }
+    },
+    {
+      "tier": "VIP 4",
+      "policy": "TMTM",
+      "roundtrip_fee_bps": "15.4",
+      "strict_threshold_bps": "30.8",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-7.44205000",
+        "ETHUSDT": "-6.41980000"
+      }
+    },
+    {
+      "tier": "VIP 4",
+      "policy": "TMTT",
+      "roundtrip_fee_bps": "17.4",
+      "strict_threshold_bps": "34.8",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-9.44205000",
+        "ETHUSDT": "-8.41980000"
+      }
+    },
+    {
+      "tier": "VIP 4",
+      "policy": "TTMM",
+      "roundtrip_fee_bps": "14.4",
+      "strict_threshold_bps": "28.8",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-6.44205000",
+        "ETHUSDT": "-5.41980000"
+      }
+    },
+    {
+      "tier": "VIP 4",
+      "policy": "TTMT",
+      "roundtrip_fee_bps": "16.4",
+      "strict_threshold_bps": "32.8",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-8.44205000",
+        "ETHUSDT": "-7.41980000"
+      }
+    },
+    {
+      "tier": "VIP 4",
+      "policy": "TTTM",
+      "roundtrip_fee_bps": "16.4",
+      "strict_threshold_bps": "32.8",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-8.44205000",
+        "ETHUSDT": "-7.41980000"
+      }
+    },
+    {
+      "tier": "VIP 4",
+      "policy": "TTTT",
+      "roundtrip_fee_bps": "18.4",
+      "strict_threshold_bps": "36.8",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-10.44205000",
+        "ETHUSDT": "-9.41980000"
+      }
+    },
+    {
+      "tier": "VIP 5",
+      "policy": "MMMM",
+      "roundtrip_fee_bps": "10",
+      "strict_threshold_bps": "20",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-2.04205000",
+        "ETHUSDT": "-1.01980000"
+      }
+    },
+    {
+      "tier": "VIP 5",
+      "policy": "MMMT",
+      "roundtrip_fee_bps": "12.2",
+      "strict_threshold_bps": "24.4",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-4.24205000",
+        "ETHUSDT": "-3.21980000"
+      }
+    },
+    {
+      "tier": "VIP 5",
+      "policy": "MMTM",
+      "roundtrip_fee_bps": "12.2",
+      "strict_threshold_bps": "24.4",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-4.24205000",
+        "ETHUSDT": "-3.21980000"
+      }
+    },
+    {
+      "tier": "VIP 5",
+      "policy": "MMTT",
+      "roundtrip_fee_bps": "14.4",
+      "strict_threshold_bps": "28.8",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-6.44205000",
+        "ETHUSDT": "-5.41980000"
+      }
+    },
+    {
+      "tier": "VIP 5",
+      "policy": "MTMM",
+      "roundtrip_fee_bps": "11",
+      "strict_threshold_bps": "22",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-3.04205000",
+        "ETHUSDT": "-2.01980000"
+      }
+    },
+    {
+      "tier": "VIP 5",
+      "policy": "MTMT",
+      "roundtrip_fee_bps": "13.2",
+      "strict_threshold_bps": "26.4",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-5.24205000",
+        "ETHUSDT": "-4.21980000"
+      }
+    },
+    {
+      "tier": "VIP 5",
+      "policy": "MTTM",
+      "roundtrip_fee_bps": "13.2",
+      "strict_threshold_bps": "26.4",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-5.24205000",
+        "ETHUSDT": "-4.21980000"
+      }
+    },
+    {
+      "tier": "VIP 5",
+      "policy": "MTTT",
+      "roundtrip_fee_bps": "15.4",
+      "strict_threshold_bps": "30.8",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-7.44205000",
+        "ETHUSDT": "-6.41980000"
+      }
+    },
+    {
+      "tier": "VIP 5",
+      "policy": "TMMM",
+      "roundtrip_fee_bps": "11",
+      "strict_threshold_bps": "22",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-3.04205000",
+        "ETHUSDT": "-2.01980000"
+      }
+    },
+    {
+      "tier": "VIP 5",
+      "policy": "TMMT",
+      "roundtrip_fee_bps": "13.2",
+      "strict_threshold_bps": "26.4",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-5.24205000",
+        "ETHUSDT": "-4.21980000"
+      }
+    },
+    {
+      "tier": "VIP 5",
+      "policy": "TMTM",
+      "roundtrip_fee_bps": "13.2",
+      "strict_threshold_bps": "26.4",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-5.24205000",
+        "ETHUSDT": "-4.21980000"
+      }
+    },
+    {
+      "tier": "VIP 5",
+      "policy": "TMTT",
+      "roundtrip_fee_bps": "15.4",
+      "strict_threshold_bps": "30.8",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-7.44205000",
+        "ETHUSDT": "-6.41980000"
+      }
+    },
+    {
+      "tier": "VIP 5",
+      "policy": "TTMM",
+      "roundtrip_fee_bps": "12",
+      "strict_threshold_bps": "24",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-4.04205000",
+        "ETHUSDT": "-3.01980000"
+      }
+    },
+    {
+      "tier": "VIP 5",
+      "policy": "TTMT",
+      "roundtrip_fee_bps": "14.2",
+      "strict_threshold_bps": "28.4",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-6.24205000",
+        "ETHUSDT": "-5.21980000"
+      }
+    },
+    {
+      "tier": "VIP 5",
+      "policy": "TTTM",
+      "roundtrip_fee_bps": "14.2",
+      "strict_threshold_bps": "28.4",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-6.24205000",
+        "ETHUSDT": "-5.21980000"
+      }
+    },
+    {
+      "tier": "VIP 5",
+      "policy": "TTTT",
+      "roundtrip_fee_bps": "16.4",
+      "strict_threshold_bps": "32.8",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-8.44205000",
+        "ETHUSDT": "-7.41980000"
+      }
+    },
+    {
+      "tier": "Supreme VIP",
+      "policy": "MMMM",
+      "roundtrip_fee_bps": "6",
+      "strict_threshold_bps": "12",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 16,
+        "ETHUSDT": 10
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "1.95795000",
+        "ETHUSDT": "2.98020000"
+      }
+    },
+    {
+      "tier": "Supreme VIP",
+      "policy": "MMMT",
+      "roundtrip_fee_bps": "9",
+      "strict_threshold_bps": "18",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-1.04205000",
+        "ETHUSDT": "-0.01980000"
+      }
+    },
+    {
+      "tier": "Supreme VIP",
+      "policy": "MMTM",
+      "roundtrip_fee_bps": "9",
+      "strict_threshold_bps": "18",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-1.04205000",
+        "ETHUSDT": "-0.01980000"
+      }
+    },
+    {
+      "tier": "Supreme VIP",
+      "policy": "MMTT",
+      "roundtrip_fee_bps": "12",
+      "strict_threshold_bps": "24",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-4.04205000",
+        "ETHUSDT": "-3.01980000"
+      }
+    },
+    {
+      "tier": "Supreme VIP",
+      "policy": "MTMM",
+      "roundtrip_fee_bps": "7.5",
+      "strict_threshold_bps": "15.0",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 5,
+        "ETHUSDT": 4
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "0.45795000",
+        "ETHUSDT": "1.48020000"
+      }
+    },
+    {
+      "tier": "Supreme VIP",
+      "policy": "MTMT",
+      "roundtrip_fee_bps": "10.5",
+      "strict_threshold_bps": "21.0",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-2.54205000",
+        "ETHUSDT": "-1.51980000"
+      }
+    },
+    {
+      "tier": "Supreme VIP",
+      "policy": "MTTM",
+      "roundtrip_fee_bps": "10.5",
+      "strict_threshold_bps": "21.0",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-2.54205000",
+        "ETHUSDT": "-1.51980000"
+      }
+    },
+    {
+      "tier": "Supreme VIP",
+      "policy": "MTTT",
+      "roundtrip_fee_bps": "13.5",
+      "strict_threshold_bps": "27.0",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-5.54205000",
+        "ETHUSDT": "-4.51980000"
+      }
+    },
+    {
+      "tier": "Supreme VIP",
+      "policy": "TMMM",
+      "roundtrip_fee_bps": "7.5",
+      "strict_threshold_bps": "15.0",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 5,
+        "ETHUSDT": 4
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "0.45795000",
+        "ETHUSDT": "1.48020000"
+      }
+    },
+    {
+      "tier": "Supreme VIP",
+      "policy": "TMMT",
+      "roundtrip_fee_bps": "10.5",
+      "strict_threshold_bps": "21.0",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-2.54205000",
+        "ETHUSDT": "-1.51980000"
+      }
+    },
+    {
+      "tier": "Supreme VIP",
+      "policy": "TMTM",
+      "roundtrip_fee_bps": "10.5",
+      "strict_threshold_bps": "21.0",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-2.54205000",
+        "ETHUSDT": "-1.51980000"
+      }
+    },
+    {
+      "tier": "Supreme VIP",
+      "policy": "TMTT",
+      "roundtrip_fee_bps": "13.5",
+      "strict_threshold_bps": "27.0",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-5.54205000",
+        "ETHUSDT": "-4.51980000"
+      }
+    },
+    {
+      "tier": "Supreme VIP",
+      "policy": "TTMM",
+      "roundtrip_fee_bps": "9.0",
+      "strict_threshold_bps": "18.0",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-1.04205000",
+        "ETHUSDT": "-0.01980000"
+      }
+    },
+    {
+      "tier": "Supreme VIP",
+      "policy": "TTMT",
+      "roundtrip_fee_bps": "12.0",
+      "strict_threshold_bps": "24.0",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-4.04205000",
+        "ETHUSDT": "-3.01980000"
+      }
+    },
+    {
+      "tier": "Supreme VIP",
+      "policy": "TTTM",
+      "roundtrip_fee_bps": "12.0",
+      "strict_threshold_bps": "24.0",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-4.04205000",
+        "ETHUSDT": "-3.01980000"
+      }
+    },
+    {
+      "tier": "Supreme VIP",
+      "policy": "TTTT",
+      "roundtrip_fee_bps": "15.0",
+      "strict_threshold_bps": "30.0",
+      "qualifying_proxy_windows": {
+        "BTCUSDT": 0,
+        "ETHUSDT": 0
+      },
+      "peak_remaining_roundtrip_bps_exclusive": {
+        "BTCUSDT": "-7.04205000",
+        "ETHUSDT": "-6.01980000"
+      }
+    }
+  ],
+  "r2_freeze_ready": false
+}
