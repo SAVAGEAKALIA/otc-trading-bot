@@ -130,3 +130,7 @@ docs/research/**/__pycache__/
 !services/research_r1/config.example.json
 
 !services/archive_transfer_r1/**/*.py
+
+# D3 accounting contracts, gate tests and periodic evals are source.
+!services/spot_trend_r1/**/*.py
+!services/spot_trend_r1/contracts/*.json

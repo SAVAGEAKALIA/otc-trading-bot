@@ -14,7 +14,7 @@ Evidence collected October 31, 2026; integrated November 1, 2026. R1 was explici
 
 ## What was actually collected
 
-The [D3 spot trend preview](spot_trend_readiness.md) has full daily warm-up coverage. The [completed quote check](spot_quote_readiness.md) found an observed two-sided quote in all 15 symbol/date windows across nine decision dates, including October 31. It does not establish fills or returns. Freeze D3 allocation, holdings and accounting before deriving further order and valuation data requirements.
+The [D3 spot trend preview](spot_trend_readiness.md) has full daily warm-up coverage. The [completed quote check](spot_quote_readiness.md) found an observed two-sided quote in all 15 symbol/date windows across nine decision dates, including October 31. It does not establish fills or returns. The [D3 accounting contract and requirements](d3_accounting_and_requirements.md) now record the user's equal initial component budgets, no daily rebalancing and terminal close with exit costs. Its deterministic inventory separates conditional instructions, actual holdings, daily marks and missing evidence; capital and account facts remain unspecified.
 
 The [freeCodeCamp course review](freecodecamp_course_review.md) assesses its stock-momentum source as a teaching reference for paper-order workflows. The [additional video and Solidity paste review](additional_video_and_paste_review.md) examines the supplied crypto-bot claim and swap helper separately. Neither changes the registered strategy or supplies performance evidence.
 
@@ -40,6 +40,9 @@ The old 121,328-row funding snapshot was copied outside `/tmp` to ignored, conte
 
 | Artifact | Purpose |
 |---|---|
+| [D3 accounting and requirements](d3_accounting_and_requirements.md) | Frozen component ownership, retry/terminal clocks, daily valuation coverage and remaining blockers |
+| [D3 requirements JSON](d3_requirements.json) | Reproducible conditional schedule, evidence states, exact windows and provenance hashes |
+| [D3 service](../../../services/spot_trend_r1/README.md) | Supported policy contract, exact conservation checks, gate tests and generated adverse evals |
 | [D3 quote evidence](spot_quote_readiness.md) | All 15 archived decision windows, reproduction, tests and adverse eval |
 | [freeCodeCamp course review](freecodecamp_course_review.md) | Exact source identity, verified execution defects and scoped reuse |
 | [Additional video and paste review](additional_video_and_paste_review.md) | Video access limits, swap-helper behavior and source trust boundaries |
@@ -64,7 +67,7 @@ python3 services/research_r1/scenarios.py --config services/research_r1/config.e
 cmp docs/research/crypto-r1-2026-10-31/economics_scenarios.csv /tmp/r1-economics-reproduced.csv
 ```
 
-The versioned `.githooks/pre-commit` runs both local gate suites and the staged whitespace check. It is enabled in this checkout. On a fresh clone, enable it with `git config core.hooksPath .githooks`; scenario evals remain explicit pre-ship checks.
+The versioned `.githooks/pre-commit` runs the local R1 service and research gate suites, including D3, and the staged whitespace check. It is enabled in this checkout. On a fresh clone, enable it with `git config core.hooksPath .githooks`; scenario evals remain explicit pre-ship checks.
 
 Use the collector README's offline replay command with a fresh output directory to reproduce its report. Raw-response checksums must match the manifest. Collection at a later date produces a new snapshot; do not overwrite or relabel this historical screen as today's data.
 
