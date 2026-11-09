@@ -1,0 +1,15 @@
+{
+  "schema": "otc_deterministic_execution_scope_amendment_v1",
+  "created_at_utc": "2026-11-09T05:35:58.194907+00:00",
+  "original_registration_sha256": "a0d523554539cd6cc3fa86f4f12d9dcbadf1c292c58fb5ffd10bb69a746405e7",
+  "user_instruction": "Allow other broker-listed active OTC pairs for practice execution",
+  "historical_assets": [
+    "EURUSD-OTC",
+    "GBPUSD-OTC"
+  ],
+  "execution_universe": "caller-supplied immutable unique tuple of broker-validated -OTC assets; default historical two-asset scope",
+  "policy_thresholds_changed": false,
+  "history_in_other_assets_measured": false,
+  "economic_generalization_claim": false,
+  "sha256": "aa6b5675cde678965dd3c4a857d466d102fa265fbdc32ce2b7fd67b7f02b0f90"
+}

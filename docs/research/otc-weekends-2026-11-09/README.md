@@ -1,0 +1,9 @@
+Future protocol: November16 2026 to January4 2027, fixed before outcomes. Training gets three complete UTC weekends, then early stopping, calibration, policy selection and diagnostic evaluation each get a distinct complete weekend. There are70,560 scheduled pair opportunities across49 days. All stages preserve the original logistic/CatBoost procedures and three thresholds; only the chronology changes.
+
+Every scheduled grid row remains represented. Unsupported/disabled/suspended offers, stale payouts, gaps, unknown labels and boundary purges remain explicit. Closed weekends are never replaced. This is received-price proxy development evidence, with no accepted-contract or capital promotion claim. One diagnostic weekend cannot establish an economic edge.
+
+This is a protocol registration, not a running collector or scheduler. The seven-day collector/comparator rejects this v2 calendar schema. A separately reviewed source lock and v2 adapter/compiler are required before November15 at18:00UTC; otherwise collection must not begin. Current seven-day collection finishes unchanged. No new account recorder is launched here.
+
+Storage scenario:1,000,000 quote observations/day at6KiB including receipts/indexes means301,056,000,000 raw bytes over49 days. This is a planning scenario, not a measured compression ratio. Daily rotation and verified off-host archive retention are required before admission; existing free disk alone is insufficient for seven-week retention.
+
+Run `python3 -m unittest discover -s docs/research/otc-weekends-2026-11-09 -q` for gates and `python3 docs/research/otc-weekends-2026-11-09/eval_protocol.py` for10,000 adversarial chronology checks. `protocol.py --output PATH` creates a new timestamped registration only before the source-lock deadline. The checked-in registration is immutable; the validator rejects altered chronology/readiness even when the digest is recomputed.

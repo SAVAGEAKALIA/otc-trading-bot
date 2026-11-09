@@ -1,12 +1,12 @@
 # Trading platform
 
-**Status (2026-10-30):** transition from IQ Option OTC binaries to crypto.
+**Status (2026-11-09):** the Telegram OTC bot is restored for practice research alongside the crypto platform. See [practice deployment and evidence](docs/research/practice-resume-2026-11-09/README.md). No verified OTC edge is claimed.
 
 - The OTC binary bot was measured with **no tradeable edge** across three research
   rounds. That covered 32 strategies, from rules to CatBoost, LightGBM, XGBoost,
   GRU, TCN and transformers, plus crowd follow/fade. Evidence:
   [docs/plans/2026-10-30-direction-reset.md](docs/plans/2026-10-30-direction-reset.md).
-- The binary bot is archived, not deleted:
+- The preserved binary reference is:
   - git tag `otc-binary-final-2026-10-30`
   - branch `archive/otc-binary`
   - OTC docs in `docs/archive/otc-binary/`

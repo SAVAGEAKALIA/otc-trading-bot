@@ -1,0 +1,24 @@
+{
+  "files": {
+    "contracts/otc_v1/__init__.py": "f95df40c173aaf55a146026c79dbd0a300c12740773ab560915e1100fb5cd847",
+    "contracts/otc_v1/evals/eval_records.py": "bfba997a0c04e369e8c439fb54fb8d7ce6dc80a40975d0a7f92931b20d8ccb1b",
+    "contracts/otc_v1/records.py": "8faa6d9e49d779338157e26ae0e9eed727c1b57ab6e9ca6611078d8524841162",
+    "contracts/otc_v1/tests/test_records.py": "5881b3e09e2ae68feaf9adbbb1faf9c7c4e39ad7d8afec8cb5e5c2ead67e3755",
+    "contracts/otc_v1/training_schema.py": "788df76e9e90c4143dc4b011e8390e06da205494eb6e01529661d6b964462026",
+    "services/otc_research/dataset.py": "dd23e710c7721226c45fa067f742a1f39a9a6716a99fbe8986a67a10c6f68356",
+    "services/otc_research/evals/eval_dataset.py": "cab071ce5baeb814076e01ab2be871c2c54d621bcf7e9c05ec1e7551ced9a02c",
+    "services/otc_research/evals/eval_training.py": "01aad5a6aa446e4b242c3187e51d0e7571a5bac3ff320c99c8ec40fd4515188b",
+    "services/otc_research/export.py": "5e77228e628a6ac65534a4b8edf5ae3b5e259bd5347d76af23aaef76f2fdc55a",
+    "services/otc_research/kaggle/evals/eval_delivery.py": "47ee15d5f4b58c3b4dd07d1c3fcf1bb05cf95be4211562dae6cf851c19723c9d",
+    "services/otc_research/kaggle/runner.py": "b2bc002a45fd13c188037ff7c09f3d3a1848803079a490655bc015a4375ca45e",
+    "services/otc_research/kaggle/tests/test_fast_gate.py": "1dab0d2c2debcfc5dc8794351a5209ea4fbac5a5a132c93182d6e32fcdee93ae",
+    "services/otc_research/kaggle/tests/test_runner.py": "db81c9e0530930894e51a723432facc8f01510750d2a8f564797a4b4d2c9710e",
+    "services/otc_research/tests/dataset_fixtures.py": "ecabe464c508fb12822e7d209f48eaa973f3eb332bcbe46186a619a1bc0f28c9",
+    "services/otc_research/tests/test_dataset.py": "0f1271713ffde5364d7e8138ff7d1abadecee9fcedfd02577efb380bb511eca2",
+    "services/otc_research/tests/test_training.py": "c87418c304def3a71ecef6890ff3aea08044d5b618d64561eeb215064dfd0df0",
+    "services/otc_research/training.py": "10c3d12fd5199f6b322fccf95073726dfe43fe1b77ca291b41af1560238799b8"
+  },
+  "frozen_at_ms": 1794045944137,
+  "original_root": "/tmp/binary-training/resume-work",
+  "schema": "otc_original_source_lock_v1"
+}

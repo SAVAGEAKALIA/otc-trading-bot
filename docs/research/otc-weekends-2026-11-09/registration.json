@@ -1,0 +1,116 @@
+{
+  "schema": "otc_weekend_development_protocol_v2",
+  "registered_ms": 1794207019572,
+  "assets": [
+    "EURUSD-OTC",
+    "GBPUSD-OTC"
+  ],
+  "product": "turbo-option",
+  "start_ms": 1794787200000,
+  "end_ms": 1799020800000,
+  "grid_ms": 120000,
+  "hypothetical_expiry_ms": 120000,
+  "stages": [
+    {
+      "name": "training",
+      "start_ms": 1794787200000,
+      "end_ms": 1796601600000,
+      "weekends": [
+        {
+          "start_ms": 1795219200000,
+          "end_ms": 1795392000000
+        },
+        {
+          "start_ms": 1795824000000,
+          "end_ms": 1795996800000
+        },
+        {
+          "start_ms": 1796428800000,
+          "end_ms": 1796601600000
+        }
+      ],
+      "start_utc": "2026-11-16T00:00:00Z",
+      "end_utc": "2026-12-07T00:00:00Z",
+      "scheduled_opportunities": 30240
+    },
+    {
+      "name": "early",
+      "start_ms": 1796601600000,
+      "end_ms": 1797206400000,
+      "weekends": [
+        {
+          "start_ms": 1797033600000,
+          "end_ms": 1797206400000
+        }
+      ],
+      "start_utc": "2026-12-07T00:00:00Z",
+      "end_utc": "2026-12-14T00:00:00Z",
+      "scheduled_opportunities": 10080
+    },
+    {
+      "name": "calibration",
+      "start_ms": 1797206400000,
+      "end_ms": 1797811200000,
+      "weekends": [
+        {
+          "start_ms": 1797638400000,
+          "end_ms": 1797811200000
+        }
+      ],
+      "start_utc": "2026-12-14T00:00:00Z",
+      "end_utc": "2026-12-21T00:00:00Z",
+      "scheduled_opportunities": 10080
+    },
+    {
+      "name": "policy",
+      "start_ms": 1797811200000,
+      "end_ms": 1798416000000,
+      "weekends": [
+        {
+          "start_ms": 1798243200000,
+          "end_ms": 1798416000000
+        }
+      ],
+      "start_utc": "2026-12-21T00:00:00Z",
+      "end_utc": "2026-12-28T00:00:00Z",
+      "scheduled_opportunities": 10080
+    },
+    {
+      "name": "diagnostic",
+      "start_ms": 1798416000000,
+      "end_ms": 1799020800000,
+      "weekends": [
+        {
+          "start_ms": 1798848000000,
+          "end_ms": 1799020800000
+        }
+      ],
+      "start_utc": "2026-12-28T00:00:00Z",
+      "end_utc": "2027-01-04T00:00:00Z",
+      "scheduled_opportunities": 10080
+    }
+  ],
+  "source_lock_deadline_ms": 1794765600000,
+  "source_references": {
+    "collector": "027864a33475ca1e548652c3fc492e85662068af26a01258d33b700c939d153c",
+    "comparison": "a40109f868b28c3c5493018b447995a0bcb0c3efcfc32752cfdb5831293300ba"
+  },
+  "collection_deployed": false,
+  "scheduler_deployed": false,
+  "comparison_executable_ready": false,
+  "readiness": "Requires a separately locked v2 calendar registration parser/compiler before the deadline. Existing seven-day validation rejects this schema.",
+  "outcome_basis": "received_quote_proxy_not_accepted_contract",
+  "capital_promotion": false,
+  "policy": "Original logistic/CatBoost families, three thresholds, training-only preprocessing, early-only stopping, calibration-only temperature, policy-only choice; global position, selected unknowns full loss.",
+  "exclusions": "Retain every scheduled row; causal disabled/suspended or unavailable offers abstain, stale payouts/quote gaps remain visible; purge overlapping labels at stage boundaries; no replacement weekends.",
+  "scheduled_opportunities": 70560,
+  "storage_scenario": {
+    "quotes_per_day": 1000000,
+    "raw_bytes_per_quote_including_receipts_and_indexes": 6144,
+    "days": 49,
+    "raw_bytes": 301056000000,
+    "compression_ratio_measured": false,
+    "admission": "Daily rotation plus verified off-host archive retention required. Do not assume seven-week archives fit existing free disk."
+  },
+  "registration_sha256": "c78affdc202d51d7ee9f43f76f4757cbd7b203dca2648a7970d07cc17cdbcce5"
+}

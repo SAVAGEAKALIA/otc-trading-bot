@@ -1,0 +1,19 @@
+{
+  "schema": "otc_existing_policy_source_lock_v1",
+  "source_version": 4,
+  "frozen_at_ms": 1794205103493,
+  "files": {
+    "__init__.py": "52d026a748c2549a3b6070df9d4fa86e4f27bf2aff9e1baf72c0fcc7e09ea97b",
+    "contracts.py": "0224d2ca32e8235aa216f43d83f24a6a75a206d8cbe4e3b7b748cac47e9c9ed1",
+    "policy.py": "d0f55438d66e089950e140b0bb6ec45240cb6d89904d52d4d0117565c8d81ca2",
+    "frozen_rules.json": "de7c54c68e66b64a2a57367c9ca745342e63a4574b4db4610306a8b0e97809ca",
+    "execution_scope_amendment.json": "ab4efa7975b9949192caaf85323a26dcda405c7d21f7e6c28275efe594281f24"
+  },
+  "lock_written_before_historical_scoring": true,
+  "registration_sha256": "a0d523554539cd6cc3fa86f4f12d9dcbadf1c292c58fb5ffd10bb69a746405e7",
+  "parent_source_sha256": "a4547e0d78e5f3ab42d94231ab6ff84cd6ef4bddca1333cd7fba629b00f07513",
+  "repair": "all causal finalized start/receipt identities checked before eligibility, latest-version selection and feature truncation; exact nanosecond repairs retained",
+  "policy_thresholds_changed": false,
+  "trial_slots_changed": false,
+  "source_sha256": "c36c1756c758cfe0ad26f1eb22cf45ea551db3d6a96d5192b7329c4618c1e8ef"
+}

@@ -1,0 +1,91 @@
+{
+  "schema": "otc_deterministic_existing_rules_v1",
+  "frozen_at_utc": "2026-11-09T05:24:44.286390+00:00",
+  "trial_budget": 6,
+  "trial_slots": [
+    2,
+    3
+  ],
+  "source_tag": "otc-binary-final-2026-10-30",
+  "source_commit": "c734f34e6a976c1552daf213ebb462b3a95c7094",
+  "source_sha256": {
+    "trading_platform/strategies/otc/implementations/mhi_strategy.py": "9d8195f0428511b4cf3fbe572e17872d0838036ff45d188cccfa159ab22eb596",
+    "trading_platform/strategies/otc/implementations/exhaustion_fade.py": "7646f511c8a6bbce75ceda77893afdad42e4630c984215e5fc2cd0f8eb911d52",
+    "trading_platform/legacy/iqoption_bot/analytics.py": "836e76f731ba9e9a098cc211e03d0db464d35ca30246e371ce6aab03bfba38e3"
+  },
+  "assets": [
+    "EURUSD-OTC",
+    "GBPUSD-OTC"
+  ],
+  "product": "turbo-option",
+  "decision_grid_ms": 120000,
+  "target_expiry": "actual offered absolute UTC expiry for2-minute request; historical proxy only120000ms",
+  "payout_floor": "0.80",
+  "quote_max_age_ms": 5000,
+  "offer_max_age_ms": 600000,
+  "candle_duration_ms": 120000,
+  "lookback_bars": 29,
+  "closed_candle_evidence": "finalized boolean and received_ns<=decision_ns; start+duration<=broker_at_receipt; broker clock offset<=15000ms; contiguous29-bar past prefix; no forming/stale/gap bars",
+  "last_candle_max_age_ms": 120000,
+  "rules": {
+    "2": {
+      "name": "legacy_mhi3_causal",
+      "cluster_bars": 3,
+      "doji_body_ratio_lte": "0.05",
+      "direction": "minority of non-doji colors",
+      "profile": "reversal",
+      "RSI": "legacy frozen causal RSI14 on29-bar prefix",
+      "call_block_rsi_gt": 65,
+      "put_block_rsi_lt": 35,
+      "call_bonus_rsi_lt32": 12,
+      "call_bonus_rsi_lt45": 5,
+      "put_bonus_rsi_gt68": 12,
+      "put_bonus_rsi_gt55": 5,
+      "neutral_rsi_bonus": -15,
+      "score_base": 45,
+      "dominance_multiplier": 20,
+      "body_bonus_ratios": [
+        [
+          0.6,
+          15
+        ],
+        [
+          0.4,
+          10
+        ],
+        [
+          0.2,
+          5
+        ]
+      ],
+      "doji_penalty": "if dojis>1 subtract5 from body bonus, min0",
+      "minimum_score": 65,
+      "MTF": "disabled by fixed reversal profile; no future aggregate"
+    },
+    "3": {
+      "name": "legacy_exhaustion_causal",
+      "rsi_inclusive": [
+        30,
+        70
+      ],
+      "bb_period": 20,
+      "bb_stdev": 2,
+      "bb_call_lt": "0.10",
+      "bb_put_gt": "0.90",
+      "stoch_k_period": 14,
+      "stoch_call_lte": 50,
+      "stoch_put_gte": 50,
+      "body_ratio_lte": "0.60",
+      "candle_range_min": "1e-8",
+      "adx_period": 14,
+      "adx_lte": 40,
+      "MTF": "disabled; no optional5m veto"
+    }
+  },
+  "historical_data_role": "spent exploratory diagnostic only; actual availability required for causal subset",
+  "future_cohort_used": false,
+  "accepted_contract_claim": false,
+  "capital_permission": false,
+  "code_lock_policy": "source files hashed after implementation before historical scoring; changes require new version before score",
+  "registration_sha256": "a0d523554539cd6cc3fa86f4f12d9dcbadf1c292c58fb5ffd10bb69a746405e7"
+}

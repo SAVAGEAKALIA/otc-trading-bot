@@ -1,0 +1,13 @@
+{
+  "schema": "otc_existing_policy_source_lock_v1",
+  "files": {
+    "__init__.py": "52d026a748c2549a3b6070df9d4fa86e4f27bf2aff9e1baf72c0fcc7e09ea97b",
+    "contracts.py": "0224d2ca32e8235aa216f43d83f24a6a75a206d8cbe4e3b7b748cac47e9c9ed1",
+    "policy.py": "93cc4c21d3d3f25c13919680524a386fe5816be90e0efa7f2a22da7403619ff3",
+    "frozen_rules.json": "de7c54c68e66b64a2a57367c9ca745342e63a4574b4db4610306a8b0e97809ca",
+    "execution_scope_amendment.json": "ab4efa7975b9949192caaf85323a26dcda405c7d21f7e6c28275efe594281f24"
+  },
+  "lock_written_before_historical_scoring": true,
+  "registration_sha256": "a0d523554539cd6cc3fa86f4f12d9dcbadf1c292c58fb5ffd10bb69a746405e7",
+  "source_sha256": "dd7025fe3ab748ff4fae5bc9151db9b3a5b6641661e4cead5bcf8c8040611406"
+}

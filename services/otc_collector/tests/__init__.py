@@ -1,0 +1,1 @@
+"""Free deterministic gate lane."""

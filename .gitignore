@@ -130,3 +130,37 @@ docs/research/**/__pycache__/
 !services/research_r1/config.example.json
 
 !services/archive_transfer_r1/**/*.py
+
+# OTC service source, gates and dependency declaration must survive snapshots.
+!contracts/otc_v1/**/*.py
+!services/otc_observer/**/*.py
+!services/otc_research/**/*.py
+!services/otc_research/training_requirements.txt
+
+# Independent fresh observation service and its source fixtures.
+!services/otc_collector/**/*.py
+!services/otc_collector/requirements.txt
+
+# Independent core comparison and lossless research collection operations.
+!services/otc_fresh_compare/**/*.py
+!services/otc_collection_ops/**/*.py
+!contracts/otc_fresh_v1.py
+!original-source-lock.json
+
+# Restored practice runtime keeps sessions, account data and dependencies local.
+.venv-otc/
+releases/
+*.sqlite3
+*.sqlite3-*
+!services/otc_deterministic_strategies/**/*.py
+!services/otc_deterministic_strategies_new/**/*.py
+
+# Frozen strategy definitions and source locks are required by the reproducible evals.
+!services/otc_deterministic_strategies/execution_scope_amendment.json
+!services/otc_deterministic_strategies/frozen_rules.json
+!services/otc_deterministic_strategies/repo_sources.json
+!services/otc_deterministic_strategies/source-lock-v2.json
+!services/otc_deterministic_strategies/source-lock-v3.json
+!services/otc_deterministic_strategies/source-lock-v4.json
+!services/otc_deterministic_strategies/source-lock-v5.json
+!services/otc_deterministic_strategies/source-lock.json

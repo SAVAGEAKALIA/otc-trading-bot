@@ -1,0 +1,69 @@
+{
+  "SAVAGEAKALIA/otc-trading-bot": {
+    "url": "https://github.com/SAVAGEAKALIA/otc-trading-bot",
+    "stars": 1,
+    "pushed_at": "2026-11-05T03:46:56Z",
+    "updated_at": "2026-07-30T21:39:03Z",
+    "open_issues": 0,
+    "license": null,
+    "default_branch": "main",
+    "latest_commit": "af63553631e528259806a736483631f57c494ca1",
+    "commit_date": "2026-03-19T08:26:02Z"
+  },
+  "alcidesmig/mhi-iqoption-bot": {
+    "url": "https://github.com/alcidesmig/mhi-iqoption-bot",
+    "stars": 2,
+    "pushed_at": "2022-12-08T11:11:46Z",
+    "updated_at": "2026-10-08T19:03:29Z",
+    "open_issues": 2,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "default_branch": "master",
+    "latest_commit": "e91b4fc0f9e8f11f1ef037907f58002cfb433f2a",
+    "commit_date": "2020-07-19T19:41:05Z"
+  },
+  "octaviodegodoy/algo_binary": {
+    "url": "https://github.com/octaviodegodoy/algo_binary",
+    "stars": 0,
+    "pushed_at": "2022-08-04T22:43:18Z",
+    "updated_at": "2022-03-16T22:25:21Z",
+    "open_issues": 0,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "default_branch": "main",
+    "latest_commit": "314496f61bae91a43e91457854a06ed473ea2933",
+    "commit_date": "2022-08-04T22:43:11Z"
+  },
+  "josepholasoji/IQ-Options-AUTO-Trader": {
+    "url": "https://github.com/josepholasoji/IQ-Options-AUTO-Trader",
+    "stars": 1,
+    "pushed_at": "2025-11-14T08:17:07Z",
+    "updated_at": "2026-01-05T01:20:48Z",
+    "open_issues": 0,
+    "license": null,
+    "default_branch": "main",
+    "latest_commit": "7dd59593b64b9dbdac28c93279ceb5c57da10f71",
+    "commit_date": "2025-11-10T02:04:13Z"
+  },
+  "iqoptionapi/iqoptionapi": {
+    "url": "https://github.com/iqoptionapi/iqoptionapi",
+    "stars": 276,
+    "pushed_at": "2024-08-12T00:58:23Z",
+    "updated_at": "2026-11-07T10:24:34Z",
+    "open_issues": 55,
+    "license": null,
+    "default_branch": "master",
+    "latest_commit": "8a903cc094a74af1ed935a56a2d6b5a9ed3319d7",
+    "commit_date": "2022-01-31T00:49:21Z"
+  }
+}

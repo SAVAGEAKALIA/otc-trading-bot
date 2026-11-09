@@ -8,4 +8,17 @@ python3 -m unittest discover -s docs/research/crypto-r1-2026-10-31 -p test_carry
 python3 -m unittest discover -s docs/research/crypto-r1-2026-10-31 -p test_fee_ladder.py -q
 python3 -m unittest discover -s docs/research/crypto-r1-2026-10-31 -p test_spot_trend_preview.py -q
 python3 -m unittest discover -s docs/research/crypto-r1-2026-10-31 -p test_spot_quote_checks.py -q
+python3 -m unittest discover -s contracts/otc_v1/tests -q
+python3 -m unittest discover -s services/otc_observer/tests -q
+python3 -m unittest discover -s services/otc_research/tests -q
+# The frozen collector enforces /tmp for research databases. Override its test fixture only.
+python3 -c 'import tempfile,functools,runpy; import services.otc_collector.tests.support as support; support.temporary=functools.partial(tempfile.TemporaryDirectory,dir="/tmp"); runpy.run_module("unittest",run_name="__main__")' discover -s services/otc_collector/tests -t . -q
+python3 -m unittest discover -s services/otc_fresh_compare/tests -p test_gate.py -q
+python3 -m unittest discover -s services/otc_fresh_compare/tests -p test_full_census.py -q
+python3 -m unittest services.otc_fresh_compare.tests.test_run -q
+python3 -c 'import tempfile,types; import services.otc_collection_ops.tests.focused as tests; tests.tempfile=types.SimpleNamespace(TemporaryDirectory=lambda **kwargs:tempfile.TemporaryDirectory(**{**kwargs,"dir":"/tmp"})); raise SystemExit(tests.main())'
+python3 -m unittest tests.unit.brokers.test_iqoption_practice_contract -q
+python3 -m unittest discover -s services/otc_deterministic_strategies/tests -t . -q
+python3 -m unittest discover -s services/otc_deterministic_strategies_new/tests -t . -q
+python3 -m unittest discover -s docs/research/otc-weekends-2026-11-09 -q
 git diff --cached --check

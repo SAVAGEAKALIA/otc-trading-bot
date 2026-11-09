@@ -1,0 +1,17 @@
+# Fixed fresh OTC edge comparison
+
+The current economic verdict is **no verified edge**. The spent archive's fixed 60-second fade produced 47.386% decisive wins and a negative quote-proxy return. Source-advancing next-tick reversal was 50.352% for EURUSD and 51.154% for GBPUSD; GBPUSD changed sign across its two dense days. Later registered historical partitions have no usable outcomes. These descriptive results cannot support a tradable claim or a fitted historical comparison.
+
+The fresh development cohort is fixed at 7 November 2026 10:08 UTC through 14 November 2026 10:08 UTC. Registration SHA256: `4d15b0e235082b7086b8de1f5b5acb683b73daeaf56996cdb88e64b10a10108f`. Collector source-map SHA256: `027864a33475ca1e548652c3fc492e85662068af26a01258d33b700c939d153c`. Original source, model settings and dates were frozen before collection. The outcome-independent comparison compiler was prepared afterward, with both times preserved in its provenance.
+
+The core comparison keeps the original logistic and CatBoost models and thresholds 0, 0.03 and 0.05. It retains all 10,080 two-asset UTC-grid opportunities. Train-only processing, early-only stopping, calibration-only temperature, policy-only selection, global position control and full-loss treatment of selected unknown outcomes remain fixed. Quote, mood and payout references use exact receiver nanoseconds. Outcomes use a hypothetical first received strike and fixed 120-second expiry; full-refund ties and zero acceptance delay remain explicit assumptions.
+
+The immutable server collector source is `/home/ubuntu/otc-edge-research/20261107-core-v2/src`. Account credentials are outside that source. Live receipts and registration are under `/tmp/fresh-otc-20261107-core-v2/`. The failed earlier pilot remains separate. The independent supervisor publishes `/tmp/fresh-otc-20261107-core-v2/sourcechain.json`, rotates at daily start plus 90 seconds, and retains verified lossless gzip shards. The final cohort end remains exact; archive-completion waiting does not extend opportunities.
+
+User-authorized cleanup removed only unused server market-context and historical-candle SQLite data and companions. It reclaimed 6,010,589,184 bytes. Evidence is `/tmp/fresh-otc-20261107-core-v2/legacy-cleanup-report.json` on the server. Local historical evidence remains available under `/tmp/binary-training/resume-data/`.
+
+Follow live server collection with `tail -f /tmp/fresh-otc-20261107-core-v2/progress.log`, and its supervisor with `tail -f /tmp/fresh-otc-20261107-core-v2/ops-progress.log`. The comparison workflow waits for the fixed end and a physically completed source chain before exporting or fitting. A missing, inconsistent, unfinished or unsupported cohort yields a blocked result. No app-chat wakeup is scheduled; the authorized server workflow runs independently.
+
+Research evidence is outside Git: mechanism reports in `/tmp/binary-training/core-edge/`; cold reviews in `/tmp/binary-training/critique/`; model evals and source locks in `/tmp/binary-training/core-comparison-variants/`; immutable live-prefix audit in `/tmp/binary-training/fresh-live-v2/`. Prefix data is operational audit only and must never be fitted or described as the completed cohort.
+
+No orders or balance changes belong to this workflow. A positive development quote-proxy result would still require prospective confirmation and separately authorized accepted-contract evidence before any tradability claim. The next measurement is the fixed two-model comparison after the seven-day source closes.
