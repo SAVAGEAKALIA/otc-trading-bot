@@ -164,3 +164,7 @@ releases/
 !services/otc_deterministic_strategies/source-lock-v4.json
 !services/otc_deterministic_strategies/source-lock-v5.json
 !services/otc_deterministic_strategies/source-lock.json
+
+# D3 accounting contracts, gate tests and periodic evals are source.
+!services/spot_trend_r1/**/*.py
+!services/spot_trend_r1/contracts/*.json

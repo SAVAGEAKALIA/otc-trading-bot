@@ -1,0 +1,93 @@
+{
+  "schema_version": "d3-requirements-1",
+  "protocol_id": "r1-d3-spot-accounting-1",
+  "reference": "r1-spec-1 D3_SPOT_TREND",
+  "status": "DESCRIPTIVE_ONLY",
+  "r2_authorized": false,
+  "r2_freeze_ready": false,
+  "returns_computed": false,
+  "capital_budget_usdt": null,
+  "live_risk_budgets": {"max_loss_usdt": null, "max_drawdown_pct": null, "venue_loss_budget_usdt": null, "stablecoin_loss_budget_usdt": null},
+  "unknown_account_facts": ["actual_capital", "fee_rates_and_currency", "historical_product_eligibility", "lot_size_and_price_tick", "minimum_order_quantity_and_notional", "incremental_impact", "operating_costs", "tax_treatment", "custody_and_access", "external_cost_currency_funding", "loss_and_risk_budgets"],
+  "symbols": ["BTCUSDT", "ETHUSDT"],
+  "lookbacks": [[20, 10], [55, 20], [100, 50]],
+  "signal_window": {"warmup_first": "2026-04-24", "first": "2026-08-02", "last": "2026-10-30", "warmup_days": 100, "signal_days": 90},
+  "allocation": {
+    "authority": "User selected equal initial component capital on 2026-11-05",
+    "each_component_weight": {"numerator": 1, "denominator": 6},
+    "each_symbol_weight": {"numerator": 1, "denominator": 2},
+    "unit": "USDT",
+    "policy": "initial_only_independent_component_subledgers",
+    "rebalance": "none",
+    "transfers_between_components": "forbidden",
+    "external_flows": "forbidden_within_cohort; any occurrence blocks comparability and requires separately registered flow treatment",
+    "idle_cash": "Retained in the originating component; no interest assumed; included in all totals",
+    "rounding": "Weights and notional allocations are exact rational quantities, never six rounded decimal weights. Keep any venue-sized order remainder as originating-component USDT cash; no remainder is dropped or swept to another component.",
+    "initial_funding": "Capital is unknown. The research subledger partition is exactly C/6 each, not six physical transfers. If actual account funding cannot support this partition, block; do not silently round starting weights.",
+    "quantity_between_fills": "Constant, including base dust. Only reconciled actual fills or separately recorded actual-currency costs can change quantities.",
+    "reentry": "Use only that component's then-available cash, including retained sale proceeds and dust, so each component compounds independently. No target-weight restoration."
+  },
+  "signals": {
+    "entry": "completed close > max preceding entry-lookback highs, excluding signal bar",
+    "exit": "completed close < min preceding exit-lookback lows, excluding signal bar",
+    "equality": "retain signal target; no new instruction on equality alone",
+    "initial_state": "all six flat at common development start after 100 full warmup bars; do not reconstruct prior holdings",
+    "availability": "both event_time and independently demonstrated available_at must be strictly before next-day 00:05:00 UTC; later retrieval proves contents only",
+    "conflicting_conditions": "reject",
+    "missing_bar": "block, never shorten warmup or lookback"
+  },
+  "execution": {
+    "policy_authority": "Explicit public research planning assumptions, no live execution authority",
+    "decision_utc": "00:05:00",
+    "submit_utc": "00:10:00",
+    "quote_wait_ms": 60000,
+    "interval": "[submission, submission+60000ms] inclusive",
+    "quote_selection": "earliest valid sequenced two-sided executable quote in interval; buy ask, sell bid; incremental impact separately locked and not double counted",
+    "retry_policy": "At most one instruction per component per decision. Cancel any unfilled remainder at the deadline. No intra-window retry or same-decision reentry. A fresh entry condition retries only if actual base quantity is exactly zero; a positive partial entry or dust suppresses topping up. A fresh exit condition retries if actual base quantity is positive. Neither condition means no new order even when signal target and actual state differ. No daily retry on equality/hold days. Terminal close is a separate one-attempt override for all actual residual quantities.",
+    "unknown_outcome": "Do not infer zero or full fill from an observed quote. Missing reconciliation blocks subsequent actual-state reconstruction and ending validity. Retain all threshold candidate windows plus all six terminal candidates until outcomes are known.",
+    "entry_sizing": "Largest permitted rounded-down base order whose worst permitted consideration plus all quote-denominated fees is <= the component's available USDT, with all other fee currencies funded from that component's existing balances. Fee-inclusive, fully paid. Capital, instrument filters, fee basis and incremental impact remain blockers. Base-charged entry fee reduces gross acquired base quantity. Unspent USDT is retained.",
+    "exit_sizing": "Largest permitted sell quantity whose sold base plus base-denominated fee is <= actual base balance. Quote fee debits proceeds/cash once. Precision/minimum failure creates no fill and retains dust and cash. Residual base is still owned.",
+    "errors": "Absent/invalid quote, unknown available_at, insufficient depth, unknown precision/fee/impact, rejection or failed minimum-size check does not create a fill. Partial fills apply only reconciled amounts. Missing or conflicting outcome blocks the ledger rather than fabricating flatness."
+  },
+  "accounting": {
+    "balances": "Independent nonnegative cash/base/other actual cost-currency balances for each component; aggregate by symbol then portfolio; no sharing, leverage, shorting or external rescue",
+    "costs": "Unique actual event identifiers prevent duplicate charging. Debit each fee once in its actual currency; quote fees reduce USDT, base fees reduce base, third-currency fees require funded owned balances and independent currency marks. Spread already in bid/ask is not another additive fee. Impact is not charged twice. Unpriced actual costs block complete accounting; unknown costs are not zero.",
+    "capital_denominator": "All initial capital and all owned cash, holdings and dust, including idle components. No financing/collateral 40/40/20 split.",
+    "valuation_formula": "Per-component USDT units = USDT cash + net base quantity * fresh spot bid + independently converted owned other-currency balances; portfolio is component sum. USD = portfolio USDT units * same independent USDT/USD mark used for B0. This planner never evaluates the formula or computes returns.",
+    "b0": "Hold identical initial number of USDT units with no interest assumption; same opening/daily/closing independent USDT/USD source and timestamp. Custody risk is separately disclosed. No USDT=USD=1 assumption."
+  },
+  "valuation": {
+    "policy_authority": "Explicit public research planning assumption: conservative bid mark, not liquidation proceeds",
+    "daily_utc": "00:00:00",
+    "max_age_ms": 60000,
+    "interval": "[valuation-60000ms, valuation) lower inclusive, upper exclusive",
+    "spot": "Freshest valid preceding spot bid; a bid mark does not include future sale fees, guarantee available depth, or prove executable liquidation",
+    "token": "Freshest valid preceding independent USDT/USD mark shared with B0; independent provider and method unresolved",
+    "coverage": "Every UTC midnight from first decision day through day after terminal decision, inclusive; conservative BTC/ETH spot and USDT/USD requirements even on conditionally flat days",
+    "availability": "Valuation event timestamp must be in the preceding interval and demonstrated available_at must be strictly before valuation; unknown availability blocks valid historical valuation",
+    "holes": "Each missing/unknown mark remains an explicit invalid valuation point. No forward-fill, day deletion, stale mark or exposure erasure. Same rule after failed terminal close."
+  },
+  "terminal": {
+    "authority": "User selected terminal close with exit costs on 2026-11-05",
+    "decision": "next UTC day after final included normal decision at 00:05:00",
+    "submission": "same day at 00:10:00",
+    "deadline": "same day at 00:11:00 inclusive",
+    "closing_valuation": "following UTC midnight, strictly after terminal deadline",
+    "flatness": "All actual base balances, including dust, must be zero and all fills/fees reconciled. Missing outcome, failed sale, partial sale or untradeable dust makes terminal close blocked/unresolved, never successfully liquidated.",
+    "continuation": "If unresolved, retain exposure and require daily spot/token marks after planned closing valuation until separately authorized resolution. No automatic retry, extension of executable window, stale valuation or return-series truncation. The planner declares this unbounded conditional data obligation without inventing a successful endpoint."
+  },
+  "sources": {
+    "spot_trend_preview.json": "e2549e960a204ad349303da6af6b8f038f06ef1470df84a11b46091f2a3cf762",
+    "spot_quote_checks.json": "6751699552624146d83dbe3d7e3f5a5102fc4bc56df9a4d2627b10f4fa133927"
+  },
+  "evidence": {
+    "quote_observation": "Saved prefix-replay report only; raw archive hashes recorded, not rehashed by this service",
+    "archive_integrity": "Upstream reports full ZIP CRC and digest receipts; this planner validates the saved report identity, not raw local archive presence",
+    "full_day_semantics": "unverified",
+    "historical_client_availability": "unverified",
+    "depth_capacity_and_fills": "unverified",
+    "unknown_local_coverage": "unknown_not_proven_absent"
+  },
+  "evaluation": {"critical_scenario_pass_fraction": "1", "deterministic_only": true},
+  "forbidden": ["network", "downloads", "live_orders", "credentials", "return_series", "profit_computation", "optimizer", "R2_promotion"]
+}
