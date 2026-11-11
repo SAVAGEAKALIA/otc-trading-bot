@@ -168,3 +168,9 @@ releases/
 # D3 accounting contracts, gate tests and periodic evals are source.
 !services/spot_trend_r1/**/*.py
 !services/spot_trend_r1/contracts/*.json
+
+# OTC quant lab isolated environment
+.venv-lab/
+
+# OTC quant lab: gate tests and controls are part of the service.
+!services/otc_quant_lab/**/*.py
