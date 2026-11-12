@@ -1,0 +1,9 @@
+step-down <= -0.03: asset-level events 384 (18.7/day); with usable mood 305 (14.8/day); 29-day block 430; days to +5pt n=1649: 111.2
+step-up >= +0.03: asset-level events 447 (21.7/day); with usable mood 370 (18.0/day); 29-day block 522; days to +5pt n=1649: 91.7
+H1 29-day block 430 -> smallest certifiable edge + 9.8 pt
+H1 live window 305 -> smallest certifiable edge + 11.6 pt
+H6 29-day block 522 -> smallest certifiable edge + 8.9 pt
+H6 live window 370 -> smallest certifiable edge + 10.5 pt
+H1 60-day block 888 -> smallest certifiable edge + 6.8 pt
+H6 60-day block 1080 -> smallest certifiable edge + 6.2 pt
+H1 non-degenerate mood band: 167 (8.1/day)

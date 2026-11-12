@@ -1,0 +1,16 @@
+id | events/29d | smallest certifiable edge (pt) | days to +5pt n | +5pt n
+H1 | 911 | +6.8 | 52.5 | 1,649
+H2 | 1,456 | +5.4 | 32.8 | 1,649
+H2b | 293 | +11.8 | 163.3 | 1,649
+H3 | 1,560 | +5.2 | 30.7 | 1,653
+H4 | 2,538 | +4.1 | 18.9 | 1,653
+H5 | 2,909 | +3.8 | 16.4 | 1,649
+H6 | 882 | +6.9 | 54.2 | 1,649
+H7 | 1,305 | +5.7 | 36.6 | 1,649
+live window 20.6 d: H1 events 645 -> + 8.0 ; H7 926 -> + 6.7
+CP pass turbo 0.84: n=1648 needs 947 wins = 57.46% (be 54.35%)
+CP pass binary 0.86: n=1653 needs 940 wins = 56.87% (be 53.76%)
+CP pass turbo 0.80: n=1648 needs 967 wins = 58.68% (be 55.56%)
+tie=loss 2-min break-even among non-tie trades: 0.5468 (refund convention: 0.5435)
+payout sample spacing s: median 300.0 p10 300.0 p90 300.0
+distinct spread values: 4 [(1e-05, 6545611), (0.001, 1093120), (0.0001, 554448), (0.0, 13)]

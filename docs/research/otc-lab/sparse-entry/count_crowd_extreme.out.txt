@@ -1,0 +1,30 @@
+samples 957521 days 20.58 {'turbo-option': 957521}
+|cf-0.5|>=0.4 turbo-option: samples 340696, onsets 58524, onsets/day 2844.1
+|cf-0.5|>=0.4 binary-option: samples 0, onsets 0, onsets/day 0.0
+|cf-0.5|>=0.4 all: samples 340696, onsets 58524, onsets/day 2844.1
+|cf-0.5|>=0.45 turbo-option: samples 315662, onsets 53551, onsets/day 2602.4
+|cf-0.5|>=0.45 binary-option: samples 0, onsets 0, onsets/day 0.0
+|cf-0.5|>=0.45 all: samples 315662, onsets 53551, onsets/day 2602.4
+exact 0 or 1: 0.0 %; exact 0.5: 25.92 %
+non-degenerate samples 709366
+non-degenerate |cf-0.5| quantile 0.9: 0.4999
+non-degenerate |cf-0.5| quantile 0.99: 0.5
+non-degenerate |cf-0.5| quantile 0.999: 0.5
+non-degenerate top-1% onsets (|cf-0.5|>=0.5000): 3043, per day 147.9
+per-asset share exact 0/1:
+a
+AUDJPY-OTC    0.0
+AUDUSD-OTC    0.0
+CADJPY-OTC    0.0
+CHFJPY-OTC    0.0
+EURAUD-OTC    0.0
+EURGBP-OTC    0.0
+EURJPY-OTC    0.0
+EURUSD-OTC    0.0
+GBPAUD-OTC    0.0
+GBPJPY-OTC    0.0
+GBPUSD-OTC    0.0
+NZDUSD-OTC    0.0
+USDCAD-OTC    0.0
+USDCHF-OTC    0.0
+USDJPY-OTC    0.0

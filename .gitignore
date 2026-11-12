@@ -174,3 +174,8 @@ releases/
 
 # OTC quant lab: gate tests and controls are part of the service.
 !services/otc_quant_lab/**/*.py
+
+# hyperresearch vault and step skills (local research workspace)
+/.hyperresearch/
+/research/
+.claude/skills/hyperresearch-*/
