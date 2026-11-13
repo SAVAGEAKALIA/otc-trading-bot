@@ -1,5 +1,7 @@
 # otc_sparse_prereg: pre-registered sparse-entry tests
 
+> **Closed 2026-11-13.** OTC research is closed (see `docs/research/otc-lab/CLOSED.md`). Do not start `collect.sh`.
+
 The 2026-11-12 report ([../../docs/research/otc-lab/2026-11-12-sparse-entry-research.md](../../docs/research/otc-lab/2026-11-12-sparse-entry-research.md)) asked whether IQ Option OTC can be traded only when a strict condition holds. This service turns its answer into a test that cannot be bent after the fact.
 
 The measurable outcome is one state per hypothesis on a fresh forward block: CERTIFIED, NULL-INFORMATIVE, UNDERPOWERED or FUTILE. The default is NO TRADE. Nothing here trades. A CERTIFIED row permits only a practice-account trial, and only with the owner's go-ahead.
