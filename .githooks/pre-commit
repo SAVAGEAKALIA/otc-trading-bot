@@ -22,4 +22,5 @@ python3 -m unittest tests.unit.brokers.test_iqoption_practice_contract -q
 python3 -m unittest discover -s services/otc_deterministic_strategies/tests -t . -q
 python3 -m unittest discover -s services/otc_deterministic_strategies_new/tests -t . -q
 python3 -m unittest discover -s docs/research/otc-weekends-2026-11-09 -q
+if [ -x .venv-lab/bin/python ]; then .venv-lab/bin/python -m unittest discover -s services/otc_sparse_prereg/tests -t . -q || exit 1; if [ -f docs/research/otc-lab/sparse-entry/registration.json ]; then .venv-lab/bin/python -m services.otc_sparse_prereg.run verify >/dev/null || exit 1; fi; else echo "WARNING: .venv-lab missing; otc_sparse_prereg gate skipped" >&2; fi
 git diff --cached --check

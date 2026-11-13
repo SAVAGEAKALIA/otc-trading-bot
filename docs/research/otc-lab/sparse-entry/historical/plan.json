@@ -1,0 +1,170 @@
+{
+ "archive_sha256": "71717d8cef24420bda7f9a44a460ea07c685fa4aa3178db997de09de88898f75",
+ "doc": "Historical test of the frozen family on data already collected (owner's request, 2026-11-13).\n\nPlan (written and committed BEFORE any outcome of these rules is read):\n  * Candle rules H2, H2b, H3, H4, H5 (2-min archive) and H8 (5-min archive):\n      - thresholds frozen on the first 40% of the 2-min archive's calendar days (threshold block);\n      - outcomes read only on the remaining days (test block), same split date for the 5-min archive;\n      - label = close-to-close proxy on archive candles: entry = close of the trigger bar, exit = close of\n        the bar ending expiry_s later (it must exist exactly), at the nominal payout (0.84 turbo, 0.86 binary);\n      - the look is the first n_target non-overlapping trades of the test block, else the whole block.\n  * Event rules H1, H6, H7 and the H1 control (live window 2026-07-31 to 2026-08-20):\n      - 1-s candle labels and the payout in force, exactly as the forward block (labels.label);\n      - payout steps from init-snapshot samples, previous sample at most 2 x 300 s old.\n  * Same certificate (certify.evaluate), same alpha 0.05/8, same fail-closed H1 control and H4 placebos.\n  * Evidence grade: DEVELOPMENT. The archive was mined by the earlier lab for other rules, the live window\n    was read for the crowd-level fade, and archive labels are a bar-close proxy. A CERTIFIED row here earns\n    a short forward confirmation of that one row, not money. A non-certified row is retired.\n\nRun once: .venv-lab/bin/python -m services.otc_sparse_prereg.historical --run\n",
+ "live_window": "2026-07-31 to 2026-08-20 (data/ml/market_context.sqlite)",
+ "name": "historical test of the frozen sparse-entry family",
+ "plan_sha256": "b1fe3f0800005b001382aca0e60df15491040081ebd3b5a16e52f90bd01eebed",
+ "source_hashes": {
+  "services/otc_sparse_prereg/certify.py": "8aa298cb38117a480d8a7c609d18c6aff5bc4e01cafe4da0acbb5fa343237504",
+  "services/otc_sparse_prereg/historical.py": "8142a3cb39aea68c94e2d61edeaaff3aae9418a3242aac5d331d2fad4f01e16c",
+  "services/otc_sparse_prereg/labels.py": "4bdc892351b98596c071cf6a93b571418ae5709ca32d6fb513fc1939dda289fd",
+  "services/otc_sparse_prereg/spec.py": "23bd65b9b07a81705342ccf1a96086165e2503ef1464751ff3b0b6deca2eac0f",
+  "services/otc_sparse_prereg/stats.py": "cd698495405abe8e3ce6b7d87ae5e53e1e06ff049aa47223cf7a09c1146e6210",
+  "services/otc_sparse_prereg/triggers.py": "246339d88c9699f05b478414ba88210304d879b02c151d2db8a7fb78e522bd9a"
+ },
+ "spec": {
+  "alpha": 0.00625,
+  "archive_timeframe_s": 120,
+  "control_exclusion_ms": 900000,
+  "design_effect": 1.5,
+  "entry_delay_ms": 2000,
+  "family": [
+   {
+    "expiry_s": 120,
+    "hid": "H2",
+    "in_family": true,
+    "max_days": 60,
+    "name": "Extreme 2-min move fade",
+    "nested_in": null,
+    "product": "turbo",
+    "rank": 1,
+    "side": "reverse the move",
+    "tradable": true,
+    "trigger": "abs(z0) >= per-asset 99.5% quantile of abs(z0) frozen on the archive"
+   },
+   {
+    "expiry_s": 120,
+    "hid": "H2b",
+    "in_family": false,
+    "max_days": 60,
+    "name": "Strict extreme 2-min move fade",
+    "nested_in": "H2",
+    "product": "turbo",
+    "rank": 1,
+    "side": "reverse the move",
+    "tradable": true,
+    "trigger": "abs(z0) >= per-asset 99.9% quantile of abs(z0) frozen on the archive"
+   },
+   {
+    "expiry_s": 600,
+    "hid": "H3",
+    "in_family": true,
+    "max_days": 60,
+    "name": "Anchor-gap reversion",
+    "nested_in": null,
+    "product": "binary",
+    "rank": 2,
+    "side": "toward the 1-day mean",
+    "tradable": true,
+    "trigger": "abs(gap) > 2.5 on the first bar of the excursion, gap = (log c - mean log c over last 720 bars) / (vol60 * sqrt(720))"
+   },
+   {
+    "expiry_s": 600,
+    "hid": "H4",
+    "in_family": true,
+    "max_days": 60,
+    "name": "Round-number first-touch fade",
+    "nested_in": null,
+    "product": "binary",
+    "rank": 3,
+    "side": "against the approach",
+    "tradable": true,
+    "trigger": "close within 0.01% of the nearest 0.0050 lattice level (0.50 JPY); max distance from that level over the prior 5 bars >= 8 pips; no touch in the prior 30 bars; must beat 99th pct of 1,000 placebo lattices"
+   },
+   {
+    "expiry_s": 120,
+    "hid": "H5",
+    "in_family": true,
+    "max_days": 60,
+    "name": "Breadth-extreme fade",
+    "nested_in": null,
+    "product": "turbo",
+    "rank": 4,
+    "side": "against the sign of mkt0",
+    "tradable": true,
+    "trigger": "abs(mkt0) >= pooled 99.0% quantile frozen on the archive; one trade per timestamp, on the same-sign asset with the largest abs(z0)"
+   },
+   {
+    "expiry_s": 300,
+    "hid": "H1",
+    "in_family": true,
+    "max_days": 210,
+    "name": "Payout step-down crowd fade",
+    "nested_in": null,
+    "product": "turbo",
+    "rank": 5,
+    "side": "against the mood majority",
+    "tradable": true,
+    "trigger": "payout (turbo or binary) falls >= 0.03 vs that product's previous sample; steps within 300 s merged; nearest prior turbo mood within 60 s has 0.05 < call fraction < 0.95, != 0.5; must also beat the matched mood-only control"
+   },
+   {
+    "expiry_s": 300,
+    "hid": "H6",
+    "in_family": true,
+    "max_days": 100,
+    "name": "Payout step-up mirror",
+    "nested_in": null,
+    "product": "turbo",
+    "rank": 6,
+    "side": "with the mood majority",
+    "tradable": true,
+    "trigger": "payout (turbo or binary) rises >= 0.03, merged as H1; nearest prior turbo mood within 60 s != 0.5"
+   },
+   {
+    "expiry_s": 120,
+    "hid": "H7",
+    "in_family": true,
+    "max_days": 60,
+    "name": "Quote-stall resume fade",
+    "nested_in": null,
+    "product": "turbo",
+    "rank": 7,
+    "side": "against the jump across the gap",
+    "tradable": false,
+    "trigger": "gap >= 60 s between consecutive received quotes on the asset; decision at the first quote after the gap"
+   },
+   {
+    "expiry_s": 900,
+    "hid": "H8",
+    "in_family": true,
+    "max_days": 60,
+    "name": "15-min breakout continuation",
+    "nested_in": null,
+    "product": "binary",
+    "rank": 8,
+    "side": "with the break",
+    "tradable": true,
+    "trigger": "5-min bars: (close - 20-bar low) / (20-bar high - 20-bar low) >= 0.999 (call) or <= 0.001 (put)"
+   }
+  ],
+  "family_alpha": 0.05,
+  "forward_start_ms": 1794657600000,
+  "forward_start_utc": "2026-11-14T12:00:00Z",
+  "gates": {
+   "G1": "weekday-path replay: one cross-day path-correlation statistic per asset at lags 1 and 5 days vs day-shuffled and circularly shifted surrogates, Holm over 15 assets; a pass only unlocks a separately registered family",
+   "G2": "planted-edge power check: evals/eval_power.py must recover a +5 pt edge at the registered n with power >= 0.80 and certify a true null at most at rate ALPHA",
+   "G3": "known-null pipeline control: the full trigger-label-certificate pipeline on a memoryless random walk must certify nothing (evals/eval_power.py); Deriv volatility ticks to be added as G3b"
+  },
+  "k": 8,
+  "max_mood_age_ms": 60000,
+  "max_payout_age_ms": 120000,
+  "outcome_states": [
+   "CERTIFIED",
+   "NULL-INFORMATIVE",
+   "UNDERPOWERED",
+   "FUTILE"
+  ],
+  "payout_merge_ms": 300000,
+  "planning_edge": 0.05,
+  "stall_gap_ms": 60000
+ },
+ "test_block": {
+  "first_day_utc": "2026-05-16",
+  "last_day_utc": "2026-07-27"
+ },
+ "threshold_block": {
+  "first_day_utc": "2026-03-29",
+  "last_day_utc": "2026-05-15"
+ },
+ "written_utc": "2026-11-13T03:50:59+00:00"
+}
