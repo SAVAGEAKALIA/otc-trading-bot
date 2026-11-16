@@ -1,0 +1,242 @@
+[
+ {
+  "id": "S01",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "EURAUD-OTC: lag-1 AC +0.000, 10-min AC -0.16, z vs 30-bar mean -0.49, vol ratio 0.78; in-sample MR hit 0.53 is within noise, and pooled tests on 35k samples show no rule above 53.76%."
+ },
+ {
+  "id": "S02",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "CADJPY-OTC: lag-1 AC -0.004, 10-min AC +0.02, z vs 30-bar mean +0.51, vol ratio 3.16; in-sample MR hit 0.46 is within noise, and pooled tests on 35k samples show no rule above 53.76%."
+ },
+ {
+  "id": "S03",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "USDJPY-OTC: lag-1 AC -0.001, 10-min AC +0.05, z vs 30-bar mean -1.21, vol ratio 0.98; in-sample MR hit 0.48 is within noise, and pooled tests on 35k samples show no rule above 53.76%."
+ },
+ {
+  "id": "S04",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "EURJPY-OTC: lag-1 AC -0.030, 10-min AC -0.08, z vs 30-bar mean +1.33, vol ratio 0.68; in-sample MR hit 0.50 is within noise, and pooled tests on 35k samples show no rule above 53.76%."
+ },
+ {
+  "id": "S05",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "USDCAD-OTC: lag-1 AC +0.017, 10-min AC +0.09, z vs 30-bar mean -1.15, vol ratio 0.90; in-sample MR hit 0.55 is within noise, and pooled tests on 35k samples show no rule above 53.76%."
+ },
+ {
+  "id": "S06",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "CHFJPY-OTC: lag-1 AC -0.087, 10-min AC -0.14, z vs 30-bar mean -0.88, vol ratio 0.64; in-sample MR hit 0.66 is within noise, and pooled tests on 35k samples show no rule above 53.76%."
+ },
+ {
+  "id": "S07",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "GBPJPY-OTC: lag-1 AC -0.011, 10-min AC -0.07, z vs 30-bar mean +0.20, vol ratio 0.99; in-sample MR hit 0.66 is within noise, and pooled tests on 35k samples show no rule above 53.76%."
+ },
+ {
+  "id": "S08",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "EURGBP-OTC: lag-1 AC -0.020, 10-min AC -0.17, z vs 30-bar mean +2.99, vol ratio 1.01; in-sample MR hit 0.61 is within noise, and pooled tests on 35k samples show no rule above 53.76%."
+ },
+ {
+  "id": "S09",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "GBPUSD-OTC: lag-1 AC -0.040, 10-min AC +0.14, z vs 30-bar mean +0.95, vol ratio 0.75; in-sample MR hit 0.44 is within noise, and pooled tests on 35k samples show no rule above 53.76%."
+ },
+ {
+  "id": "S10",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "EURGBP-OTC: lag-1 AC -0.060, 10-min AC -0.10, z vs 30-bar mean +0.99, vol ratio 1.02; in-sample MR hit 0.44 is within noise, and pooled tests on 35k samples show no rule above 53.76%."
+ },
+ {
+  "id": "S11",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "AUDUSD-OTC: lag-1 AC -0.066, 10-min AC -0.15, z vs 30-bar mean -2.30, vol ratio 0.82; in-sample MR hit 0.49 is within noise, and pooled tests on 35k samples show no rule above 53.76%."
+ },
+ {
+  "id": "S12",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "AUDUSD-OTC: lag-1 AC -0.036, 10-min AC +0.18, z vs 30-bar mean +0.78, vol ratio 0.96; in-sample MR hit 0.65 is within noise, and pooled tests on 35k samples show no rule above 53.76%."
+ },
+ {
+  "id": "S13",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "EURJPY-OTC: lag-1 AC -0.039, 10-min AC +0.25, z vs 30-bar mean +1.45, vol ratio 1.02; in-sample MR hit 0.42 is within noise, and pooled tests on 35k samples show no rule above 53.76%."
+ },
+ {
+  "id": "S14",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "USDCAD-OTC: lag-1 AC +0.003, 10-min AC +0.00, z vs 30-bar mean +0.69, vol ratio 0.24; in-sample MR hit 0.44 is within noise, and pooled tests on 35k samples show no rule above 53.76%."
+ },
+ {
+  "id": "S15",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "EURAUD-OTC: lag-1 AC +0.070, 10-min AC -0.08, z vs 30-bar mean -0.58, vol ratio 0.51; in-sample MR hit 0.41 is within noise, and pooled tests on 35k samples show no rule above 53.76%."
+ },
+ {
+  "id": "S16",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "CHFJPY-OTC: lag-1 AC +0.051, 10-min AC +0.00, z vs 30-bar mean +3.31, vol ratio 0.56; in-sample MR hit 0.51 is within noise, and pooled tests on 35k samples show no rule above 53.76%."
+ },
+ {
+  "id": "S17",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "EURAUD-OTC: lag-1 AC +0.038, 10-min AC +0.08, z vs 30-bar mean +1.35, vol ratio 0.69; in-sample MR hit 0.49 is within noise, and pooled tests on 35k samples show no rule above 53.76%."
+ },
+ {
+  "id": "S18",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "CADJPY-OTC: lag-1 AC +0.025, 10-min AC -0.10, z vs 30-bar mean +1.44, vol ratio 1.17; in-sample MR hit 0.41 is within noise, and pooled tests on 35k samples show no rule above 53.76%."
+ },
+ {
+  "id": "S19",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "CADJPY-OTC: lag-1 AC -0.009, 10-min AC +0.04, z vs 30-bar mean -1.77, vol ratio 0.98; in-sample MR hit 0.52 is within noise, and pooled tests on 35k samples show no rule above 53.76%."
+ },
+ {
+  "id": "S20",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "EURJPY-OTC: lag-1 AC +0.001, 10-min AC -0.03, z vs 30-bar mean +1.69, vol ratio 0.56; in-sample MR hit 0.49 is within noise, and pooled tests on 35k samples show no rule above 53.76%."
+ },
+ {
+  "id": "S21",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "CADJPY-OTC: lag-1 AC -0.064, 10-min AC -0.09, z vs 30-bar mean +0.17, vol ratio 0.80; in-sample MR hit 0.43 is within noise, and pooled tests on 35k samples show no rule above 53.76%."
+ },
+ {
+  "id": "S22",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "NZDUSD-OTC: lag-1 AC +0.027, 10-min AC -0.03, z vs 30-bar mean -1.27, vol ratio 0.98; in-sample MR hit 0.52 is within noise, and pooled tests on 35k samples show no rule above 53.76%."
+ },
+ {
+  "id": "S23",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "AUDUSD-OTC: lag-1 AC -0.088, 10-min AC -0.08, z vs 30-bar mean -1.63, vol ratio 0.89; in-sample MR hit 0.55 is within noise, and pooled tests on 35k samples show no rule above 53.76%."
+ },
+ {
+  "id": "S24",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "EURJPY-OTC: lag-1 AC +0.054, 10-min AC -0.14, z vs 30-bar mean -2.68, vol ratio 1.06; in-sample MR hit 0.60 is within noise, and pooled tests on 35k samples show no rule above 53.76%."
+ },
+ {
+  "id": "S25",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "CHFJPY-OTC: lag-1 AC +0.023, 10-min AC -0.02, z vs 30-bar mean +1.33, vol ratio 0.78; in-sample MR hit 0.34 is within noise, and pooled tests on 35k samples show no rule above 53.76%."
+ },
+ {
+  "id": "S26",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "USDJPY-OTC: lag-1 AC +0.006, 10-min AC -0.15, z vs 30-bar mean +0.18, vol ratio 1.05; in-sample MR hit 0.59 is within noise, and pooled tests on 35k samples show no rule above 53.76%."
+ },
+ {
+  "id": "S27",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "USDCAD-OTC: lag-1 AC -0.014, 10-min AC -0.01, z vs 30-bar mean +1.62, vol ratio 0.94; in-sample MR hit 0.37 is within noise, and pooled tests on 35k samples show no rule above 53.76%."
+ },
+ {
+  "id": "S28",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "EURUSD-OTC: lag-1 AC +0.083, 10-min AC -0.06, z vs 30-bar mean +0.83, vol ratio 0.98; in-sample MR hit 0.52 is within noise, and pooled tests on 35k samples show no rule above 53.76%."
+ },
+ {
+  "id": "S29",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "USDCHF-OTC: lag-1 AC +0.032, 10-min AC +0.01, z vs 30-bar mean -1.19, vol ratio 1.14; in-sample MR hit 0.45 is within noise, and pooled tests on 35k samples show no rule above 53.76%."
+ },
+ {
+  "id": "S30",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "NZDUSD-OTC: lag-1 AC -0.036, 10-min AC -0.02, z vs 30-bar mean +2.27, vol ratio 0.94; in-sample MR hit 0.45 is within noise, and pooled tests on 35k samples show no rule above 53.76%."
+ },
+ {
+  "id": "S31",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "USDJPY-OTC: lag-1 AC +0.071, 10-min AC -0.04, z vs 30-bar mean -1.37, vol ratio 1.16; in-sample MR hit 0.57 is within noise, and pooled tests on 35k samples show no rule above 53.76%."
+ },
+ {
+  "id": "S32",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "CADJPY-OTC: lag-1 AC +0.054, 10-min AC +0.11, z vs 30-bar mean +2.55, vol ratio 1.26; in-sample MR hit 0.44 is within noise, and pooled tests on 35k samples show no rule above 53.76%."
+ },
+ {
+  "id": "S33",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "USDJPY-OTC: lag-1 AC -0.030, 10-min AC -0.10, z vs 30-bar mean -1.66, vol ratio 0.76; in-sample MR hit 0.48 is within noise, and pooled tests on 35k samples show no rule above 53.76%."
+ },
+ {
+  "id": "S34",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "USDCAD-OTC: lag-1 AC +0.008, 10-min AC +0.04, z vs 30-bar mean +0.73, vol ratio 0.95; in-sample MR hit 0.49 is within noise, and pooled tests on 35k samples show no rule above 53.76%."
+ },
+ {
+  "id": "S35",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "EURJPY-OTC: lag-1 AC -0.057, 10-min AC -0.14, z vs 30-bar mean +0.25, vol ratio 0.59; in-sample MR hit 0.58 is within noise, and pooled tests on 35k samples show no rule above 53.76%."
+ },
+ {
+  "id": "S36",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "AUDUSD-OTC: lag-1 AC -0.062, 10-min AC +0.09, z vs 30-bar mean +1.93, vol ratio 0.72; in-sample MR hit 0.42 is within noise, and pooled tests on 35k samples show no rule above 53.76%."
+ },
+ {
+  "id": "S37",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "AUDUSD-OTC: lag-1 AC -0.037, 10-min AC +0.15, z vs 30-bar mean -0.16, vol ratio 2.41; in-sample MR hit 0.48 is within noise, and pooled tests on 35k samples show no rule above 53.76%."
+ },
+ {
+  "id": "S38",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "EURGBP-OTC: lag-1 AC +0.004, 10-min AC -0.04, z vs 30-bar mean +1.58, vol ratio 1.05; in-sample MR hit 0.49 is within noise, and pooled tests on 35k samples show no rule above 53.76%."
+ },
+ {
+  "id": "S39",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "GBPUSD-OTC: lag-1 AC +0.006, 10-min AC +0.37, z vs 30-bar mean -1.14, vol ratio 1.08; in-sample MR hit 0.23 is within noise, and pooled tests on 35k samples show no rule above 53.76%."
+ },
+ {
+  "id": "S40",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "GBPAUD-OTC: lag-1 AC -0.001, 10-min AC +0.10, z vs 30-bar mean +1.23, vol ratio 0.56; in-sample MR hit 0.41 is within noise, and pooled tests on 35k samples show no rule above 53.76%."
+ }
+]

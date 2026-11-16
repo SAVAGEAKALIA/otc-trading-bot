@@ -1,0 +1,242 @@
+[
+ {
+  "id": "S01",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No clean setup: trend 1, RSI 48.6, 2h range pos 0.79; signals conflict or price is mid-range."
+ },
+ {
+  "id": "S02",
+  "call": "down",
+  "confidence": 0.56,
+  "reason": "RSI 77 at the 12h high with a bearish engulfing on the decision bar; exhaustion at resistance."
+ },
+ {
+  "id": "S03",
+  "call": "down",
+  "confidence": 0.55,
+  "reason": "Downtrend pressing the 2h low with RSI 35 and falling EMA20."
+ },
+ {
+  "id": "S04",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No clean setup: trend -1, RSI 55.4, 2h range pos 0.51; signals conflict or price is mid-range."
+ },
+ {
+  "id": "S05",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No clean setup: trend -1, RSI 40.2, 2h range pos 0.16; signals conflict or price is mid-range."
+ },
+ {
+  "id": "S06",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No clean setup: trend -1, RSI 46.5, 2h range pos 0.31; signals conflict or price is mid-range."
+ },
+ {
+  "id": "S07",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No clean setup: trend 1, RSI 49.8, 2h range pos 0.62; signals conflict or price is mid-range."
+ },
+ {
+  "id": "S08",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No clean setup: trend -1, RSI 64.5, 2h range pos 1.0; signals conflict or price is mid-range."
+ },
+ {
+  "id": "S09",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No clean setup: trend 0, RSI 61.3, 2h range pos 0.88; signals conflict or price is mid-range."
+ },
+ {
+  "id": "S10",
+  "call": "up",
+  "confidence": 0.55,
+  "reason": "Aligned uptrend near the 12h high, bullish engulfing after a shallow pullback."
+ },
+ {
+  "id": "S11",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No clean setup: trend 0, RSI 31.2, 2h range pos 0.08; signals conflict or price is mid-range."
+ },
+ {
+  "id": "S12",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No clean setup: trend -1, RSI 52.2, 2h range pos 0.42; signals conflict or price is mid-range."
+ },
+ {
+  "id": "S13",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No clean setup: trend -1, RSI 55.4, 2h range pos 0.43; signals conflict or price is mid-range."
+ },
+ {
+  "id": "S14",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No clean setup: trend -1, RSI 52.6, 2h range pos 0.77; signals conflict or price is mid-range."
+ },
+ {
+  "id": "S15",
+  "call": "down",
+  "confidence": 0.54,
+  "reason": "EURAUD near its 12h low in an aligned downtrend, momentum still negative."
+ },
+ {
+  "id": "S16",
+  "call": "up",
+  "confidence": 0.55,
+  "reason": "Stacked EMA uptrend breaking to a 12h high with strong 5-bar momentum; breakout continuation."
+ },
+ {
+  "id": "S17",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No clean setup: trend -1, RSI 54.2, 2h range pos 0.29; signals conflict or price is mid-range."
+ },
+ {
+  "id": "S18",
+  "call": "up",
+  "confidence": 0.54,
+  "reason": "Rising EMA20 slope in a stacked uptrend, price consolidating just under the high."
+ },
+ {
+  "id": "S19",
+  "call": "down",
+  "confidence": 0.55,
+  "reason": "Stacked EMA downtrend breaking to a 12h low with -1.9 ATR momentum; breakdown continuation."
+ },
+ {
+  "id": "S20",
+  "call": "up",
+  "confidence": 0.55,
+  "reason": "EURJPY printing a fresh 12h high inside a stacked EMA uptrend, RSI 71 not yet diverging."
+ },
+ {
+  "id": "S21",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No clean setup: trend -1, RSI 51.2, 2h range pos 0.27; signals conflict or price is mid-range."
+ },
+ {
+  "id": "S22",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No clean setup: trend 1, RSI 37.7, 2h range pos 0.3; signals conflict or price is mid-range."
+ },
+ {
+  "id": "S23",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No clean setup: trend 0, RSI 39.9, 2h range pos 0.28; signals conflict or price is mid-range."
+ },
+ {
+  "id": "S24",
+  "call": "down",
+  "confidence": 0.55,
+  "reason": "EURJPY at the 12h low in an aligned downtrend with -2.2 ATR momentum."
+ },
+ {
+  "id": "S25",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No clean setup: trend 0, RSI 68.7, 2h range pos 0.87; signals conflict or price is mid-range."
+ },
+ {
+  "id": "S26",
+  "call": "down",
+  "confidence": 0.55,
+  "reason": "Shooting star after a sharp counter-trend rally inside a bearish EMA stack."
+ },
+ {
+  "id": "S27",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No clean setup: trend -1, RSI 55.8, 2h range pos 0.4; signals conflict or price is mid-range."
+ },
+ {
+  "id": "S28",
+  "call": "up",
+  "confidence": 0.54,
+  "reason": "Hammer at the top of the 12h range within an EMA uptrend."
+ },
+ {
+  "id": "S29",
+  "call": "down",
+  "confidence": 0.54,
+  "reason": "USDCHF stacked downtrend sitting near the 12h low, EMA20 falling."
+ },
+ {
+  "id": "S30",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No clean setup: trend 0, RSI 70.5, 2h range pos 1.0; signals conflict or price is mid-range."
+ },
+ {
+  "id": "S31",
+  "call": "down",
+  "confidence": 0.55,
+  "reason": "Downtrend near the 12h low with -2.3 ATR momentum."
+ },
+ {
+  "id": "S32",
+  "call": "up",
+  "confidence": 0.55,
+  "reason": "CADJPY at a 12h high with aligned EMAs and +3 ATR momentum; breakout continuation."
+ },
+ {
+  "id": "S33",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No clean setup: trend 1, RSI 40.2, 2h range pos 0.56; signals conflict or price is mid-range."
+ },
+ {
+  "id": "S34",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No clean setup: trend -1, RSI 58.4, 2h range pos 0.36; signals conflict or price is mid-range."
+ },
+ {
+  "id": "S35",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No clean setup: trend -1, RSI 52.8, 2h range pos 0.53; signals conflict or price is mid-range."
+ },
+ {
+  "id": "S36",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No clean setup: trend 0, RSI 60.2, 2h range pos 0.64; signals conflict or price is mid-range."
+ },
+ {
+  "id": "S37",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No clean setup: trend -1, RSI 45.9, 2h range pos 0.18; signals conflict or price is mid-range."
+ },
+ {
+  "id": "S38",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No clean setup: trend 0, RSI 61.3, 2h range pos 0.59; signals conflict or price is mid-range."
+ },
+ {
+  "id": "S39",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No clean setup: trend 1, RSI 45.2, 2h range pos 0.42; signals conflict or price is mid-range."
+ },
+ {
+  "id": "S40",
+  "call": "up",
+  "confidence": 0.55,
+  "reason": "Uptrend near the 12h high with a hammer rejecting the pullback."
+ }
+]

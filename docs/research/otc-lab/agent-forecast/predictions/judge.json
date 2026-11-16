@@ -1,0 +1,242 @@
+[
+ {
+  "id": "S01",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Panel consensus abstain; no tested signal clears 53.76% break-even."
+ },
+ {
+  "id": "S02",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Chartist called down on trend/extreme pattern, but the same breakout-continuation rule pooled over ~9.2k snapshot cases hit 49.2% (up) / 49.9% (down); overruled to abstain."
+ },
+ {
+  "id": "S03",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Chartist called down on trend/extreme pattern, but the same breakout-continuation rule pooled over ~9.2k snapshot cases hit 49.2% (up) / 49.9% (down); overruled to abstain."
+ },
+ {
+  "id": "S04",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Panel consensus abstain; no tested signal clears 53.76% break-even."
+ },
+ {
+  "id": "S05",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Panel consensus abstain; no tested signal clears 53.76% break-even."
+ },
+ {
+  "id": "S06",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Panel consensus abstain; no tested signal clears 53.76% break-even."
+ },
+ {
+  "id": "S07",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Panel consensus abstain; no tested signal clears 53.76% break-even."
+ },
+ {
+  "id": "S08",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Panel consensus abstain; no tested signal clears 53.76% break-even."
+ },
+ {
+  "id": "S09",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Panel consensus abstain; no tested signal clears 53.76% break-even."
+ },
+ {
+  "id": "S10",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Chartist called up on trend/extreme pattern, but the same breakout-continuation rule pooled over ~9.2k snapshot cases hit 49.2% (up) / 49.9% (down); overruled to abstain."
+ },
+ {
+  "id": "S11",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Panel consensus abstain; no tested signal clears 53.76% break-even."
+ },
+ {
+  "id": "S12",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Panel consensus abstain; no tested signal clears 53.76% break-even."
+ },
+ {
+  "id": "S13",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Panel consensus abstain; no tested signal clears 53.76% break-even."
+ },
+ {
+  "id": "S14",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Panel consensus abstain; no tested signal clears 53.76% break-even."
+ },
+ {
+  "id": "S15",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Chartist called down on trend/extreme pattern, but the same breakout-continuation rule pooled over ~9.2k snapshot cases hit 49.2% (up) / 49.9% (down); overruled to abstain."
+ },
+ {
+  "id": "S16",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Chartist called up on trend/extreme pattern, but the same breakout-continuation rule pooled over ~9.2k snapshot cases hit 49.2% (up) / 49.9% (down); overruled to abstain."
+ },
+ {
+  "id": "S17",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Panel consensus abstain; no tested signal clears 53.76% break-even."
+ },
+ {
+  "id": "S18",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Chartist called up on trend/extreme pattern, but the same breakout-continuation rule pooled over ~9.2k snapshot cases hit 49.2% (up) / 49.9% (down); overruled to abstain."
+ },
+ {
+  "id": "S19",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Chartist called down on trend/extreme pattern, but the same breakout-continuation rule pooled over ~9.2k snapshot cases hit 49.2% (up) / 49.9% (down); overruled to abstain."
+ },
+ {
+  "id": "S20",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Chartist called up on trend/extreme pattern, but the same breakout-continuation rule pooled over ~9.2k snapshot cases hit 49.2% (up) / 49.9% (down); overruled to abstain."
+ },
+ {
+  "id": "S21",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Panel consensus abstain; no tested signal clears 53.76% break-even."
+ },
+ {
+  "id": "S22",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Panel consensus abstain; no tested signal clears 53.76% break-even."
+ },
+ {
+  "id": "S23",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Panel consensus abstain; no tested signal clears 53.76% break-even."
+ },
+ {
+  "id": "S24",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Chartist called down on trend/extreme pattern, but the same breakout-continuation rule pooled over ~9.2k snapshot cases hit 49.2% (up) / 49.9% (down); overruled to abstain."
+ },
+ {
+  "id": "S25",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Panel consensus abstain; no tested signal clears 53.76% break-even."
+ },
+ {
+  "id": "S26",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Chartist called down on trend/extreme pattern, but the same breakout-continuation rule pooled over ~9.2k snapshot cases hit 49.2% (up) / 49.9% (down); overruled to abstain."
+ },
+ {
+  "id": "S27",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Panel consensus abstain; no tested signal clears 53.76% break-even."
+ },
+ {
+  "id": "S28",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Chartist called up on trend/extreme pattern, but the same breakout-continuation rule pooled over ~9.2k snapshot cases hit 49.2% (up) / 49.9% (down); overruled to abstain."
+ },
+ {
+  "id": "S29",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Chartist called down on trend/extreme pattern, but the same breakout-continuation rule pooled over ~9.2k snapshot cases hit 49.2% (up) / 49.9% (down); overruled to abstain."
+ },
+ {
+  "id": "S30",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Panel consensus abstain; no tested signal clears 53.76% break-even."
+ },
+ {
+  "id": "S31",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Chartist called down on trend/extreme pattern, but the same breakout-continuation rule pooled over ~9.2k snapshot cases hit 49.2% (up) / 49.9% (down); overruled to abstain."
+ },
+ {
+  "id": "S32",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Chartist called up on trend/extreme pattern, but the same breakout-continuation rule pooled over ~9.2k snapshot cases hit 49.2% (up) / 49.9% (down); overruled to abstain."
+ },
+ {
+  "id": "S33",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Panel consensus abstain; no tested signal clears 53.76% break-even."
+ },
+ {
+  "id": "S34",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Panel consensus abstain; no tested signal clears 53.76% break-even."
+ },
+ {
+  "id": "S35",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Panel consensus abstain; no tested signal clears 53.76% break-even."
+ },
+ {
+  "id": "S36",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Panel consensus abstain; no tested signal clears 53.76% break-even."
+ },
+ {
+  "id": "S37",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Panel consensus abstain; no tested signal clears 53.76% break-even."
+ },
+ {
+  "id": "S38",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Panel consensus abstain; no tested signal clears 53.76% break-even."
+ },
+ {
+  "id": "S39",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Panel consensus abstain; no tested signal clears 53.76% break-even."
+ },
+ {
+  "id": "S40",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Chartist called up on trend/extreme pattern, but the same breakout-continuation rule pooled over ~9.2k snapshot cases hit 49.2% (up) / 49.9% (down); overruled to abstain."
+ }
+]

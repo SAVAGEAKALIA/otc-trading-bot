@@ -1,0 +1,242 @@
+[
+ {
+  "id": "S01",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Regime: weak drift (3h t=1.6). In-snapshot tests of every regime-conditioned rule hit 48-52% on 10-min direction, below the 53.76% break-even."
+ },
+ {
+  "id": "S02",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Regime: post-gap/feed restart (25 bars since a 6-min gap). In-snapshot tests of every regime-conditioned rule hit 48-52% on 10-min direction, below the 53.76% break-even."
+ },
+ {
+  "id": "S03",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Regime: random-walk / unclear. In-snapshot tests of every regime-conditioned rule hit 48-52% on 10-min direction, below the 53.76% break-even."
+ },
+ {
+  "id": "S04",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Regime: random-walk / unclear. In-snapshot tests of every regime-conditioned rule hit 48-52% on 10-min direction, below the 53.76% break-even."
+ },
+ {
+  "id": "S05",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Regime: trending tilt (VR5=1.208). In-snapshot tests of every regime-conditioned rule hit 48-52% on 10-min direction, below the 53.76% break-even."
+ },
+ {
+  "id": "S06",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Regime: mean-reverting tilt (VR5=0.628). In-snapshot tests of every regime-conditioned rule hit 48-52% on 10-min direction, below the 53.76% break-even."
+ },
+ {
+  "id": "S07",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Regime: mean-reverting tilt (VR5=0.786). In-snapshot tests of every regime-conditioned rule hit 48-52% on 10-min direction, below the 53.76% break-even."
+ },
+ {
+  "id": "S08",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Regime: mean-reverting tilt (VR5=0.774). In-snapshot tests of every regime-conditioned rule hit 48-52% on 10-min direction, below the 53.76% break-even."
+ },
+ {
+  "id": "S09",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Regime: quiet (vol ratio 0.76). In-snapshot tests of every regime-conditioned rule hit 48-52% on 10-min direction, below the 53.76% break-even."
+ },
+ {
+  "id": "S10",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Regime: random-walk / unclear. In-snapshot tests of every regime-conditioned rule hit 48-52% on 10-min direction, below the 53.76% break-even."
+ },
+ {
+  "id": "S11",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Regime: random-walk / unclear. In-snapshot tests of every regime-conditioned rule hit 48-52% on 10-min direction, below the 53.76% break-even."
+ },
+ {
+  "id": "S12",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Regime: random-walk / unclear. In-snapshot tests of every regime-conditioned rule hit 48-52% on 10-min direction, below the 53.76% break-even."
+ },
+ {
+  "id": "S13",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Regime: weak drift (3h t=-1.66). In-snapshot tests of every regime-conditioned rule hit 48-52% on 10-min direction, below the 53.76% break-even."
+ },
+ {
+  "id": "S14",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Regime: mean-reverting tilt (VR5=0.656). In-snapshot tests of every regime-conditioned rule hit 48-52% on 10-min direction, below the 53.76% break-even."
+ },
+ {
+  "id": "S15",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Regime: random-walk / unclear. In-snapshot tests of every regime-conditioned rule hit 48-52% on 10-min direction, below the 53.76% break-even."
+ },
+ {
+  "id": "S16",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Regime: post-gap/feed restart (36 bars since a 6-min gap). In-snapshot tests of every regime-conditioned rule hit 48-52% on 10-min direction, below the 53.76% break-even."
+ },
+ {
+  "id": "S17",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Regime: random-walk / unclear. In-snapshot tests of every regime-conditioned rule hit 48-52% on 10-min direction, below the 53.76% break-even."
+ },
+ {
+  "id": "S18",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Regime: volatility expansion (vol ratio 1.23). In-snapshot tests of every regime-conditioned rule hit 48-52% on 10-min direction, below the 53.76% break-even."
+ },
+ {
+  "id": "S19",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Regime: weak drift (3h t=-3.31). In-snapshot tests of every regime-conditioned rule hit 48-52% on 10-min direction, below the 53.76% break-even."
+ },
+ {
+  "id": "S20",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Regime: mean-reverting tilt (VR5=0.411). In-snapshot tests of every regime-conditioned rule hit 48-52% on 10-min direction, below the 53.76% break-even."
+ },
+ {
+  "id": "S21",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Regime: weak drift (3h t=-1.59). In-snapshot tests of every regime-conditioned rule hit 48-52% on 10-min direction, below the 53.76% break-even."
+ },
+ {
+  "id": "S22",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Regime: random-walk / unclear. In-snapshot tests of every regime-conditioned rule hit 48-52% on 10-min direction, below the 53.76% break-even."
+ },
+ {
+  "id": "S23",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Regime: random-walk / unclear. In-snapshot tests of every regime-conditioned rule hit 48-52% on 10-min direction, below the 53.76% break-even."
+ },
+ {
+  "id": "S24",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Regime: weak drift (3h t=-1.76). In-snapshot tests of every regime-conditioned rule hit 48-52% on 10-min direction, below the 53.76% break-even."
+ },
+ {
+  "id": "S25",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Regime: trending tilt (VR5=1.241). In-snapshot tests of every regime-conditioned rule hit 48-52% on 10-min direction, below the 53.76% break-even."
+ },
+ {
+  "id": "S26",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Regime: mean-reverting tilt (VR5=0.778). In-snapshot tests of every regime-conditioned rule hit 48-52% on 10-min direction, below the 53.76% break-even."
+ },
+ {
+  "id": "S27",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Regime: mean-reverting tilt (VR5=0.641). In-snapshot tests of every regime-conditioned rule hit 48-52% on 10-min direction, below the 53.76% break-even."
+ },
+ {
+  "id": "S28",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Regime: weak drift (3h t=1.76). In-snapshot tests of every regime-conditioned rule hit 48-52% on 10-min direction, below the 53.76% break-even."
+ },
+ {
+  "id": "S29",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Regime: trending tilt (VR5=1.117). In-snapshot tests of every regime-conditioned rule hit 48-52% on 10-min direction, below the 53.76% break-even."
+ },
+ {
+  "id": "S30",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Regime: random-walk / unclear. In-snapshot tests of every regime-conditioned rule hit 48-52% on 10-min direction, below the 53.76% break-even."
+ },
+ {
+  "id": "S31",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Regime: random-walk / unclear. In-snapshot tests of every regime-conditioned rule hit 48-52% on 10-min direction, below the 53.76% break-even."
+ },
+ {
+  "id": "S32",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Regime: trending tilt (VR5=1.179). In-snapshot tests of every regime-conditioned rule hit 48-52% on 10-min direction, below the 53.76% break-even."
+ },
+ {
+  "id": "S33",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Regime: mean-reverting tilt (VR5=0.705). In-snapshot tests of every regime-conditioned rule hit 48-52% on 10-min direction, below the 53.76% break-even."
+ },
+ {
+  "id": "S34",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Regime: random-walk / unclear. In-snapshot tests of every regime-conditioned rule hit 48-52% on 10-min direction, below the 53.76% break-even."
+ },
+ {
+  "id": "S35",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Regime: mean-reverting tilt (VR5=0.639). In-snapshot tests of every regime-conditioned rule hit 48-52% on 10-min direction, below the 53.76% break-even."
+ },
+ {
+  "id": "S36",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Regime: mean-reverting tilt (VR5=0.744). In-snapshot tests of every regime-conditioned rule hit 48-52% on 10-min direction, below the 53.76% break-even."
+ },
+ {
+  "id": "S37",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Regime: post-gap/feed restart (25 bars since a 6-min gap). In-snapshot tests of every regime-conditioned rule hit 48-52% on 10-min direction, below the 53.76% break-even."
+ },
+ {
+  "id": "S38",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Regime: random-walk / unclear. In-snapshot tests of every regime-conditioned rule hit 48-52% on 10-min direction, below the 53.76% break-even."
+ },
+ {
+  "id": "S39",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Regime: weak drift (3h t=1.95). In-snapshot tests of every regime-conditioned rule hit 48-52% on 10-min direction, below the 53.76% break-even."
+ },
+ {
+  "id": "S40",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "Regime: post-gap/feed restart (54 bars since a 6-min gap). In-snapshot tests of every regime-conditioned rule hit 48-52% on 10-min direction, below the 53.76% break-even."
+ }
+]

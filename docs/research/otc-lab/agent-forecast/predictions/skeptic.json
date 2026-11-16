@@ -1,0 +1,242 @@
+[
+ {
+  "id": "S01",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "EURAUD-OTC last 12h not distinguishable from its shuffled returns (lag1 ac p=0.949, VR5 p=0.796, 10m-vs-10m corr p=0.803, drift p=0.725); min p 0.725 is far above the Bonferroni bar 0.0003 across 160 tests."
+ },
+ {
+  "id": "S02",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "CADJPY-OTC last 12h not distinguishable from its shuffled returns (lag1 ac p=0.941, VR5 p=0.271, 10m-vs-10m corr p=0.822, drift p=0.307); min p 0.271 is far above the Bonferroni bar 0.0003 across 160 tests."
+ },
+ {
+  "id": "S03",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "USDJPY-OTC last 12h not distinguishable from its shuffled returns (lag1 ac p=0.973, VR5 p=0.771, 10m-vs-10m corr p=0.534, drift p=0.965); min p 0.534 is far above the Bonferroni bar 0.0003 across 160 tests."
+ },
+ {
+  "id": "S04",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "EURJPY-OTC last 12h not distinguishable from its shuffled returns (lag1 ac p=0.561, VR5 p=0.920, 10m-vs-10m corr p=0.719, drift p=0.898); min p 0.561 is far above the Bonferroni bar 0.0003 across 160 tests."
+ },
+ {
+  "id": "S05",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "USDCAD-OTC last 12h not distinguishable from its shuffled returns (lag1 ac p=0.728, VR5 p=0.356, 10m-vs-10m corr p=0.334, drift p=0.612); min p 0.334 is far above the Bonferroni bar 0.0003 across 160 tests."
+ },
+ {
+  "id": "S06",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "CHFJPY-OTC last 12h not distinguishable from its shuffled returns (lag1 ac p=0.041, VR5 p=0.182, 10m-vs-10m corr p=0.195, drift p=0.422); min p 0.041 is far above the Bonferroni bar 0.0003 across 160 tests."
+ },
+ {
+  "id": "S07",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "GBPJPY-OTC last 12h not distinguishable from its shuffled returns (lag1 ac p=0.910, VR5 p=0.799, 10m-vs-10m corr p=0.320, drift p=0.624); min p 0.320 is far above the Bonferroni bar 0.0003 across 160 tests."
+ },
+ {
+  "id": "S08",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "EURGBP-OTC last 12h not distinguishable from its shuffled returns (lag1 ac p=0.761, VR5 p=0.164, 10m-vs-10m corr p=0.053, drift p=0.574); min p 0.053 is far above the Bonferroni bar 0.0003 across 160 tests."
+ },
+ {
+  "id": "S09",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "GBPUSD-OTC last 12h not distinguishable from its shuffled returns (lag1 ac p=0.459, VR5 p=0.671, 10m-vs-10m corr p=0.727, drift p=0.414); min p 0.414 is far above the Bonferroni bar 0.0003 across 160 tests."
+ },
+ {
+  "id": "S10",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "EURGBP-OTC last 12h not distinguishable from its shuffled returns (lag1 ac p=0.277, VR5 p=0.403, 10m-vs-10m corr p=0.989, drift p=0.075); min p 0.075 is far above the Bonferroni bar 0.0003 across 160 tests."
+ },
+ {
+  "id": "S11",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "AUDUSD-OTC last 12h not distinguishable from its shuffled returns (lag1 ac p=0.208, VR5 p=0.233, 10m-vs-10m corr p=0.783, drift p=0.594); min p 0.208 is far above the Bonferroni bar 0.0003 across 160 tests."
+ },
+ {
+  "id": "S12",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "AUDUSD-OTC last 12h not distinguishable from its shuffled returns (lag1 ac p=0.530, VR5 p=0.604, 10m-vs-10m corr p=0.403, drift p=0.686); min p 0.403 is far above the Bonferroni bar 0.0003 across 160 tests."
+ },
+ {
+  "id": "S13",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "EURJPY-OTC last 12h not distinguishable from its shuffled returns (lag1 ac p=0.515, VR5 p=0.762, 10m-vs-10m corr p=0.045, drift p=0.627); min p 0.045 is far above the Bonferroni bar 0.0003 across 160 tests."
+ },
+ {
+  "id": "S14",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "USDCAD-OTC last 12h not distinguishable from its shuffled returns (lag1 ac p=0.786, VR5 p=0.738, 10m-vs-10m corr p=0.717, drift p=0.475); min p 0.475 is far above the Bonferroni bar 0.0003 across 160 tests."
+ },
+ {
+  "id": "S15",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "EURAUD-OTC last 12h not distinguishable from its shuffled returns (lag1 ac p=0.048, VR5 p=0.070, 10m-vs-10m corr p=0.991, drift p=0.981); min p 0.048 is far above the Bonferroni bar 0.0003 across 160 tests."
+ },
+ {
+  "id": "S16",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "CHFJPY-OTC last 12h not distinguishable from its shuffled returns (lag1 ac p=0.163, VR5 p=0.369, 10m-vs-10m corr p=0.251, drift p=0.251); min p 0.163 is far above the Bonferroni bar 0.0003 across 160 tests."
+ },
+ {
+  "id": "S17",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "EURAUD-OTC last 12h not distinguishable from its shuffled returns (lag1 ac p=0.316, VR5 p=0.875, 10m-vs-10m corr p=0.850, drift p=0.813); min p 0.316 is far above the Bonferroni bar 0.0003 across 160 tests."
+ },
+ {
+  "id": "S18",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "CADJPY-OTC last 12h not distinguishable from its shuffled returns (lag1 ac p=0.586, VR5 p=0.578, 10m-vs-10m corr p=0.755, drift p=0.005); min p 0.005 is far above the Bonferroni bar 0.0003 across 160 tests."
+ },
+ {
+  "id": "S19",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "CADJPY-OTC last 12h not distinguishable from its shuffled returns (lag1 ac p=0.932, VR5 p=0.153, 10m-vs-10m corr p=0.354, drift p=0.170); min p 0.153 is far above the Bonferroni bar 0.0003 across 160 tests."
+ },
+ {
+  "id": "S20",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "EURJPY-OTC last 12h not distinguishable from its shuffled returns (lag1 ac p=0.941, VR5 p=0.641, 10m-vs-10m corr p=0.861, drift p=0.096); min p 0.096 is far above the Bonferroni bar 0.0003 across 160 tests."
+ },
+ {
+  "id": "S21",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "CADJPY-OTC last 12h not distinguishable from its shuffled returns (lag1 ac p=0.236, VR5 p=0.308, 10m-vs-10m corr p=0.584, drift p=0.093); min p 0.093 is far above the Bonferroni bar 0.0003 across 160 tests."
+ },
+ {
+  "id": "S22",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "NZDUSD-OTC last 12h not distinguishable from its shuffled returns (lag1 ac p=0.593, VR5 p=0.505, 10m-vs-10m corr p=0.797, drift p=0.535); min p 0.505 is far above the Bonferroni bar 0.0003 across 160 tests."
+ },
+ {
+  "id": "S23",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "AUDUSD-OTC last 12h not distinguishable from its shuffled returns (lag1 ac p=0.112, VR5 p=0.215, 10m-vs-10m corr p=0.399, drift p=0.405); min p 0.112 is far above the Bonferroni bar 0.0003 across 160 tests."
+ },
+ {
+  "id": "S24",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "EURJPY-OTC last 12h not distinguishable from its shuffled returns (lag1 ac p=0.280, VR5 p=0.449, 10m-vs-10m corr p=0.264, drift p=0.099); min p 0.099 is far above the Bonferroni bar 0.0003 across 160 tests."
+ },
+ {
+  "id": "S25",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "CHFJPY-OTC last 12h not distinguishable from its shuffled returns (lag1 ac p=0.641, VR5 p=0.841, 10m-vs-10m corr p=0.352, drift p=0.963); min p 0.352 is far above the Bonferroni bar 0.0003 across 160 tests."
+ },
+ {
+  "id": "S26",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "USDJPY-OTC last 12h not distinguishable from its shuffled returns (lag1 ac p=0.855, VR5 p=0.801, 10m-vs-10m corr p=0.076, drift p=0.495); min p 0.076 is far above the Bonferroni bar 0.0003 across 160 tests."
+ },
+ {
+  "id": "S27",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "USDCAD-OTC last 12h not distinguishable from its shuffled returns (lag1 ac p=0.851, VR5 p=0.180, 10m-vs-10m corr p=0.615, drift p=0.730); min p 0.180 is far above the Bonferroni bar 0.0003 across 160 tests."
+ },
+ {
+  "id": "S28",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "EURUSD-OTC last 12h not distinguishable from its shuffled returns (lag1 ac p=0.097, VR5 p=0.133, 10m-vs-10m corr p=0.634, drift p=0.059); min p 0.059 is far above the Bonferroni bar 0.0003 across 160 tests."
+ },
+ {
+  "id": "S29",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "USDCHF-OTC last 12h not distinguishable from its shuffled returns (lag1 ac p=0.511, VR5 p=0.053, 10m-vs-10m corr p=0.283, drift p=0.749); min p 0.053 is far above the Bonferroni bar 0.0003 across 160 tests."
+ },
+ {
+  "id": "S30",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "NZDUSD-OTC last 12h not distinguishable from its shuffled returns (lag1 ac p=0.528, VR5 p=0.372, 10m-vs-10m corr p=0.242, drift p=0.807); min p 0.242 is far above the Bonferroni bar 0.0003 across 160 tests."
+ },
+ {
+  "id": "S31",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "USDJPY-OTC last 12h not distinguishable from its shuffled returns (lag1 ac p=0.150, VR5 p=0.526, 10m-vs-10m corr p=0.771, drift p=0.410); min p 0.150 is far above the Bonferroni bar 0.0003 across 160 tests."
+ },
+ {
+  "id": "S32",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "CADJPY-OTC last 12h not distinguishable from its shuffled returns (lag1 ac p=0.302, VR5 p=0.381, 10m-vs-10m corr p=0.523, drift p=0.331); min p 0.302 is far above the Bonferroni bar 0.0003 across 160 tests."
+ },
+ {
+  "id": "S33",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "USDJPY-OTC last 12h not distinguishable from its shuffled returns (lag1 ac p=0.592, VR5 p=0.444, 10m-vs-10m corr p=0.559, drift p=0.872); min p 0.444 is far above the Bonferroni bar 0.0003 across 160 tests."
+ },
+ {
+  "id": "S34",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "USDCAD-OTC last 12h not distinguishable from its shuffled returns (lag1 ac p=0.826, VR5 p=0.905, 10m-vs-10m corr p=0.704, drift p=0.640); min p 0.640 is far above the Bonferroni bar 0.0003 across 160 tests."
+ },
+ {
+  "id": "S35",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "EURJPY-OTC last 12h not distinguishable from its shuffled returns (lag1 ac p=0.198, VR5 p=0.085, 10m-vs-10m corr p=0.010, drift p=0.282); min p 0.010 is far above the Bonferroni bar 0.0003 across 160 tests."
+ },
+ {
+  "id": "S36",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "AUDUSD-OTC last 12h not distinguishable from its shuffled returns (lag1 ac p=0.274, VR5 p=0.087, 10m-vs-10m corr p=0.582, drift p=0.216); min p 0.087 is far above the Bonferroni bar 0.0003 across 160 tests."
+ },
+ {
+  "id": "S37",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "AUDUSD-OTC last 12h not distinguishable from its shuffled returns (lag1 ac p=0.457, VR5 p=0.816, 10m-vs-10m corr p=0.203, drift p=0.870); min p 0.203 is far above the Bonferroni bar 0.0003 across 160 tests."
+ },
+ {
+  "id": "S38",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "EURGBP-OTC last 12h not distinguishable from its shuffled returns (lag1 ac p=0.908, VR5 p=0.814, 10m-vs-10m corr p=0.834, drift p=0.674); min p 0.674 is far above the Bonferroni bar 0.0003 across 160 tests."
+ },
+ {
+  "id": "S39",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "GBPUSD-OTC last 12h not distinguishable from its shuffled returns (lag1 ac p=0.881, VR5 p=0.707, 10m-vs-10m corr p=0.008, drift p=0.346); min p 0.008 is far above the Bonferroni bar 0.0003 across 160 tests."
+ },
+ {
+  "id": "S40",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "GBPAUD-OTC last 12h not distinguishable from its shuffled returns (lag1 ac p=0.926, VR5 p=0.243, 10m-vs-10m corr p=0.200, drift p=0.782); min p 0.200 is far above the Bonferroni bar 0.0003 across 160 tests."
+ }
+]

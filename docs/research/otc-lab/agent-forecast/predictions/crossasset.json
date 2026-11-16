@@ -1,0 +1,242 @@
+[
+ {
+  "id": "S01",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No cross-asset edge: strongest current co-mover USDCHF (30-bar corr +0.35); max triangle-residual z 1.0, and triangle/lead-lag/strength signals tested OOS at IC ~0 across all 40 snapshots."
+ },
+ {
+  "id": "S02",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No cross-asset edge: strongest current co-mover AUDUSD (30-bar corr +0.96), coupled but spread z only 0.48; max triangle-residual z 0.0, and triangle/lead-lag/strength signals tested OOS at IC ~0 across all 40 snapshots."
+ },
+ {
+  "id": "S03",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No cross-asset edge: strongest current co-mover CHFJPY (30-bar corr -0.23); max triangle-residual z 1.2, and triangle/lead-lag/strength signals tested OOS at IC ~0 across all 40 snapshots."
+ },
+ {
+  "id": "S04",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No cross-asset edge: strongest current co-mover CHFJPY (30-bar corr +0.40); max triangle-residual z 0.6, and triangle/lead-lag/strength signals tested OOS at IC ~0 across all 40 snapshots."
+ },
+ {
+  "id": "S05",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No cross-asset edge: strongest current co-mover NZDUSD (30-bar corr -0.31); max triangle-residual z 0.6, and triangle/lead-lag/strength signals tested OOS at IC ~0 across all 40 snapshots."
+ },
+ {
+  "id": "S06",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No cross-asset edge: strongest current co-mover GBPUSD (30-bar corr -0.40); max triangle-residual z 0.2, and triangle/lead-lag/strength signals tested OOS at IC ~0 across all 40 snapshots."
+ },
+ {
+  "id": "S07",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No cross-asset edge: strongest current co-mover EURUSD (30-bar corr +0.33); max triangle-residual z 1.5, and triangle/lead-lag/strength signals tested OOS at IC ~0 across all 40 snapshots."
+ },
+ {
+  "id": "S08",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No cross-asset edge: strongest current co-mover GBPJPY (30-bar corr +0.29); max triangle-residual z 0.6, and triangle/lead-lag/strength signals tested OOS at IC ~0 across all 40 snapshots."
+ },
+ {
+  "id": "S09",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No cross-asset edge: strongest current co-mover GBPAUD (30-bar corr +0.37); max triangle-residual z 0.1, and triangle/lead-lag/strength signals tested OOS at IC ~0 across all 40 snapshots."
+ },
+ {
+  "id": "S10",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No cross-asset edge: strongest current co-mover CHFJPY (30-bar corr -0.51); max triangle-residual z 0.8, and triangle/lead-lag/strength signals tested OOS at IC ~0 across all 40 snapshots."
+ },
+ {
+  "id": "S11",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No cross-asset edge: strongest current co-mover GBPUSD (30-bar corr -0.30); max triangle-residual z 1.5, and triangle/lead-lag/strength signals tested OOS at IC ~0 across all 40 snapshots."
+ },
+ {
+  "id": "S12",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No cross-asset edge: strongest current co-mover USDJPY (30-bar corr -0.41); max triangle-residual z 2.1, and triangle/lead-lag/strength signals tested OOS at IC ~0 across all 40 snapshots."
+ },
+ {
+  "id": "S13",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No cross-asset edge: strongest current co-mover EURUSD (30-bar corr -0.32); max triangle-residual z 0.6, and triangle/lead-lag/strength signals tested OOS at IC ~0 across all 40 snapshots."
+ },
+ {
+  "id": "S14",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No cross-asset edge: strongest current co-mover NZDUSD (30-bar corr +0.41); max triangle-residual z 0.1, and triangle/lead-lag/strength signals tested OOS at IC ~0 across all 40 snapshots."
+ },
+ {
+  "id": "S15",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No cross-asset edge: strongest current co-mover GBPUSD (30-bar corr -0.39); max triangle-residual z 0.2, and triangle/lead-lag/strength signals tested OOS at IC ~0 across all 40 snapshots."
+ },
+ {
+  "id": "S16",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No cross-asset edge: strongest current co-mover AUDJPY (30-bar corr +0.38); max triangle-residual z 0.6, and triangle/lead-lag/strength signals tested OOS at IC ~0 across all 40 snapshots."
+ },
+ {
+  "id": "S17",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No cross-asset edge: strongest current co-mover GBPUSD (30-bar corr +0.37); max triangle-residual z 0.5, and triangle/lead-lag/strength signals tested OOS at IC ~0 across all 40 snapshots."
+ },
+ {
+  "id": "S18",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No cross-asset edge: strongest current co-mover GBPAUD (30-bar corr -0.50); max triangle-residual z 0.1, and triangle/lead-lag/strength signals tested OOS at IC ~0 across all 40 snapshots."
+ },
+ {
+  "id": "S19",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No cross-asset edge: strongest current co-mover USDCAD (30-bar corr -0.27); max triangle-residual z 1.0, and triangle/lead-lag/strength signals tested OOS at IC ~0 across all 40 snapshots."
+ },
+ {
+  "id": "S20",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No cross-asset edge: strongest current co-mover GBPUSD (30-bar corr +0.24); max triangle-residual z 1.4, and triangle/lead-lag/strength signals tested OOS at IC ~0 across all 40 snapshots."
+ },
+ {
+  "id": "S21",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No cross-asset edge: strongest current co-mover GBPUSD (30-bar corr +0.32); max triangle-residual z 0.5, and triangle/lead-lag/strength signals tested OOS at IC ~0 across all 40 snapshots."
+ },
+ {
+  "id": "S22",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No cross-asset edge: strongest current co-mover GBPAUD (30-bar corr -0.60); max triangle-residual z nan, and triangle/lead-lag/strength signals tested OOS at IC ~0 across all 40 snapshots."
+ },
+ {
+  "id": "S23",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No cross-asset edge: strongest current co-mover CADJPY (30-bar corr +0.36); max triangle-residual z 1.3, and triangle/lead-lag/strength signals tested OOS at IC ~0 across all 40 snapshots."
+ },
+ {
+  "id": "S24",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No cross-asset edge: strongest current co-mover EURGBP (30-bar corr +0.38); max triangle-residual z 1.0, and triangle/lead-lag/strength signals tested OOS at IC ~0 across all 40 snapshots."
+ },
+ {
+  "id": "S25",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No cross-asset edge: strongest current co-mover EURGBP (30-bar corr -0.33); max triangle-residual z 1.1, and triangle/lead-lag/strength signals tested OOS at IC ~0 across all 40 snapshots."
+ },
+ {
+  "id": "S26",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No cross-asset edge: strongest current co-mover NZDUSD (30-bar corr -0.20); max triangle-residual z 2.0, and triangle/lead-lag/strength signals tested OOS at IC ~0 across all 40 snapshots."
+ },
+ {
+  "id": "S27",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No cross-asset edge: strongest current co-mover GBPAUD (30-bar corr +0.39); max triangle-residual z 0.6, and triangle/lead-lag/strength signals tested OOS at IC ~0 across all 40 snapshots."
+ },
+ {
+  "id": "S28",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No cross-asset edge: strongest current co-mover USDCAD (30-bar corr -0.40); max triangle-residual z 0.9, and triangle/lead-lag/strength signals tested OOS at IC ~0 across all 40 snapshots."
+ },
+ {
+  "id": "S29",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No cross-asset edge: strongest current co-mover AUDJPY (30-bar corr +0.66); max triangle-residual z 0.9, and triangle/lead-lag/strength signals tested OOS at IC ~0 across all 40 snapshots."
+ },
+ {
+  "id": "S30",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No cross-asset edge: strongest current co-mover USDCAD (30-bar corr +0.34); max triangle-residual z nan, and triangle/lead-lag/strength signals tested OOS at IC ~0 across all 40 snapshots."
+ },
+ {
+  "id": "S31",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No cross-asset edge: strongest current co-mover USDCHF (30-bar corr -0.37); max triangle-residual z 1.8, and triangle/lead-lag/strength signals tested OOS at IC ~0 across all 40 snapshots."
+ },
+ {
+  "id": "S32",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No cross-asset edge: strongest current co-mover AUDJPY (30-bar corr +0.58); max triangle-residual z 0.1, and triangle/lead-lag/strength signals tested OOS at IC ~0 across all 40 snapshots."
+ },
+ {
+  "id": "S33",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No cross-asset edge: strongest current co-mover USDCAD (30-bar corr +0.40); max triangle-residual z 1.6, and triangle/lead-lag/strength signals tested OOS at IC ~0 across all 40 snapshots."
+ },
+ {
+  "id": "S34",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No cross-asset edge: strongest current co-mover GBPUSD (30-bar corr -0.40); max triangle-residual z 0.5, and triangle/lead-lag/strength signals tested OOS at IC ~0 across all 40 snapshots."
+ },
+ {
+  "id": "S35",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No cross-asset edge: strongest current co-mover AUDUSD (30-bar corr +0.29); max triangle-residual z 1.0, and triangle/lead-lag/strength signals tested OOS at IC ~0 across all 40 snapshots."
+ },
+ {
+  "id": "S36",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No cross-asset edge: strongest current co-mover EURAUD (30-bar corr -0.30); max triangle-residual z 1.8, and triangle/lead-lag/strength signals tested OOS at IC ~0 across all 40 snapshots."
+ },
+ {
+  "id": "S37",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No cross-asset edge: strongest current co-mover CADJPY (30-bar corr +0.42); max triangle-residual z 0.8, and triangle/lead-lag/strength signals tested OOS at IC ~0 across all 40 snapshots."
+ },
+ {
+  "id": "S38",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No cross-asset edge: strongest current co-mover CHFJPY (30-bar corr +0.43); max triangle-residual z 1.0, and triangle/lead-lag/strength signals tested OOS at IC ~0 across all 40 snapshots."
+ },
+ {
+  "id": "S39",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No cross-asset edge: strongest current co-mover GBPJPY (30-bar corr -0.37); max triangle-residual z 0.7, and triangle/lead-lag/strength signals tested OOS at IC ~0 across all 40 snapshots."
+ },
+ {
+  "id": "S40",
+  "call": "abstain",
+  "confidence": 0.5,
+  "reason": "No cross-asset edge: strongest current co-mover EURJPY (30-bar corr -0.30); max triangle-residual z 0.4, and triangle/lead-lag/strength signals tested OOS at IC ~0 across all 40 snapshots."
+ }
+]
