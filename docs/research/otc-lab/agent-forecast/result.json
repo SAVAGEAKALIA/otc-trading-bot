@@ -1,0 +1,81 @@
+{
+ "statistician": {
+  "calls": 0,
+  "abstained": 40,
+  "wins": 0,
+  "win_rate": null,
+  "ci95": [
+   0.0,
+   1.0
+  ],
+  "return_per_stake": 0.0,
+  "beats_breakeven_95": false,
+  "missing": []
+ },
+ "chartist": {
+  "calls": 15,
+  "abstained": 25,
+  "wins": 4,
+  "win_rate": 0.26666666666666666,
+  "ci95": [
+   0.078,
+   0.551
+  ],
+  "return_per_stake": -0.504,
+  "beats_breakeven_95": false,
+  "missing": []
+ },
+ "regimes": {
+  "calls": 0,
+  "abstained": 40,
+  "wins": 0,
+  "win_rate": null,
+  "ci95": [
+   0.0,
+   1.0
+  ],
+  "return_per_stake": 0.0,
+  "beats_breakeven_95": false,
+  "missing": []
+ },
+ "crossasset": {
+  "calls": 0,
+  "abstained": 40,
+  "wins": 0,
+  "win_rate": null,
+  "ci95": [
+   0.0,
+   1.0
+  ],
+  "return_per_stake": 0.0,
+  "beats_breakeven_95": false,
+  "missing": []
+ },
+ "skeptic": {
+  "calls": 0,
+  "abstained": 40,
+  "wins": 0,
+  "win_rate": null,
+  "ci95": [
+   0.0,
+   1.0
+  ],
+  "return_per_stake": 0.0,
+  "beats_breakeven_95": false,
+  "missing": []
+ },
+ "judge": {
+  "calls": 0,
+  "abstained": 40,
+  "wins": 0,
+  "win_rate": null,
+  "ci95": [
+   0.0,
+   1.0
+  ],
+  "return_per_stake": 0.0,
+  "beats_breakeven_95": false,
+  "missing": []
+ },
+ "base_rate_up": 0.4
+}
