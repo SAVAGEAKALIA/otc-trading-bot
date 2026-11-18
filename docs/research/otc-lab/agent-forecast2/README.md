@@ -24,7 +24,7 @@
 ## How to read it
 
 - **Pooled, the panel is at chance.** Across the five forecasters there were 127 calls and 68 wins: 53.5%, below break-even. The trend and reversal camps took opposite sides on most stretched charts and cancelled out.
-- **The best scores are what chance produces.** With five agents making about 25 calls each, a pure coin gives the best of the five 58% or more about half the time. Cross-asset's 58.3% and price action's 56.7% are within that range.
+- **The best scores are what chance produces.** With five agents making about 25 calls each, a pure coin gives the best of the five 58% or more about 70% of the time (simulated). Cross-asset's 58.3% and price action's 56.7% are within that range.
 - **The judge's 3 of 4 means nothing on its own.** Four calls cannot separate 75% from 50%.
 - **Data quality:** several forecasters flagged one-bar level jumps in C16, C20 and C23, which look like feed breaks. Everyone abstained there.
 
