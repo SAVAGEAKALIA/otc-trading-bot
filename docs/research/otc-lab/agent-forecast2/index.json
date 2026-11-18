@@ -1,0 +1,202 @@
+[
+ {
+  "id": "C01",
+  "asset": "AUDUSD-OTC",
+  "decision_utc": "2026-06-30T17:50:00+00:00"
+ },
+ {
+  "id": "C02",
+  "asset": "GBPJPY-OTC",
+  "decision_utc": "2026-07-08T03:30:00+00:00"
+ },
+ {
+  "id": "C03",
+  "asset": "GBPAUD-OTC",
+  "decision_utc": "2026-07-01T20:50:00+00:00"
+ },
+ {
+  "id": "C04",
+  "asset": "NZDUSD-OTC",
+  "decision_utc": "2026-06-18T01:30:00+00:00"
+ },
+ {
+  "id": "C05",
+  "asset": "EURUSD-OTC",
+  "decision_utc": "2026-06-27T01:20:00+00:00"
+ },
+ {
+  "id": "C06",
+  "asset": "EURGBP-OTC",
+  "decision_utc": "2026-07-12T04:10:00+00:00"
+ },
+ {
+  "id": "C07",
+  "asset": "USDCHF-OTC",
+  "decision_utc": "2026-06-21T11:00:00+00:00"
+ },
+ {
+  "id": "C08",
+  "asset": "USDJPY-OTC",
+  "decision_utc": "2026-06-17T21:40:00+00:00"
+ },
+ {
+  "id": "C09",
+  "asset": "NZDUSD-OTC",
+  "decision_utc": "2026-07-16T12:50:00+00:00"
+ },
+ {
+  "id": "C10",
+  "asset": "AUDUSD-OTC",
+  "decision_utc": "2026-07-26T07:10:00+00:00"
+ },
+ {
+  "id": "C11",
+  "asset": "GBPJPY-OTC",
+  "decision_utc": "2026-07-07T15:40:00+00:00"
+ },
+ {
+  "id": "C12",
+  "asset": "EURGBP-OTC",
+  "decision_utc": "2026-07-14T16:20:00+00:00"
+ },
+ {
+  "id": "C13",
+  "asset": "AUDUSD-OTC",
+  "decision_utc": "2026-06-21T03:40:00+00:00"
+ },
+ {
+  "id": "C14",
+  "asset": "GBPAUD-OTC",
+  "decision_utc": "2026-07-11T11:10:00+00:00"
+ },
+ {
+  "id": "C15",
+  "asset": "EURJPY-OTC",
+  "decision_utc": "2026-07-14T10:10:00+00:00"
+ },
+ {
+  "id": "C16",
+  "asset": "NZDUSD-OTC",
+  "decision_utc": "2026-07-14T04:10:00+00:00"
+ },
+ {
+  "id": "C17",
+  "asset": "EURAUD-OTC",
+  "decision_utc": "2026-06-19T12:40:00+00:00"
+ },
+ {
+  "id": "C18",
+  "asset": "EURUSD-OTC",
+  "decision_utc": "2026-07-26T19:40:00+00:00"
+ },
+ {
+  "id": "C19",
+  "asset": "AUDJPY-OTC",
+  "decision_utc": "2026-06-27T19:30:00+00:00"
+ },
+ {
+  "id": "C20",
+  "asset": "EURUSD-OTC",
+  "decision_utc": "2026-06-18T08:20:00+00:00"
+ },
+ {
+  "id": "C21",
+  "asset": "EURJPY-OTC",
+  "decision_utc": "2026-07-14T17:00:00+00:00"
+ },
+ {
+  "id": "C22",
+  "asset": "EURUSD-OTC",
+  "decision_utc": "2026-07-26T09:50:00+00:00"
+ },
+ {
+  "id": "C23",
+  "asset": "USDCAD-OTC",
+  "decision_utc": "2026-06-18T08:50:00+00:00"
+ },
+ {
+  "id": "C24",
+  "asset": "GBPAUD-OTC",
+  "decision_utc": "2026-07-10T11:50:00+00:00"
+ },
+ {
+  "id": "C25",
+  "asset": "NZDUSD-OTC",
+  "decision_utc": "2026-07-01T07:00:00+00:00"
+ },
+ {
+  "id": "C26",
+  "asset": "EURUSD-OTC",
+  "decision_utc": "2026-07-25T16:30:00+00:00"
+ },
+ {
+  "id": "C27",
+  "asset": "GBPAUD-OTC",
+  "decision_utc": "2026-06-24T21:00:00+00:00"
+ },
+ {
+  "id": "C28",
+  "asset": "EURUSD-OTC",
+  "decision_utc": "2026-07-11T23:00:00+00:00"
+ },
+ {
+  "id": "C29",
+  "asset": "CHFJPY-OTC",
+  "decision_utc": "2026-07-05T06:20:00+00:00"
+ },
+ {
+  "id": "C30",
+  "asset": "EURUSD-OTC",
+  "decision_utc": "2026-07-15T12:20:00+00:00"
+ },
+ {
+  "id": "C31",
+  "asset": "CHFJPY-OTC",
+  "decision_utc": "2026-06-18T01:30:00+00:00"
+ },
+ {
+  "id": "C32",
+  "asset": "USDCHF-OTC",
+  "decision_utc": "2026-07-06T10:40:00+00:00"
+ },
+ {
+  "id": "C33",
+  "asset": "CADJPY-OTC",
+  "decision_utc": "2026-07-02T05:10:00+00:00"
+ },
+ {
+  "id": "C34",
+  "asset": "USDJPY-OTC",
+  "decision_utc": "2026-07-21T06:10:00+00:00"
+ },
+ {
+  "id": "C35",
+  "asset": "EURAUD-OTC",
+  "decision_utc": "2026-07-02T07:10:00+00:00"
+ },
+ {
+  "id": "C36",
+  "asset": "CADJPY-OTC",
+  "decision_utc": "2026-06-17T09:20:00+00:00"
+ },
+ {
+  "id": "C37",
+  "asset": "USDJPY-OTC",
+  "decision_utc": "2026-06-20T21:10:00+00:00"
+ },
+ {
+  "id": "C38",
+  "asset": "AUDUSD-OTC",
+  "decision_utc": "2026-07-03T17:50:00+00:00"
+ },
+ {
+  "id": "C39",
+  "asset": "USDJPY-OTC",
+  "decision_utc": "2026-07-10T15:40:00+00:00"
+ },
+ {
+  "id": "C40",
+  "asset": "USDCHF-OTC",
+  "decision_utc": "2026-07-08T06:10:00+00:00"
+ }
+]

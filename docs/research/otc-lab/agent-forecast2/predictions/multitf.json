@@ -1,0 +1,282 @@
+[
+ {
+  "id": "C01",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5m EMA20 still above EMA50 but price slipped under EMA20 and slope turned down; 2m EMA9 below EMA21 with a two-candle bounce. Timeframes disagree, no trade."
+ },
+ {
+  "id": "C02",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.53,
+  "reason": "5m price 1 ATR above EMA20 with EMA20>EMA50 and a strong +1.2 ATR bull close; 2m two big bull candles push price above EMA9. Swing resistance only 0.3 ATR above, so short 2 min horizon."
+ },
+ {
+  "id": "C03",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "5m downtrend: EMA20<EMA50, EMA20 falling, price under EMA20. 2m EMA9 below EMA21 with a small pullback stalling at a doji; 3h low about 1.1 ATR below gives room for 5 min."
+ },
+ {
+  "id": "C04",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "5m EMA20 turning up sharply with price 1.45 ATR above it after a 6-ATR rally; 2m EMA9>EMA21 and last candle +1.3 ATR bull testing the 3h high. 24h high is far, so 5 min for a breakout leg."
+ },
+ {
+  "id": "C05",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5m EMA20 below EMA50 but rising; 2m EMAs flat and candles alternating around a range. No agreement."
+ },
+ {
+  "id": "C06",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5m EMAs flat together, price chopping mid-range; 2m EMA9 equal to EMA21. Last bull candles run into resistance 0.2 ATR above. Nothing clean."
+ },
+ {
+  "id": "C07",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.53,
+  "reason": "Strong downtrend on both: 5m EMA20 1.5 ATR below EMA50 and falling, price 2.7 ATR under it; 2m EMA9 well below EMA21. 24h low only 0.7 ATR below, so short 2 min horizon."
+ },
+ {
+  "id": "C08",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.52,
+  "reason": "5m EMA20 slope down and price 1.3 ATR under it after dropping from the 3h high; 2m EMA9<EMA21 and last big bear candle. Support cluster 0.2-0.6 ATR below, so 2 min."
+ },
+ {
+  "id": "C09",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.55,
+  "reason": "5m EMA20 rising with price 2 ATR above, RSI 68, breaking to the 3h high; 2m EMA9 0.9 ATR above EMA21 and closing at the high with a full-body bull candle. 24h high is 15 ATR away, room for 10 min."
+ },
+ {
+  "id": "C10",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "5m EMA20 above EMA50 and rising, price above EMA20; 2m EMA9 above EMA21 with higher lows. 3h high 1.4 ATR above sets a 5 min target."
+ },
+ {
+  "id": "C11",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.55,
+  "reason": "5m EMA20 below EMA50 and falling, price 2 ATR under it at the 3h low, RSI 31; 2m steady lower highs with EMA9 1 ATR under EMA21. 24h low 5.4 ATR below gives room for 10 min."
+ },
+ {
+  "id": "C12",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "5m downtrend (EMA20 1 ATR below EMA50, falling); 2m EMA9 below EMA21 and the pullback bull candle stalled into a doji. 24h low 1.2 ATR below, 5 min."
+ },
+ {
+  "id": "C13",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5m in a strong downtrend but stretched near the 24h low; 2m chopping with alternating 1-ATR candles and last candle a bull. Trigger does not confirm the 5m direction."
+ },
+ {
+  "id": "C14",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5m downtrend flattening, price back at EMA20; 2m EMA9 equal to EMA21 with indecisive wicks. No aligned trigger."
+ },
+ {
+  "id": "C15",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5m EMAs flat and overlapping, no trend; 2m mildly bearish only. Higher timeframe gives no direction."
+ },
+ {
+  "id": "C16",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Single +11 ATR 2m candle after a dead-flat tape, with most USD pairs jumping at once; RSI 95. Abnormal print, no readable structure."
+ },
+ {
+  "id": "C17",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.55,
+  "reason": "5m EMA20 rising hard (+1.3 ATR in 30 min), price 2.5 ATR above it at the 3h high; 2m stair-step of bull candles, EMA9 1.5 ATR above EMA21. 24h high 11 ATR away, 10 min."
+ },
+ {
+  "id": "C18",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5m mildly bearish but 2m EMAs nearly flat and candles show long wicks both ways. Trigger is missing."
+ },
+ {
+  "id": "C19",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5m EMA20 above EMA50 but slope flat and price under EMA20; 2m bearish. Timeframes conflict."
+ },
+ {
+  "id": "C20",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "An +8.9 ATR single 2m candle after a flat drift; price now 4.7 ATR above 5m EMA20. Abnormal jump, no clean setup."
+ },
+ {
+  "id": "C21",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "2m bearish with price 1 ATR under EMA9, but 5m EMA20 still above EMA50; 5m only starting to roll over. Not aligned."
+ },
+ {
+  "id": "C22",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5m uptrend with price sitting on EMA20; 2m EMA9 slightly below EMA21 and choppy. No agreement."
+ },
+ {
+  "id": "C23",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.52,
+  "reason": "Sharp selloff: 5m EMA20 falling 3 ATR in 30 min, RSI 16, price near 24h low; 2m EMA9 4.7 ATR below EMA21 and bear closes resuming. Low is only 0.4 ATR below, so 2 min only."
+ },
+ {
+  "id": "C24",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5m uptrend intact, but 2m printed a -1.9 ATR bear candle and price is under EMA9. Trigger contradicts the higher timeframe."
+ },
+ {
+  "id": "C25",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "2m bearish at the 1h low, but 5m EMA20 still above EMA50 with flat slope. Not aligned."
+ },
+ {
+  "id": "C26",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.53,
+  "reason": "5m EMA20 1.9 ATR under EMA50, falling, RSI 30; 2m lower highs and bear close. 24h low just 0.5 ATR below, so 2 min."
+ },
+ {
+  "id": "C27",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.53,
+  "reason": "5m EMA20 rising, price 2.7 ATR above it, RSI 70; 2m consistent bull candles, EMA9 1.7 ATR above EMA21. Pressing into the 24h high 0.4 ATR away, so 2 min."
+ },
+ {
+  "id": "C28",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.53,
+  "reason": "5m downtrend (EMA20 1.35 ATR under EMA50), price 1.5 ATR under EMA20; 2m EMA9 below EMA21 with consecutive bear candles. 24h low 0.4 ATR below, 2 min."
+ },
+ {
+  "id": "C29",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5m mildly up (EMA20>EMA50) but price below EMA20; 2m mildly bearish. Conflicting."
+ },
+ {
+  "id": "C30",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "5m EMA20 1.6 ATR under EMA50 and falling, price at the 3h low; 2m EMA9 below EMA21, RSI 30, closing on a bear candle. 24h low 2.3 ATR below, 5 min."
+ },
+ {
+  "id": "C31",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "2m strongly bullish, but 5m EMA20 still below EMA50 with near-flat slope; 1h high just 0.4 ATR2 above. Higher timeframe not confirming."
+ },
+ {
+  "id": "C32",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "5m EMA20 turning down and price 1.9 ATR under it, breaking the 3h low; 2m three bear candles of over 1.3 ATR, EMA9 under EMA21. 24h low far below, 5 min."
+ },
+ {
+  "id": "C33",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "5m EMA20 rising and price 1.3 ATR above it at the 3h high; 2m EMA9 above EMA21 with two bull closes into the high. 24h high 14 ATR away, 10 min."
+ },
+ {
+  "id": "C34",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5m crashed 40 ATR, but 2m has been flat and balanced for an hour around EMA9. No trigger in either direction."
+ },
+ {
+  "id": "C35",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5m EMA20 below EMA50 but rising; 2m choppy with large two-way candles. No alignment."
+ },
+ {
+  "id": "C36",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "5m EMA20 rising 1 ATR in 30 min, price 2.5 ATR above it; 2m EMA9 1.2 ATR above EMA21 with higher lows. 24h high 2.9 ATR above, 5 min."
+ },
+ {
+  "id": "C37",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5m and 2m both flat, price at EMAs in the middle of the 3h range. Nothing."
+ },
+ {
+  "id": "C38",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "2m bullish bounce, but 5m EMA20 below EMA50 and still falling. Counter-trend bounce, no alignment."
+ },
+ {
+  "id": "C39",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.54,
+  "reason": "5m EMA20 rising, price 1.5 ATR above it at the 3h high; 2m EMA9 above EMA21 and last candles show long lower wicks (dips bought). 24h high 6.5 ATR away, 10 min."
+ },
+ {
+  "id": "C40",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.52,
+  "reason": "5m EMA20 below EMA50 and falling, price 1.3 ATR under it; 2m EMA9 below EMA21 with lower highs. 3h low 0.6 ATR below, 2 min."
+ }
+]

@@ -1,0 +1,282 @@
+[
+ {
+  "id": "C01",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.0,
+  "reason": "5m sits above a rising EMA50 but EMA21 is turning down; 2m has a bearish EMA stack. Timeframes disagree, no clean trend to follow."
+ },
+ {
+  "id": "C02",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "5m EMA9>21>50 with EMA50 rising; price pulled back ~2 ATR and the last 5m bar bounced +1.15 ATR back above the EMAs. Pullback-in-uptrend resumption."
+ },
+ {
+  "id": "C03",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.58,
+  "reason": "Both timeframes in bearish EMA stack with falling EMA21/50 and descending 6-bar highs; 2m price has bounced into the EMA9/21 zone. Sell the pullback in the downtrend."
+ },
+ {
+  "id": "C04",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Price climbed ~6 ATR off the 5m low, 2m EMA9>21>50 and rising; closing at the 30-bar high with a strong 2m bull candle. Continuation buy."
+ },
+ {
+  "id": "C05",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.0,
+  "reason": "EMAs flat and intertwined on 5m, 2m slopes near zero; price ranging between flat highs and lows. No trend."
+ },
+ {
+  "id": "C06",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "5m EMA9>21>50 with steadily rising swing lows; 2m pulled back and the last bars rebounded ~1 ATR. Weak uptrend continuation, longer horizon."
+ },
+ {
+  "id": "C07",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.6,
+  "reason": "Strong downtrend: 5m and 2m bearish EMA stacks, steep EMA50 slope, lower highs every block. Price at lows after a small 2m bounce stalled under EMA21."
+ },
+ {
+  "id": "C08",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.57,
+  "reason": "USDJPY in a bearish EMA stack on both timeframes with descending highs (5.9 to 2.0 ATR above); price just made a new low. Trend continuation sell."
+ },
+ {
+  "id": "C09",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "2m EMA9>21>50 with EMA50 rising ~0.9 ATR/10 bars; 5m breaking to a new 30-bar high after a base. Momentum continuation buy."
+ },
+ {
+  "id": "C10",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.54,
+  "reason": "Both timeframes in bullish EMA stacks with positive slopes; 2m pulled back to EMA21 and ticked up. Pullback buy in a mild uptrend."
+ },
+ {
+  "id": "C11",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.58,
+  "reason": "GBPJPY bearish EMA stacks on 5m and 2m, falling slopes, highs stepping down from 6.3 to 2.8 ATR; closing at the low. Trend continuation sell."
+ },
+ {
+  "id": "C12",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "5m downtrend (bearish stack, EMA50 falling); 2m is consolidating just under EMA21 after the drop, a bear flag. Sell continuation."
+ },
+ {
+  "id": "C13",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.54,
+  "reason": "After a large 5m drop price is grinding lower with descending 6-bar highs; 2m still below EMA21/50. Downtrend holding, slow grind so longer horizon."
+ },
+ {
+  "id": "C14",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "5m bearish stack with steep EMA50 slope; price has pulled back up to the 5m EMA21 area, which acts as resistance in the downtrend. 2m has flattened, so low confidence."
+ },
+ {
+  "id": "C15",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.0,
+  "reason": "5m EMAs flat and tangled, 2m drifting slightly lower but EMA50 still rising. No clear trend."
+ },
+ {
+  "id": "C16",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.0,
+  "reason": "A single 5m bar jumped ~10 ATR; EMAs are distorted by the gap and price has only held 3 small 2m bars at the top. No pullback/continuation structure to trade."
+ },
+ {
+  "id": "C17",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.57,
+  "reason": "EURAUD 2m EMA9>21>50 rising steeply with higher lows each block (-8.2 to -1.7 ATR); 5m pushing to new highs. Shallow pullback in a clean uptrend."
+ },
+ {
+  "id": "C18",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.0,
+  "reason": "5m mildly bearish stack but 2m is flat around the EMAs with slope zero; a sideways consolidation, not a tradeable trend."
+ },
+ {
+  "id": "C19",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.0,
+  "reason": "5m stack still bullish but price has dropped below EMA9/21, while 2m turned down. Trend in transition, timeframes conflict."
+ },
+ {
+  "id": "C20",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.0,
+  "reason": "One 5m bar gapped up ~6 ATR; 2m has held flat at the high for a few bars. Gap distorts EMAs, no trend structure to join."
+ },
+ {
+  "id": "C21",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2m bearish EMA stack with falling EMA21 and price dropping from 2.9 ATR above; 5m EMA21 turning down. Early downtrend continuation, low confidence."
+ },
+ {
+  "id": "C22",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.0,
+  "reason": "Price is chopping around the 5m EMA21 and the 2m EMA50 with flat slopes. Range, no trend."
+ },
+ {
+  "id": "C23",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "After the big 5m gap down, 2m keeps printing lower highs and lows below a falling EMA21. Downtrend continuation."
+ },
+ {
+  "id": "C24",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.55,
+  "reason": "5m uptrend with EMA50 rising 1.8 ATR/10 bars; price pulled back to the 5m EMA21 and 2m is holding above EMA50. Classic pullback buy in an uptrend."
+ },
+ {
+  "id": "C25",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2m bearish EMA stack with highs dropping off 5.7 ATR; 5m price has broken below all EMAs. Downtrend leg underway."
+ },
+ {
+  "id": "C26",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.58,
+  "reason": "EURUSD steady downtrend: bearish stacks on both TFs, highs falling from 7.5 to 1.8 ATR above, price at the lows. Sell continuation."
+ },
+ {
+  "id": "C27",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.57,
+  "reason": "GBPAUD strong uptrend: bullish stacks on both TFs with steep slopes, higher lows each block, price at the high. Buy continuation."
+ },
+ {
+  "id": "C28",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.57,
+  "reason": "Bearish EMA stacks on 5m and 2m, steadily descending highs, closing at the 30-bar low. Trend continuation sell."
+ },
+ {
+  "id": "C29",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.0,
+  "reason": "5m EMAs flat (EMA21 slope ~0) and 2m mixed after a drop; range-bound, no trend to follow."
+ },
+ {
+  "id": "C30",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.58,
+  "reason": "EURUSD clean downtrend: bearish stacks on both TFs, falling EMA50, lower highs, price at the low with a bearish last bar."
+ },
+ {
+  "id": "C31",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.0,
+  "reason": "5m EMA50 still falling (bearish stack) while 2m just broke sharply up; counter-trend move, timeframes conflict."
+ },
+ {
+  "id": "C32",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "2m bearish stack and price breaking to a new 30-bar low with a bearish candle; 5m lows stepping down. Downtrend continuation."
+ },
+ {
+  "id": "C33",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "CADJPY 5m swing lows rising steadily (-6.9 to -2.0 ATR) and 2m EMA9>21>50; last bar broke to a new high. Breakout continuation."
+ },
+ {
+  "id": "C34",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.0,
+  "reason": "After an earlier large gap down, the 2m chart is flat around the EMA9/21 with no slope. Sideways, no trend setup."
+ },
+ {
+  "id": "C35",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.0,
+  "reason": "EMAs flat on both timeframes; last bar dropped sharply from the range top. No established trend to trade with."
+ },
+ {
+  "id": "C36",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.57,
+  "reason": "CADJPY uptrend: bullish stacks on both TFs, steep rising slopes, higher highs and lows each block, price at highs. Buy continuation."
+ },
+ {
+  "id": "C37",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.0,
+  "reason": "USDJPY flat: EMAs tangled, slopes near zero, narrow range. Nothing to follow."
+ },
+ {
+  "id": "C38",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.0,
+  "reason": "5m EMA50 falling (bearish context) while 2m is in a sharp rebound to new highs; trend conflict between timeframes."
+ },
+ {
+  "id": "C39",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "USDJPY bullish stacks on both TFs with rising slopes and higher lows (-5.9 to -1.9 ATR); price at the 30-bar high. Uptrend continuation."
+ },
+ {
+  "id": "C40",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.57,
+  "reason": "USDCHF bearish stacks on both timeframes, descending highs, price breaking to a new low. Downtrend continuation."
+ }
+]

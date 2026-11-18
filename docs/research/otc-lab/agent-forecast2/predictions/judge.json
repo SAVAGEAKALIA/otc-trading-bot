@@ -1,0 +1,282 @@
+[
+ {
+  "id": "C01",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Panel split 1 buy / 1 sell: priceaction buy, crossasset sell. Continuation and fade readings cancel on this chart and no caller clears break-even, so no trade."
+ },
+ {
+  "id": "C02",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "4 of 5 buy (reversal fades). Both TFs bullish EMA stack, 5m closed +1.1 ATR off a higher low, z +0.6 on 5m so not stretched; continuation over 5 min, thin edge."
+ },
+ {
+  "id": "C03",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Panel split 2 buy / 2 sell: priceaction buy, trend sell, multitf sell, crossasset buy. Continuation and fade readings cancel on this chart and no caller clears break-even, so no trade."
+ },
+ {
+  "id": "C04",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "3 buy vs reversal sell, crossasset abstains. At 0.94-0.98 of range with 5m stack mixed and z +1.6; extended, no second confirming read, abstain."
+ },
+ {
+  "id": "C05",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "All five abstain; chart is mid-range chop with mixed EMA stacks."
+ },
+ {
+  "id": "C06",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Panel split 2 buy / 1 sell: priceaction buy, trend buy, crossasset sell. Continuation and fade readings cancel on this chart and no caller clears break-even, so no trade."
+ },
+ {
+  "id": "C07",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Panel split 2 buy / 3 sell: priceaction sell, trend sell, reversal buy, multitf sell, crossasset buy. Continuation and fade readings cancel on this chart and no caller clears break-even, so no trade."
+ },
+ {
+  "id": "C08",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Panel split 1 buy / 3 sell: priceaction sell, trend sell, reversal buy, multitf sell. Continuation and fade readings cancel on this chart and no caller clears break-even, so no trade."
+ },
+ {
+  "id": "C09",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "3 buy vs reversal sell. 2m z +2.3 at the range high after +3.8 ATR in 15 bars, 5m stack mixed; extended spike, abstain."
+ },
+ {
+  "id": "C10",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Only trend, multitf calls buy, confidence below 0.545 break-even; the chart has no second confirming read, so abstain."
+ },
+ {
+  "id": "C11",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "3 sell vs 2 buy. Both stacks down at 0.02-0.04 of range, z -1.6/-1.7, last bars small; reversal and crossasset both see an overshoot, so the panel cancels, abstain."
+ },
+ {
+  "id": "C12",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Panel split 2 buy / 2 sell: priceaction buy, trend sell, reversal buy, multitf sell. Continuation and fade readings cancel on this chart and no caller clears break-even, so no trade."
+ },
+ {
+  "id": "C13",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Panel split 2 buy / 1 sell: trend sell, reversal buy, crossasset buy. Continuation and fade readings cancel on this chart and no caller clears break-even, so no trade."
+ },
+ {
+  "id": "C14",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Panel split 2 buy / 1 sell: priceaction buy, trend sell, crossasset buy. Continuation and fade readings cancel on this chart and no caller clears break-even, so no trade."
+ },
+ {
+  "id": "C15",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Panel split 1 buy / 2 sell: priceaction sell, reversal buy, crossasset sell. Continuation and fade readings cancel on this chart and no caller clears break-even, so no trade."
+ },
+ {
+  "id": "C16",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "All five abstain. Single-bar +20 ATR level jump (0.488 to 0.578): feed discontinuity, no structure."
+ },
+ {
+  "id": "C17",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "4 buy vs reversal sell. 2m stack up but 5m stack mixed and 5m z +2.0 at 0.95 of range after +4.4 ATR; last 2m bar red. Stretched into the high, no clean continuation entry; abstain."
+ },
+ {
+  "id": "C18",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "All five abstain; chart is mid-range chop with mixed EMA stacks."
+ },
+ {
+  "id": "C19",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Panel split 2 buy / 1 sell: priceaction sell, reversal buy, crossasset buy. Continuation and fade readings cancel on this chart and no caller clears break-even, so no trade."
+ },
+ {
+  "id": "C20",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "All five abstain. One-bar jump 1.133 to 1.152 then flat: level shift, no readable setup."
+ },
+ {
+  "id": "C21",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Panel split 1 buy / 3 sell: priceaction sell, trend sell, reversal buy, crossasset sell. Continuation and fade readings cancel on this chart and no caller clears break-even, so no trade."
+ },
+ {
+  "id": "C22",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Only crossasset calls buy, confidence below 0.545 break-even; the chart has no second confirming read, so abstain."
+ },
+ {
+  "id": "C23",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Panel split 1 buy / 2 sell: trend sell, reversal buy, multitf sell. Continuation and fade readings cancel on this chart and no caller clears break-even, so no trade."
+ },
+ {
+  "id": "C24",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Panel split 1 buy / 2 sell: priceaction sell, trend buy, reversal sell. Continuation and fade readings cancel on this chart and no caller clears break-even, so no trade."
+ },
+ {
+  "id": "C25",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Panel split 1 buy / 2 sell: priceaction sell, trend sell, reversal buy. Continuation and fade readings cancel on this chart and no caller clears break-even, so no trade."
+ },
+ {
+  "id": "C26",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "4 of 5 sell (reversal fades). Both TFs bearish stack, price at 0.06-0.12 of range with z -1.5 to -1.7 and last bar -0.6 ATR, steady lower highs with no exhaustion candle."
+ },
+ {
+  "id": "C27",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "3 buy vs reversal and crossasset sell. Clean uptrend at the 24h high but z +1.9/+2.3 and crossasset flags a +10.8 ATR overshoot vs the legs; real conflict, abstain."
+ },
+ {
+  "id": "C28",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "4 sell vs reversal buy. Both stacks down but 5m z -2.2 at 0.08 of range and the last 2m bar is flat (r1 0.0): selling has paused at the low, so neither side clears break-even."
+ },
+ {
+  "id": "C29",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Only priceaction calls buy, confidence below 0.545 break-even; the chart has no second confirming read, so abstain."
+ },
+ {
+  "id": "C30",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "3 sell, reversal buys, crossasset abstains. Both TFs bearish stack, at 0.02-0.03 of range, -4 ATR over 15 bars with the last bar still -0.7 ATR closing at the low; no bounce yet."
+ },
+ {
+  "id": "C31",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Panel split 1 buy / 1 sell: priceaction buy, reversal sell. Continuation and fade readings cancel on this chart and no caller clears break-even, so no trade."
+ },
+ {
+  "id": "C32",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "4 sell vs reversal buy. 2m dropped -4.7 ATR in 5 bars to 0.02 of range, z -2.0 on both: a spike low, not an orderly trend; fade and continuation both plausible, abstain."
+ },
+ {
+  "id": "C33",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "4 buy vs reversal sell. Price at 0.94-0.97 of range with z +2.4 on both TFs and 5m stack mixed; momentum is real but extended into the high, abstain."
+ },
+ {
+  "id": "C34",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Panel split 1 buy / 1 sell: reversal buy, crossasset sell. Continuation and fade readings cancel on this chart and no caller clears break-even, so no trade."
+ },
+ {
+  "id": "C35",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Panel split 2 buy / 1 sell: priceaction sell, reversal buy, crossasset buy. Continuation and fade readings cancel on this chart and no caller clears break-even, so no trade."
+ },
+ {
+  "id": "C36",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Panel split 2 buy / 3 sell: priceaction sell, trend buy, reversal sell, multitf buy, crossasset sell. Continuation and fade readings cancel on this chart and no caller clears break-even, so no trade."
+ },
+ {
+  "id": "C37",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Only crossasset calls sell, confidence below 0.545 break-even; the chart has no second confirming read, so abstain."
+ },
+ {
+  "id": "C38",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Panel split 2 buy / 1 sell: priceaction buy, reversal sell, crossasset buy. Continuation and fade readings cancel on this chart and no caller clears break-even, so no trade."
+ },
+ {
+  "id": "C39",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "3 buy, crossasset sells, reversal abstains. Both TFs bullish stack, 5m +3.8 ATR over 15 bars with orderly z +1.6, last bars holding at the high without an upper-wick rejection."
+ },
+ {
+  "id": "C40",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Panel split 1 buy / 3 sell: priceaction sell, trend sell, reversal buy, multitf sell. Continuation and fade readings cancel on this chart and no caller clears break-even, so no trade."
+ }
+]

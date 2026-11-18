@@ -1,0 +1,282 @@
+[
+ {
+  "id": "C01",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2min bounced off a fresh swing low (low 2 bars ago) with two green bars; 5min closed +0.6 ATR after a two-bar dip, holding the upper part of its 60-bar range."
+ },
+ {
+  "id": "C02",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.53,
+  "reason": "2min printed a +1.5 ATR bull candle after a +1.7 bar off a higher low; 5min closed +1.1 ATR, 1.5 ATR under the swing high, momentum into resistance."
+ },
+ {
+  "id": "C03",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "5min bull engulfing 1 ATR above the 60-bar low after a -3.5 ATR leg; 2min shows lower-wick bars and a +0.7 green, buyers defending the low."
+ },
+ {
+  "id": "C04",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "2min bull engulfing (+1.5 after -1.2) closing at a new 60-bar high; 5min prints three lower-wick candles, a higher-low base under the breakout."
+ },
+ {
+  "id": "C05",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "2min near the swing high but last bar red after three greens; 5min shows an upper-wick doji mid-range. No clean setup either way."
+ },
+ {
+  "id": "C06",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.53,
+  "reason": "2min four straight green closes off a higher low, last +0.9 ATR; 5min +0.9 bull bar 1.4 ATR below the swing high, short-term momentum up."
+ },
+ {
+  "id": "C07",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.55,
+  "reason": "Strong downtrend (-9 ATR over 60 bars) with lower highs; both 2min and 5min printed an inside bar at the lows, a continuation pause in a bear trend."
+ },
+ {
+  "id": "C08",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2min -1.7 ATR breakdown bar to a new 20-bar low, only a small +0.3 follow; 5min two reds near the range low in a falling structure."
+ },
+ {
+  "id": "C09",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "2min closed +1.2 ATR at a fresh 60-bar high; 5min three green bars making a 20-bar high, clean breakout momentum."
+ },
+ {
+  "id": "C10",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "2min inside bar after a +0.8 push, mid-to-upper range; 5min mid-range with mixed wicks. Nothing decisive."
+ },
+ {
+  "id": "C11",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "Both timeframes sit on the 60-bar low (0.1-0.2 ATR away) after a -8 ATR 2min leg; no rejection wicks at the low, last bars red, trend continuation."
+ },
+ {
+  "id": "C12",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "5min bull engulfing 1.2 ATR above the swing low after a -3 ATR drop; 2min closed +1.1 ATR then a lower-wick doji, buyers holding."
+ },
+ {
+  "id": "C13",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Near lows but 2min whipsaws +/-1 ATR bar to bar (+1.5,-1.0,+0.9,-1.0,+1.0); no structure to trade."
+ },
+ {
+  "id": "C14",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "5min +0.9 ATR bull bar off a low set 2 bars ago at the bottom of the range; 2min last bar lower pin after a higher low."
+ },
+ {
+  "id": "C15",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "5min upper-wick bear candles (-0.3^, -0.6^) under the swing high; 2min upper pin then -0.9 ATR red, rejection and rollover."
+ },
+ {
+  "id": "C16",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "One abnormal +23 ATR 5min (+30 ATR 2min) spike bar; post-spike 2min bars are small and mixed. Structure is broken by the jump, no read."
+ },
+ {
+  "id": "C17",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Steady uptrend, 2min 0.5 ATR from the high with an inside bar after a +0.8 push; 5min a run of green bars making 20-bar highs."
+ },
+ {
+  "id": "C18",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Drifting near the lower range with tiny dojis on 2min and an upper-wick green on 5min; no setup."
+ },
+ {
+  "id": "C19",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "5min upper pin mid-range after a -0.9 red; 2min rally (+1.1, +0.6) rejected by a -0.7 bar, lower highs on 2min."
+ },
+ {
+  "id": "C20",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Abnormal +10 ATR 5min / +15 ATR 2min jump; post-jump candles small with an upper pin. Gap-like structure, no read."
+ },
+ {
+  "id": "C21",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "2min bear engulfing 0.4 ATR above the 60-bar low after lower highs; 5min four consecutive weak/red bars, rolling down."
+ },
+ {
+  "id": "C22",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range chop on both TFs, alternating bars around +/-0.3 ATR; nothing to trade."
+ },
+ {
+  "id": "C23",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Abnormal -17 ATR crash bar; price drifting with small bars at the post-crash low. Broken structure, no read."
+ },
+ {
+  "id": "C24",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "5min three red bars rolling over from a swing high set 3 bars ago; 2min -1.7 ATR bear bar with only a weak bounce."
+ },
+ {
+  "id": "C25",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "5min four red closes back toward the range low; 2min lower highs after -1.8/-1.0 drops, weak small bounces."
+ },
+ {
+  "id": "C26",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "Both TFs pressed at the 60-bar low in a -7 ATR downtrend; 2min bear engulfing (-0.7 after +0.5^) rejected the bounce."
+ },
+ {
+  "id": "C27",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "Strong uptrend, 5min +1.6, +0.4 closing near the high; 2min run of green bars at the high, small upper wick only, trend intact."
+ },
+ {
+  "id": "C28",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "Both TFs 0.4-0.6 ATR above the 60-bar low in a downtrend; 5min three red bars, 2min bounces fail with lower highs."
+ },
+ {
+  "id": "C29",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "Lower-pin candles on both 5min and 2min after a pullback from the swing high; rejection of lower prices mid-range."
+ },
+ {
+  "id": "C30",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "Grinding downtrend (-10 ATR on 5min) with 2min closing at the 60-bar low; no bullish rejection wicks, continuation."
+ },
+ {
+  "id": "C31",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "5min +1.4 ATR breakout bar to a 20-bar high; 2min +1.7 surge followed by a lower-wick doji holding the gain."
+ },
+ {
+  "id": "C32",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "5min -1.9, -1.0 breakdown bars; 2min sitting on the 60-bar low after -1.7/-1.3/-1.3 drops, bearish momentum."
+ },
+ {
+  "id": "C33",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "5min bull engulfing +1.2 at a 20-bar high; 2min +1.4, +0.8 closing 0.2 ATR under the 60-bar high."
+ },
+ {
+  "id": "C34",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5min basing near a deep low with small mixed bars; 2min chops mid-range. No setup."
+ },
+ {
+  "id": "C35",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "5min -1.1 ATR bear bar breaking down toward the range low; 2min three red bars after a failed bounce."
+ },
+ {
+  "id": "C36",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.52,
+  "reason": "At the uptrend high, 2min printed three consecutive upper-wick bars, sellers rejecting the high; short-term pullback setup."
+ },
+ {
+  "id": "C37",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Choppy two-way 2min action (-1.8, +0.9, small dojis) in the lower half of the range; no clean pattern."
+ },
+ {
+  "id": "C38",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "2min five green bars to a 20-bar high, last +1.0 ATR; 5min +1.3, +1.0 bull bars reversing off the low, strong momentum."
+ },
+ {
+  "id": "C39",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2min 0.4 ATR under the high with a lower-pin doji holding a +1.0 push; 5min bullish higher lows into a 20-bar high."
+ },
+ {
+  "id": "C40",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "Persistent downtrend with both TFs near the 60-bar low; 5min -1.1 bar, 2min small lower pin is weak support only."
+ }
+]

@@ -1,0 +1,282 @@
+[
+ {
+  "id": "C01",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "AUDUSD mid-range (0.35 of 60m range, 2m z -0.6), already bouncing off 0.6939 lows. No stretch to fade."
+ },
+ {
+  "id": "C02",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "GBPJPY pushed +1.4 ATR in one bar to 217.40, top of the 60m range (0.84), 2m z +1.1; last bar is a doji with wicks both sides. Fade the spike back toward 217.2."
+ },
+ {
+  "id": "C03",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "GBPAUD low in 12h range but 2m z near 0, choppy small candles around 1.923. Nothing overextended."
+ },
+ {
+  "id": "C04",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "NZDUSD whipsaw: +1.3 ATR bar into the top of the 60m range (0.94), 2m z +1.6 after alternating large bars. Fade the swing high near 0.5910."
+ },
+ {
+  "id": "C05",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "EURUSD mid 60m range, RSI 53, z +0.1. No extreme."
+ },
+ {
+  "id": "C06",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "EURGBP z +0.9, RSI 57, mid of 12h range; repeated upper wicks but no real stretch."
+ },
+ {
+  "id": "C07",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.56,
+  "reason": "USDCHF down 3.2 ATR(5m) in 30 min to the 24h low (0.05), RSI 28-30 on both frames; selling slowing with higher low at 0.8078. Fade the extension over 10 min."
+ },
+ {
+  "id": "C08",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "USDJPY dumped a -1.6 ATR bar to the bottom of the 60m range, 2m z -1.5, RSI 38; small recovery candle after. Expect retrace toward 162.58."
+ },
+ {
+  "id": "C09",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.56,
+  "reason": "NZDUSD up 2.2 ATR(5m) in 30 min, 2m RSI 69 z +2.3 at the 60m high, but still only 0.23 of the 12h range, so the rally is stretched against the larger downtrend. Fade over 10 min."
+ },
+ {
+  "id": "C10",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "AUDUSD 2m z 0.0, RSI 55; drifting in upper part of range without exhaustion."
+ },
+ {
+  "id": "C11",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "GBPJPY RSI 31 on 2m and 5m, z -1.6, at the 60m low after a -2.4 ATR(5m) slide; stretched below average. Fade the selloff."
+ },
+ {
+  "id": "C12",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "EURGBP at the 24h low (0.05) with a +1.05 ATR bullish bar off 0.8413; 5m z -0.8. Buy the rejection of the low."
+ },
+ {
+  "id": "C13",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "AUDUSD sitting at the 12h/24h low (0.05-0.07), 5m RSI 35, holding 0.6984-0.6990 with alternating candles. Range-bottom bounce over 10 min."
+ },
+ {
+  "id": "C14",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "GBPAUD near 12h low but 2m z +0.6 and mixed long wicks both sides; no clean exhaustion."
+ },
+ {
+  "id": "C15",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "EURJPY 2m z -1.9 at the 60m low (0.05) after a rejected bounce at 183.94; stretched below the 20-bar mean."
+ },
+ {
+  "id": "C16",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "NZDUSD shows an 11-ATR single-bar jump from 0.488 to 0.577 and flat afterwards: a feed level shift, not a tradable overextension. RSI 94 is an artifact."
+ },
+ {
+  "id": "C17",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.55,
+  "reason": "EURAUD up 3.5 ATR(5m) in 30 min, 2m RSI 71, 5m z +1.9, at the 60m high; mid of 12h range so room to mean revert. Fade over 10 min."
+ },
+ {
+  "id": "C18",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "EURUSD z +0.4, RSI 46, doji/wick candles in the middle of the hour range."
+ },
+ {
+  "id": "C19",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "AUDJPY 2m z -1.3 after the dip to 111.49, already two green bars; continuing the snapback toward the mean near 111.75."
+ },
+ {
+  "id": "C20",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "EURUSD jumped 1.133 to 1.151 in one 5m bar (level shift) then went flat; RSI 83 is from the jump, not exhaustion. Nothing to fade."
+ },
+ {
+  "id": "C21",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "EURJPY 2m RSI 36 z -1.6 at the 60m low after a -1.4 ATR(5m) grind; small-bodied candles show selling drying up."
+ },
+ {
+  "id": "C22",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "EURUSD mid 60m range, z -0.6; no extreme."
+ },
+ {
+  "id": "C23",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.57,
+  "reason": "USDCAD RSI 18 on 2m, 15 on 5m, at the 24h low (0.05); 08:46 bar printed a 1.1 ATR lower wick after two big red bars, a capitulation sign. Fade over 10 min."
+ },
+ {
+  "id": "C24",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "GBPAUD failed near the 24h high (0.92) at 1.9403 and dropped a -1.95 ATR bar; the top looks rejected, sell the failed breakout."
+ },
+ {
+  "id": "C25",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "NZDUSD at the 60m low, 2m RSI 36 z -1.6 after a -1.7 ATR(5m) drop; small bodies at 0.5534. Fade the drop."
+ },
+ {
+  "id": "C26",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.54,
+  "reason": "EURUSD at the 24h low (0.02), 5m RSI 30, z -1.5 to -1.65; wicks on both sides near 1.1364. Range-low bounce over 10 min."
+ },
+ {
+  "id": "C27",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.56,
+  "reason": "GBPAUD at the 24h high (0.99), 2m RSI 78, 5m z +2.2 after +3.7 ATR(5m) in 30 min; last bar shows a 0.6 ATR upper wick. Fade the stretched high."
+ },
+ {
+  "id": "C28",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.55,
+  "reason": "EURUSD at the 24h low, 5m z -2.2; last bars carry long lower wicks (0.9, 0.6 ATR) at 1.1321, signaling rejection of lower prices."
+ },
+ {
+  "id": "C29",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "CHFJPY 2m z -0.9 and already stabilizing; mild, nothing to fade."
+ },
+ {
+  "id": "C30",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "EURUSD 2m RSI 30, z -1.6, at the 12h low (0.03) after a -2 ATR(5m) slide. Fade the stretch."
+ },
+ {
+  "id": "C31",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "CHFJPY 2m z +2.4 RSI 71 after a +1.9 ATR candle, followed by a doji with wicks at 203.39; at the 60m top but mid 12h range."
+ },
+ {
+  "id": "C32",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "USDCHF 2m z -2.0, 5m z -2.05, two -1.3 ATR bars into the 60m low (0.02); stretched below mean in the upper half of the 24h range."
+ },
+ {
+  "id": "C33",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "CADJPY 2m and 5m z +2.4 after a sharp two-bar pop to 114.92, but price is in the lower third of the 12h range. Fade the spike."
+ },
+ {
+  "id": "C34",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "USDJPY at the 24h low (0.04), 5m RSI 28; 2m already neutral and holding 162.53-162.60. Range-bottom bounce."
+ },
+ {
+  "id": "C35",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "EURAUD 2m z -2.5 at the 60m low after a -1.95 ATR(5m) drop; overextended below average."
+ },
+ {
+  "id": "C36",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.55,
+  "reason": "CADJPY 5m RSI 72 z +2.2 after +3.6 ATR(5m) in 30 min; last four 2m bars carry 0.4-0.5 ATR upper wicks with shrinking bodies, exhaustion near 115.30."
+ },
+ {
+  "id": "C37",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "USDJPY flat at 161.52, z near 0, RSI 48; no setup."
+ },
+ {
+  "id": "C38",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "AUDUSD 2m z +2.55 at the 60m high (0.97) after four green bars, only 0.27 of the 12h range. Fade the push above the mean."
+ },
+ {
+  "id": "C39",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "USDJPY z +1.5 near the 60m high, but repeated long lower wicks (0.9, 1.1 ATR) show buyers defending; no clean exhaustion to fade."
+ },
+ {
+  "id": "C40",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "USDCHF 5m z -2.1, 2m z -1.8; the last two 2m bars printed 0.7-0.8 ATR lower wicks at 0.8112, rejecting the low."
+ }
+]

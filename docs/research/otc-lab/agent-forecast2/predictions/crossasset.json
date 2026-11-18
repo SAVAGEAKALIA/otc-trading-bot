@@ -1,0 +1,282 @@
+[
+ {
+  "id": "C01",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "AUD weak across its pairs (avg -2.8 ATR over 60m; AUDJPY -5.2, EURAUD +4.2); ex-self implied AUDUSD move -4.8 while AUDUSD is flat with a +1.2 bounce in 6m. Listed pair lags the AUD selloff; expect catch-up lower."
+ },
+ {
+  "id": "C02",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "JPY weak over 60m (avg -3.0; AUDJPY +6.3, EURJPY +4.9) and GBP strong over 20m (GBPAUD +4.3). Implied +2.8 vs own +1.6; GBPJPY pushing toward 1h high 217.50, cross picture agrees."
+ },
+ {
+  "id": "C03",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "GBP strong (avg +3.0, GBPJPY +5.5) and AUD weak (AUDUSD -10.5) over 60m: implied GBPAUD +7.0 ex-self, yet GBPAUD is -1.8 and sitting near 1h low 1.9219. Lagging pair, expect catch-up up."
+ },
+ {
+  "id": "C04",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Cross picture incoherent: AUDUSD -30 and CADJPY -22 ATR while USDCAD and NZDUSD barely move; NZD has only one pair so no strength read. No usable cross-asset signal."
+ },
+ {
+  "id": "C05",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "EURUSD flat; implied move flips sign between 60m (-1.3) and 20m (+1.9). EUR and USD both near neutral strength. Nothing to lean on."
+ },
+ {
+  "id": "C06",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Implied EURGBP ex-self -1.9/-2.8 (60m/20m) but EURGBP rallied +1.7 in 20m and 6m to 0.8465. Pair overshoots its currency legs; expect fade lower."
+ },
+ {
+  "id": "C07",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "USDCHF fell -7.8 ATR in 60m while USD is mildly firm elsewhere (implied +1.1/+1.5/+1.2). Pair has stalled at the 1h low 0.8075 for 6 bars; overshoot vs. legs, expect bounce."
+ },
+ {
+  "id": "C08",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "USDJPY -4.6 over 60m but flat over 20m; implied only -0.5/-1.9 and price is sitting on the 1h low 162.50. Signals conflict."
+ },
+ {
+  "id": "C09",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "NZDUSD +3.3/+3.9 ATR rally but NZD has no other pair to confirm and USD is neutral (implied ~0). Idiosyncratic move with no cross-asset backing."
+ },
+ {
+  "id": "C10",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Implied AUDUSD only +1.1/+1.2 and own 20m move +0.5; AUD and USD strengths are near neutral. No divergence or confirmation worth a stake."
+ },
+ {
+  "id": "C11",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.51,
+  "reason": "GBPJPY -3.8/-2.6 ATR while its legs imply -0.8/+0.7 (JPY not broadly strong). Pair overshot down to the 1h low 217.41; expect partial reversion."
+ },
+ {
+  "id": "C12",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "EURGBP tracks its legs closely (implied -3.7/-1.4/+1.2 vs own -4.3/+1.2/+0.8). No lag or overshoot to exploit."
+ },
+ {
+  "id": "C13",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.51,
+  "reason": "AUDUSD -3.6 over 60m while AUD/USD legs imply +0.2/+1.3; pair bouncing off 1h low 0.6983 (+1.0 in 6m). Lagging the neutral-to-firm AUD picture, lean up."
+ },
+ {
+  "id": "C14",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.51,
+  "reason": "Implied GBPAUD +1.7 over 20m, own only +0.2 after recovering from 1.9198 low. Mild lag vs GBP-over-AUD picture."
+ },
+ {
+  "id": "C15",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.54,
+  "reason": "Broad EUR weakness and JPY strength: implied EURJPY -7.7/-4.7/-1.6 ex-self, own only -1.0/-1.6/-0.7. Clear lag; price under 1h mid at 183.82, expect follow-through lower."
+ },
+ {
+  "id": "C16",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "NZDUSD shows a +71 ATR level jump (0.488 to 0.578) in the last bars, a feed shift not mirrored by any USD pair. Cross-asset read invalid."
+ },
+ {
+  "id": "C17",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.51,
+  "reason": "EURAUD +7.9 ATR trend over 60m with legs also implying up (+1.4/+0.7). Direction confirmed by EUR-over-AUD, price holding near 1h high 1.6452."
+ },
+ {
+  "id": "C18",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "EURUSD flat in 20m and 6m; implied moves under 1 ATR. Nothing."
+ },
+ {
+  "id": "C19",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "AUD firm and JPY soft: implied AUDJPY +2.4/+2.7/+1.4, but own -3.6/-1.5 down to 111.49 before turning +1.0 in 6m. Lagging pair starting to catch up."
+ },
+ {
+  "id": "C20",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "EURUSD shows a +19 ATR level jump (1.133 to 1.152) not matched by other USD pairs. Feed discontinuity, no cross-asset read."
+ },
+ {
+  "id": "C21",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "EUR soft vs JPY across pairs (implied -2.2) and EURJPY grinding lower (-2.8/-2.4/-0.9) to new 1h low 184.32. Cross picture confirms the down drift."
+ },
+ {
+  "id": "C22",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.51,
+  "reason": "Implied EURUSD +2.4 over 60m and +1.2 over 6m while EURUSD is -2.4 and flat. Lags its legs; lean up."
+ },
+ {
+  "id": "C23",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "USDCAD dropped -29.7 ATR (1.47 to 1.397), a level shift no other USD or CAD pair shows. Feed discontinuity."
+ },
+ {
+  "id": "C24",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Implied GBPAUD ~0 across horizons; own pulled back from 1h high 1.9407. No cross-asset push either way."
+ },
+ {
+  "id": "C25",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "NZDUSD down -3.8 in 20m but USD neutral (implied ~0) and NZD has no second pair. Idiosyncratic, unconfirmed."
+ },
+ {
+  "id": "C26",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "EUR weak / USD firm: implied EURUSD -6.2 over 60m vs own -3.4; pair breaking toward 1h low 1.1358. Lag on the down move, expect follow-through."
+ },
+ {
+  "id": "C27",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "GBPAUD +10.8 ATR over 60m while legs imply +0.4/-1.7. Strong overshoot to the 12h high area 1.9423; expect fade."
+ },
+ {
+  "id": "C28",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.51,
+  "reason": "Implied EURUSD -2.2 and own -1.8/-2.0/-1.0 sliding to the 1h low 1.1316. Legs and pair agree on the down drift."
+ },
+ {
+  "id": "C29",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "CHFJPY legs imply ~0; CHF has only one other pair. No signal."
+ },
+ {
+  "id": "C30",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "EURUSD -3.1 in 20m in line with implied -2.7, but implied 6m flipped +0.8. Mixed."
+ },
+ {
+  "id": "C31",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "CHFJPY +3.7 at 1h high while legs imply -1.2/-0.4 over 60/20m but +2.6 in 6m. Conflicting cross reads."
+ },
+ {
+  "id": "C32",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.55,
+  "reason": "Broad USD selloff: implied USDCHF -13.8/-6.6/-1.9 ATR ex-self, own only -4.2/-2.9/-1.7, now breaking below 0.8130. Strongest lag in the set, expect follow-through lower."
+ },
+ {
+  "id": "C33",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "JPY weak across its pairs; implied CADJPY +3.1/+3.0/+1.1 and own +2.1/+1.8/+1.3 closing at a fresh 1h high 114.92. Cross picture confirms breakout."
+ },
+ {
+  "id": "C34",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.51,
+  "reason": "Implied USDJPY -1.7/-1.2/-0.7 (USD soft, JPY firm) while USDJPY is +0.8 near 1h high 162.63. Mild lag on the down side."
+ },
+ {
+  "id": "C35",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "Implied EURAUD +4.8 over 60m (EUR firm, AUD soft) but pair fell -2.4 in 20m to 1.6224 near 1h low. Lagging, expect catch-up up."
+ },
+ {
+  "id": "C36",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "CADJPY +5.5 ATR while legs imply -1.6/-2.2 (JPY firm elsewhere). Overshoot at the 1h high 115.36; expect fade."
+ },
+ {
+  "id": "C37",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.51,
+  "reason": "Implied USDJPY -1.6/-1.0/-1.0 and own -0.9/-1.0; small aligned drift lower in a tight 161.47-161.57 range."
+ },
+ {
+  "id": "C38",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "AUD firm / USD soft: implied +2.7/+1.2, own +3.6/+3.8/+2.2 closing at the 1h high 0.6944. Cross picture confirms the up move."
+ },
+ {
+  "id": "C39",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.51,
+  "reason": "USDJPY +4.4 over 60m while legs imply -0.8/-0.7; stalled at 162.54 for 4 bars. Overshoot vs. legs, lean down."
+ },
+ {
+  "id": "C40",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Implied USDCHF +5.5 over 60m but -2.1 over 6m; own -2.3/-1.2. Legs contradict across horizons."
+ }
+]
