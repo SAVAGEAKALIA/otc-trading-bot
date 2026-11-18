@@ -1,0 +1,180 @@
+{
+ "priceaction": {
+  "calls": 30,
+  "abstained": 10,
+  "wins": 17,
+  "losses": 13,
+  "ties": 0,
+  "win_rate": 0.567,
+  "ci95": [
+   0.374,
+   0.745
+  ],
+  "breakeven": 0.5429,
+  "pnl_units": 1.3,
+  "return_per_stake": 0.043,
+  "by_horizon": {
+   "2": {
+    "wins": 2,
+    "losses": 1,
+    "ties": 0
+   },
+   "5": {
+    "wins": 14,
+    "losses": 10,
+    "ties": 0
+   },
+   "10": {
+    "wins": 1,
+    "losses": 2,
+    "ties": 0
+   }
+  },
+  "missing": []
+ },
+ "trend": {
+  "calls": 26,
+  "abstained": 14,
+  "wins": 13,
+  "losses": 13,
+  "ties": 0,
+  "win_rate": 0.5,
+  "ci95": [
+   0.299,
+   0.701
+  ],
+  "breakeven": 0.5424,
+  "pnl_units": -2.06,
+  "return_per_stake": -0.079,
+  "by_horizon": {
+   "5": {
+    "wins": 12,
+    "losses": 9,
+    "ties": 0
+   },
+   "10": {
+    "wins": 1,
+    "losses": 4,
+    "ties": 0
+   }
+  },
+  "missing": []
+ },
+ "reversal": {
+  "calls": 27,
+  "abstained": 13,
+  "wins": 13,
+  "losses": 14,
+  "ties": 0,
+  "win_rate": 0.481,
+  "ci95": [
+   0.287,
+   0.681
+  ],
+  "breakeven": 0.5413,
+  "pnl_units": -2.96,
+  "return_per_stake": -0.11,
+  "by_horizon": {
+   "5": {
+    "wins": 7,
+    "losses": 10,
+    "ties": 0
+   },
+   "10": {
+    "wins": 6,
+    "losses": 4,
+    "ties": 0
+   }
+  },
+  "missing": []
+ },
+ "multitf": {
+  "calls": 20,
+  "abstained": 20,
+  "wins": 11,
+  "losses": 9,
+  "ties": 0,
+  "win_rate": 0.55,
+  "ci95": [
+   0.315,
+   0.769
+  ],
+  "breakeven": 0.542,
+  "pnl_units": 0.3,
+  "return_per_stake": 0.015,
+  "by_horizon": {
+   "2": {
+    "wins": 3,
+    "losses": 5,
+    "ties": 0
+   },
+   "5": {
+    "wins": 5,
+    "losses": 2,
+    "ties": 0
+   },
+   "10": {
+    "wins": 3,
+    "losses": 2,
+    "ties": 0
+   }
+  },
+  "missing": []
+ },
+ "crossasset": {
+  "calls": 24,
+  "abstained": 16,
+  "wins": 14,
+  "losses": 10,
+  "ties": 0,
+  "win_rate": 0.583,
+  "ci95": [
+   0.366,
+   0.779
+  ],
+  "breakeven": 0.5423,
+  "pnl_units": 1.82,
+  "return_per_stake": 0.076,
+  "by_horizon": {
+   "5": {
+    "wins": 11,
+    "losses": 8,
+    "ties": 0
+   },
+   "10": {
+    "wins": 3,
+    "losses": 2,
+    "ties": 0
+   }
+  },
+  "missing": []
+ },
+ "judge": {
+  "calls": 4,
+  "abstained": 36,
+  "wins": 3,
+  "losses": 1,
+  "ties": 0,
+  "win_rate": 0.75,
+  "ci95": [
+   0.194,
+   0.994
+  ],
+  "breakeven": 0.5435,
+  "pnl_units": 1.52,
+  "return_per_stake": 0.38,
+  "by_horizon": {
+   "5": {
+    "wins": 3,
+    "losses": 1,
+    "ties": 0
+   }
+  },
+  "missing": []
+ },
+ "base_rate_up": {
+  "2": 0.575,
+  "5": 0.475,
+  "10": 0.55
+ }
+}
