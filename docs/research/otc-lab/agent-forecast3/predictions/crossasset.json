@@ -1,0 +1,2802 @@
+[
+ {
+  "id": "K001",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "GBP weakest in 60m strength table (-4.7), GBPJPY/EURGBP confirm GBP selling; GBPUSD bounced +1.9 ATR in 20m against that, mid-range 0.47, expect it to rejoin GBP weakness."
+ },
+ {
+  "id": "K002",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "NZDUSD pinned at 60m low with steady -0.3 to -0.9 ATR bars; USD strong across USDCAD/USDJPY and AUDUSD also falling, so the down move is shared, not isolated."
+ },
+ {
+  "id": "K003",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "GBP strong and EUR weak on both 60m and 10m strength; EURGBP sits at 0.05 of its hour range with -1.2 ATR last bar, cross moves confirm continuation."
+ },
+ {
+  "id": "K004",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "USD firm (+1.6) and JPY weak (-2.6) across pairs yet USDJPY fell -2.9 ATR in the hour; last bar +1.4 ATR reversal suggests it starts catching up to the currency picture."
+ },
+ {
+  "id": "K005",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "USD weakest on 10m strength (-1.0) while AUD firm (+0.6); AUDUSD rising +1.4 ATR in 20m with higher closes, related USD pairs agree."
+ },
+ {
+  "id": "K006",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "NZDUSD flat over the hour, USD mixed across its pairs, choppy alternating bars; no cross-asset lead to follow."
+ },
+ {
+  "id": "K007",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "EURAUD +5.1 ATR at top of range while EUR (-0.5) and AUD (-0.7) are roughly equal across other pairs; the cross overshoots what its legs imply and has stalled in last two bars."
+ },
+ {
+  "id": "K008",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "EUR and GBP both firm, implied EURGBP drift small; pair mid-range with mixed bars, no lead/lag edge."
+ },
+ {
+  "id": "K009",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "AUD firmer than EUR on both 60m and 10m strength; EURAUD bounced mildly to 0.33 of range, expect drift back down with AUD strength."
+ },
+ {
+  "id": "K010",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "USD slightly soft across USDCAD/USDCHF; NZDUSD trending +6.5 ATR near top with fresh +1.6 bar after a pullback, NZD only has this pair so follow the trend."
+ },
+ {
+  "id": "K011",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "CHF firm on 60m (+1.4) and USD soft; USDCHF ran +3.6 ATR to 0.86 of range and is now printing -0.6 bars off the high, overshoot unwinding."
+ },
+ {
+  "id": "K012",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "JPY gaining on 10m strength (+0.9) and USD softening (-0.7); USDJPY near 60m low (0.13) with bounce failing (-0.4 last bar)."
+ },
+ {
+  "id": "K013",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "USDJPY -5.4 ATR in the hour far beyond the USD-JPY strength gap; USD leading on 10m (+0.7) and pair has lifted off the low, expect catch-up."
+ },
+ {
+  "id": "K014",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "CAD bid on 10m strength (+1.2) vs JPY weakest (-1.1); CADJPY +2.8 ATR in 20m, last bar -0.7 is a pullback against the cross-asset flow."
+ },
+ {
+  "id": "K015",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "USD strongest on 10m and EUR weak on 60m; EURUSD -4.1 ATR in the hour near low, small bounce fading."
+ },
+ {
+  "id": "K016",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "EURJPY -8.2 ATR vs implied ~-1.3 from EUR/JPY legs elsewhere; EUR and JPY near flat on 10m, overshoot at range low should revert."
+ },
+ {
+  "id": "K017",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "USD weakest currency on 60m (-1.1) with CHF firm; USDCHF up +1.2 ATR diverging from the USD picture, expect it to fade."
+ },
+ {
+  "id": "K018",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "CAD weakest on 10m (-1.7) and USD firm; USDCAD +1.5 ATR last bar in line with CAD selling across CADJPY."
+ },
+ {
+  "id": "K019",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "USD and JPY near equal strength, USDJPY mid-range 0.50 with flat last bars; nothing to follow."
+ },
+ {
+  "id": "K020",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "CAD firm (+1.9) vs JPY soft on 60m; CADJPY +4.0 ATR trend holding at 0.84 of range after a shallow pause."
+ },
+ {
+  "id": "K021",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "On 10m strength CHF firm (+0.5) and JPY weak (-0.9) across JPY crosses; CHFJPY turned up +1.5 ATR in 10m with three rising bars."
+ },
+ {
+  "id": "K022",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "CHF (+1.8) strong and JPY (-1.1) weak across the board; CHFJPY trending at 0.95 of range with +0.6 bars, move is confirmed by other JPY crosses."
+ },
+ {
+  "id": "K023",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "GBP strongest currency on 60m and 10m, EUR soft; EURGBP up +1.1 ATR to 0.82 of range against the GBP bid elsewhere, expect it to fade."
+ },
+ {
+  "id": "K024",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "CHF weak (-1.2) and JPY firm (+1.0) across pairs; CHFJPY near hour low (0.09) with -0.7 last bar, cross-asset flow agrees with the downtrend."
+ },
+ {
+  "id": "K025",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "USD bid and JPY weakest on both windows; USDJPY +5.3 ATR rally paused flat for two bars at 0.90 of range, flow still supports higher."
+ },
+ {
+  "id": "K026",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "CHF strongest on 60m (+4.7) while USD flat; USDCHF bounced +2.6 ATR in 20m against that and is now rolling over (-0.8 last bar)."
+ },
+ {
+  "id": "K027",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "60m strength favours EURAUD up (AUD -1.3) but 10m flips to AUD bid; pair flat with a -1.5 bar reversal, conflicting cross picture."
+ },
+ {
+  "id": "K028",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "GBP leading on 10m (+1.3) while EUR flat; EURGBP falling -3.5 ATR in 10m from mid-range, consistent run of red bars."
+ },
+ {
+  "id": "K029",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "CHF the weakest major in the 10m table and JPY flat; CHFJPY at hour low with -1.4 ATR last bar, downtrend intact."
+ },
+ {
+  "id": "K030",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "USD soft across USDCAD/USDCHF (60m -0.8) and AUD strong; NZDUSD +4.9 ATR trend pulled back -1.2 ATR in 4m, pullback against supportive USD weakness."
+ },
+ {
+  "id": "K031",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "JPY firm (+1.7) and USD soft (-0.7) on 60m; USDJPY drifting lower at 0.39 of range, no counter signal from 10m."
+ },
+ {
+  "id": "K032",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "GBPAUD flat over hour; 60m favours AUD, 10m favours GBP; pair chopping mid-range."
+ },
+ {
+  "id": "K033",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "JPY one of the strongest currencies on 60m (+2.9) and 10m (+1.0), CAD soft; CADJPY up +3.2 ATR to 0.94 of range diverging from JPY strength."
+ },
+ {
+  "id": "K034",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "EUR strong on 60m (+3.2); EURJPY at the hour high (1.00) with three accelerating green bars, move shared by EUR pairs."
+ },
+ {
+  "id": "K035",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "USD neutral across its pairs; NZDUSD mid-upper range with mixed last bars, no lead from related pairs."
+ },
+ {
+  "id": "K036",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "EUR firm (+0.9 60m, +0.6 10m) and JPY flat, yet EURJPY -2.4 ATR at 0.23 of range; pair lags its legs, expect catch-up higher."
+ },
+ {
+  "id": "K037",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "EUR strongest on 60m and JPY weakest on 10m; EURJPY +1.2 ATR last bar from mid-range, aligned with the currency flow."
+ },
+ {
+  "id": "K038",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "CAD weakest on 10m (-1.9) with USD firming; USDCAD +2.0 ATR in 10m at 0.67 of range, cross flow supports more upside."
+ },
+ {
+  "id": "K039",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "USD and CHF both strong so USDCHF should be flat, but it fell -2.2 ATR to 0.11 of range; selling has stalled, overshoot vs legs."
+ },
+ {
+  "id": "K040",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "CHF strong (+3.4) and JPY weakest (-2.9) on 60m; CHFJPY +5.0 ATR trend at 0.90 of range, flow fully aligned."
+ },
+ {
+  "id": "K041",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "EUR strongest on 10m and USD flat; EURUSD at 0.79 of range, -1.1 last bar retraces a +1.4 spike, both legs favour EUR."
+ },
+ {
+  "id": "K042",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "AUD and NZD both weakest on 60m and AUD still weakest on 10m; NZDUSD near hour low, +0.7 bounce against bloc weakness."
+ },
+ {
+  "id": "K043",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "USDJPY -3.3 ATR in hour well beyond the small USD/JPY gap; USD firming on 10m (+0.6) and pair printing two green bars off the low."
+ },
+ {
+  "id": "K044",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "USD strong (+2.0) and JPY weak (-1.9) on 60m, same on 10m; USDJPY grinding up at 0.95 of range."
+ },
+ {
+  "id": "K045",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "CAD weak on 60m but CADJPY rose +1.4 ATR in 10m; 10m strength gives no edge, conflicting."
+ },
+ {
+  "id": "K046",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "USD the strongest currency on both 60m (+1.9) and 10m (+0.9); AUDUSD -7.0 ATR at 0.03 of range with red closes, shared USD bid."
+ },
+ {
+  "id": "K047",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "AUD strongest (+4.3 60m, +0.8 10m) across AUD pairs; EURAUD -8.4 ATR at range low with -1.5/-0.6 bars, flow aligned."
+ },
+ {
+  "id": "K048",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "JPY weakest currency on both windows and USD near flat; USDJPY -2.0 ATR in 20m against that, at 0.23 of range, expect catch-up."
+ },
+ {
+  "id": "K049",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "GBP strong (+3.6) and JPY weak (-1.9) on 60m; GBPJPY +4.7 ATR trend pulled back -1.5 ATR in 4m from the high."
+ },
+ {
+  "id": "K050",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "CADJPY +6.6 ATR while CAD is weak (-4.9) elsewhere on 60m; overshoot at 0.90 of range with two red bars after the run."
+ },
+ {
+  "id": "K051",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "USD and CHF both near flat on 60m yet USDCHF -3.8 ATR to 0.14 of range; both legs soft on 10m, overshoot vs related pairs."
+ },
+ {
+  "id": "K052",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "USD firm (+1.4) and AUD soft (-0.7) on 60m; AUDUSD +5.9 ATR overshoot at 0.81 of range, -1.1 last bar starting the fade."
+ },
+ {
+  "id": "K053",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "USD weak (-1.6 60m, -0.5 10m) across USD pairs; AUDUSD at 0.99 of range with steady green bars, flow aligned."
+ },
+ {
+  "id": "K054",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "EURJPY +6.1 ATR at hour high while EUR (+1.0) and JPY (-0.1) legs barely moved elsewhere; cross overshoots and 10m legs are flat."
+ },
+ {
+  "id": "K055",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "GBP firm (+1.5) and AUD weak (-3.2) on 60m; GBPAUD +5.6 ATR at 0.87 of range, holding gains."
+ },
+ {
+  "id": "K056",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "USD weakest currency on 60m (-3.8), JPY firm; USDJPY -4.1 ATR near low, bounce stalled with a flat last bar."
+ },
+ {
+  "id": "K057",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "EUR weakest on 60m (-3.9) and AUD firming on 10m; EURAUD at 0.05 of range with red bars, flow aligned."
+ },
+ {
+  "id": "K058",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "USD strongest on 60m (+2.3) and JPY soft, yet USDJPY -4.0 ATR in 10m including a -2.3 bar; drop not shared by USD pairs, expect recovery."
+ },
+ {
+  "id": "K059",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "AUD firm (+1.9) and GBP weak (-1.3) on 60m; GBPAUD falling -1.5 ATR in 10m from mid-range."
+ },
+ {
+  "id": "K060",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "AUD and USD equal on 60m strength yet AUDUSD -5.8 ATR to 0.14 of range; selling has stopped (+0.7 last bar), overshoot vs legs."
+ },
+ {
+  "id": "K061",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "GBP (+2.1) strong and JPY (-1.4) weak on 10m; GBPJPY +4.1 ATR in 20m at 0.89 of range, flow aligned."
+ },
+ {
+  "id": "K062",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "JPY strongest (+3.9) and CHF weak (-3.9) on 60m and 10m; CHFJPY at 0.05 of range with red bars."
+ },
+ {
+  "id": "K063",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "On 10m EUR weakest (-0.8) and JPY firm (+0.8); EURJPY -1.1 ATR last bar from mid-range."
+ },
+ {
+  "id": "K064",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "GBP firm and JPY soft on 60m; GBPJPY +1.6 ATR trend at 0.82 of range, -0.7 last bar pullback."
+ },
+ {
+  "id": "K065",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "USD weakest (-3.0 60m, -1.3 10m) and CHF strong; USDCHF near hour low, minor +0.4 bounce."
+ },
+ {
+  "id": "K066",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "USD firm (+1.1) on 60m; NZDUSD bounced +0.6 ATR in 20m back to mid-range against USD strength."
+ },
+ {
+  "id": "K067",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "AUD strong (+3.3) and USD weak (-2.8) on 60m; AUDUSD dropped -2.7 ATR in 20m against that and is now basing mid-range."
+ },
+ {
+  "id": "K068",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "CAD weakest on 10m (-1.5); USDCAD +2.2 ATR at 0.79 of range with steady small green bars."
+ },
+ {
+  "id": "K069",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "CAD strong and JPY weak on both windows; CADJPY -0.7 ATR pullback in 4m to mid-range against the flow."
+ },
+ {
+  "id": "K070",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "EURAUD has a -2.3 ATR single bar in the last hour that its legs do not match; legs near flat otherwise, no clean setup."
+ },
+ {
+  "id": "K071",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "AUD bid on 10m (+1.5) and GBP flat; GBPAUD -5.4 ATR trend at 0.12 of range, consistent red bars."
+ },
+ {
+  "id": "K072",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "CAD firm (+1.5 60m) and USD flat; USDCAD -1.6 ATR in 4m off a lower high."
+ },
+ {
+  "id": "K073",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "CAD weak on 10m (-1.3) and USD firm; USDCAD accelerating at 0.99 of range, +1.4 last bar."
+ },
+ {
+  "id": "K074",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "USD and CAD roughly equal on both windows yet USDCAD +3.1 ATR to 0.92 of range; cross overshoots its legs."
+ },
+ {
+  "id": "K075",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "GBP and JPY near flat in strength tables; GBPJPY drifting after a 20m spike, no cross lead."
+ },
+ {
+  "id": "K076",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "EUR soft (-0.5) and USD firm (+0.5) on 60m; EURUSD -1.6 ATR at 0.24 of range with small red bars, legs agree."
+ },
+ {
+  "id": "K077",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "EUR the strongest currency on 10m (+0.9), USD flat; EURUSD +3.9 ATR in 20m at 0.90 of range, flow aligned."
+ },
+ {
+  "id": "K078",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "GBP strongest on 60m (+6.2) with JPY soft; GBPJPY +8.4 ATR at 0.96 of range, +0.9 last bar after a dip."
+ },
+ {
+  "id": "K079",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "CHF firm (+1.0) and JPY weak (-1.6) on 60m; CHFJPY +1.4 ATR in 4m at 0.73 of range."
+ },
+ {
+  "id": "K080",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.54,
+  "reason": "USD firm and JPY weak on 60m, yet USDJPY -4.0 ATR; it has recovered +0.8 ATR in 20m and should keep catching up."
+ },
+ {
+  "id": "K081",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "USD strongest on 60m (+3.2), AUD also falling against USD; NZDUSD at 0.11 of range with red bars."
+ },
+ {
+  "id": "K082",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "AUD the weakest currency on both windows; GBPAUD broke to 0.98 of range with +1.5 ATR last bar, AUD weakness shared."
+ },
+ {
+  "id": "K083",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "USD firm (+1.5) on 60m; NZDUSD -7.4 ATR at 0.11 of range, bounce failed with -1.2 ATR in 4m."
+ },
+ {
+  "id": "K084",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "AUD weak (-2.0) on 60m and GBP firming on 10m; GBPAUD at 0.99 of range, +2.7 ATR in 10m."
+ },
+ {
+  "id": "K085",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "CAD weak (-4.5 60m, -1.1 10m) and JPY firm; CADJPY -3.5 ATR at 0.12 of range."
+ },
+ {
+  "id": "K086",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "CAD strongest on both windows and JPY weak on 60m; CADJPY at 0.98 of range with +1.1 last bar."
+ },
+ {
+  "id": "K087",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "CAD the weakest currency on 60m (-4.1) and USD firm, yet USDCAD only +0.7 and slipping in 20m; lag vs CAD selling elsewhere."
+ },
+ {
+  "id": "K088",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "JPY strong and USDJPY -9.3 ATR, but the move already far exceeds the leg gap and price has flattened at the low; continuation vs reversal unclear."
+ },
+ {
+  "id": "K089",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "CAD weaker than USD on 60m (-2.9 vs -1.2); USDCAD at 0.19 of range diverging from the CAD weakness."
+ },
+ {
+  "id": "K090",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "JPY strong (+2.7) and CHF weakest on 10m (-1.2); CHFJPY rose +1.3 ATR in 20m against that."
+ },
+ {
+  "id": "K091",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "GBP strongest on 60m and EUR soft; EURGBP -3.6 ATR in 20m at 0.06 of range."
+ },
+ {
+  "id": "K092",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "GBP firmer than USD on 10m (+0.5 vs -0.4) and both strong on 60m, yet GBPUSD fell -3.5 ATR; +0.7 bounce has started."
+ },
+ {
+  "id": "K093",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "CAD weak (-1.6 60m, -0.9 10m) and JPY flat; CADJPY at 0.08 of range with lower highs."
+ },
+ {
+  "id": "K094",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "EUR and JPY both strong on 60m, EURJPY flat mid-range; legs cancel."
+ },
+ {
+  "id": "K095",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "AUD (+0.6) firmer than JPY (-0.4) on 60m yet AUDJPY -2.6 ATR; mid-range 0.43, expect drift back up."
+ },
+ {
+  "id": "K096",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "USD strong (+2.0) and stronger than CAD on 60m; USDCAD pulled back -1.7 ATR in 20m, +0.6 last bar."
+ },
+ {
+  "id": "K097",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "GBP strongest on 60m and USD flat; GBPUSD +6.0 ATR then -2.4 ATR pullback which has stopped, flow supports resumption."
+ },
+ {
+  "id": "K098",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "JPY strongest (+3.6) and CHF weak (-3.3) on 60m; CHFJPY only -1.5 ATR and bouncing, lagging the leg gap."
+ },
+ {
+  "id": "K099",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "CAD weakest on 10m (-1.1) and JPY firm; CADJPY at 0.18 of range in a steady downtrend."
+ },
+ {
+  "id": "K100",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "CAD the weakest currency on both windows; USDCAD +5.6 ATR at 0.90 of range."
+ },
+ {
+  "id": "K101",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "JPY weak (-2.7) and AUD softer but above it on 60m; AUDJPY flat-to-down at mid-range, lagging JPY selling."
+ },
+ {
+  "id": "K102",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "GBP and JPY near flat, JPY softer on 10m; GBPJPY -1.5 ATR last bar to 0.09 of range not matched by other JPY crosses."
+ },
+ {
+  "id": "K103",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "AUD weak (-2.3) and USD firm on 60m; AUDUSD at 0.06 of range, -2.2 ATR in 10m."
+ },
+ {
+  "id": "K104",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "USD weak and JPY firm on both windows; USDJPY +0.9 last bar bounce near 0.23 of range against the flow."
+ },
+ {
+  "id": "K105",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "AUD the weakest currency on 60m (-3.0); AUDUSD at 0.05 of range, -1.0 last bar."
+ },
+ {
+  "id": "K106",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "USD the weakest currency on 60m (-1.7) and EUR firm; EURUSD -1.0 ATR in 4m pullback after +1.9 ATR in 20m."
+ },
+ {
+  "id": "K107",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "EUR firmer than AUD on 10m (+0.7 vs +0.1); EURAUD rebounding +1.1 ATR in 10m off its low after -4.6 ATR hour."
+ },
+ {
+  "id": "K108",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "JPY weak (-1.8) vs flat AUD on 60m; AUDJPY -0.7 ATR pullback in 4m with +0.5 last bar."
+ },
+ {
+  "id": "K109",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "EUR and USD equally firm on 60m and both flat on 10m; EURUSD whipsawing with no lead."
+ },
+ {
+  "id": "K110",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "USD firmer than JPY on 60m; USDJPY -3.1 ATR falling against that, flat last bar at the low, expect catch-up."
+ },
+ {
+  "id": "K111",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "EUR strongest currency on 60m (+3.4); EURJPY at range top with +1.8 ATR in 4m, +1.4 last bar."
+ },
+ {
+  "id": "K112",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "USD the weakest currency on 60m (-2.4) and 10m (-0.8); AUDUSD +2.8 ATR in 20m, steady green bars."
+ },
+ {
+  "id": "K113",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "EURJPY has an 11.2 ATR single-bar jump in the last hour that no JPY or EUR pair matches; feed break, skip."
+ },
+ {
+  "id": "K114",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "CAD weak (-3.3) and USD firm on 60m; USDCAD -1.2 ATR in the hour diverging from CAD selling elsewhere."
+ },
+ {
+  "id": "K115",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "JPY strong on 60m but CAD strongest on 10m; CADJPY rebounding mid-range, legs conflict."
+ },
+ {
+  "id": "K116",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "GBP and AUD both firm on 60m, AUD ahead on 10m; GBPAUD drifting flat, no edge."
+ },
+ {
+  "id": "K117",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "AUD strongest and EUR weak on 60m, AUD still bid on 10m; EURAUD -4.3 ATR trend, minor bounce."
+ },
+ {
+  "id": "K118",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "EUR strong (+1.3) and JPY soft on 10m; EURJPY up +1.7 ATR in 20m with green bars."
+ },
+ {
+  "id": "K119",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "USD firm (+1.3) and AUD soft on 60m; AUDUSD -7.1 ATR at the low, -1.3 ATR in 4m."
+ },
+ {
+  "id": "K120",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "JPY the weakest on 10m (-0.6); CADJPY +3.1 ATR in 20m with continued green bars."
+ },
+ {
+  "id": "K121",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "USD weak across USD pairs on 60m (-2.9); NZDUSD -5.5 ATR diverging from the USD picture, stabilising in 10m."
+ },
+ {
+  "id": "K122",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "CHF strongest on 10m (+1.1) and USD soft; USDCHF -2.5 ATR in 10m with steady red bars."
+ },
+ {
+  "id": "K123",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "JPY weak on both windows (-1.5 60m, -0.9 10m); GBPJPY +2.3 ATR trend holding."
+ },
+ {
+  "id": "K124",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "GBP weak (-0.9) on 10m and USD firm; GBPUSD -1.0 ATR in 4m off its 20m high."
+ },
+ {
+  "id": "K125",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "USD weaker than CAD on 60m (-0.7 vs +0.3); USDCAD -3.0 ATR in the hour, -1.1 ATR in 4m."
+ },
+ {
+  "id": "K126",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "JPY weak on 60m favours EURJPY up but EUR is the weakest on 10m; cross pulled back, conflicting."
+ },
+ {
+  "id": "K127",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "CHF strong and JPY weak on both windows; CHFJPY rising +0.7 ATR in 20m with green bars."
+ },
+ {
+  "id": "K128",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "AUD the weakest currency on 10m (-0.8) and JPY firm on 60m; AUDJPY -3.5 ATR in 20m near low."
+ },
+ {
+  "id": "K129",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "AUD strongest on 10m (+1.0), EUR soft; EURAUD -3.1 ATR in 20m and still falling."
+ },
+ {
+  "id": "K130",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "USD firmer than JPY on 10m; USDJPY -2.8 ATR more than the small leg gap implies, overshoot vs related pairs."
+ },
+ {
+  "id": "K131",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "EUR firmer than JPY on 60m yet EURJPY -3.6 ATR; selling stopped (+0.2 last bar), lagging its legs."
+ },
+ {
+  "id": "K132",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "EURAUD -7.8 ATR well beyond the AUD/EUR gap but both legs firm on 10m; no clean direction."
+ },
+ {
+  "id": "K133",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "EURGBP shows a 24.5 ATR one-bar jump that GBP and EUR pairs do not match; feed break."
+ },
+ {
+  "id": "K134",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "USD firm (+0.8) and EUR flat on 60m; EURUSD +4.3 ATR against that, stretched."
+ },
+ {
+  "id": "K135",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "GBPUSD has a 3.9 ATR single bar and the NZD/CHF strength readings are distorted by breaks; skip."
+ },
+ {
+  "id": "K136",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "AUD the strongest currency on 10m (+1.8) and on 60m; AUDJPY +2.3 ATR in 10m."
+ },
+ {
+  "id": "K137",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "AUD weak (-1.2) on 10m; AUDUSD -6.4 ATR at the low with no bounce."
+ },
+ {
+  "id": "K138",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "JPY strong (+3.7 60m, +1.3 10m) and CHF weak; CHFJPY +1.3 ATR against the leg gap."
+ },
+ {
+  "id": "K139",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "USDCAD +12.4 ATR rally stalled; on 10m CAD firmer than USD and the pair is -0.9 ATR in 4m."
+ },
+ {
+  "id": "K140",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "AUD weakest (-3.1) and USD firm on 60m; AUDUSD bounced +1.7 ATR in 20m against that."
+ },
+ {
+  "id": "K141",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "AUD firmer than GBP on both windows; GBPAUD -1.0 ATR in 10m drifting lower."
+ },
+ {
+  "id": "K142",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "EUR strong and GBP weakest on 60m, GBP still weakest on 10m (-1.2); EURGBP -1.7 ATR last bar is a pullback against the flow."
+ },
+ {
+  "id": "K143",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "CHF the weakest currency on both windows (-4.8/-1.7) and JPY strongest on 10m; CHFJPY -7.7 ATR trend."
+ },
+ {
+  "id": "K144",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "USD soft (-0.8) on 60m; NZDUSD +1.2 ATR last bar, +1.1 ATR in 10m."
+ },
+ {
+  "id": "K145",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "CAD weakest on 10m (-1.1) and USD firm on 60m; USDCAD +1.6 ATR last bar."
+ },
+ {
+  "id": "K146",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "USD firm (+1.4) and CHF weak (-1.3) on 60m; USDCHF +2.5 ATR in 10m with green bars."
+ },
+ {
+  "id": "K147",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "USD weak (-1.7) and JPY firm (+1.7) on 60m; USDJPY's +0.6 ATR bounce in 4m runs against the leg gap."
+ },
+ {
+  "id": "K148",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "USD the strongest currency on both windows; AUDUSD -8.2 ATR at the low, still red."
+ },
+ {
+  "id": "K149",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "USD the weakest currency on 60m (-1.7); AUDUSD grinding +1.7 ATR higher."
+ },
+ {
+  "id": "K150",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "AUD weak on 60m favours EURAUD up, but EUR weakest on 10m; pair flat after a +5.8 run."
+ },
+ {
+  "id": "K151",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "EUR firmer than GBP on 10m; EURGBP -2.3 ATR in 20m against near-equal legs, now flat."
+ },
+ {
+  "id": "K152",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "AUD firmer than USD on 10m; AUDUSD -3.4 ATR in 20m and bouncing +0.5 last bar."
+ },
+ {
+  "id": "K153",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "EUR strong and GBP weakest on 10m (-1.3); EURGBP +2.6 ATR in 10m, +0.9 last bar."
+ },
+ {
+  "id": "K154",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "AUD strongest on 10m (+1.7) and stronger than EUR; EURAUD rose +1.2 ATR in 20m against that."
+ },
+ {
+  "id": "K155",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "EUR strongest on 10m (+1.5) and GBP weak; EURGBP +2.5 ATR in 10m."
+ },
+ {
+  "id": "K156",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "USD and CHF similar strength, USDCHF flat over the hour; no lead."
+ },
+ {
+  "id": "K157",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "USD the weakest currency on 10m (-0.6) and soft on 60m; NZDUSD drifting up."
+ },
+ {
+  "id": "K158",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "CHF the weakest currency on 60m (-3.5) and JPY flat; CHFJPY flat, lagging CHF selling elsewhere."
+ },
+ {
+  "id": "K159",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "CHF firmer than USD on 60m; USDCHF -1.3 ATR drifting lower with lower closes."
+ },
+ {
+  "id": "K160",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "AUD strongest on 60m (+3.4) and JPY weak on 10m; AUDJPY flat over the hour, lagging, now +1.0 ATR in 4m."
+ },
+ {
+  "id": "K161",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "GBP firm and EUR weak on 60m, GBP strongest on 10m; EURGBP -5.0 ATR trend, red bars."
+ },
+ {
+  "id": "K162",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "USD strong (+2.3) and CHF flat on 60m; USDCHF lagged and is turning up +1.0 ATR in 4m."
+ },
+ {
+  "id": "K163",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "EUR strongest on 10m (+1.7), AUD flat; EURAUD +3.0 ATR in 20m."
+ },
+ {
+  "id": "K164",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "AUD the weakest currency on 10m (-0.8) and JPY firm on 60m; AUDJPY -8.6 ATR trend continuing."
+ },
+ {
+  "id": "K165",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "GBP weak (-2.8) and AUD strong (+2.6) on 60m, same on 10m; GBPAUD falling -1.4 ATR in 20m."
+ },
+ {
+  "id": "K166",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "USD soft on both windows; EURUSD bouncing +1.1 ATR in 4m off its low."
+ },
+ {
+  "id": "K167",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "GBP strongest on 10m (+1.6) and AUD weak (-1.0); GBPAUD +2.0 ATR in 10m."
+ },
+ {
+  "id": "K168",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "EUR strong (+1.6) and JPY weak (-0.8) on 10m, yet EURJPY -1.5 ATR in 20m; lagging its legs."
+ },
+ {
+  "id": "K169",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "JPY the strongest currency on 60m (+2.5); EURJPY -4.4 ATR trend, +0.6 bounce minor."
+ },
+ {
+  "id": "K170",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "CHF strong (+3.7 60m) and USD the weakest on 10m (-1.0); USDCHF trending lower."
+ },
+ {
+  "id": "K171",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "GBP firmer than USD on both windows; GBPUSD +3.1 ATR trend with -0.7 pullback bar."
+ },
+ {
+  "id": "K172",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "EURAUD has a 4.9 ATR bar and AUD strength readings jump across all AUD pairs at once; feed break, skip."
+ },
+ {
+  "id": "K173",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "USDJPY shows a ~20 ATR single-bar jump; feed break, no related pair matches."
+ },
+ {
+  "id": "K174",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "EUR weak (-1.0) and USD firm on 10m; EURUSD -2.9 ATR in 10m."
+ },
+ {
+  "id": "K175",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "GBP and USD equal on 60m, GBPUSD +1.4 ATR last bar not matched by other USD pairs."
+ },
+ {
+  "id": "K176",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "EURAUD +6.1 ATR then flat for 20m; legs flat on 10m, nothing to follow."
+ },
+ {
+  "id": "K177",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "CAD firmer than JPY on 60m and JPY weakest on 10m; CADJPY -1.6 ATR pullback in 4m after a +3.0 hour."
+ },
+ {
+  "id": "K178",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Strength table shows abnormal readings across many pairs at once (CAD -6, CHF -4 on 10m), likely data breaks; skip."
+ },
+ {
+  "id": "K179",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "AUD weak (-5.5) and JPY strong (+2.6) on 60m; AUDJPY only -0.8 ATR, lagging the leg gap."
+ },
+ {
+  "id": "K180",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "AUD and USD close on both windows; AUDUSD mid-range bounce, no lead."
+ },
+ {
+  "id": "K181",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "USD weak (-0.6) on 10m with EUR flat-firm; EURUSD fell -3.1 ATR in 20m against that, diverging from USD pairs."
+ },
+ {
+  "id": "K182",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "EUR strong (+1.0) and USD weak (-0.6) on 10m; EURUSD +2.5 ATR in 10m, flow aligned."
+ },
+ {
+  "id": "K183",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "USD soft (-0.9) and AUD firm on 60m; AUDUSD -2.9 ATR in 20m diverging from the leg picture."
+ },
+ {
+  "id": "K184",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "GBP the weakest currency on 60m (-3.9); GBPUSD -4.3 ATR trend with red bars."
+ },
+ {
+  "id": "K185",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "AUD the strongest currency on 60m (+3.3) and EUR soft; EURAUD -1.6 ATR in 4m continuing lower."
+ },
+ {
+  "id": "K186",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "USD weak and CHF strongest on 10m (+1.2); USDCHF -3.4 ATR in 20m."
+ },
+ {
+  "id": "K187",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "EUR firm and GBP weak on 10m; EURGBP +4.6 ATR in 20m at range top."
+ },
+ {
+  "id": "K188",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "GBP strong (+3.4) and JPY weakest (-3.2) on 60m, JPY still weak on 10m; GBPJPY +1.8 ATR last bar."
+ },
+ {
+  "id": "K189",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "EUR and AUD both weak on 10m, EURAUD stalled after a +2.4 hour; mxj 2.0, no clean lead."
+ },
+ {
+  "id": "K190",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "AUD firmer than GBP on both windows; GBPAUD -3.0 ATR trend near low."
+ },
+ {
+  "id": "K191",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "On 10m USD firming (+0.7) while AUD flat; AUDUSD -1.8 ATR in 10m giving back the hour gain."
+ },
+ {
+  "id": "K192",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "EUR firm and JPY weak on both windows; EURJPY +7.8 ATR trend with green bars."
+ },
+ {
+  "id": "K193",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "USD firming on 10m (+0.6) and GBP weak; GBPUSD +2.4 ATR in 10m against that."
+ },
+ {
+  "id": "K194",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "USD the strongest currency on 60m (+1.4); USDCAD -0.8 ATR pullback in 4m after +3.1 hour."
+ },
+ {
+  "id": "K195",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "EUR firm and USD weak on 60m, EUR strongest on 10m; EURUSD +3.8 ATR trend."
+ },
+ {
+  "id": "K196",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "GBP firmer than USD on 10m; GBPUSD -1.6 ATR last bar against that, not matched by USD pairs."
+ },
+ {
+  "id": "K197",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "EUR weak (-2.1) and GBP firm on 60m; EURGBP bouncing +1.1 ATR in 10m against that."
+ },
+ {
+  "id": "K198",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "CAD strongest (+2.0) and JPY weak on 10m; CADJPY +3.6 ATR in 10m with +1.2 last bar."
+ },
+ {
+  "id": "K199",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "GBPJPY -6.6 ATR beyond the GBP/JPY gap but flattening; legs mildly favour down, unclear."
+ },
+ {
+  "id": "K200",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "EUR weakest on 10m (-0.7) with AUD flat; EURAUD -0.6 ATR last bar."
+ },
+ {
+  "id": "K201",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "USD the weakest currency on 10m (-0.6); NZDUSD +1.2 ATR in 4m."
+ },
+ {
+  "id": "K202",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "USD the weakest currency on 60m (-1.5); AUDUSD +1.3 ATR last bar."
+ },
+ {
+  "id": "K203",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "EURAUD has a 3.3 ATR single bar in the hour; skip as a possible feed break."
+ },
+ {
+  "id": "K204",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "AUD the weakest currency on 10m (-1.3); EURAUD +4.3 ATR hour, holding."
+ },
+ {
+  "id": "K205",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "USD much stronger than EUR on 60m (+3.3 vs +1.4); EURUSD +3.1 ATR against that."
+ },
+ {
+  "id": "K206",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "CHF firmer than USD on 10m and the 60m legs are flat; USDCHF +2.4 ATR in 20m has nothing behind it in related pairs."
+ },
+ {
+  "id": "K207",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "EUR strongest on 10m (+1.3); EURGBP -0.9 ATR last bar pullback after +3.9 ATR in 20m."
+ },
+ {
+  "id": "K208",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "60m favours GBPAUD up but 10m AUD firmer than GBP; conflicting."
+ },
+ {
+  "id": "K209",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "JPY strong and CHF weak on both windows; CHFJPY -2.7 ATR in 20m."
+ },
+ {
+  "id": "K210",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "JPY the weakest on 10m (-0.6); GBPJPY +2.2 ATR in 4m, +1.6 last bar."
+ },
+ {
+  "id": "K211",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "JPY firmer than CHF on 60m; CHFJPY -0.9 ATR in 4m, -0.7 last bar."
+ },
+ {
+  "id": "K212",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "USD the strongest currency on both windows and stronger than CHF; USDCHF -1.0 ATR pullback in 4m."
+ },
+ {
+  "id": "K213",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "EUR weak on both windows (-2.0/-1.3); EURAUD -4.3 ATR trend."
+ },
+ {
+  "id": "K214",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "EUR strong and AUD weak on 60m; EURAUD -1.7 ATR pullback in 4m after +5.4 hour."
+ },
+ {
+  "id": "K215",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "EURGBP flat over the hour, EUR and GBP close on 10m; nothing to follow."
+ },
+ {
+  "id": "K216",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "EUR and GBP near equal on 10m; EURGBP mid-range, no lead."
+ },
+ {
+  "id": "K217",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "USD the weakest currency on 60m (-4.1) and CHF strong on 10m; USDCHF -0.7 ATR in 4m."
+ },
+ {
+  "id": "K218",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "AUD stronger than GBP on 60m; GBPAUD +1.4 ATR in 10m against the leg gap."
+ },
+ {
+  "id": "K219",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "CHF weak (-2.0) on 60m; CHFJPY -4.3 ATR trend with -1.4 ATR in 4m."
+ },
+ {
+  "id": "K220",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "JPY firmer than AUD on 10m; AUDJPY +2.3 ATR in 10m with flat legs behind it, overshoot."
+ },
+ {
+  "id": "K221",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "USD the strongest currency on 10m (+0.9) and firmer than JPY on 60m; USDJPY +1.1 ATR last bar."
+ },
+ {
+  "id": "K222",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "AUD weak (-3.0) vs JPY (-1.1) on 60m; AUDJPY bounced +2.0 ATR in 20m against that and is rolling over."
+ },
+ {
+  "id": "K223",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "EUR strongest (+2.7) and JPY weak (-1.4) on 10m; EURJPY +1.8 ATR in 10m."
+ },
+ {
+  "id": "K224",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "USD and CHF close on both windows; USDCHF +1.0 last bar with a 1.9 ATR max jump, no matching pair."
+ },
+ {
+  "id": "K225",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "EUR the weakest currency on both windows (-3.8/-1.1); EURJPY small bounce inside a -4.0 ATR hour."
+ },
+ {
+  "id": "K226",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "CHF the weakest currency on both windows (-4.8/-2.0); USDCHF +1.8 ATR in 10m."
+ },
+ {
+  "id": "K227",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "GBP weakest and AUD strongest on 60m and 10m; GBPAUD -5.6 ATR trend."
+ },
+ {
+  "id": "K228",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "CAD the strongest currency on 60m (+1.6) and firm on 10m; USDCAD small bounce inside a -2.8 ATR hour."
+ },
+ {
+  "id": "K229",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "USD firm (+1.4) and JPY weak (-1.5) on 60m; USDJPY +4.2 ATR trend."
+ },
+ {
+  "id": "K230",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "AUD strongest on 60m (+3.6) and USD weak on 10m (-0.8); AUDUSD -1.9 ATR in 10m against the flow, +0.6 last bar."
+ },
+ {
+  "id": "K231",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "USD weak (-0.8) on 10m; GBPUSD +2.6 ATR in 20m."
+ },
+ {
+  "id": "K232",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "EUR weakest on 10m (-0.9) and AUD firmer; EURAUD -1.3 ATR in 4m."
+ },
+ {
+  "id": "K233",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "AUD strong (+2.1) vs JPY on 60m; AUDJPY lagged (-1.7) and is turning up +1.5 ATR in 10m."
+ },
+ {
+  "id": "K234",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "GBP strongest on 60m (+2.6); GBPUSD +3.1 ATR trend."
+ },
+ {
+  "id": "K235",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "GBP weak on both windows and AUD firmer on 10m; GBPAUD flat bounce inside a -3.1 ATR hour."
+ },
+ {
+  "id": "K236",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "USD firm (+2.0) on 60m; NZDUSD +0.7 ATR against it, flat now."
+ },
+ {
+  "id": "K237",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "EURGBP +4.7 ATR far beyond the EUR/GBP gap and legs flat on 10m; continuation vs reversal unclear."
+ },
+ {
+  "id": "K238",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "USD firmer than AUD on 60m and 10m; AUDUSD -1.2 ATR in 4m."
+ },
+ {
+  "id": "K239",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "USD and CAD flat on both windows; USDCAD +1.8 ATR in 4m with no supporting pairs."
+ },
+ {
+  "id": "K240",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "AUD strong and JPY weak on 60m, AUD firm on 10m; AUDJPY +7.2 ATR trend, +0.8 last bar."
+ },
+ {
+  "id": "K241",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "USD weak (-0.6) on 10m vs flat GBP; GBPUSD -3.3 ATR in 20m against that."
+ },
+ {
+  "id": "K242",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "CAD weak (-1.5) and USD firm on 60m; USDCAD -1.1 ATR pullback in 4m."
+ },
+ {
+  "id": "K243",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "CHF the weakest currency on 10m (-1.7); USDCHF +1.2 ATR last bar."
+ },
+ {
+  "id": "K244",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "USD the weakest currency on 60m (-1.9); USDJPY +0.6 ATR diverging."
+ },
+ {
+  "id": "K245",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "AUD strong on 60m but soft on 10m; EURAUD bounce after -4.7 ATR, conflicting."
+ },
+ {
+  "id": "K246",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "AUD strongest on 10m (+1.1); EURAUD +0.6 ATR in 10m against that."
+ },
+ {
+  "id": "K247",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "GBP weak (-2.6) and EUR firm on 60m and 10m; EURGBP +5.5 ATR trend."
+ },
+ {
+  "id": "K248",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "EUR weak and JPY firm on both windows; EURJPY -5.9 ATR trend."
+ },
+ {
+  "id": "K249",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "AUD strong on 60m but weak on 10m; AUDJPY bouncing, conflicting."
+ },
+ {
+  "id": "K250",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "CHF firm (+0.9) and JPY weak (-0.6) on 10m; CHFJPY +2.2 ATR in 10m."
+ },
+ {
+  "id": "K251",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "CHF soft on 10m (-0.6) with JPY flat; CHFJPY +6.5 ATR in the hour beyond its leg gap."
+ },
+ {
+  "id": "K252",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "AUD the weakest currency on both windows; EURAUD -1.9 ATR in 4m diverging."
+ },
+ {
+  "id": "K253",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "EUR the weakest currency on 10m (-0.8); EURGBP -0.8 ATR in 4m."
+ },
+ {
+  "id": "K254",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "USD strong (+2.2) and CAD weak (-1.3) on 60m; USDCAD -0.6 ATR, lagging."
+ },
+ {
+  "id": "K255",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "GBP strongest (+3.8) and AUD weak on 60m, AUD weakest on 10m; GBPAUD +1.6 ATR in 10m."
+ },
+ {
+  "id": "K256",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "GBP strongest on 10m (+1.7); GBPJPY +2.0 ATR in 4m."
+ },
+ {
+  "id": "K257",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "EUR firmer than USD on both windows; EURUSD -1.1 ATR pullback in 10m after +2.9 hour."
+ },
+ {
+  "id": "K258",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "GBP and AUD near equal on both windows; GBPAUD drift down has no leg behind it."
+ },
+ {
+  "id": "K259",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "USD the weakest currency on 60m (-7.6); GBPUSD +1.1 ATR last bar."
+ },
+ {
+  "id": "K260",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "AUD firm and USD soft on 60m; AUDUSD +4.4 ATR trend."
+ },
+ {
+  "id": "K261",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "GBP strongest (+1.5) and AUD weakest (-1.5) on 10m; GBPAUD +4.2 ATR in 10m, +1.5 last bar."
+ },
+ {
+  "id": "K262",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "JPY the strongest currency on both windows; USDJPY -1.1 ATR last bar inside a -5.3 hour."
+ },
+ {
+  "id": "K263",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "CAD the weakest currency on both windows (-3.6/-1.9) and USD firm; USDCAD +3.3 ATR trend."
+ },
+ {
+  "id": "K264",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "CHF very weak on 10m (-2.4) and USD firm; USDCHF +3.6 ATR in 10m."
+ },
+ {
+  "id": "K265",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "USD strongest (+0.9) and GBP weak (-1.1) on 10m; USDGBP flow drives GBPUSD -1.1 ATR in 10m."
+ },
+ {
+  "id": "K266",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "EUR the strongest and GBP weak on 60m; EURGBP +7.0 ATR trend, +0.6 last bar after a pause."
+ },
+ {
+  "id": "K267",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "EUR the strongest currency on 10m (+1.0); EURUSD -0.6 pullback bar in a +5.4 ATR hour."
+ },
+ {
+  "id": "K268",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "EUR the weakest currency on both windows (-2.6/-1.7); EURJPY -5.9 ATR trend, -1.2 last bar."
+ },
+ {
+  "id": "K269",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "CAD the strongest currency on 60m (+4.1) and firm on 10m; USDCAD -4.1 ATR trend."
+ },
+ {
+  "id": "K270",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "USD firm (+1.5) and CHF weakest (-2.8) on 60m; USDCHF +7.0 ATR trend."
+ },
+ {
+  "id": "K271",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "AUD firmer than GBP on 10m; GBPAUD -2.3 ATR in 10m, red bars."
+ },
+ {
+  "id": "K272",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "CHF the strongest currency on both windows (+8.4/+2.6); USDCHF -4.2 ATR in 10m."
+ },
+ {
+  "id": "K273",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "JPY the weakest currency on 10m (-1.6) and EUR firm; EURJPY +1.3 ATR in 4m."
+ },
+ {
+  "id": "K274",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "USD firm (+0.8) and CHF soft on 10m; USDCHF +2.5 ATR in 20m."
+ },
+ {
+  "id": "K275",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "60m strength readings are distorted (GBP +15, NZD -20) by breaks in other pairs and 10m legs are flat; skip."
+ },
+ {
+  "id": "K276",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "USD the weakest currency on 10m (-0.8); EURUSD -6.2 ATR overshoot has flattened, +0.3 last bar."
+ },
+ {
+  "id": "K277",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "JPY the weakest currency on both windows and CAD firm on 60m; CADJPY +4.2 ATR hour."
+ },
+ {
+  "id": "K278",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "EUR firm and GBP weakest on 10m (-1.1); EURGBP -3.5 ATR hour diverging from the legs."
+ },
+ {
+  "id": "K279",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "USD strongest on 10m and CHF weakest on 10m; USDCHF +3.4 ATR trend."
+ },
+ {
+  "id": "K280",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "CAD and JPY near flat on 60m, CAD soft on 10m; CADJPY +6.7 ATR far beyond its legs."
+ },
+ {
+  "id": "K281",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "AUD the weakest currency on 10m (-2.2); GBPAUD +4.2 ATR in 10m."
+ },
+ {
+  "id": "K282",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "USD weak (-1.9) on 60m and 10m; NZDUSD -5.0 ATR hour diverging, now basing."
+ },
+ {
+  "id": "K283",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "EUR firm on 60m (+2.2); EURJPY -0.6 pullback bar after +2.2 ATR in 20m."
+ },
+ {
+  "id": "K284",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "GBP weak and AUD firm on both windows; GBPAUD -3.0 ATR in 10m."
+ },
+ {
+  "id": "K285",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "AUD the strongest currency on 60m and USD weak on both windows; AUDUSD +6.6 ATR trend."
+ },
+ {
+  "id": "K286",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "EUR weak (-0.7) and USD firm (+0.4) on 10m; EURUSD -1.1 ATR in 10m."
+ },
+ {
+  "id": "K287",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "EUR weak (-1.9) and AUD firm on 60m; EURAUD -0.9 ATR in 4m."
+ },
+ {
+  "id": "K288",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "EUR strong (+2.7) on 60m and JPY flat, yet EURJPY -7.4 ATR; heavy divergence from EUR pairs."
+ },
+ {
+  "id": "K289",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "CHF soft (-0.5) on 10m vs flat JPY; CHFJPY -1.8 ATR in 10m."
+ },
+ {
+  "id": "K290",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "JPY the weakest currency on 10m (-0.7) and USD firm on 60m; USDJPY flat, lagging."
+ },
+ {
+  "id": "K291",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "USD weak (-0.6) on 10m and AUD firm; AUDUSD +1.3 ATR in 4m."
+ },
+ {
+  "id": "K292",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "AUD the strongest currency on both windows; AUDJPY +2.2 ATR in 20m."
+ },
+ {
+  "id": "K293",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "60m favours CADJPY down but 10m favours up; conflicting legs."
+ },
+ {
+  "id": "K294",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "GBP strong and AUD weak on both windows; GBPAUD +9.2 ATR trend."
+ },
+ {
+  "id": "K295",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "CHF strong and USD the weakest on 60m; USDCHF -8.2 ATR trend."
+ },
+ {
+  "id": "K296",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "GBP and AUD flat on both windows; nothing to follow."
+ },
+ {
+  "id": "K297",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "GBP firm (+0.6) and AUD flat on 10m; GBPAUD +2.7 ATR in 20m."
+ },
+ {
+  "id": "K298",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "CHF strongest and USD weakest on 60m; USDCHF -3.8 ATR trend."
+ },
+ {
+  "id": "K299",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "AUD the weakest currency on 10m (-1.2); EURAUD +7.4 ATR trend."
+ },
+ {
+  "id": "K300",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "AUDJPY -8.1 ATR well beyond the leg gap and legs mixed on 10m; bounce vs continuation unclear."
+ },
+ {
+  "id": "K301",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "CHF firmer than USD on 10m; USDCHF -1.9 ATR in 4m, giving back a +5.6 ATR hour."
+ },
+ {
+  "id": "K302",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "CHF the strongest currency on 10m (+1.4); CHFJPY +1.8 ATR in 10m."
+ },
+ {
+  "id": "K303",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "JPY strong (+2.5) on 60m; GBPJPY -5.9 ATR trend with -1.9 ATR in 4m."
+ },
+ {
+  "id": "K304",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "CAD strong (+3.1) and JPY weakest (-3.7) on 60m, JPY still weakest on 10m; CADJPY +5.5 ATR trend holding."
+ },
+ {
+  "id": "K305",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "AUD weak and JPY firm on 60m, AUD soft on 10m; AUDJPY -6.2 ATR trend."
+ },
+ {
+  "id": "K306",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "CHF and JPY near flat on 10m; CHFJPY mid-range, no lead."
+ },
+ {
+  "id": "K307",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "USD strongest on 10m (+0.8) and CHF weakest on 60m; USDCHF +3.2 ATR trend."
+ },
+ {
+  "id": "K308",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "USD the strongest currency on 10m (+0.7); NZDUSD -2.0 ATR in 10m."
+ },
+ {
+  "id": "K309",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "AUDUSD -2.3 ATR in 4m with a -1.4 bar while AUD and USD are flat on 10m elsewhere; drop not shared, expect retrace."
+ },
+ {
+  "id": "K310",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "GBP softer than AUD on 10m; GBPAUD -4.5 ATR trend."
+ },
+ {
+  "id": "K311",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "EURAUD shows a 12.6 ATR one-bar jump that distorts all EUR/AUD strength readings; feed break."
+ },
+ {
+  "id": "K312",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "EUR strong (+2.8) and GBP weak (-1.0) on 60m; EURGBP -1.4 ATR diverging."
+ },
+ {
+  "id": "K313",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "EUR weak (-1.0) and AUD firm on 10m; EURAUD -5.3 ATR in 20m."
+ },
+ {
+  "id": "K314",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "USD and CHF near flat on 60m, USD soft on 10m; USDCHF +2.7 ATR with nothing behind it."
+ },
+ {
+  "id": "K315",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "USD the strongest currency on 10m (+1.2); NZDUSD -3.1 ATR in 4m continuing."
+ },
+ {
+  "id": "K316",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "CAD firm and JPY weak on 10m; CADJPY -5.9 ATR hour now basing with flat bars."
+ },
+ {
+  "id": "K317",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "EUR weak on 60m but USD weakest on 10m; EURUSD trend vs leg picture conflict."
+ },
+ {
+  "id": "K318",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "USD only slightly firmer than GBP on 10m; GBPUSD chop around the mid-range."
+ },
+ {
+  "id": "K319",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "CHF strong on 60m but weak on 10m; conflicting legs."
+ },
+ {
+  "id": "K320",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "USD the weakest currency on 60m (-4.1); EURUSD -1.6 ATR diverging from USD selling elsewhere."
+ },
+ {
+  "id": "K321",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "GBP and AUD near flat on both windows; nothing to follow."
+ },
+ {
+  "id": "K322",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "AUD weak (-0.9) on 10m; AUDUSD +1.4 ATR bounce against that in a -3.6 hour."
+ },
+ {
+  "id": "K323",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "USD firm (+0.7) on 10m; NZDUSD -0.7 ATR last bar."
+ },
+ {
+  "id": "K324",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "USD firmer than EUR on both windows; EURUSD +6.0 ATR against that."
+ },
+ {
+  "id": "K325",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "CHF strong and USD weak on both windows; USDCHF -2.7 ATR in 10m."
+ },
+ {
+  "id": "K326",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "USD much firmer than CHF on 60m (+2.9 vs +0.6); USDCHF -2.3 ATR diverging."
+ },
+ {
+  "id": "K327",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "CAD weak (-1.0) on 10m and JPY firm; CADJPY -2.9 ATR in 4m."
+ },
+ {
+  "id": "K328",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "EUR firmer than AUD on 60m; EURAUD +1.4 ATR in 10m."
+ },
+ {
+  "id": "K329",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "EUR strong and AUD weak on 10m; EURAUD -2.4 ATR diverging from that."
+ },
+ {
+  "id": "K330",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "EURAUD has a 3.0 ATR single bar in the hour; skip as a possible break."
+ },
+ {
+  "id": "K331",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "CAD strong on both windows; USDCAD -4.1 ATR trend."
+ },
+ {
+  "id": "K332",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "EUR firm (+0.7) on 10m; EURJPY +1.1 ATR in 4m."
+ },
+ {
+  "id": "K333",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "GBPAUD has a 4.3 ATR single bar; feed break suspected."
+ },
+ {
+  "id": "K334",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "EUR and AUD near flat on 10m; EURAUD chop."
+ },
+ {
+  "id": "K335",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "EUR the weakest currency on 10m (-1.3) and JPY firm; EURJPY +7.7 ATR stretched."
+ },
+ {
+  "id": "K336",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "USD firm and CAD weak on both windows; USDCAD +3.7 ATR in 20m."
+ },
+ {
+  "id": "K337",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "JPY the weakest currency on 60m (-2.5) and weak on 10m; AUDJPY +0.9 ATR in 4m."
+ },
+ {
+  "id": "K338",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "USD weak (-1.3) on 60m; NZDUSD pulled back -0.9 ATR in 10m."
+ },
+ {
+  "id": "K339",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "USD firm and JPY the weakest currency on 60m; USDJPY +7.6 ATR trend."
+ },
+ {
+  "id": "K340",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "GBP weak (-1.0 60m, -0.5 10m); EURGBP -0.6 ATR diverging."
+ },
+ {
+  "id": "K341",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "EUR strongest on 10m (+0.9) and JPY weakest (-0.7); EURJPY +1.7 ATR in 20m."
+ },
+ {
+  "id": "K342",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "JPY firmer than GBP on 10m; GBPJPY -1.1 ATR in 4m."
+ },
+ {
+  "id": "K343",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "EUR strong and USD weak on 60m; EURUSD +6.9 ATR trend in a pause."
+ },
+ {
+  "id": "K344",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "GBP strongest (+1.8) and JPY weak (-1.0) on 10m; GBPJPY +1.1 ATR last bar."
+ },
+ {
+  "id": "K345",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "AUD strong (+2.1) vs JPY on 60m; AUDJPY -1.3 ATR pullback in 20m."
+ },
+ {
+  "id": "K346",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "USD firmer than JPY on 60m; USDJPY -0.9 ATR pullback in 20m."
+ },
+ {
+  "id": "K347",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "EUR strong and AUD weak on both windows; EURAUD +7.9 ATR trend."
+ },
+ {
+  "id": "K348",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "GBP weakest (-0.8) and JPY firm (+0.6) on 10m; GBPJPY -0.9 ATR in 4m."
+ },
+ {
+  "id": "K349",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "USD the strongest currency on 10m (+2.6); USDJPY +0.6 ATR in 4m."
+ },
+ {
+  "id": "K350",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "GBP firmer than AUD on 10m; GBPAUD +1.9 ATR in 10m."
+ },
+ {
+  "id": "K351",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "EUR and GBP both firm on 60m and flat on 10m; EURGBP drift, no lead."
+ },
+ {
+  "id": "K352",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "USD the weakest currency on 60m (-2.8); USDJPY -6.8 ATR trend, -1.1 last bar."
+ },
+ {
+  "id": "K353",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "GBP weak (-0.9) and USD firm on 10m; GBPUSD +0.6 bounce inside a weak hour."
+ },
+ {
+  "id": "K354",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "CAD and JPY both weak on 60m and flat on 10m; CADJPY basing after -3.9, no lead."
+ },
+ {
+  "id": "K355",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "AUD weaker than GBP on 60m; GBPAUD +3.6 ATR in 20m holding near highs."
+ },
+ {
+  "id": "K356",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "USD weaker than EUR on 10m; EURUSD +5.7 ATR trend in a shallow pause."
+ },
+ {
+  "id": "K357",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "EUR and JPY near equal on both windows; EURJPY rise has no leg behind it but no fade signal either."
+ },
+ {
+  "id": "K358",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "USD firm (+0.6) and JPY weak (-0.5) on 10m; USDJPY +5.2 ATR trend."
+ },
+ {
+  "id": "K359",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "CAD weak on 60m but firm on 10m; USDCAD +6.7 then -1.2 ATR, conflicting; 2.1 ATR max jump."
+ },
+ {
+  "id": "K360",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "GBP weak (-2.1) and JPY firm on 60m; GBPJPY +0.6 ATR against that."
+ },
+ {
+  "id": "K361",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "USD firm (+0.9) on 60m; NZDUSD +5.5 ATR stalling, NZD has no other pair to confirm."
+ },
+ {
+  "id": "K362",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "EUR strong (+3.5) on 60m with USD flat; EURUSD +5.9 ATR trend still printing green."
+ },
+ {
+  "id": "K363",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "EUR strong on both windows; EURJPY +8.2 ATR trend with a -0.6 pullback bar."
+ },
+ {
+  "id": "K364",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "GBP the weakest currency on 10m (-1.0) and 60m; GBPUSD +1.4 ATR rise against that."
+ },
+ {
+  "id": "K365",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "JPY firmer than GBP on both windows; GBPJPY +1.0 ATR diverging."
+ },
+ {
+  "id": "K366",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "GBP the strongest currency on 60m (+3.2); EURGBP +0.5 bounce against it."
+ },
+ {
+  "id": "K367",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "USD the weakest currency on 10m (-0.9); USDCHF -3.3 ATR hour, small bounce."
+ },
+ {
+  "id": "K368",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "USD firm (+0.8) on 10m; NZDUSD +1.4 ATR in 4m against that."
+ },
+ {
+  "id": "K369",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "CHF strong and JPY weak on both windows; CHFJPY +3.4 ATR in 10m."
+ },
+ {
+  "id": "K370",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "USD the strongest currency on both windows; NZDUSD +0.5 bounce in a falling hour."
+ },
+ {
+  "id": "K371",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "JPY strong and USD weak on 10m; USDJPY +1.1 ATR in 10m against that."
+ },
+ {
+  "id": "K372",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "GBP and JPY flat on both windows; GBPJPY drift has no lead."
+ },
+ {
+  "id": "K373",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "JPY strongest and AUD weakest on 10m; AUDJPY -5.2 ATR trend."
+ },
+ {
+  "id": "K374",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "CHF strong and JPY weakest on 60m; CHFJPY +11.5 ATR trend, +0.8 last bar."
+ },
+ {
+  "id": "K375",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "USD the weakest currency on 10m (-0.7); USDCHF -1.0 ATR in 4m."
+ },
+ {
+  "id": "K376",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "JPY strongest on 60m (+4.1); CHFJPY +1.0 bounce in a -3.4 hour."
+ },
+ {
+  "id": "K377",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "GBP strong (+1.3) and EUR weak (-1.3) on 10m; EURGBP -4.7 ATR trend."
+ },
+ {
+  "id": "K378",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "EUR the weakest currency on both windows; EURGBP -2.3 ATR in 10m."
+ },
+ {
+  "id": "K379",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "AUD weaker than JPY on both windows; AUDJPY flat, lagging."
+ },
+ {
+  "id": "K380",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "USD weaker than AUD on 10m; AUDUSD -1.0 ATR last bar not matched by other USD pairs."
+ },
+ {
+  "id": "K381",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "JPY strong and EUR weak on 60m; EURJPY -9.5 ATR trend, -2.6 ATR in 4m."
+ },
+ {
+  "id": "K382",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "CHF the weakest currency on 10m (-1.4); USDCHF -0.7 pullback bar after +2.5 ATR in 10m."
+ },
+ {
+  "id": "K383",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "AUD and USD flat on both windows; AUDUSD pullback without leg support."
+ },
+ {
+  "id": "K384",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "60m strength readings are extreme (CAD -12.9, AUD -7.3), likely breaks; legs flat on 10m."
+ },
+ {
+  "id": "K385",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "EUR the strongest currency on both windows (+5.2/+1.3); EURUSD +3.8 ATR trend."
+ },
+ {
+  "id": "K386",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "JPY weak (-0.6) on 10m and EUR flat; EURJPY +1.5 ATR in 10m."
+ },
+ {
+  "id": "K387",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "EUR and JPY near flat on 60m and JPY firmer on 10m; EURJPY +5.4 ATR beyond its legs."
+ },
+ {
+  "id": "K388",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "GBP strong (+3.7) on 60m and firm on 10m; GBPJPY -1.6 ATR pullback in 4m."
+ },
+ {
+  "id": "K389",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "GBP firm (+0.7) and AUD soft on 10m; GBPAUD +0.5 ATR in 4m."
+ },
+ {
+  "id": "K390",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "CAD the strongest currency on 10m (+0.9); CADJPY +1.4 ATR in 10m."
+ },
+ {
+  "id": "K391",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "CHF strong (+1.0) and JPY soft on 10m; CHFJPY -0.6 dip in 4m after +1.4 ATR in 20m."
+ },
+ {
+  "id": "K392",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "CHF soft (-0.7) on 10m; CHFJPY -2.4 ATR in 10m."
+ },
+ {
+  "id": "K393",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "EUR strong (+1.2) and JPY soft on 10m; EURJPY +1.2 ATR last bar."
+ },
+ {
+  "id": "K394",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "JPY the strongest currency on 60m (+2.8); USDJPY +0.6 diverging and -0.7 last bar."
+ },
+ {
+  "id": "K395",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "AUD stronger than GBP on 60m but slightly weaker on 10m; conflicting."
+ },
+ {
+  "id": "K396",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "60m favours USDCHF down but 10m favours up; pair bouncing, conflicting."
+ },
+ {
+  "id": "K397",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "USD strongest (+1.0) and GBP weak (-1.4) on 10m; GBPUSD -1.3 ATR in 10m."
+ },
+ {
+  "id": "K398",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "AUD the weakest currency on 10m (-1.5) and USD bid; EURAUD +2.1 ATR in 20m."
+ },
+ {
+  "id": "K399",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "USD the strongest currency on both windows; EURUSD +1.3 ATR in 20m against that."
+ },
+ {
+  "id": "K400",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "CHF strongest (+1.0) and USD weak on 10m; USDCHF -1.6 ATR last bar."
+ }
+]

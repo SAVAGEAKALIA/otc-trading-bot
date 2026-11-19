@@ -1,0 +1,2802 @@
+[
+ {
+  "id": "K001",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Higher low at -3.2 ATR twelve bars back, bounce back to mid-range with shallow pullback holding; mild bullish structure on 2min."
+ },
+ {
+  "id": "K002",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Steady 2min slide from +5 ATR to fresh low, last bar a shooting star at the low; 5min sitting on its 24h-window support with lower highs, expect break."
+ },
+ {
+  "id": "K003",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Clean 2min downtrend of lower highs, last two bars full red closing on the low; 5min also at range low, continuation."
+ },
+ {
+  "id": "K004",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Sharp drop to new 2min low then bullish engulfing; 5min prints two hammers at the low, rejection of downside."
+ },
+ {
+  "id": "K005",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Recovered from 2min swing low with higher lows, last bars small dojis holding gains near 64% of range; mild bullish."
+ },
+ {
+  "id": "K006",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "Choppy two-sided 2min range around mid, mixed pins both ways, no clean level or pattern."
+ },
+ {
+  "id": "K007",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Persistent 2min/5min uptrend, price pinned at range highs on both timeframes with small pullbacks bought."
+ },
+ {
+  "id": "K008",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.55,
+  "reason": "Capitulation drop of 18 ATR, then 11-bar base at the low; 5min bullish engulfing off the base, reversal setup."
+ },
+ {
+  "id": "K009",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "Downtrend stalled into a base, 5min hammers and bullish engulfing at the low; 2min higher low forming."
+ },
+ {
+  "id": "K010",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.53,
+  "reason": "Spike up, pullback held above midpoint, last 2min bar a big green closing near highs; momentum resuming."
+ },
+ {
+  "id": "K011",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.53,
+  "reason": "Rally to fresh 2min high then a bearish engulfing at the top; 5min bar carries a 0.6 ATR upper rejection wick at the high."
+ },
+ {
+  "id": "K012",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "Price retesting the 2min low area for a second time (double bottom near -0.8 ATR) and the last bar is a hammer with a long lower wick."
+ },
+ {
+  "id": "K013",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "After the drop price is going sideways near the low with balanced wicks on both sides; no clear rejection or break."
+ },
+ {
+  "id": "K014",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.53,
+  "reason": "V-shaped recovery into the upper range met a bearish engulfing; 5min shows a 0.7 ATR upper wick near its swing high."
+ },
+ {
+  "id": "K015",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2min downtrend with a lower high at +0.6, last two bars red rolling back toward the low; 5min upper wick at range low area."
+ },
+ {
+  "id": "K016",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Strong 2min and 5min downtrend, price closing on the absolute low of both windows with consecutive red bars."
+ },
+ {
+  "id": "K017",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "5min uptrend with bullish engulfing near highs; 2min is an inside bar consolidation above support, continuation favored."
+ },
+ {
+  "id": "K018",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "5min uptrend with a hammer, 2min pulled back about 1.5 ATR and printed a strong green bar off the pullback low."
+ },
+ {
+  "id": "K019",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "Mid-range 2min chop with dojis and an inside bar; no swing level being tested."
+ },
+ {
+  "id": "K020",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "5min uptrend pressing its high; 2min consolidating just under the high after a pullback was bought."
+ },
+ {
+  "id": "K021",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.52,
+  "reason": "Recovery from 2min swing low with four green bars in a row, room to the +2.4 ATR high."
+ },
+ {
+  "id": "K022",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min grinding higher lows into the top of the range and closing at 95%; momentum pushing through 5min shooting-star area."
+ },
+ {
+  "id": "K023",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.53,
+  "reason": "At the upper range, 2min prints repeated shooting stars (upper wicks) in the last bars; rejection of the high."
+ },
+ {
+  "id": "K024",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "2min and 5min both at the window low, last 2min bar a bearish engulfing; grinding lower highs."
+ },
+ {
+  "id": "K025",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "Vertical 5 ATR rally into the high, then dojis with long upper wicks (0.7 ATR); exhaustion at the top."
+ },
+ {
+  "id": "K026",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.52,
+  "reason": "V bounce into mid-range met a shooting star and bearish engulfing; 5min upper wick 0.8 ATR rejection."
+ },
+ {
+  "id": "K027",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "5min uptrend; 2min spike to +2.8 then orderly pullback to support with small bodies, buying the pullback."
+ },
+ {
+  "id": "K028",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "Rally peaked at +4.4 ATR then a shooting star and four red bars; 5min two big red bars, rollover from the high."
+ },
+ {
+  "id": "K029",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "2min breaks to a new low with a bearish engulfing; 5min red bars after a shooting star, downside momentum."
+ },
+ {
+  "id": "K030",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "Extended uptrend, 5min bearish engulfing at the high with 0.5 ATR upper wick; 2min red pullback starting."
+ },
+ {
+  "id": "K031",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.52,
+  "reason": "2min dip below recent lows rejected by a hammer with a 0.8 ATR lower wick; 5min still mid-range with higher low structure."
+ },
+ {
+  "id": "K032",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "Two-sided 2min chop around the middle of the range with dojis and pins in both directions; no level in play."
+ },
+ {
+  "id": "K033",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "Higher lows on 2min pushing to new high; 5min bullish engulfing at the top of a steady uptrend."
+ },
+ {
+  "id": "K034",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "Three green 2min bars driving into a fresh 2min high and the 5min swing high; momentum breakout attempt."
+ },
+ {
+  "id": "K035",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "Clear 2min/5min uptrend; latest dip was rejected by a hammer and 5min inside bar holds near the high."
+ },
+ {
+  "id": "K036",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "Downtrend; bounce to +2.3 ATR failed with lower highs, latest 2min bearish engulfing; 5min three red bars."
+ },
+ {
+  "id": "K037",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "5min hammer near the window low after a long fall; 2min bullish engulfing from a higher low."
+ },
+ {
+  "id": "K038",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "5min uptrend; 2min pullback of 2 ATR fully recovered, latest bar a bullish engulfing."
+ },
+ {
+  "id": "K039",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.51,
+  "reason": "2min drifting lower with lower highs into the window low, small dojis no bounce."
+ },
+ {
+  "id": "K040",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "Strong 5min rally of 8 ATR at its high; 2min dip bought with a 0.6 ATR lower wick."
+ },
+ {
+  "id": "K041",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "5min carries a 0.8 ATR upper wick against its prior high (double top), 2min breakout bar reversed with a red close."
+ },
+ {
+  "id": "K042",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "Persistent downtrend making a new low on both timeframes; 5min bearish engulfing, bounce attempts weak."
+ },
+ {
+  "id": "K043",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Lower highs from +5 ATR; price pressed into the 2min/5min low, small bounce bars only."
+ },
+ {
+  "id": "K044",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.52,
+  "reason": "2min climbed 4 ATR off the low in steady green bars to a new 2min high."
+ },
+ {
+  "id": "K045",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.52,
+  "reason": "Sharp drop to -1.9 ATR rejected; hammer and green 2min close; 5min hammer then green bar."
+ },
+ {
+  "id": "K046",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Long staircase downtrend, price on the absolute low on both timeframes with red closes."
+ },
+ {
+  "id": "K047",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "2min and 5min at the window low after lower highs; 5min shooting star then big red bar."
+ },
+ {
+  "id": "K048",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "Mid-range on 2min; 5min inside bar and bear engulf without a level, chop."
+ },
+ {
+  "id": "K049",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "6 ATR 2min uptrend; current red bars are a shallow pullback above the prior breakout."
+ },
+ {
+  "id": "K050",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "Extended 10 ATR rally; 5min shooting star at the high with 0.6 ATR upper wick, 2min red close."
+ },
+ {
+  "id": "K051",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.51,
+  "reason": "Sold off 7 ATR and now chopping near the 2min low; last bars shooting stars on both 2min and 5min, sellers capping bounces."
+ },
+ {
+  "id": "K052",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.52,
+  "reason": "After an 8 ATR rally both 2min and 5min print bearish engulfing bars right at the high; rejection at the top."
+ },
+ {
+  "id": "K053",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "Clean 2min recovery with higher lows to a new high, 5min four green bars, dip just bought with a lower wick."
+ },
+ {
+  "id": "K054",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "Strong 11 ATR uptrend, price closing on the high with a big green bar on 2min and 5min hammer support."
+ },
+ {
+  "id": "K055",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "Uptrend with hammers on both 2min (0.7 ATR lower wick) and 5min near highs; buyers defending dips."
+ },
+ {
+  "id": "K056",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "Long downtrend reached the low and the 5min printed a bullish engulfing; 2min doji at the low, short bounce setup."
+ },
+ {
+  "id": "K057",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Steep 8 ATR downtrend, price at the low on both timeframes; 5min bearish engulfing continues."
+ },
+ {
+  "id": "K058",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2min peaked at +4 ATR and rolled over with four lower closes and a big red bar; momentum turned down."
+ },
+ {
+  "id": "K059",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.51,
+  "reason": "Lower highs on 2min drifting down, 5min shooting star near its lower area; bearish drift."
+ },
+ {
+  "id": "K060",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Downtrend based for nine bars above the low; 5min bullish engulfing after a hammer."
+ },
+ {
+  "id": "K061",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.52,
+  "reason": "Fast 4.6 ATR recovery stalled at the window high with a 2min bearish engulfing; 5min near its swing high."
+ },
+ {
+  "id": "K062",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2min rolled from +3.9 ATR into the window low with big red bars; 5min bearish engulfing."
+ },
+ {
+  "id": "K063",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.52,
+  "reason": "5min inside bar with a 1.0 ATR upper wick under the high; 2min red bar after failing to extend."
+ },
+ {
+  "id": "K064",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.52,
+  "reason": "2min ran into the high then printed a bearish engulfing; 5min stalled near its swing high +1 ATR."
+ },
+ {
+  "id": "K065",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "At the low of a downtrend, 2min bullish engulfing and 5min hammer with 0.6 ATR lower wick; rejection of lows."
+ },
+ {
+  "id": "K066",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "Mid-range 2min chop with mixed pins; no level being tested."
+ },
+ {
+  "id": "K067",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "Price back in the middle after a spike and fade; latest shooting star sits mid-range, nothing clean."
+ },
+ {
+  "id": "K068",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "5min 9 ATR uptrend with a bullish engulfing near the high; 2min consolidation holding."
+ },
+ {
+  "id": "K069",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "Inside bars on both timeframes in mid range; compression with no direction."
+ },
+ {
+  "id": "K070",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2min lost 4 ATR from its high in lower highs; 5min bearish engulfing after two big red bars."
+ },
+ {
+  "id": "K071",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "Nine consecutive red 2min bars into a fresh low; selling pressure intact even as 5min nears its old low."
+ },
+ {
+  "id": "K072",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "5min shooting star with a 1.0 ATR upper wick under its swing high; 2min red close after a failed push."
+ },
+ {
+  "id": "K073",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.53,
+  "reason": "2min reversed a 7 ATR decline with accelerating green bars, last a big green closing on the high."
+ },
+ {
+  "id": "K074",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "Higher lows from the 2min base to near the high; hammers on both 2min and 5min show dip buying."
+ },
+ {
+  "id": "K075",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "2min inside bar after a range; 5min sits mid-range with no clean level."
+ },
+ {
+  "id": "K076",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.52,
+  "reason": "2min hammer with a 0.7 ATR lower wick holding above the swing low; 5min mid-range support."
+ },
+ {
+  "id": "K077",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "V recovery of 5 ATR to the 2min high; last bar a doji with 0.7 ATR lower wick, buyers absorbing."
+ },
+ {
+  "id": "K078",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "Strong uptrend of 9 ATR on 2min, 5min at its high with a 0.6 ATR lower wick."
+ },
+ {
+  "id": "K079",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.52,
+  "reason": "Repeated 2min shooting stars near the swing high, latest with a 0.7 ATR upper wick; resistance holding."
+ },
+ {
+  "id": "K080",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Downtrend based above -2 ATR low; 5min bullish engulfing and 2min green bars lifting off support."
+ },
+ {
+  "id": "K081",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "Price holding the 2min low formed three bars back, last bar a hammer with 0.5 ATR lower wick; support test."
+ },
+ {
+  "id": "K082",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "Big green 2min bar off a higher low; 5min bullish engulfing with lower wick, reversal from support."
+ },
+ {
+  "id": "K083",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.51,
+  "reason": "2min lower highs after an 8 ATR fall; three red bars into the low region."
+ },
+ {
+  "id": "K084",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "2min breakout to a new high with consecutive green bars after a basing range."
+ },
+ {
+  "id": "K085",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "2min and 5min at the window low, 5min bearish engulfing, steady lower highs."
+ },
+ {
+  "id": "K086",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "Price closing on the high of both windows, 2min big green breakout bar."
+ },
+ {
+  "id": "K087",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "5min bearish engulfing after a 4 ATR drop; 2min shooting star with 0.6 ATR upper wick and red bars."
+ },
+ {
+  "id": "K088",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Steep 11 ATR downtrend with nine red bars, price on the lows of both windows."
+ },
+ {
+  "id": "K089",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "Mid-range after a reversal, dojis and wicks both sides; no setup."
+ },
+ {
+  "id": "K090",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Higher low on 2min with three green bars; 5min bullish engulfing from support."
+ },
+ {
+  "id": "K091",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2min collapsed 4 ATR from a flat top into the low with red bars; 5min big red close, breakdown move."
+ },
+ {
+  "id": "K092",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Lower highs from +5.7 ATR, 2min pressing the low; 5min seven red bars of a downtrend leg."
+ },
+ {
+  "id": "K093",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min fell from +3.3 ATR back toward the 20-bar low, last two red; 5min upper wick 0.5 ATR."
+ },
+ {
+  "id": "K094",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.52,
+  "reason": "5min shooting star with a 0.9 ATR upper wick below its swing high; 2min bearish engulfing."
+ },
+ {
+  "id": "K095",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "5min bearish engulfing after a rally stalled under +2.3 ATR high; 2min red close mid-range."
+ },
+ {
+  "id": "K096",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "5min bearish engulfing near its swing high; 2min dropped 2.8 ATR off the high in lower closes."
+ },
+ {
+  "id": "K097",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Strong uptrend of 8 ATR, 2min flag consolidating above support; 5min bullish engulfing."
+ },
+ {
+  "id": "K098",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min bounced from a higher low with green bars and hammers; 5min uptrend with lower wick."
+ },
+ {
+  "id": "K099",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min at the window low prints a hammer with 0.8 ATR lower wick; 5min lower wick too, short rejection."
+ },
+ {
+  "id": "K100",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.52,
+  "reason": "After a 7.8 ATR rally the last 2min bar is a shooting star with 0.7 ATR upper wick at the high."
+ },
+ {
+  "id": "K101",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "Price in the middle of a 5 ATR range on 2min and 5min, alternating bars, no level."
+ },
+ {
+  "id": "K102",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "Bearish engulfing on both 2min and 5min at the window lows; downtrend lower highs."
+ },
+ {
+  "id": "K103",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2min dropped 2.2 ATR in two bars to the window low; 5min at its low in a downtrend."
+ },
+ {
+  "id": "K104",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "5min two hammers with 0.7 ATR lower wicks at the low; 2min green bar off support."
+ },
+ {
+  "id": "K105",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "Downtrend with lower highs, 2min bearish engulfing near the low; 5min red bars below a shooting star."
+ },
+ {
+  "id": "K106",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "V recovery with seven green 2min bars, small pullback now; 5min uptrend though last bar red."
+ },
+ {
+  "id": "K107",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min bullish engulfing after a sharp drop to the low; 5min two green bars off support."
+ },
+ {
+  "id": "K108",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "2min mid-to-upper range chop with alternating bars; 5min mid-range, no level."
+ },
+ {
+  "id": "K109",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min hammer with 0.6 ATR lower wick at range middle support after a pullback; 5min uptrend."
+ },
+ {
+  "id": "K110",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Downtrend into the 2min low; inside bar with 0.9 ATR upper wick shows sellers at the highs."
+ },
+ {
+  "id": "K111",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.52,
+  "reason": "Uptrend of 7 ATR; 2min pullback to -2.2 bought with a big green bar, 5min green close near its high."
+ },
+ {
+  "id": "K112",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2min higher lows grinding up to a fresh high, closing on it; 5min three green bars from mid-range."
+ },
+ {
+  "id": "K113",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "Deep downtrend of 9 ATR; 2min bounce stalled with a bearish engulfing and 5min shooting star (0.6 ATR upper wick)."
+ },
+ {
+  "id": "K114",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "Mid-range on both timeframes, 5min inside bar; 2min upper wick but no level."
+ },
+ {
+  "id": "K115",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min double bottom near -2.5 ATR followed by a strong green push; 5min two green bars."
+ },
+ {
+  "id": "K116",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min higher low then green bars toward the top; 5min bullish engulfing off the -2.5 ATR low."
+ },
+ {
+  "id": "K117",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Steady downtrend of 8 ATR with red bars closing at the low on both windows; 2min shooting star at the end."
+ },
+ {
+  "id": "K118",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min climbed 4 ATR off the low and is basing; bullish engulfing from hammers at a higher low."
+ },
+ {
+  "id": "K119",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "Downtrend at the window low; 5min bearish engulfing and 2min red bars after shooting stars."
+ },
+ {
+  "id": "K120",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2min reversal from -4.4 ATR with higher lows to mid-range; 5min three green bars."
+ },
+ {
+  "id": "K121",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min at the low after a 6.7 ATR decline; last bar a shooting star with 0.5 ATR upper wick."
+ },
+ {
+  "id": "K122",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min new low of the window after lower highs; 5min red close at its low."
+ },
+ {
+  "id": "K123",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min near the high with an inside bar holding above support and a 0.5 ATR lower wick."
+ },
+ {
+  "id": "K124",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "5min bearish engulfing at its swing high; 2min two red bars after a 5 ATR run."
+ },
+ {
+  "id": "K125",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.51,
+  "reason": "Downtrend with lower highs; 5min upper wick 0.4 ATR near the low, 2min red bars."
+ },
+ {
+  "id": "K126",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min bearish engulfing after shooting star in mid-upper range; 5min two red bars below the high."
+ },
+ {
+  "id": "K127",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min hammer and inside bar at mid support; 5min hammers with lower wicks."
+ },
+ {
+  "id": "K128",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2min at the window low with a bearish engulfing and 0.7 ATR upper wick; 5min shooting star at the low."
+ },
+ {
+  "id": "K129",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min pulled back 4 ATR from the high in red bars; 5min bearish engulfing."
+ },
+ {
+  "id": "K130",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min eight red bars stepping down from +3.7 ATR; momentum lower although 5min still up."
+ },
+ {
+  "id": "K131",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.51,
+  "reason": "Downtrend below a +5 ATR high, 2min doji-heavy base near the low; 5min bearish engulfing."
+ },
+ {
+  "id": "K132",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "8 ATR downtrend; 2min bounce failed with a big red bar, 5min inside bar at the low after a red run."
+ },
+ {
+  "id": "K133",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "One-bar 23 ATR gap down then flat dojis at the bottom; abnormal print, no readable structure."
+ },
+ {
+  "id": "K134",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.52,
+  "reason": "2min pullback to -2 ATR reversed with hammers and a bullish engulfing; 5min near its high."
+ },
+ {
+  "id": "K135",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "5min bearish engulfing near its high after a 7 ATR rally; 2min flat with red bars."
+ },
+ {
+  "id": "K136",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2min dipped to -2.3 ATR and recovered with hammers to a green close; 5min uptrend near its high."
+ },
+ {
+  "id": "K137",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "Long downtrend at the window low on both timeframes; inside bars pausing without a reversal bar."
+ },
+ {
+  "id": "K138",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "Hammers on 5min and 2min near the high after a pullback; buyers absorbing dips."
+ },
+ {
+  "id": "K139",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "12 ATR rally with steady green bars; 2min small red pause, 5min bearish engulfing is shallow inside the trend."
+ },
+ {
+  "id": "K140",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "2min choppy at the lower third with alternating bars; 5min hammer and doji, no clean signal."
+ },
+ {
+  "id": "K141",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min bearish engulfing with a 0.6 ATR upper wick in the lower range; 5min red bars lower highs."
+ },
+ {
+  "id": "K142",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min sharp 2 ATR rally ended with a big red bearish engulfing; 5min upper wick 0.5 ATR."
+ },
+ {
+  "id": "K143",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "Clean 9 ATR downtrend; 2min seven red bars at the low and a bearish engulfing."
+ },
+ {
+  "id": "K144",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min big green bar off a fresh low; 5min lower wick 0.6 ATR at the window low."
+ },
+ {
+  "id": "K145",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min bullish engulfing big green after a dip to -1.6; 5min hammer with 1.1 ATR lower wick."
+ },
+ {
+  "id": "K146",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.52,
+  "reason": "2min breaks to a new high with a big green bar and 0.5 ATR lower wick; 5min near its high."
+ },
+ {
+  "id": "K147",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "Mid-range inside bar, alternating candles; no swing level being tested."
+ },
+ {
+  "id": "K148",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "9 ATR downtrend at the low of both windows; 2min red bars after a big red."
+ },
+ {
+  "id": "K149",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min shooting star with a 0.6 ATR upper wick near the swing high after a 6 ATR recovery."
+ },
+ {
+  "id": "K150",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "Uptrend; 2min dojis with a 0.7 ATR lower wick near the high; 5min hammers."
+ },
+ {
+  "id": "K151",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "Spike to +3 ATR fully retraced, now doji chop in the lower third; 5min also mixed with pins both ways."
+ },
+ {
+  "id": "K152",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.52,
+  "reason": "After a 7 ATR slide, 2min bullish engulfing inside bar near the low and 5min hammer with 0.7 ATR lower wick."
+ },
+ {
+  "id": "K153",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "Uptrend at the high on both windows; 2min and 5min lower wicks 0.6-0.8 ATR show dips bought."
+ },
+ {
+  "id": "K154",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "2min flat consolidation in the lower-middle with inside bar and dojis; 5min mixed after a base."
+ },
+ {
+  "id": "K155",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.52,
+  "reason": "2min doji with a 1.1 ATR upper wick and 5min 0.8 ATR upper wick under resistance; rejection of the push."
+ },
+ {
+  "id": "K156",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "Chop between -2 and +1 ATR on 2min with pins both sides; 5min base, nothing clean."
+ },
+ {
+  "id": "K157",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min hammer with 0.4 ATR lower wick at a higher low in the upper range; 5min inside bar holding."
+ },
+ {
+  "id": "K158",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "Mid-range alternating bars on 2min and 5min, no level in play."
+ },
+ {
+  "id": "K159",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min spike to +2.2 rejected and price slipped back with two red bars; 5min red under a lower high."
+ },
+ {
+  "id": "K160",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min shooting star with a 0.8 ATR upper wick in the lower range; 5min upper wick 0.5 ATR."
+ },
+ {
+  "id": "K161",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "8 ATR decline; 2min bounce to +1.3 ATR rejected with red bars and a doji, 5min red under the high."
+ },
+ {
+  "id": "K162",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "5min bullish engulfing after a hammer; 2min two green bars recovering from a -1.7 ATR dip."
+ },
+ {
+  "id": "K163",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "Persistent uptrend; 2min inside bar just under the high, 5min closing at its high."
+ },
+ {
+  "id": "K164",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "12 ATR downtrend, 2min three red bars to a fresh low; 5min at the low with a shooting star before."
+ },
+ {
+  "id": "K165",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "Upper-range chop with inside bar and shooting stars versus green bars; no edge in structure."
+ },
+ {
+  "id": "K166",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "Fell 6 ATR to a double low near -1.1, 2min green with a lower wick; 5min lower wick 0.5 ATR at support."
+ },
+ {
+  "id": "K167",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Recovery from -2.4 ATR with consecutive green 2min bars; 5min uptrend near its high."
+ },
+ {
+  "id": "K168",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "Bearish engulfing on both 2min and 5min in mid-range after a failed push to +1.7 ATR."
+ },
+ {
+  "id": "K169",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2min lower highs to a fresh low after a 6 ATR drop; 5min four red bars."
+ },
+ {
+  "id": "K170",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min held above the -0.8 ATR low with a fresh green bar; 5min uptrend recovering a prior flush."
+ },
+ {
+  "id": "K171",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min bearish engulfing with a 0.5 ATR upper wick near the top of a bounce; 5min shooting star with 0.7 ATR upper wick."
+ },
+ {
+  "id": "K172",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "After a 4.6 ATR flush the 2min built higher closes and ended with a hammer (0.6 ATR lower wick)."
+ },
+ {
+  "id": "K173",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "One-bar 19 ATR gap down then a few bars at the bottom; abnormal print, no readable structure yet."
+ },
+ {
+  "id": "K174",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "9 ATR 5min downtrend at its low; 2min dropped from +3.6 with big reds, current inside bar only a pause."
+ },
+ {
+  "id": "K175",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min big green bar off a -1.5 ATR double low; 5min hammer with 0.5 ATR lower wick at support."
+ },
+ {
+  "id": "K176",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "Strong 2min uptrend, inside bar right under the high; 5min at its high."
+ },
+ {
+  "id": "K177",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "5min bearish engulfing at the top after a 6 ATR rally; 2min red bar after a 0.7 ATR upper wick."
+ },
+ {
+  "id": "K178",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min green bar off a fresh low with 0.3 ATR lower wick; 5min lower wick 0.5 ATR at its low."
+ },
+ {
+  "id": "K179",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min bullish engulfing with a 0.6 ATR lower wick at the support band near -0.9 ATR."
+ },
+ {
+  "id": "K180",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min hammers then a bullish engulfing off a fresh -2.3 ATR low; 5min green inside bar."
+ },
+ {
+  "id": "K181",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "5min bearish engulfing below its high; 2min failed rally from +3.1 rolling over in red bars."
+ },
+ {
+  "id": "K182",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min rallied from -2.6 to a new 2min high with big greens; last red bar is a minor pause."
+ },
+ {
+  "id": "K183",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min two hammers in a row with 0.8 ATR lower wick at the low of a pullback; 5min uptrend."
+ },
+ {
+  "id": "K184",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2min four red bars into the lower range after a bounce failed at +2.9; 5min downtrend at low."
+ },
+ {
+  "id": "K185",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "5min bearish engulfing in a downtrend; 2min red after rejecting +2 ATR bounce."
+ },
+ {
+  "id": "K186",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min fell 4 ATR from its high with red bars, inside bar now; 5min two red bars."
+ },
+ {
+  "id": "K187",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "V recovery of 5 ATR on 2min with steady green bars to the upper range."
+ },
+ {
+  "id": "K188",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.52,
+  "reason": "2min bullish engulfing closing at the high of the window after hammers."
+ },
+ {
+  "id": "K189",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "Upper-mid range with dojis and shooting stars against an uptrend; mixed signals."
+ },
+ {
+  "id": "K190",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min hammers at the low after a 6 ATR drop, inside bar with 0.5 ATR lower wick."
+ },
+ {
+  "id": "K191",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min rolled over from +2.2 ATR high with a big red and two dojis; 5min red bars from mid-range."
+ },
+ {
+  "id": "K192",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "Clean 9.5 ATR uptrend, price closing at the high of both windows with green bars."
+ },
+ {
+  "id": "K193",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min hammer with a 0.8 ATR lower wick after recovering from a -2.7 ATR low; 5min two green bars."
+ },
+ {
+  "id": "K194",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "2min sideways in the upper half with pins both sides; 5min bearish engulfing against an uptrend, mixed."
+ },
+ {
+  "id": "K195",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "After a 7.7 ATR rally both 2min and 5min show upper wicks (0.4-0.5 ATR) at the high; stall."
+ },
+ {
+  "id": "K196",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "5min bearish engulfing at its high after a 3 ATR push; 2min big red bar off the high."
+ },
+ {
+  "id": "K197",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min bullish engulfing after a higher low near -1.3 ATR; 5min green close off support."
+ },
+ {
+  "id": "K198",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "2min reversed from -4.5 ATR with two big green bars to a fresh high; 5min closing at its high."
+ },
+ {
+  "id": "K199",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "10 ATR downtrend on both windows; 2min bounce is small under lower highs, last bar red."
+ },
+ {
+  "id": "K200",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min bearish engulfing inside bar near the lows; 5min shooting star with 0.4 ATR upper wick."
+ },
+ {
+  "id": "K201",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min three green bars toward the window high; 5min bullish engulfing at mid-range."
+ },
+ {
+  "id": "K202",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min big green bullish engulfing after a dip to the -1.3 ATR area; 5min hammer with 0.7 ATR lower wick."
+ },
+ {
+  "id": "K203",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "Inside bars on both timeframes after a run-up; consolidation without a trigger."
+ },
+ {
+  "id": "K204",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.52,
+  "reason": "Shooting star / bearish engulfing at the new 2min and 5min high, both with 0.6 ATR upper wicks."
+ },
+ {
+  "id": "K205",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min shooting star with 0.6 ATR upper wick at the window high; 5min upper wick 0.4 ATR."
+ },
+ {
+  "id": "K206",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.52,
+  "reason": "2min bullish engulfing big green to the window high; 5min hammer with 0.6 ATR lower wick."
+ },
+ {
+  "id": "K207",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min bearish engulfing after two shooting stars at the top of a 5 ATR squeeze."
+ },
+ {
+  "id": "K208",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min pullback of 3 ATR found support with a green bar; 5min run of green bars intact."
+ },
+ {
+  "id": "K209",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min lower highs off +3.4 ATR stepping down through mid-range; 5min red bars."
+ },
+ {
+  "id": "K210",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min higher lows from -4.4 ATR with a big green close; 5min bullish engulfing."
+ },
+ {
+  "id": "K211",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min red bars after a failed push to +1.5 ATR, back near the lower third; 5min shooting star with 0.5 ATR upper wick."
+ },
+ {
+  "id": "K212",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "5min shooting star with 0.6 ATR upper wick in a 5min downtrend; 2min two red bars after a bounce."
+ },
+ {
+  "id": "K213",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "10 ATR downtrend at the low of both windows; 2min shooting star then red, 5min 0.6 ATR upper wick."
+ },
+ {
+  "id": "K214",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min three red bars off the +2.2 ATR high; 5min bearish engulfing after a 10 ATR rally."
+ },
+ {
+  "id": "K215",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "2min mid-range after a V; small bars alternating, 5min mixed."
+ },
+ {
+  "id": "K216",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min V recovery from -1.6 with a doji at the old range; 5min bullish engulfing in an uptrend."
+ },
+ {
+  "id": "K217",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min inside bar with 0.8 ATR upper wick in the lower range; 5min bearish engulfing."
+ },
+ {
+  "id": "K218",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min big green from a pullback to a new high, hammer with 0.5 ATR lower wick."
+ },
+ {
+  "id": "K219",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2min at the window low after a 6.8 ATR drop with a red close; 5min bearish engulfing."
+ },
+ {
+  "id": "K220",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min two shooting stars with 0.5 ATR upper wicks after a fast 2 ATR recovery under the high."
+ },
+ {
+  "id": "K221",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min hammer then big green bar from a flag near the high; 5min bullish engulfing."
+ },
+ {
+  "id": "K222",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Huge 17 ATR rally; 2min higher lows coiling just below the high, 5min inside bar."
+ },
+ {
+  "id": "K223",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min four green bars and a hammer with 0.5 ATR lower wick, pressing the upper range."
+ },
+ {
+  "id": "K224",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min big green after a dip to -1 ATR; 5min hammer with 0.7 ATR lower wick in an uptrend."
+ },
+ {
+  "id": "K225",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "Lower range chop with an inside bar on 2min; 5min base near low without a trigger."
+ },
+ {
+  "id": "K226",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min recovered from -1.9 ATR with green bars and a hammer; 5min bullish engulfing."
+ },
+ {
+  "id": "K227",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "Clean 9 ATR downtrend at the absolute low of both windows; 2min shooting star at the end."
+ },
+ {
+  "id": "K228",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "5min hammer with 0.4 ATR lower wick at the window low; 2min green from support."
+ },
+ {
+  "id": "K229",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2min hammer at a fresh high after higher lows; 5min trend straight up closing at the high."
+ },
+ {
+  "id": "K230",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min lower highs from +2.8 with a big red then inside bar; 5min three red bars off the high."
+ },
+ {
+  "id": "K231",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min shooting star with a 0.5 ATR upper wick after a 3 ATR bounce into mid-range; 5min below lower highs."
+ },
+ {
+  "id": "K232",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "5min bearish engulfing near its low in a downtrend; 2min two red bars rolling off +2.3 ATR."
+ },
+ {
+  "id": "K233",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min bullish engulfing after a double low near -1.6 ATR; 5min two green bars off the low."
+ },
+ {
+  "id": "K234",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min shooting star with a 0.6 ATR upper wick at the new high after a 6 ATR run."
+ },
+ {
+  "id": "K235",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "2min flat in the lower range with small mixed bars; 5min inside bar at the low."
+ },
+ {
+  "id": "K236",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "Flat 2min consolidation in mid-range with dojis; 5min bearish engulfing without a level."
+ },
+ {
+  "id": "K237",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2min steady 7 ATR uptrend closing near the high; 5min seven green bars in a row."
+ },
+ {
+  "id": "K238",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min mid-lower range chop after a 17 ATR 5min flush, small base forming above -1.5 ATR low."
+ },
+ {
+  "id": "K239",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min big green off a -1.8 ATR low; 5min uptrend with green close."
+ },
+ {
+  "id": "K240",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2min near the high with a 0.5 ATR lower wick after a 7.5 ATR climb; 5min hammer at the high."
+ },
+ {
+  "id": "K241",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min bearish engulfing after a failed spike to +6 ATR fully retraced; 5min shooting star then red."
+ },
+ {
+  "id": "K242",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min six green bars from the pullback low back to the upper range; 5min uptrend intact."
+ },
+ {
+  "id": "K243",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min big green bar off a -1.2 ATR dip; 5min hammer with a 0.8 ATR lower wick."
+ },
+ {
+  "id": "K244",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "5min shooting star with 0.5 ATR upper wick; 2min bearish engulfing with 0.6 ATR upper wick mid-range."
+ },
+ {
+  "id": "K245",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min bullish engulfing at the low of a 9 ATR decline; 5min hammers then green bar."
+ },
+ {
+  "id": "K246",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "5min inside bar near the high of a 9.5 ATR rally; 2min bullish engulfing from mid-range."
+ },
+ {
+  "id": "K247",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2min climbing from -5 ATR in consecutive green bars to the high; 5min big green close at the high."
+ },
+ {
+  "id": "K248",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2min slid from +5.4 ATR to the low with red bars; 5min red bars at the low."
+ },
+ {
+  "id": "K249",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "5min hammer with a 0.4 ATR lower wick near the low; 2min green after a hammer."
+ },
+ {
+  "id": "K250",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min bearish engulfing after a sharp 4 ATR recovery; 5min near its swing high with upper wick."
+ },
+ {
+  "id": "K251",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min bullish engulfing inside bar holding the upper range of a 7.5 ATR uptrend; 5min near its high."
+ },
+ {
+  "id": "K252",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min two big red bars off a flat shelf into the lower range; 5min bearish engulfing after a 16 ATR crash."
+ },
+ {
+  "id": "K253",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min inside bar with 0.5 ATR upper wick under the high; 5min bearish engulfing near its high."
+ },
+ {
+  "id": "K254",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "5min bearish engulfing then red; 2min three red bars off the +1.4 ATR local high."
+ },
+ {
+  "id": "K255",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min recovered the dip with a hammer (0.5 ATR lower wick) and green closes; 5min hammer, 6.9 ATR uptrend."
+ },
+ {
+  "id": "K256",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min big green to the window high after a long higher-low base; 5min two green bars."
+ },
+ {
+  "id": "K257",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "5min hammer with 0.6 ATR lower wick near its high in a 7 ATR uptrend; 2min green after a pullback."
+ },
+ {
+  "id": "K258",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "5min bearish engulfing at the low of a 5 ATR decline; 2min three red bars."
+ },
+ {
+  "id": "K259",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min bullish engulfing to the high after a 3.3 ATR rebound; 5min hammer with 0.7 ATR lower wick."
+ },
+ {
+  "id": "K260",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2min and 5min closing at the high of a 7 ATR uptrend with green bars."
+ },
+ {
+  "id": "K261",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.52,
+  "reason": "2min three big green bars reversing a 5 ATR drop; 5min hammers then a big green."
+ },
+ {
+  "id": "K262",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2min bearish engulfing near the window low in an 8 ATR decline; 5min inside bar with 0.8 ATR upper wick."
+ },
+ {
+  "id": "K263",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min hammer inside bar with 0.6 ATR lower wick near the high; 5min hammer-like close at its high."
+ },
+ {
+  "id": "K264",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min two big green bars reversing a 4.7 ATR flush; 5min big green."
+ },
+ {
+  "id": "K265",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "5min inside bar with 0.7 ATR upper wick in the lower range; 2min bearish engulfing."
+ },
+ {
+  "id": "K266",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "Strong 10 ATR uptrend; 2min three big greens to the high, 5min closing at its high."
+ },
+ {
+  "id": "K267",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Uptrend of 7.6 ATR; 2min four green bars to the high, small red pause."
+ },
+ {
+  "id": "K268",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2min and 5min at the window low after a 7 ATR decline, red bars closing on the low."
+ },
+ {
+  "id": "K269",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2min at the window low with a shooting star (0.6 ATR upper wick); 5min shooting star at the low."
+ },
+ {
+  "id": "K270",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "10 ATR uptrend; 2min hammer inside bar at the high, 5min big green at its high."
+ },
+ {
+  "id": "K271",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min five red bars off the +2.4 ATR high, steady pullback; 5min two red bars."
+ },
+ {
+  "id": "K272",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min spike to +4.6 ATR fully reversed with three red bars to a fresh low; 5min two big reds."
+ },
+ {
+  "id": "K273",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "5min bullish engulfing inside bar near its high; 2min big green after two shooting stars at the low of a pullback."
+ },
+ {
+  "id": "K274",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "2min recovering mid-range with small mixed bars; 5min alternating, no level."
+ },
+ {
+  "id": "K275",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "2min pulled back 2.8 ATR to mid-range and stalled; 5min doji, uptrend but no trigger."
+ },
+ {
+  "id": "K276",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2min lower highs to the window low after a 7.5 ATR decline; inside bar pause only."
+ },
+ {
+  "id": "K277",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "Inside bars on both timeframes in the upper range; compression without direction."
+ },
+ {
+  "id": "K278",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "2min base in the lower range with mixed pins; 5min mid-low, no trigger."
+ },
+ {
+  "id": "K279",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2min and 5min closing at the high with three green bars after higher lows."
+ },
+ {
+  "id": "K280",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "2min sideways after a 7 ATR recovery with small bars; 5min mid-range hammer and doji."
+ },
+ {
+  "id": "K281",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.52,
+  "reason": "2min sharp break from a long base with a big green and three green bars to the high."
+ },
+ {
+  "id": "K282",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min flat near the low after a 7.8 ATR decline; 5min dojis at the low, no rejection."
+ },
+ {
+  "id": "K283",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min bearish engulfing below the high with a 0.4 ATR upper wick; 5min shooting star with 0.6 ATR upper wick."
+ },
+ {
+  "id": "K284",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min hammer with 0.5 ATR lower wick at a fresh low after a 2.5 ATR drop."
+ },
+ {
+  "id": "K285",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Uptrend of 8 ATR; 2min hammer near the high and 5min inside bar holding."
+ },
+ {
+  "id": "K286",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "2min mid-range alternating bars; 5min doji, no level."
+ },
+ {
+  "id": "K287",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "2min flat in the lower-middle with wicks both sides; 5min bearish engulfing in an uptrend, mixed."
+ },
+ {
+  "id": "K288",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "9 ATR downtrend, 2min big red bars closing on the absolute low; 5min bearish engulfing."
+ },
+ {
+  "id": "K289",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min drifting into the lower range with red bars; 5min inside bar with 0.6 ATR upper wick."
+ },
+ {
+  "id": "K290",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min hammer with 0.6 ATR lower wick near support; 5min lower wick 0.4 ATR."
+ },
+ {
+  "id": "K291",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "2min chop in the lower-middle with hammers and shooting stars mixed; 5min mid-range."
+ },
+ {
+  "id": "K292",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "Inside bars on both timeframes in the upper range, shooting stars on 2min versus 5min lower wick; mixed."
+ },
+ {
+  "id": "K293",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "5min shooting star with 0.7 ATR upper wick in mid-range; 2min shooting star then red."
+ },
+ {
+  "id": "K294",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "Steady 10 ATR uptrend on both timeframes, closing at the highs with green bars."
+ },
+ {
+  "id": "K295",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "12.7 ATR downtrend at the low; 2min doji with 1.1 ATR upper wick shows sellers capping, 5min red."
+ },
+ {
+  "id": "K296",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "5min hammers and inside bar with 0.6 ATR lower wick near its high; 2min green after a dip."
+ },
+ {
+  "id": "K297",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "5min bullish engulfing; 2min hammer then two green bars into the upper range."
+ },
+ {
+  "id": "K298",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2min bearish engulfing at the window low in a 6 ATR decline; 5min red at the low."
+ },
+ {
+  "id": "K299",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2min reversed from -6 ATR with consecutive green bars to the high; 5min closing at its high."
+ },
+ {
+  "id": "K300",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "9 ATR staircase down on 2min with red closes to a fresh low; 5min at its low."
+ },
+ {
+  "id": "K301",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min big red off a lower high after a shooting star; 5min red bars below a +2 ATR high."
+ },
+ {
+  "id": "K302",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "2min mid-upper range with shooting stars and green bars alternating; 5min hammer, mixed."
+ },
+ {
+  "id": "K303",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "9 ATR downtrend on both timeframes with red closes at the absolute low."
+ },
+ {
+  "id": "K304",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "10 ATR uptrend; 2min holding near the high after a shallow pullback, 5min green at its high."
+ },
+ {
+  "id": "K305",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "2min sideways in the lower range with three dojis; 5min mixed after a bounce."
+ },
+ {
+  "id": "K306",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min hammer with 0.6 ATR lower wick at mid support; 5min inside bar with 0.7 ATR lower wick."
+ },
+ {
+  "id": "K307",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "Inside bars with lower wicks near the high on both timeframes in a 6 ATR uptrend."
+ },
+ {
+  "id": "K308",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2min lower highs to a fresh low after a failed +5 ATR shelf; 5min shooting star then red bars."
+ },
+ {
+  "id": "K309",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min two red bars from +2.4 ATR; 5min bearish engulfing ending a green run."
+ },
+ {
+  "id": "K310",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "6.6 ATR downtrend at the low; 2min shooting star with 0.9 ATR upper wick and 5min 0.6 ATR upper wick."
+ },
+ {
+  "id": "K311",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "One-bar 11 ATR gap down then small green bars near the low; abnormal print, no clean structure."
+ },
+ {
+  "id": "K312",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min two hammers with 0.4 ATR lower wicks in the lower range; 5min uptrend lower wick."
+ },
+ {
+  "id": "K313",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2min slid from +6 ATR to the window low with red bars; 5min red bars after a shooting star."
+ },
+ {
+  "id": "K314",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "2min inside bar after a shooting star and big green; 5min doji with wicks both sides, mixed."
+ },
+ {
+  "id": "K315",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min big red bar from near the high, failing to extend a +3.5 ATR top; 5min big red bearish bar."
+ },
+ {
+  "id": "K316",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "Two 2min hammers with 0.5 ATR lower wicks at the low after a 9 ATR drop; 5min green close."
+ },
+ {
+  "id": "K317",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "9 ATR downtrend on 2min and 5min closing on the absolute low with shooting stars capping bounces."
+ },
+ {
+  "id": "K318",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "5min hammer with 0.9 ATR lower wick near its high; 2min green after a pullback in a 7.7 ATR uptrend."
+ },
+ {
+  "id": "K319",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min big red off a lower high after a bounce; 5min downtrend with red close."
+ },
+ {
+  "id": "K320",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min bearish engulfing big red near the low; 5min shooting star with 0.8 ATR upper wick."
+ },
+ {
+  "id": "K321",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "2min mid-range with shooting stars and hammers mixed; 5min inside bar."
+ },
+ {
+  "id": "K322",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min big green after a 9 ATR decline reaching a -1.4 ATR low; 5min lower wick 0.3 ATR."
+ },
+ {
+  "id": "K323",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "2min mid-upper range with doji clusters; 5min dojis after a shooting star, nothing clean."
+ },
+ {
+  "id": "K324",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "5min hammer with 0.8 ATR lower wick near its high; 2min V recovery holding above -1 ATR."
+ },
+ {
+  "id": "K325",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2min four red bars from a lower high at +3.2 back to the lower range; 5min at its low."
+ },
+ {
+  "id": "K326",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min inside bar with 0.5 ATR upper wick near the low; 5min inside bar in a downtrend."
+ },
+ {
+  "id": "K327",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min two big red bars off +3.0 ATR; 5min bearish engulfing below its high."
+ },
+ {
+  "id": "K328",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min hammer with 0.6 ATR lower wick after a dip; 5min two green bars in an uptrend."
+ },
+ {
+  "id": "K329",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "2min flat in a narrow band in the lower third; 5min dojis, no trigger."
+ },
+ {
+  "id": "K330",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.52,
+  "reason": "2min shooting star with 0.9 ATR upper wick at the window high; 5min 0.6 ATR upper wick near prior high."
+ },
+ {
+  "id": "K331",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "6 ATR downtrend at the low of both windows, 2min red close at the low after a shooting star bounce."
+ },
+ {
+  "id": "K332",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "2min mid-range with green bars after a dip; 5min mid-low with mixed pins, no level."
+ },
+ {
+  "id": "K333",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "5min bullish engulfing hammer at the low after a 10 ATR slide; 2min green close above the -0.9 ATR low."
+ },
+ {
+  "id": "K334",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min shooting star with 0.5 ATR upper wick after a pullback from +3.2; 5min bearish engulfing."
+ },
+ {
+  "id": "K335",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min bullish engulfing in the upper range of a 10 ATR rally; 5min hammer with 0.8 ATR lower wick."
+ },
+ {
+  "id": "K336",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min shooting star with 0.5 ATR upper wick at the prior high +0.6 ATR after a V recovery."
+ },
+ {
+  "id": "K337",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "2min mid-range with small green bars after a mild drift; 5min doji, nothing clean."
+ },
+ {
+  "id": "K338",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "5min hammer with 0.5 ATR lower wick near its high; 2min green after a two-bar pullback."
+ },
+ {
+  "id": "K339",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "9 ATR uptrend with 2min hammer at the high and 5min closing at its high."
+ },
+ {
+  "id": "K340",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "2min flat mid-range with small bars; 5min alternating, no level in play."
+ },
+ {
+  "id": "K341",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min tight flag near the top after a 13 ATR rally; 5min inside bar holding."
+ },
+ {
+  "id": "K342",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "5min window distorted by a 23 ATR jump; 2min mid-range chop, no clean read."
+ },
+ {
+  "id": "K343",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "Uptrend of 7.7 ATR; 2min green after a two-bar dip with hammer, near the high."
+ },
+ {
+  "id": "K344",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min bullish engulfing big green after a 4.9 ATR recovery; 5min inside bar with 0.7 ATR lower wick."
+ },
+ {
+  "id": "K345",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "2min inside bar and red drift under the high; 5min red bars in an uptrend, mixed."
+ },
+ {
+  "id": "K346",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min hammer with 0.6 ATR lower wick in the upper range of an 8 ATR rally; 5min hammer."
+ },
+ {
+  "id": "K347",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2min and 5min closing on the high of both windows with green bars."
+ },
+ {
+  "id": "K348",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "2min inside bar after a hammer and red, mid-upper range; 5min bearish engulfing, mixed."
+ },
+ {
+  "id": "K349",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min hammer with 0.7 ATR lower wick at mid-range support; 5min uptrend lower wick 0.4 ATR."
+ },
+ {
+  "id": "K350",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min V recovery from -2.8 ATR with hammer and inside bar (0.6 ATR lower wick)."
+ },
+ {
+  "id": "K351",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min shooting star with 0.5 ATR upper wick after a bounce to mid-range; 5min two shooting stars in the lower third."
+ },
+ {
+  "id": "K352",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "11 ATR downtrend; 2min big red closing on the window low, 5min big red at its low."
+ },
+ {
+  "id": "K353",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "Inside bars on both timeframes after a spike fade; 2min drifting in the lower third without a trigger."
+ },
+ {
+  "id": "K354",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "After a 16 ATR 5min crash the 2min is small-bodied dojis in a tight band; no readable setup."
+ },
+ {
+  "id": "K355",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min near the high after a 5.5 ATR recovery with wicks both sides; 5min green at its high."
+ },
+ {
+  "id": "K356",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "8 ATR uptrend on both timeframes; 2min doji with 0.4 ATR lower wick near the high."
+ },
+ {
+  "id": "K357",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min hammer with 0.6 ATR lower wick and two greens off the -2 ATR area; 5min inside bar with 0.6 ATR lower wick."
+ },
+ {
+  "id": "K358",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min bullish engulfing near the high after a V of 8 ATR; 5min inside bar holding."
+ },
+ {
+  "id": "K359",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min hammer with 0.7 ATR lower wick after a pullback; 5min lower wick 0.6 ATR in a 9 ATR uptrend."
+ },
+ {
+  "id": "K360",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "5min bearish engulfing near its high; 2min shooting-star-like bar with 0.6 ATR upper wick."
+ },
+ {
+  "id": "K361",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min shooting star with 0.7 ATR upper wick at the high after an 8.7 ATR rally."
+ },
+ {
+  "id": "K362",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "7.8 ATR uptrend, price closing near the high of both windows; dips bought with hammers."
+ },
+ {
+  "id": "K363",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min big green breakouts to the high in an 8.9 ATR uptrend; 5min near its high."
+ },
+ {
+  "id": "K364",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min hammer with 0.5 ATR lower wick near the upper range; 5min hammer and green."
+ },
+ {
+  "id": "K365",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "2min mid-range dojis; 5min hammer and doji mid-range, no level."
+ },
+ {
+  "id": "K366",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min rolled from +1.9 to the lower range with red bars; 5min downtrend near its low."
+ },
+ {
+  "id": "K367",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "8 ATR 2min downtrend near the low; bullish engulfing small, 5min still red-led at its low."
+ },
+ {
+  "id": "K368",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min big green from a pullback after shooting stars; 5min hammer near its high."
+ },
+ {
+  "id": "K369",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2min eight green bars climbing from -5.2 to the window high; 5min three green bars."
+ },
+ {
+  "id": "K370",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min hammer with 0.6 ATR lower wick at the -1.1 ATR support; 5min hammer with 0.7 ATR lower wick."
+ },
+ {
+  "id": "K371",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "2min inside bar in mid-range after a red-green swing; 5min lower range, no trigger."
+ },
+ {
+  "id": "K372",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "2min hammer in mid-range but 5min shooting star in a downtrend; conflicting."
+ },
+ {
+  "id": "K373",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2min and 5min closing on the window low with big red bars in a 7 ATR decline."
+ },
+ {
+  "id": "K374",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "14 ATR uptrend; 2min bullish engulfing near the high, 5min hammer inside bar at its high."
+ },
+ {
+  "id": "K375",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min big red after two shooting stars at the top of a bounce; 5min bearish engulfing."
+ },
+ {
+  "id": "K376",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "7.4 ATR 2min downtrend with lower highs into the low; small green bounce only, 5min red at its low."
+ },
+ {
+  "id": "K377",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2min at the window low after red runs and two shooting stars; 5min bearish engulfing at its low."
+ },
+ {
+  "id": "K378",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min hammer with 0.8 ATR lower wick at a fresh low after a big red; 5min mid-low with lower wick."
+ },
+ {
+  "id": "K379",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min shooting star with 0.5 ATR upper wick mid-range; 5min bearish engulfing."
+ },
+ {
+  "id": "K380",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min bearish engulfing big red ending a 3 ATR bounce; 5min 0.6 ATR upper wick in a downtrend."
+ },
+ {
+  "id": "K381",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "10 ATR downtrend on both windows; 2min big reds to a fresh low, 5min at its low."
+ },
+ {
+  "id": "K382",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "5min shooting star with 0.7 ATR upper wick in a downtrend; 2min upper wick 0.5 ATR after a 3 ATR bounce."
+ },
+ {
+  "id": "K383",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min hammer then green after a pullback in a 7 ATR uptrend; 5min hammer with 0.6 ATR lower wick."
+ },
+ {
+  "id": "K384",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min inside bar near the high after a 7 ATR rally with hammers below; 5min near its high."
+ },
+ {
+  "id": "K385",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2min hammer with 0.4 ATR lower wick near the high; 5min inside bar at its high in an uptrend."
+ },
+ {
+  "id": "K386",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min four green bars off a -1.6 ATR double low; 5min two green bars."
+ },
+ {
+  "id": "K387",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min V of 9 ATR holding near the high with inside bar; 5min inside near its high."
+ },
+ {
+  "id": "K388",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "5min shooting star with 0.7 ATR upper wick, bearish engulfing; 2min red after a +2 ATR spike."
+ },
+ {
+  "id": "K389",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "5min shooting star with 0.5 ATR upper wick at the low area in a downtrend; 2min red inside bar."
+ },
+ {
+  "id": "K390",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "2min lower-middle range with bullish engulfing but no level; 5min mixed small bars."
+ },
+ {
+  "id": "K391",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "2min mid-range with wicks both sides and dojis; 5min mid-range, nothing clean."
+ },
+ {
+  "id": "K392",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min spike to +4 ATR fully retraced, bearish engulfing; 5min inside bar with 0.6 ATR upper wick."
+ },
+ {
+  "id": "K393",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min big green bar off a -2 ATR double low; 5min green after hammer."
+ },
+ {
+  "id": "K394",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min bearish engulfing after a recovery to +0.7 ATR; 5min doji with 0.6 ATR upper wick."
+ },
+ {
+  "id": "K395",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min big green off a -2.2 ATR low; 5min bullish engulfing big green at its low."
+ },
+ {
+  "id": "K396",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min big green with 0.5 ATR lower wick at a fresh low; 5min hammer with 0.6 ATR lower wick."
+ },
+ {
+  "id": "K397",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.3,
+  "reason": "2min hammer inside bar after a big red drop off highs; 5min red bars in an uptrend, conflicting."
+ },
+ {
+  "id": "K398",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min V from -3 ATR with consecutive green bars to mid-range; 5min three green bars."
+ },
+ {
+  "id": "K399",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min hammer with 0.6 ATR lower wick holding a higher low; 5min hammer-led green bars off the low."
+ },
+ {
+  "id": "K400",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "2min bearish engulfing big red in mid-range; 5min shooting star with 0.8 ATR upper wick."
+ }
+]

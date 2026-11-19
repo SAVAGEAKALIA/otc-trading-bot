@@ -1,0 +1,2802 @@
+[
+ {
+  "id": "K001",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min drifting lower while 2-min bounced up; timeframes disagree, no clean trend."
+ },
+ {
+  "id": "K002",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Both timeframes falling, 2-min lower highs/lower lows and EMAs sloping down; continuation of the selloff."
+ },
+ {
+  "id": "K003",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.57,
+  "reason": "Clean downtrend on 5 and 2-min, LHLL structure, price pressing under falling EMA20."
+ },
+ {
+  "id": "K004",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Big 5-min uptrend (EMA20 far above EMA50) but last hour rolling over and 2-min down; mixed."
+ },
+ {
+  "id": "K005",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Flat EMAs on both frames, choppy range, no trend."
+ },
+ {
+  "id": "K006",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "EMAs flat, sideways chop on 2-min."
+ },
+ {
+  "id": "K007",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.57,
+  "reason": "Strong uptrend both frames, HHHL, EMA20 rising steeply; continuation."
+ },
+ {
+  "id": "K008",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.58,
+  "reason": "Heavy 5-min downtrend (EMA gap -4 ATR); 2-min has bounced back into the EMA20, a pullback to sell."
+ },
+ {
+  "id": "K009",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "5-min downtrend LHLL, 2-min small bounce up to the EMA20 inside the downtrend."
+ },
+ {
+  "id": "K010",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "5-min EMA20 turning up off lows, 2-min HHHL above rising EMAs."
+ },
+ {
+  "id": "K011",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.57,
+  "reason": "Uptrend both frames, HHHL, price riding above rising EMA20."
+ },
+ {
+  "id": "K012",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Downtrend both frames, LHLL, new lows on 2-min."
+ },
+ {
+  "id": "K013",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min sharp drop against a prior uptrend, 2-min basing; trend unclear."
+ },
+ {
+  "id": "K014",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "5-min EMAs up, 2-min rebound from a pullback making higher lows."
+ },
+ {
+  "id": "K015",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Both frames down with LHLL; 2-min bounce failing back lower."
+ },
+ {
+  "id": "K016",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.57,
+  "reason": "Strong down on both, EMA20 falling, fresh lows."
+ },
+ {
+  "id": "K017",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.55,
+  "reason": "5-min uptrend intact (gap +1.2), 2-min pullback to EMA20 now turning back up."
+ },
+ {
+  "id": "K018",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "5-min uptrend, 2-min pullback completed with last bars recovering."
+ },
+ {
+  "id": "K019",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Mild 5-min downtrend LHLL under EMA50, 2-min drifting lower."
+ },
+ {
+  "id": "K020",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.56,
+  "reason": "5-min HHHL uptrend, 2-min pullback recovered back to EMA20."
+ },
+ {
+  "id": "K021",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Flat EMAs, no defined trend."
+ },
+ {
+  "id": "K022",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min EMA20 below EMA50 but 2-min pushing up; conflict."
+ },
+ {
+  "id": "K023",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Uptrend both frames, HHHL, price above rising EMAs."
+ },
+ {
+  "id": "K024",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Down both frames LHLL, price breaking lower under EMA20."
+ },
+ {
+  "id": "K025",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Strong breakout up on both frames, steep EMA20."
+ },
+ {
+  "id": "K026",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.55,
+  "reason": "5-min strong downtrend (gap -2.8), 2-min retraced up through EMA20 and now ticking back down."
+ },
+ {
+  "id": "K027",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.55,
+  "reason": "5-min trend up strongly over the day, 2-min pulled back to EMA20."
+ },
+ {
+  "id": "K028",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.55,
+  "reason": "5-min uptrend, 2-min pullback just below EMA20 with EMA gap still +2.3."
+ },
+ {
+  "id": "K029",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Both frames rolling down, 2-min LHLL, price under EMA20."
+ },
+ {
+  "id": "K030",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Uptrend both frames HHHL."
+ },
+ {
+  "id": "K031",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min EMA20 flat, 2-min sideways; no setup."
+ },
+ {
+  "id": "K032",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Flat, range-bound."
+ },
+ {
+  "id": "K033",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.56,
+  "reason": "5-min uptrend (gap +2.2, HHHL), 2-min resuming after a dip."
+ },
+ {
+  "id": "K034",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "Both EMAs up, 2-min recovering above EMA20."
+ },
+ {
+  "id": "K035",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Uptrend on both frames with HHHL."
+ },
+ {
+  "id": "K036",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "5-min downtrend; 2-min bounce fading back toward lows."
+ },
+ {
+  "id": "K037",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.55,
+  "reason": "5-min downtrend (gap -1.7), 2-min pullback to EMA20 in a bear trend."
+ },
+ {
+  "id": "K038",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.56,
+  "reason": "Strong 5-min uptrend, 2-min dip recovered."
+ },
+ {
+  "id": "K039",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Mild down on 2-min LHLL, 5-min EMA20 flattening down."
+ },
+ {
+  "id": "K040",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Uptrend both frames, new highs."
+ },
+ {
+  "id": "K041",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "2-min HHHL uptrend, 5-min EMA20 turning up."
+ },
+ {
+  "id": "K042",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Downtrend both frames LHLL."
+ },
+ {
+  "id": "K043",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Downtrend both frames LHLL."
+ },
+ {
+  "id": "K044",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.52,
+  "reason": "2-min momentum up HHHL, 5-min turning up from flat."
+ },
+ {
+  "id": "K045",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min flat after spike, 2-min down then bouncing; mixed."
+ },
+ {
+  "id": "K046",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.57,
+  "reason": "Strong downtrend both frames, lows breaking."
+ },
+ {
+  "id": "K047",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "5-min and 2-min falling hard, EMA20 sloping down."
+ },
+ {
+  "id": "K048",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "5-min uptrend (gap +1.5) with 2-min pullback under EMA20; buying the dip."
+ },
+ {
+  "id": "K049",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.57,
+  "reason": "Strong uptrend both frames HHHL."
+ },
+ {
+  "id": "K050",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.57,
+  "reason": "Strong uptrend both frames, steep EMA20."
+ },
+ {
+  "id": "K051",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min EMA20 still above EMA50 but rolling over; 2-min down; trend conflict."
+ },
+ {
+  "id": "K052",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.56,
+  "reason": "Strong 5-min uptrend (gap +3 ATR, HHHL); 2-min dip toward EMA20 is a pullback buy."
+ },
+ {
+  "id": "K053",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "5-min trend turned up with EMAs rising, 2-min HHHL making new highs."
+ },
+ {
+  "id": "K054",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.57,
+  "reason": "Powerful uptrend on both frames, steep EMAs, consecutive higher highs."
+ },
+ {
+  "id": "K055",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Both frames trending up, 2-min HHHL above rising EMA20."
+ },
+ {
+  "id": "K056",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Downtrend both frames (5-min gap -2), lower lows on 2-min."
+ },
+ {
+  "id": "K057",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.57,
+  "reason": "Strong downtrend, LHLL on both frames, EMAs falling."
+ },
+ {
+  "id": "K058",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "5-min uptrend (HHHL, gap +1.8); 2-min pullback below EMA20, buying the dip in trend."
+ },
+ {
+  "id": "K059",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Mild downtrend, both EMA20s tilted down, 2-min LHLL."
+ },
+ {
+  "id": "K060",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Downtrend both frames, 2-min bounce small and capped under EMA20."
+ },
+ {
+  "id": "K061",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2-min breakout higher HHHL, 5-min EMA20 turning up."
+ },
+ {
+  "id": "K062",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min EMA20 above EMA50 but price falling through; 2-min down; conflict."
+ },
+ {
+  "id": "K063",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.54,
+  "reason": "5-min uptrend intact (gap +1.4); 2-min pullback under EMA20 offers a trend entry."
+ },
+ {
+  "id": "K064",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "Both frames up, 2-min HHHL."
+ },
+ {
+  "id": "K065",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Short-term structure lower on both frames (LHLL), EMA20s pointing down."
+ },
+ {
+  "id": "K066",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "5-min downtrend LHLL; 2-min has bounced above EMA20, a pullback in the downtrend."
+ },
+ {
+  "id": "K067",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Flat EMAs, 5-min up then 2-min down; no trend."
+ },
+ {
+  "id": "K068",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Strong 5-min uptrend (gap +2.9), 2-min grinding higher."
+ },
+ {
+  "id": "K069",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Weak, choppy; EMAs barely sloped."
+ },
+ {
+  "id": "K070",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "5-min uptrend (gap +2.5) with a deep 2-min pullback; trend entry."
+ },
+ {
+  "id": "K071",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Downtrend both frames, 2-min LHLL with steep EMA20."
+ },
+ {
+  "id": "K072",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "EMAs tilted up on both frames, 2-min trend higher."
+ },
+ {
+  "id": "K073",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2-min strong rally HHHL, 5-min pushing up through flat EMAs."
+ },
+ {
+  "id": "K074",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Uptrend both frames with rising EMA20s."
+ },
+ {
+  "id": "K075",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2-min up trend HHHL, 5-min EMA20 turning up."
+ },
+ {
+  "id": "K076",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Flat and choppy on both frames."
+ },
+ {
+  "id": "K077",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2-min strong uptrend; 5-min EMA20 turning up."
+ },
+ {
+  "id": "K078",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.57,
+  "reason": "Strong uptrend both frames, new highs."
+ },
+ {
+  "id": "K079",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Mild uptrend 5-min (gap +1.2 HHHL), 2-min holding above EMA20."
+ },
+ {
+  "id": "K080",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.54,
+  "reason": "5-min downtrend; 2-min bounce back to EMA20, pullback sell."
+ },
+ {
+  "id": "K081",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Down both frames LHLL."
+ },
+ {
+  "id": "K082",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Flat on both frames."
+ },
+ {
+  "id": "K083",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Downtrend both frames, 2-min bounce failing."
+ },
+ {
+  "id": "K084",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "Both frames turning up, 2-min HHHL breakout."
+ },
+ {
+  "id": "K085",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Downtrend both frames LHLL."
+ },
+ {
+  "id": "K086",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "Both up, 2-min recovering from dip."
+ },
+ {
+  "id": "K087",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "No clear trend; flat EMAs."
+ },
+ {
+  "id": "K088",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.58,
+  "reason": "Strong downtrend, steep falling EMAs."
+ },
+ {
+  "id": "K089",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Flat 5-min, choppy."
+ },
+ {
+  "id": "K090",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Flat EMAs."
+ },
+ {
+  "id": "K091",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2-min LHLL breakdown, 5-min turning down below EMA20."
+ },
+ {
+  "id": "K092",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Down on both frames."
+ },
+ {
+  "id": "K093",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.52,
+  "reason": "2-min drifting lower, 5-min flat; short momentum."
+ },
+ {
+  "id": "K094",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Flat."
+ },
+ {
+  "id": "K095",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.54,
+  "reason": "5-min uptrend (gap +2.2), 2-min holding near EMA20 on a pullback."
+ },
+ {
+  "id": "K096",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mixed EMAs, choppy."
+ },
+ {
+  "id": "K097",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.55,
+  "reason": "Strong 5-min uptrend; 2-min consolidating at EMA20 as a pullback."
+ },
+ {
+  "id": "K098",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Flat."
+ },
+ {
+  "id": "K099",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Down both frames LHLL."
+ },
+ {
+  "id": "K100",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.57,
+  "reason": "Strong uptrend both frames."
+ },
+ {
+  "id": "K101",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Flat EMAs on both frames, sideways."
+ },
+ {
+  "id": "K102",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Mild 5-min downtrend LHLL; 2-min bounce failing back below EMA20."
+ },
+ {
+  "id": "K103",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "5-min downtrend; 2-min bounce has rolled over below EMA20."
+ },
+ {
+  "id": "K104",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.55,
+  "reason": "Strong 5-min downtrend (gap -2.7); 2-min consolidating at EMA20 as a bear flag."
+ },
+ {
+  "id": "K105",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Down both frames, 2-min LHLL breaking lows."
+ },
+ {
+  "id": "K106",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "5-min uptrend (gap +2), 2-min turning up again."
+ },
+ {
+  "id": "K107",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Downtrend both frames LHLL."
+ },
+ {
+  "id": "K108",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min EMA20 below EMA50 but flat; 2-min up; conflict."
+ },
+ {
+  "id": "K109",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "5-min uptrend (gap +2, HHHL); 2-min pullback to EMA20."
+ },
+ {
+  "id": "K110",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Short-term structure down on both frames, EMA20s falling."
+ },
+ {
+  "id": "K111",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "Uptrend both frames, 2-min resuming up."
+ },
+ {
+  "id": "K112",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "Both frames up, 2-min HHHL pushing highs."
+ },
+ {
+  "id": "K113",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.54,
+  "reason": "5-min crash leg down (gap -2.3); 2-min bounced back to EMA20, pullback sell."
+ },
+ {
+  "id": "K114",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min mild down vs 2-min up; conflict."
+ },
+ {
+  "id": "K115",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "5-min downtrend LHLL; 2-min bounce above EMA20 into resistance."
+ },
+ {
+  "id": "K116",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "5-min EMA20 well under EMA50; 2-min rally is a pullback in the downtrend."
+ },
+ {
+  "id": "K117",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Strong downtrend both frames."
+ },
+ {
+  "id": "K118",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min recovering from a drop, 2-min up; trend undecided."
+ },
+ {
+  "id": "K119",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Downtrend both frames, lows extending."
+ },
+ {
+  "id": "K120",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min downtrend but 2-min strong rally HHHL; possible reversal."
+ },
+ {
+  "id": "K121",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Down both frames LHLL."
+ },
+ {
+  "id": "K122",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "Both frames rolling over, LHLL under EMA20."
+ },
+ {
+  "id": "K123",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min below EMA50, 2-min weak up; mixed."
+ },
+ {
+  "id": "K124",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Uptrend both frames HHHL."
+ },
+ {
+  "id": "K125",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "5-min downtrend; 2-min bounce stalling at EMA20."
+ },
+ {
+  "id": "K126",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.54,
+  "reason": "5-min uptrend (gap +1.9); 2-min pullback to EMA20."
+ },
+ {
+  "id": "K127",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Flat."
+ },
+ {
+  "id": "K128",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Both frames down, 2-min steady LHLL."
+ },
+ {
+  "id": "K129",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min turning down from highs vs 5-min EMA20 under EMA50; mixed."
+ },
+ {
+  "id": "K130",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min uptrend but 2-min selling persistently; no turn yet."
+ },
+ {
+  "id": "K131",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Down both frames."
+ },
+ {
+  "id": "K132",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.57,
+  "reason": "Strong downtrend both frames."
+ },
+ {
+  "id": "K133",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Large gap down then flat under EMAs; downtrend continuation."
+ },
+ {
+  "id": "K134",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Uptrend both frames, 2-min recovering."
+ },
+ {
+  "id": "K135",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Strong uptrend both frames."
+ },
+ {
+  "id": "K136",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min EMA20 under EMA50 while 2-min up; mixed."
+ },
+ {
+  "id": "K137",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.55,
+  "reason": "Strong 5-min downtrend; 2-min flat near EMA20 as a pause."
+ },
+ {
+  "id": "K138",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Mild uptrend both frames."
+ },
+ {
+  "id": "K139",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.57,
+  "reason": "Strong uptrend, steep EMAs."
+ },
+ {
+  "id": "K140",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "5-min downtrend; 2-min bounce to EMA20."
+ },
+ {
+  "id": "K141",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Mild downtrend both frames."
+ },
+ {
+  "id": "K142",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mixed EMAs, choppy."
+ },
+ {
+  "id": "K143",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Down both frames, steep 2-min breakdown."
+ },
+ {
+  "id": "K144",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Weak trend, chop around EMA20."
+ },
+ {
+  "id": "K145",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Weak, flat."
+ },
+ {
+  "id": "K146",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2-min HHHL up, 5-min pushing above EMA20."
+ },
+ {
+  "id": "K147",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "Mild 5-min uptrend (gap +1.1); 2-min pullback."
+ },
+ {
+  "id": "K148",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.57,
+  "reason": "Strong downtrend both frames."
+ },
+ {
+  "id": "K149",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Both frames turning up, 2-min HHHL."
+ },
+ {
+  "id": "K150",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Uptrend both frames."
+ },
+ {
+  "id": "K151",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "5-min EMAs down (gap -1), 2-min LHLL holding near lows."
+ },
+ {
+  "id": "K152",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Down both frames, 2-min fresh lows under falling EMA20."
+ },
+ {
+  "id": "K153",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Uptrend both frames HHHL, 2-min resuming higher."
+ },
+ {
+  "id": "K154",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "5-min downtrend LHLL; 2-min bounce above EMA20 is a pullback in it."
+ },
+ {
+  "id": "K155",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min EMA20 over EMA50 but structure LHLL; 2-min flat; mixed."
+ },
+ {
+  "id": "K156",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min EMA gap positive but price falling; 2-min chop."
+ },
+ {
+  "id": "K157",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "5-min uptrend (gap +1.4); 2-min soft pullback near EMA20."
+ },
+ {
+  "id": "K158",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Flat EMAs both frames."
+ },
+ {
+  "id": "K159",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "5-min EMA20 below EMA50 and drifting lower; 2-min bounce faded."
+ },
+ {
+  "id": "K160",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Flat 5-min, slight 2-min weakness; no trend."
+ },
+ {
+  "id": "K161",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.55,
+  "reason": "5-min downtrend; 2-min bounce rolled back over under EMA20."
+ },
+ {
+  "id": "K162",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mixed, flat EMAs."
+ },
+ {
+  "id": "K163",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.57,
+  "reason": "Strong uptrend both frames, HHHL."
+ },
+ {
+  "id": "K164",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Downtrend both frames, steady lows."
+ },
+ {
+  "id": "K165",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.54,
+  "reason": "5-min uptrend (gap +2.6); 2-min sitting at EMA20 on a pullback."
+ },
+ {
+  "id": "K166",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "Down on both frames, 2-min LHLL."
+ },
+ {
+  "id": "K167",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "5-min uptrend; 2-min recovering after a dip."
+ },
+ {
+  "id": "K168",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min EMA20 under EMA50 but rising; 2-min soft; mixed."
+ },
+ {
+  "id": "K169",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "Both frames rolling over, 2-min LHLL breaking down."
+ },
+ {
+  "id": "K170",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "Very strong 5-min uptrend (gap +6); 2-min pullback under EMA20."
+ },
+ {
+  "id": "K171",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min EMA20 below EMA50 while price bounces; mixed."
+ },
+ {
+  "id": "K172",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "Sharp breakdown on 2-min, 5-min EMA20 turning down."
+ },
+ {
+  "id": "K173",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Shock drop of 8 ATR breaks the range; trend now down."
+ },
+ {
+  "id": "K174",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Down both frames, 2-min rally failed."
+ },
+ {
+  "id": "K175",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Flat, choppy."
+ },
+ {
+  "id": "K176",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Uptrend both frames."
+ },
+ {
+  "id": "K177",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.54,
+  "reason": "5-min uptrend; 2-min pullback to/below EMA20."
+ },
+ {
+  "id": "K178",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "Down both frames, 2-min LHLL."
+ },
+ {
+  "id": "K179",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.54,
+  "reason": "5-min downtrend (gap -2.4); 2-min pullback faded."
+ },
+ {
+  "id": "K180",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "Down both frames LHLL."
+ },
+ {
+  "id": "K181",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Weak up 5-min, 2-min down; chop."
+ },
+ {
+  "id": "K182",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "5-min strong downtrend (gap -3.8); 2-min rally above EMA20 is a pullback."
+ },
+ {
+  "id": "K183",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "5-min uptrend (gap +2.9); 2-min pullback deepening below EMA20."
+ },
+ {
+  "id": "K184",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Down both frames; 2-min bounce rolled over."
+ },
+ {
+  "id": "K185",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.54,
+  "reason": "5-min strong downtrend (gap -3.2); 2-min pullback failed."
+ },
+ {
+  "id": "K186",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "5-min uptrend (gap +3.1); 2-min pullback."
+ },
+ {
+  "id": "K187",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2-min trending up, 5-min turning up above EMA20."
+ },
+ {
+  "id": "K188",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "Both frames pushing up with rising EMA20."
+ },
+ {
+  "id": "K189",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "Both frames up, 2-min holding gains."
+ },
+ {
+  "id": "K190",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2-min LHLL down, 5-min turning below EMA20."
+ },
+ {
+  "id": "K191",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min EMA20 below EMA50 after rally; 2-min pullback; mixed."
+ },
+ {
+  "id": "K192",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.57,
+  "reason": "Strong uptrend both frames."
+ },
+ {
+  "id": "K193",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min mild down, 2-min bounce; conflict."
+ },
+ {
+  "id": "K194",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "5-min uptrend; 2-min pullback near EMA20."
+ },
+ {
+  "id": "K195",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Uptrend both frames."
+ },
+ {
+  "id": "K196",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "Both frames up HHHL."
+ },
+ {
+  "id": "K197",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min falling but EMA gap positive; 2-min bouncing; mixed."
+ },
+ {
+  "id": "K198",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "Both up, 2-min breaking higher."
+ },
+ {
+  "id": "K199",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.57,
+  "reason": "Strong downtrend both frames."
+ },
+ {
+  "id": "K200",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "Down both frames, LHLL."
+ },
+ {
+  "id": "K201",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min EMA20 under EMA50 while 2-min recovering; no aligned trend."
+ },
+ {
+  "id": "K202",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Mild downtrend both frames LHLL, price under EMA20s."
+ },
+ {
+  "id": "K203",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.54,
+  "reason": "5-min uptrend (gap +1.2 HHHL); 2-min pullback near EMA20."
+ },
+ {
+  "id": "K204",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.55,
+  "reason": "5-min uptrend; 2-min pullback recovered and turning up."
+ },
+ {
+  "id": "K205",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Uptrend both frames HHHL."
+ },
+ {
+  "id": "K206",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "Both frames trending up, 2-min new highs."
+ },
+ {
+  "id": "K207",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Both frames up, 2-min strong HHHL leg."
+ },
+ {
+  "id": "K208",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min EMA20 under EMA50 after a rally fade; 2-min mixed."
+ },
+ {
+  "id": "K209",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.52,
+  "reason": "2-min selling below EMA20 while 5-min flattens; short momentum."
+ },
+ {
+  "id": "K210",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2-min breaking higher above EMA20; 5-min turning up."
+ },
+ {
+  "id": "K211",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Flat EMAs."
+ },
+ {
+  "id": "K212",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2-min HHHL uptrend, 5-min EMA20 flattening up."
+ },
+ {
+  "id": "K213",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Down both frames, 2-min gap -2 with lower lows."
+ },
+ {
+  "id": "K214",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.55,
+  "reason": "Strong 5-min uptrend (gap +3.5); 2-min pullback to EMA20."
+ },
+ {
+  "id": "K215",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Mild uptrend; 2-min holding above EMA20 HHHL."
+ },
+ {
+  "id": "K216",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "5-min uptrend (gap +2.1); 2-min pullback now stabilizing."
+ },
+ {
+  "id": "K217",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min drop then 2-min recovery; trend unclear."
+ },
+ {
+  "id": "K218",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Both frames tipping up, 2-min HHHL."
+ },
+ {
+  "id": "K219",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "Both frames turning down, 2-min falling below EMA20."
+ },
+ {
+  "id": "K220",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min EMA20 below EMA50, 2-min recovering; mixed."
+ },
+ {
+  "id": "K221",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2-min uptrend HHHL; 5-min EMA20 turning up through price."
+ },
+ {
+  "id": "K222",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Very strong uptrend both frames (2-min gap +6)."
+ },
+ {
+  "id": "K223",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "Both frames up, 2-min HHHL making highs."
+ },
+ {
+  "id": "K224",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Flat, choppy."
+ },
+ {
+  "id": "K225",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "5-min downtrend leg; 2-min bounce toward EMA20 within it."
+ },
+ {
+  "id": "K226",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Choppy around EMA20."
+ },
+ {
+  "id": "K227",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.57,
+  "reason": "Strong downtrend both frames."
+ },
+ {
+  "id": "K228",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Down both frames LHLL."
+ },
+ {
+  "id": "K229",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Extreme 5-min uptrend; 2-min resuming up after pause."
+ },
+ {
+  "id": "K230",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "5-min uptrend (gap +1); 2-min pullback below EMA20."
+ },
+ {
+  "id": "K231",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min down vs 2-min up; conflict."
+ },
+ {
+  "id": "K232",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Weak trends; chop."
+ },
+ {
+  "id": "K233",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Down both frames LHLL; 2-min bounce small."
+ },
+ {
+  "id": "K234",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Uptrend both frames."
+ },
+ {
+  "id": "K235",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Mild downtrend both, 2-min bounce under resistance."
+ },
+ {
+  "id": "K236",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Flat."
+ },
+ {
+  "id": "K237",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Both frames up, 2-min HHHL."
+ },
+ {
+  "id": "K238",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.55,
+  "reason": "Very strong 5-min downtrend (gap -5.3); 2-min pullback fading."
+ },
+ {
+  "id": "K239",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mixed: 5-min mild up, 2-min down."
+ },
+ {
+  "id": "K240",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Strong uptrend both frames."
+ },
+ {
+  "id": "K241",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "Both frames rolling down, 2-min LHLL."
+ },
+ {
+  "id": "K242",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "Uptrend both frames; 2-min small pullback."
+ },
+ {
+  "id": "K243",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min gap positive but fading, 2-min drifting down; mixed."
+ },
+ {
+  "id": "K244",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mixed after spike and fade."
+ },
+ {
+  "id": "K245",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.57,
+  "reason": "Strong downtrend both frames."
+ },
+ {
+  "id": "K246",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.54,
+  "reason": "5-min uptrend (gap +2.7); 2-min consolidating above EMA20."
+ },
+ {
+  "id": "K247",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Both frames rising, 2-min HHHL breakout."
+ },
+ {
+  "id": "K248",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Both frames falling, new lows."
+ },
+ {
+  "id": "K249",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "5-min downtrend LHLL; 2-min pullback near EMA20."
+ },
+ {
+  "id": "K250",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2-min rally above EMA20; 5-min recovered back over EMA20."
+ },
+ {
+  "id": "K251",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.54,
+  "reason": "5-min uptrend HHHL; 2-min consolidation above EMA20 turning up."
+ },
+ {
+  "id": "K252",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "Deep 5-min downtrend (gap -6); 2-min breaking lower again from a range."
+ },
+ {
+  "id": "K253",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Weak trend, price at EMA20 both frames."
+ },
+ {
+  "id": "K254",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Flat 5-min, 2-min drifting off highs; no setup."
+ },
+ {
+  "id": "K255",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "5-min uptrend (gap +1.8); 2-min pushing higher."
+ },
+ {
+  "id": "K256",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min EMA20 below EMA50 but 2-min rising; conflict."
+ },
+ {
+  "id": "K257",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.54,
+  "reason": "5-min uptrend (gap +2.2); 2-min pullback to EMA20."
+ },
+ {
+  "id": "K258",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.54,
+  "reason": "5-min downtrend (gap -3.1); 2-min drift lower after a stall."
+ },
+ {
+  "id": "K259",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min EMA20 under EMA50 while 2-min bounces; mixed."
+ },
+ {
+  "id": "K260",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Both frames up, 2-min HHHL."
+ },
+ {
+  "id": "K261",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min downtrend but 2-min sharp reversal up; conflicting."
+ },
+ {
+  "id": "K262",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Down both frames LHLL."
+ },
+ {
+  "id": "K263",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Uptrend both frames."
+ },
+ {
+  "id": "K264",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Down trend but 2-min V bounce above EMA20; unclear."
+ },
+ {
+  "id": "K265",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2-min LHLL drifting down, 5-min EMA20 tilting lower."
+ },
+ {
+  "id": "K266",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Strong breakout up both frames."
+ },
+ {
+  "id": "K267",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Strong uptrend both frames."
+ },
+ {
+  "id": "K268",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Down both frames, fresh lows."
+ },
+ {
+  "id": "K269",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "Down both frames LHLL."
+ },
+ {
+  "id": "K270",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Strong uptrend both frames."
+ },
+ {
+  "id": "K271",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "Both frames up; 2-min dipping back to EMA20."
+ },
+ {
+  "id": "K272",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "5-min uptrend (gap +2); 2-min pullback below EMA20."
+ },
+ {
+  "id": "K273",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "5-min uptrend (gap +1.5); 2-min pullback stabilizing."
+ },
+ {
+  "id": "K274",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "Both frames up, 2-min rising."
+ },
+ {
+  "id": "K275",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "5-min uptrend (gap +1.6); 2-min pullback below EMA20."
+ },
+ {
+  "id": "K276",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Down both frames, lows extending."
+ },
+ {
+  "id": "K277",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min EMA20 below EMA50 with flat 2-min; mixed."
+ },
+ {
+  "id": "K278",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "Both frames falling LHLL."
+ },
+ {
+  "id": "K279",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Uptrend both frames, new highs."
+ },
+ {
+  "id": "K280",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Both frames tilting up, 2-min HHHL."
+ },
+ {
+  "id": "K281",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2-min breakout higher; 5-min back above EMA20."
+ },
+ {
+  "id": "K282",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Downtrend both frames."
+ },
+ {
+  "id": "K283",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "Uptrend both frames, 2-min recovered."
+ },
+ {
+  "id": "K284",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2-min breakdown LHLL; 5-min turning down."
+ },
+ {
+  "id": "K285",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Strong uptrend both frames."
+ },
+ {
+  "id": "K286",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min EMA20 below EMA50, 2-min flat; mixed."
+ },
+ {
+  "id": "K287",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "5-min uptrend (gap +2); 2-min pullback near EMA20."
+ },
+ {
+  "id": "K288",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Downtrend both frames, new lows."
+ },
+ {
+  "id": "K289",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Mild downtrend both frames."
+ },
+ {
+  "id": "K290",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "5-min down LHLL; 2-min bounce faded under EMA20."
+ },
+ {
+  "id": "K291",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min EMA slope flattening, 2-min chop."
+ },
+ {
+  "id": "K292",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "Mild uptrend both frames."
+ },
+ {
+  "id": "K293",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Flat."
+ },
+ {
+  "id": "K294",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.57,
+  "reason": "Strong uptrend both frames."
+ },
+ {
+  "id": "K295",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.57,
+  "reason": "Strong downtrend both frames."
+ },
+ {
+  "id": "K296",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Flat."
+ },
+ {
+  "id": "K297",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2-min trending up above EMA20, 5-min flat-up."
+ },
+ {
+  "id": "K298",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Down both frames LHLL."
+ },
+ {
+  "id": "K299",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Strong uptrend both frames."
+ },
+ {
+  "id": "K300",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Strong downtrend both frames."
+ },
+ {
+  "id": "K301",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.54,
+  "reason": "Strong 5-min uptrend (gap +2.3); 2-min pullback to EMA20."
+ },
+ {
+  "id": "K302",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Both frames tilting up, 2-min HHHL."
+ },
+ {
+  "id": "K303",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Downtrend both frames, fresh lows."
+ },
+ {
+  "id": "K304",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Strong uptrend both frames."
+ },
+ {
+  "id": "K305",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.54,
+  "reason": "5-min downtrend; 2-min bounce fading back toward EMA20."
+ },
+ {
+  "id": "K306",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min flat after fade, 2-min down; no aligned trend."
+ },
+ {
+  "id": "K307",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Uptrend both frames."
+ },
+ {
+  "id": "K308",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Down both frames, 2-min lower lows."
+ },
+ {
+  "id": "K309",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "5-min trend turning up; 2-min pullback after a rally."
+ },
+ {
+  "id": "K310",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Downtrend both frames."
+ },
+ {
+  "id": "K311",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Shock drop of 6+ ATR; holding at lows, trend down."
+ },
+ {
+  "id": "K312",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Flat 5-min, weak 2-min."
+ },
+ {
+  "id": "K313",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2-min LHLL selloff, 5-min rolling over below EMA20."
+ },
+ {
+  "id": "K314",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min EMA20 below EMA50, 2-min chop."
+ },
+ {
+  "id": "K315",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Sudden 2-min drop against a soft 5-min uptrend; unclear."
+ },
+ {
+  "id": "K316",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Downtrend both frames."
+ },
+ {
+  "id": "K317",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.57,
+  "reason": "Strong downtrend both frames."
+ },
+ {
+  "id": "K318",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.54,
+  "reason": "5-min uptrend (gap +1.7); 2-min pullback to EMA20."
+ },
+ {
+  "id": "K319",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min down vs 2-min up; conflict."
+ },
+ {
+  "id": "K320",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Mild downtrend, 2-min LHLL."
+ },
+ {
+  "id": "K321",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Weak, mixed."
+ },
+ {
+  "id": "K322",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "Both frames down, 2-min LHLL."
+ },
+ {
+  "id": "K323",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Flat."
+ },
+ {
+  "id": "K324",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Uptrend both frames."
+ },
+ {
+  "id": "K325",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.54,
+  "reason": "5-min downtrend; 2-min rally has rolled over."
+ },
+ {
+  "id": "K326",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "Down both frames LHLL."
+ },
+ {
+  "id": "K327",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "5-min uptrend (gap +1.8); 2-min pullback under EMA20."
+ },
+ {
+  "id": "K328",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min mild up, 2-min down; conflict."
+ },
+ {
+  "id": "K329",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Flat."
+ },
+ {
+  "id": "K330",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2-min uptrend HHHL; 5-min EMA20 rising though under EMA50."
+ },
+ {
+  "id": "K331",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Down both frames, new lows."
+ },
+ {
+  "id": "K332",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Flat."
+ },
+ {
+  "id": "K333",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Strong downtrend both frames."
+ },
+ {
+  "id": "K334",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Weak trend, 2-min fading."
+ },
+ {
+  "id": "K335",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.54,
+  "reason": "Strong 5-min uptrend; 2-min sideways pause above EMA50."
+ },
+ {
+  "id": "K336",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2-min rising above EMA20; 5-min turning up."
+ },
+ {
+  "id": "K337",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Flat."
+ },
+ {
+  "id": "K338",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "5-min uptrend (gap +1.2); 2-min pullback held."
+ },
+ {
+  "id": "K339",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Strong uptrend both frames."
+ },
+ {
+  "id": "K340",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Mild uptrend both frames."
+ },
+ {
+  "id": "K341",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Strong 5-min uptrend (gap +2.8); 2-min resumed up."
+ },
+ {
+  "id": "K342",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "Huge 5-min downtrend (gap -10.9); 2-min consolidating, bear flag."
+ },
+ {
+  "id": "K343",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Uptrend both frames."
+ },
+ {
+  "id": "K344",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min downtrend but 2-min strong rally; conflict."
+ },
+ {
+  "id": "K345",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min EMA20 below EMA50, 2-min pulling back; mixed."
+ },
+ {
+  "id": "K346",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.54,
+  "reason": "5-min uptrend (gap +1.6); 2-min sideways pullback."
+ },
+ {
+  "id": "K347",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Uptrend both frames."
+ },
+ {
+  "id": "K348",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2-min HHHL, 5-min EMA20 rising."
+ },
+ {
+  "id": "K349",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min flat-up, 2-min down; mixed."
+ },
+ {
+  "id": "K350",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mixed EMAs."
+ },
+ {
+  "id": "K351",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Weak downtrend 5-min, 2-min flat; no setup."
+ },
+ {
+  "id": "K352",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Downtrend both frames, 2-min breaking to new lows."
+ },
+ {
+  "id": "K353",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min EMA20 over EMA50 but price drifting down on 2-min; mixed."
+ },
+ {
+  "id": "K354",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.55,
+  "reason": "Very strong 5-min downtrend (gap -6); 2-min pullback stalling under EMA20."
+ },
+ {
+  "id": "K355",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Both frames up, 2-min rising."
+ },
+ {
+  "id": "K356",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Strong uptrend both frames."
+ },
+ {
+  "id": "K357",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min down, 2-min up; conflict."
+ },
+ {
+  "id": "K358",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Both frames rising, 2-min HHHL."
+ },
+ {
+  "id": "K359",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.54,
+  "reason": "5-min uptrend (gap +1.6); 2-min pullback recovering."
+ },
+ {
+  "id": "K360",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Mild uptrend both frames."
+ },
+ {
+  "id": "K361",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Strong uptrend both frames."
+ },
+ {
+  "id": "K362",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Strong uptrend both frames."
+ },
+ {
+  "id": "K363",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Uptrend both frames, new highs."
+ },
+ {
+  "id": "K364",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min EMA20 below EMA50 while 2-min rising; mixed."
+ },
+ {
+  "id": "K365",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Flat."
+ },
+ {
+  "id": "K366",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "5-min downtrend (gap -2); 2-min drifting lower after a bounce."
+ },
+ {
+  "id": "K367",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "Down both frames LHLL."
+ },
+ {
+  "id": "K368",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.54,
+  "reason": "5-min uptrend; 2-min pullback recovering."
+ },
+ {
+  "id": "K369",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min deep downtrend vs strong 2-min rally; conflict."
+ },
+ {
+  "id": "K370",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Mild downtrend, 2-min LHLL."
+ },
+ {
+  "id": "K371",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Weak, 2-min bouncing; chop."
+ },
+ {
+  "id": "K372",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "5-min downtrend LHLL; 2-min bounce fading back."
+ },
+ {
+  "id": "K373",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Down both frames, steep 2-min breakdown."
+ },
+ {
+  "id": "K374",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Strong uptrend both frames."
+ },
+ {
+  "id": "K375",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min down vs 2-min up; conflict."
+ },
+ {
+  "id": "K376",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Down both frames."
+ },
+ {
+  "id": "K377",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "Both frames down, 2-min rolling over."
+ },
+ {
+  "id": "K378",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.52,
+  "reason": "2-min breakdown off EMA20; 5-min flat-down."
+ },
+ {
+  "id": "K379",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min gap positive but price drifting; 2-min flat."
+ },
+ {
+  "id": "K380",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min down vs 2-min rally; conflict."
+ },
+ {
+  "id": "K381",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.57,
+  "reason": "Strong downtrend both frames."
+ },
+ {
+  "id": "K382",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mixed EMAs, choppy."
+ },
+ {
+  "id": "K383",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "Both frames up; 2-min pullback near EMA20."
+ },
+ {
+  "id": "K384",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Both frames up, 2-min HHHL."
+ },
+ {
+  "id": "K385",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Uptrend both frames."
+ },
+ {
+  "id": "K386",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min falling, 2-min bouncing; mixed."
+ },
+ {
+  "id": "K387",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Strong uptrend both frames."
+ },
+ {
+  "id": "K388",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min EMA20 under EMA50 while 2-min up; conflict."
+ },
+ {
+  "id": "K389",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "5-min downtrend; 2-min bounce near EMA20."
+ },
+ {
+  "id": "K390",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Weak down, choppy."
+ },
+ {
+  "id": "K391",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min down vs 2-min up; conflict."
+ },
+ {
+  "id": "K392",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Flat 5-min, 2-min faded; no trend."
+ },
+ {
+  "id": "K393",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Mild downtrend both frames LHLL."
+ },
+ {
+  "id": "K394",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Flat 5-min; 2-min drifting up; weak."
+ },
+ {
+  "id": "K395",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "5-min downtrend; 2-min bounce to EMA20."
+ },
+ {
+  "id": "K396",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "Downtrend both frames."
+ },
+ {
+  "id": "K397",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "5-min uptrend (gap +1.8); 2-min pullback below EMA20."
+ },
+ {
+  "id": "K398",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min EMA20 above EMA50 but falling hard; 2-min recovering; mixed."
+ },
+ {
+  "id": "K399",
+  "call": "sell",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "5-min strong downtrend (gap -2.9); 2-min bounce above EMA20 is a pullback."
+ },
+ {
+  "id": "K400",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-min EMA20 under EMA50 with 2-min dropping; mixed."
+ }
+]

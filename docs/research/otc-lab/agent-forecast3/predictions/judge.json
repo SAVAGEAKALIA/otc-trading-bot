@@ -1,0 +1,2802 @@
+[
+ {
+  "id": "K001",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA buy vs XA sell, mid-range 45%, no structure"
+ },
+ {
+  "id": "K002",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "steady 2m slide +5 to fresh low with lower highs, 5m at 24h support; PA/TR/MT/XA sell vs RV fade"
+ },
+ {
+  "id": "K003",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "clean 2m LHLL from +7 closing on the low, 5m also falling; three sell, MT no room, RV fade"
+ },
+ {
+  "id": "K004",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "new 2m low then +1.4 ATR bullish engulfing, 5m hammers; PA/RV/XA buy, none opposed"
+ },
+ {
+  "id": "K005",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "mid-upper chop, only PA/XA mild buy, flat EMAs"
+ },
+ {
+  "id": "K006",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat range, all five abstain"
+ },
+ {
+  "id": "K007",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split: PA/TR/MT buy the climb to 95%, RV/XA sell; no edge from the conflict"
+ },
+ {
+  "id": "K008",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "feed break: one-bar level jump on 2m and 5m in last hour"
+ },
+ {
+  "id": "K009",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA buy vs TR/XA sell, drifting flat lower range"
+ },
+ {
+  "id": "K010",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "last bar +2 jump after pullback; PA/TR/XA buy vs RV sell, whipsaw structure"
+ },
+ {
+  "id": "K011",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR/MT buy vs PA/RV/XA sell"
+ },
+ {
+  "id": "K012",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA/RV buy vs TR/MT/XA sell at 12% pos"
+ },
+ {
+  "id": "K013",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat base after drop, four abstain"
+ },
+ {
+  "id": "K014",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "V-bounce -4 to 0; TR/MT/XA buy vs PA sell, conflict"
+ },
+ {
+  "id": "K015",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "5m rolled +4 to 0, 2m lower closes at 18% pos; PA/TR/XA sell, none opposed"
+ },
+ {
+  "id": "K016",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "9 ATR slide to pos 0; PA/TR/MT sell vs RV/XA buy, 3v2 split"
+ },
+ {
+  "id": "K017",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA/TR buy vs XA sell, flat chart"
+ },
+ {
+  "id": "K018",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2m base at -2 broke up last bar to mid, 5m off lows; PA/TR/MT/XA buy, RV abstain"
+ },
+ {
+  "id": "K019",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat chart, only TR/MT weak sell"
+ },
+ {
+  "id": "K020",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA/TR/XA buy vs RV sell, flat at top"
+ },
+ {
+  "id": "K021",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "choppy mid-range; three mild buys but no structure"
+ },
+ {
+  "id": "K022",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "slow drift up, weak buys only 0.51-0.54"
+ },
+ {
+  "id": "K023",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR buy vs PA/RV/XA sell"
+ },
+ {
+  "id": "K024",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "slow 2m/5m grind lower to 6% pos; PA/TR/MT/XA sell vs RV"
+ },
+ {
+  "id": "K025",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR/MT/XA buy vs PA/RV sell after 6 ATR rally"
+ },
+ {
+  "id": "K026",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "V-recovery -4 to +1 while PA/TR/XA sell; chart and calls disagree"
+ },
+ {
+  "id": "K027",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "round trip -4 to +3 to 0, PA/TR buy only, old 5m feed spike"
+ },
+ {
+  "id": "K028",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR buy vs PA/XA sell, pulling back from +4"
+ },
+ {
+  "id": "K029",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "steady decline from +5 to pos 0; PA/TR/MT/XA sell vs RV"
+ },
+ {
+  "id": "K030",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR/XA buy vs PA/RV sell"
+ },
+ {
+  "id": "K031",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, PA buy vs XA sell"
+ },
+ {
+  "id": "K032",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat range, all abstain"
+ },
+ {
+  "id": "K033",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA/TR buy vs RV/XA sell"
+ },
+ {
+  "id": "K034",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "last bar broke above 2m range to 100% pos; PA/TR/MT/XA buy vs RV"
+ },
+ {
+  "id": "K035",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "gradual 2m climb -3 to 0 with higher lows, pos 86; PA/TR/MT buy, none opposed"
+ },
+ {
+  "id": "K036",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA/TR/MT sell vs XA buy"
+ },
+ {
+  "id": "K037",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA/XA buy vs TR sell, flat"
+ },
+ {
+  "id": "K038",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "5m higher lows from -3, 2m at 74% pos; PA/TR/MT/XA buy, RV abstain"
+ },
+ {
+  "id": "K039",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA/TR sell vs XA buy"
+ },
+ {
+  "id": "K040",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2m/5m climb from -4 to 90% pos; PA/TR/MT/XA buy vs RV fade"
+ },
+ {
+  "id": "K041",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR/XA buy vs PA/RV sell"
+ },
+ {
+  "id": "K042",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "5m lower closes from +5, 2m at 19% pos; PA/TR/XA sell vs RV"
+ },
+ {
+  "id": "K043",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA/TR sell vs RV/XA buy"
+ },
+ {
+  "id": "K044",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2m steady climb -4 to 0, pos 95; PA/TR/XA buy vs RV"
+ },
+ {
+  "id": "K045",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "drop from +4 then flat mid, only PA weak buy"
+ },
+ {
+  "id": "K046",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "clean 5m decline from +7, 2m at 2% pos; PA/TR/XA sell vs RV"
+ },
+ {
+  "id": "K047",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2m lower highs from +6 to 1% pos; PA/TR/XA sell vs RV"
+ },
+ {
+  "id": "K048",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat chart, only TR/XA weak 10m buys"
+ },
+ {
+  "id": "K049",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "5m recovery from -6 with higher lows, 2m at 82%; PA/TR/MT/XA buy vs RV"
+ },
+ {
+  "id": "K050",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR buy vs PA/RV/XA sell"
+ },
+ {
+  "id": "K051",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, PA sell vs XA buy"
+ },
+ {
+  "id": "K052",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR buy vs PA/RV/XA sell"
+ },
+ {
+  "id": "K053",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2m climb from -5 to 99% pos; PA/TR/MT/XA buy vs RV"
+ },
+ {
+  "id": "K054",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "11 ATR 5m rally; PA/TR/MT buy vs RV/XA sell, 3v2"
+ },
+ {
+  "id": "K055",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2m higher lows from -4 to 88%, 5m off lows; PA/TR/MT/XA buy vs RV"
+ },
+ {
+  "id": "K056",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR/XA sell vs PA/RV buy after 4 ATR slide"
+ },
+ {
+  "id": "K057",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "orderly 2m/5m decline from +10 to 5% pos with lower highs; PA/TR/MT/XA sell vs RV fade"
+ },
+ {
+  "id": "K058",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "rally then 4 ATR pullback; PA sell vs TR/RV/XA buy, conflict"
+ },
+ {
+  "id": "K059",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "weak sells 0.51-0.54 on flat range drift"
+ },
+ {
+  "id": "K060",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR sell vs PA/XA buy, basing at lows"
+ },
+ {
+  "id": "K061",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR/MT/XA buy vs PA/RV sell after jump"
+ },
+ {
+  "id": "K062",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA/XA sell vs RV buy, choppy"
+ },
+ {
+  "id": "K063",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR buy vs PA/XA sell, choppy mid-range"
+ },
+ {
+  "id": "K064",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR/MT/XA buy vs PA sell, flat"
+ },
+ {
+  "id": "K065",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA/RV buy vs TR/XA sell"
+ },
+ {
+  "id": "K066",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, only weak 10m sells"
+ },
+ {
+  "id": "K067",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "spike and retrace to mid, four abstain"
+ },
+ {
+  "id": "K068",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "5m higher lows from -5, 2m base near highs 82%; PA/TR/MT/XA buy vs RV"
+ },
+ {
+  "id": "K069",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat mid-range, only XA buy"
+ },
+ {
+  "id": "K070",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA sell vs TR buy, pullback mid-range"
+ },
+ {
+  "id": "K071",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "2m slide from +5 but PA weak, RV buy; 3 sells mostly 5m, last bars flattening; split"
+ },
+ {
+  "id": "K072",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR buy vs PA/XA sell, V shape"
+ },
+ {
+  "id": "K073",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "sharp 2m rally to 99% after 5m drop; PA/TR/XA buy vs RV 0.58 fade, conflict on stretched bar"
+ },
+ {
+  "id": "K074",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA/TR/MT buy vs RV/XA sell, flat at top"
+ },
+ {
+  "id": "K075",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "step up then flat; only TR weak buy"
+ },
+ {
+  "id": "K076",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, PA buy vs XA sell"
+ },
+ {
+  "id": "K077",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2m recovery from -5 with higher lows to 90% pos; PA/TR/XA buy vs RV"
+ },
+ {
+  "id": "K078",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "smooth 2m/5m climb from -7 to 96% pos; PA/TR/MT/XA buy vs RV"
+ },
+ {
+  "id": "K079",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, split PA sell vs TR/XA buy"
+ },
+ {
+  "id": "K080",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR sell vs PA/XA buy, flat after drop"
+ },
+ {
+  "id": "K081",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA buy vs TR/XA sell, flat at lows"
+ },
+ {
+  "id": "K082",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA/XA buy vs RV sell, last bar jump to mid"
+ },
+ {
+  "id": "K083",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "2m flat-bounce at lows, weak sells, chart not trending"
+ },
+ {
+  "id": "K084",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2m grind up to 99% pos breaking range; PA/TR/MT/XA buy vs RV"
+ },
+ {
+  "id": "K085",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2m dropped from +5 to 12% pos, 5m rolled over; PA/TR/MT/XA sell vs RV"
+ },
+ {
+  "id": "K086",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "last bar broke above flat 2m range to 98%, 5m higher lows; PA/TR/MT/XA buy vs RV"
+ },
+ {
+  "id": "K087",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA sell vs XA buy, flat"
+ },
+ {
+  "id": "K088",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "5m rolled from +7 to 0 with 2m lower highs, 6% pos; PA/TR/MT sell vs RV, XA abstain"
+ },
+ {
+  "id": "K089",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "four abstain, choppy"
+ },
+ {
+  "id": "K090",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA buy vs XA sell, flat"
+ },
+ {
+  "id": "K091",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2m broke down from flat +4 shelf to 9% pos; PA/TR/MT/XA sell vs RV"
+ },
+ {
+  "id": "K092",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA/TR sell vs RV/XA buy"
+ },
+ {
+  "id": "K093",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split; sells 0.51-0.53, RV buy, choppy 5m"
+ },
+ {
+  "id": "K094",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat mid-range, only PA weak sell"
+ },
+ {
+  "id": "K095",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA sell vs TR/XA buy"
+ },
+ {
+  "id": "K096",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA sell vs XA buy, mid-range"
+ },
+ {
+  "id": "K097",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5m recovered but 2m stalling mid; four buys weak 0.52-0.55, 2m rolling over against them"
+ },
+ {
+  "id": "K098",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA buy vs XA sell, flat"
+ },
+ {
+  "id": "K099",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA/RV buy vs TR/MT/XA sell"
+ },
+ {
+  "id": "K100",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR/MT/XA buy vs PA/RV sell"
+ },
+ {
+  "id": "K101",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, four abstain"
+ },
+ {
+  "id": "K102",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA/TR sell vs RV/XA buy, flat"
+ },
+ {
+  "id": "K103",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "2m flat at +1/+2 then last-bar drop; PA/TR/XA sell vs RV, single-bar move only"
+ },
+ {
+  "id": "K104",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR/XA sell vs PA/RV buy, base after drop"
+ },
+ {
+  "id": "K105",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "5m lower highs, 2m dropped from +4 to 5% pos; PA/TR/MT/XA sell vs RV"
+ },
+ {
+  "id": "K106",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "V mid-range, weak buys"
+ },
+ {
+  "id": "K107",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR sell vs PA/RV/XA buy"
+ },
+ {
+  "id": "K108",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, four abstain"
+ },
+ {
+  "id": "K109",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "chop mid-range, weak buys, old 5m feed spike"
+ },
+ {
+  "id": "K110",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA/TR sell vs RV/XA buy"
+ },
+ {
+  "id": "K111",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2m flat then last bar up to 87%, 5m higher lows; PA/TR/MT/XA buy vs RV 2m"
+ },
+ {
+  "id": "K112",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2m higher lows to 98% pos; PA/TR/MT/XA buy vs RV"
+ },
+ {
+  "id": "K113",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "feed break: one-bar 15 ATR level jump on 2m 42 min ago"
+ },
+ {
+  "id": "K114",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, four abstain"
+ },
+ {
+  "id": "K115",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA buy vs TR sell"
+ },
+ {
+  "id": "K116",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA buy vs TR sell, choppy"
+ },
+ {
+  "id": "K117",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2m shelf at +4 broke into steady lower closes to 6% pos, 5m lower; PA/TR/MT/XA sell vs RV"
+ },
+ {
+  "id": "K118",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "weak buys only, 2m recovered then flat mid"
+ },
+ {
+  "id": "K119",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "5m lower highs from +7 to 4% pos, 2m drifting down; PA/TR/MT/XA sell vs RV"
+ },
+ {
+  "id": "K120",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA/XA buy vs RV sell, V off lows mid-range"
+ },
+ {
+  "id": "K121",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR sell vs RV/XA buy, flat at lows"
+ },
+ {
+  "id": "K122",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split; RV buy vs weak sells, choppy decline"
+ },
+ {
+  "id": "K123",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "weak buys only, flat"
+ },
+ {
+  "id": "K124",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR buy vs PA/XA sell"
+ },
+ {
+  "id": "K125",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, weak sells only"
+ },
+ {
+  "id": "K126",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA sell vs TR buy"
+ },
+ {
+  "id": "K127",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat mid, weak buys only"
+ },
+ {
+  "id": "K128",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2m lower highs off +4 to 4% pos, 5m rolling; PA/TR/MT/XA sell vs RV"
+ },
+ {
+  "id": "K129",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "2m falling but 5m up, mid-range; mixed sells vs RV buy"
+ },
+ {
+  "id": "K130",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split RV/XA buy vs PA sell, frames disagree"
+ },
+ {
+  "id": "K131",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA/TR sell vs XA buy"
+ },
+ {
+  "id": "K132",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "5m steady decline from +5, 2m at 6% pos; PA/TR sell, RV buy, XA abstain; 2m lower highs"
+ },
+ {
+  "id": "K133",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "feed break: 42 ATR one-bar level jump 14 min ago"
+ },
+ {
+  "id": "K134",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA/TR/MT buy vs XA sell, choppy"
+ },
+ {
+  "id": "K135",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "feed break: 5 ATR one-bar jump with a missing bar 16 min ago"
+ },
+ {
+  "id": "K136",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "weak buys, 2m round-trip chop"
+ },
+ {
+  "id": "K137",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5m fell from +8 but 2m flat basing; split RV buy vs sells"
+ },
+ {
+  "id": "K138",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR buy vs XA sell, flat"
+ },
+ {
+  "id": "K139",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "5m/2m smooth climb from -9 to 92% pos; PA/TR/MT buy vs RV/XA sell, chart favors trend"
+ },
+ {
+  "id": "K140",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat after 5m drop, weak sells"
+ },
+ {
+  "id": "K141",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, weak sells"
+ },
+ {
+  "id": "K142",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA sell vs XA buy, V chop"
+ },
+ {
+  "id": "K143",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2m lower highs from +5 to 3% pos, 5m rolled over; PA/TR/MT/XA sell vs RV"
+ },
+ {
+  "id": "K144",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, weak buys"
+ },
+ {
+  "id": "K145",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "drifting, weak buys"
+ },
+ {
+  "id": "K146",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2m grind up to 99% pos, 5m higher lows; PA/TR/XA buy vs RV"
+ },
+ {
+  "id": "K147",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR buy vs XA sell"
+ },
+ {
+  "id": "K148",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "5m decline from +7, 2m broke shelf to 5% pos; PA/TR/XA sell vs RV"
+ },
+ {
+  "id": "K149",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR/XA buy vs PA/RV sell"
+ },
+ {
+  "id": "K150",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR buy vs RV sell, flat near highs"
+ },
+ {
+  "id": "K151",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, weak split"
+ },
+ {
+  "id": "K152",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR sell vs PA/RV/XA buy"
+ },
+ {
+  "id": "K153",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2m base breaking to 96% pos, 5m higher from -4; PA/TR/MT/XA buy vs RV"
+ },
+ {
+  "id": "K154",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, weak sells"
+ },
+ {
+  "id": "K155",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA sell vs XA buy"
+ },
+ {
+  "id": "K156",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "all abstain, flat"
+ },
+ {
+  "id": "K157",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, weak buys only"
+ },
+ {
+  "id": "K158",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, four abstain"
+ },
+ {
+  "id": "K159",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, weak sells"
+ },
+ {
+  "id": "K160",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA sell vs XA buy"
+ },
+ {
+  "id": "K161",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5m dropped earlier but 2m flat 1h; sells vs RV buy, no live momentum"
+ },
+ {
+  "id": "K162",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, weak buys"
+ },
+ {
+  "id": "K163",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2m higher lows from -4 to 96%, 5m higher lows; PA/TR/MT/XA buy vs RV"
+ },
+ {
+  "id": "K164",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "5m rolled from +8, 2m lower highs to 4% pos; PA/TR/MT/XA sell vs RV"
+ },
+ {
+  "id": "K165",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR buy vs XA sell"
+ },
+ {
+  "id": "K166",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR sell vs PA/XA buy"
+ },
+ {
+  "id": "K167",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "2m dipped then recovering mid; four weak buys vs RV, no clean structure"
+ },
+ {
+  "id": "K168",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA sell vs XA buy"
+ },
+ {
+  "id": "K169",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2m lower highs from +5 to 11% pos, 5m rolling; PA/TR/XA sell vs RV"
+ },
+ {
+  "id": "K170",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split, choppy, old 5m feed spike"
+ },
+ {
+  "id": "K171",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA sell vs XA buy"
+ },
+ {
+  "id": "K172",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "feed break: one-bar 6 ATR level drop with missing bar"
+ },
+ {
+  "id": "K173",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "feed break: 32 ATR one-bar jump on the last bar"
+ },
+ {
+  "id": "K174",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2m broke down from +3 shelf to 10% pos, 5m lower highs; PA/TR/XA sell vs RV"
+ },
+ {
+  "id": "K175",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, four abstain"
+ },
+ {
+  "id": "K176",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA/TR/MT buy vs RV sell, flat near highs with 5m flattening"
+ },
+ {
+  "id": "K177",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA sell vs TR/XA buy, 2m stalling"
+ },
+ {
+  "id": "K178",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA buy vs TR sell"
+ },
+ {
+  "id": "K179",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA buy vs TR/XA sell"
+ },
+ {
+  "id": "K180",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split, old 5m feed spike, flat"
+ },
+ {
+  "id": "K181",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA sell vs XA buy"
+ },
+ {
+  "id": "K182",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA/XA buy vs TR sell, old 5m spike"
+ },
+ {
+  "id": "K183",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "weak buys 0.51-0.53 into a 2m decline, chart and calls disagree"
+ },
+ {
+  "id": "K184",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "2m chop at lows after 5m drop; four sells but 2m flat 1h, no live push"
+ },
+ {
+  "id": "K185",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "2m chop, weak sells"
+ },
+ {
+  "id": "K186",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA/XA sell vs TR/RV buy"
+ },
+ {
+  "id": "K187",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA/TR/XA buy vs RV sell, 2m recovered but 5m flat"
+ },
+ {
+  "id": "K188",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "last bar broke to 100% pos from a 2m base, 5m higher lows; PA/TR/XA buy vs RV 2m"
+ },
+ {
+  "id": "K189",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "only TR buy, flat after recovery"
+ },
+ {
+  "id": "K190",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR/XA sell vs PA/RV buy"
+ },
+ {
+  "id": "K191",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "weak sells, chop"
+ },
+ {
+  "id": "K192",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2m steady climb -7 to 100% with higher lows, 5m up; PA/TR/MT/XA buy vs RV 0.60"
+ },
+ {
+  "id": "K193",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA buy vs XA sell"
+ },
+ {
+  "id": "K194",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "weak 10m buys, flat"
+ },
+ {
+  "id": "K195",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR/MT/XA buy vs PA/RV sell"
+ },
+ {
+  "id": "K196",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA sell vs TR/XA buy, last bar -2 drop"
+ },
+ {
+  "id": "K197",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA buy vs XA sell"
+ },
+ {
+  "id": "K198",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2m broke out of -3 base to 100% pos with two up bars; PA/TR/MT/XA buy vs RV"
+ },
+ {
+  "id": "K199",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2m/5m decline from +8 with lower highs, base forming at 13%; PA/TR sell vs RV, MT/XA abstain"
+ },
+ {
+  "id": "K200",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "2m flat after drop, weak sells"
+ },
+ {
+  "id": "K201",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "weak buys, flat"
+ },
+ {
+  "id": "K202",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split, flat"
+ },
+ {
+  "id": "K203",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "only TR buy, choppy, missing bar"
+ },
+ {
+  "id": "K204",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA/RV sell vs TR/MT/XA buy, flat"
+ },
+ {
+  "id": "K205",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR/MT buy vs PA/RV/XA sell"
+ },
+ {
+  "id": "K206",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA/TR buy vs RV/XA sell"
+ },
+ {
+  "id": "K207",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR/MT/XA buy vs PA/RV sell"
+ },
+ {
+  "id": "K208",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "four abstain, chop"
+ },
+ {
+  "id": "K209",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "weak sells, chop mid-range"
+ },
+ {
+  "id": "K210",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "last bar +2 jump off lows mid-range; buys vs RV, single-bar move"
+ },
+ {
+  "id": "K211",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, weak sells"
+ },
+ {
+  "id": "K212",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA sell vs TR/XA buy"
+ },
+ {
+  "id": "K213",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2m broke down from +4 shelf to 3% pos, 5m rolled from +7; PA/TR/MT/XA sell vs RV"
+ },
+ {
+  "id": "K214",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split, old 5m feed spike"
+ },
+ {
+  "id": "K215",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "only TR weak buy, flat"
+ },
+ {
+  "id": "K216",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "weak buys, flat"
+ },
+ {
+  "id": "K217",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "weak sells, flat"
+ },
+ {
+  "id": "K218",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split, flat"
+ },
+ {
+  "id": "K219",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "2m flat at lows, three weak sells"
+ },
+ {
+  "id": "K220",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "weak sells, chop"
+ },
+ {
+  "id": "K221",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "2m flat at top after rally, mixed"
+ },
+ {
+  "id": "K222",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "feed break: 20 ATR one-bar level jump on 5m about an hour ago"
+ },
+ {
+  "id": "K223",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "2m slow grind up, four buys weak 0.51-0.55 vs RV; 5m flat, borderline"
+ },
+ {
+  "id": "K224",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, four abstain"
+ },
+ {
+  "id": "K225",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, weak sells"
+ },
+ {
+  "id": "K226",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA/XA buy, chart dipped mid-range"
+ },
+ {
+  "id": "K227",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2m lower highs from +6 to 1% pos, 5m steady decline from +8; PA/TR/XA sell vs RV"
+ },
+ {
+  "id": "K228",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR/XA sell vs PA/RV buy"
+ },
+ {
+  "id": "K229",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "old 5m feed spike 2h ago; also RV 0.56 fade vs buys, abstain"
+ },
+ {
+  "id": "K230",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA sell vs TR/XA buy"
+ },
+ {
+  "id": "K231",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA sell vs XA buy"
+ },
+ {
+  "id": "K232",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "two weak sells, flat"
+ },
+ {
+  "id": "K233",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR sell vs PA/XA buy"
+ },
+ {
+  "id": "K234",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR/MT/XA buy vs PA/RV sell"
+ },
+ {
+  "id": "K235",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, weak sells"
+ },
+ {
+  "id": "K236",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, four abstain"
+ },
+ {
+  "id": "K237",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2m steady climb from -5 to 97% pos, 5m recovering; PA/TR buy vs RV, MT/XA abstain"
+ },
+ {
+  "id": "K238",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split, chop, old 5m feed spike"
+ },
+ {
+  "id": "K239",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "2m drifting down, only PA weak buy"
+ },
+ {
+  "id": "K240",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2m higher lows from -5 to 96%, 5m off -5; PA/TR/MT/XA buy vs RV"
+ },
+ {
+  "id": "K241",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR sell vs RV/XA buy"
+ },
+ {
+  "id": "K242",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "weak buys, flat"
+ },
+ {
+  "id": "K243",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "weak buys, flat"
+ },
+ {
+  "id": "K244",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "weak sells, flat mid"
+ },
+ {
+  "id": "K245",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR sell vs PA/RV buy, flat at lows"
+ },
+ {
+  "id": "K246",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "feed break: 8 ATR one-bar level jump on 5m about 100 min ago"
+ },
+ {
+  "id": "K247",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2m higher lows from -5 to 94%, 5m climbing; PA/TR/XA buy vs RV"
+ },
+ {
+  "id": "K248",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2m lower highs from +6 to 6% pos, 5m rolling; PA/TR/MT/XA sell vs RV"
+ },
+ {
+  "id": "K249",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split, flat"
+ },
+ {
+  "id": "K250",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR/XA buy vs PA/RV sell"
+ },
+ {
+  "id": "K251",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split, flat at top"
+ },
+ {
+  "id": "K252",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split, old 5m feed spike"
+ },
+ {
+  "id": "K253",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "weak sells, flat"
+ },
+ {
+  "id": "K254",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split, flat"
+ },
+ {
+  "id": "K255",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "feed break: 15 ATR one-bar jump on 2m inside the 2h window"
+ },
+ {
+  "id": "K256",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "last bar jump to 95% from flat base; PA/XA buy vs RV, one-bar move only"
+ },
+ {
+  "id": "K257",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "weak buys, choppy"
+ },
+ {
+  "id": "K258",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, weak sells"
+ },
+ {
+  "id": "K259",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split weak, flat near top"
+ },
+ {
+  "id": "K260",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2m higher lows from -5 to 95%, 5m higher; PA/TR/MT/XA buy vs RV"
+ },
+ {
+  "id": "K261",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "two-bar +5 ATR spike off the low against falling 5m; PA/XA buy vs RV 0.56 fade"
+ },
+ {
+  "id": "K262",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "5m steady decline from +5, 2m lower highs to 5% pos; PA/TR/XA sell vs RV"
+ },
+ {
+  "id": "K263",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "2m flat at top after 5m recovery; split RV vs buys, no live push"
+ },
+ {
+  "id": "K264",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "V-bounce from -5 last 4 bars, weak buys, 5m dropping"
+ },
+ {
+  "id": "K265",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "weak sells, flat"
+ },
+ {
+  "id": "K266",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "10 ATR 2m rally to 96%; four buys vs RV 0.60 fade, stretched and contested"
+ },
+ {
+  "id": "K267",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "5m recovery from -8 with higher lows, 2m at 92%; PA/TR/MT/XA buy vs RV"
+ },
+ {
+  "id": "K268",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2m shelf at +3 breaking down to 2% pos, 5m lower; PA/TR/MT/XA sell vs RV"
+ },
+ {
+  "id": "K269",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "slow 2m/5m grind down to 1% pos; PA/TR/XA sell vs RV"
+ },
+ {
+  "id": "K270",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "5m steady climb from -8, 2m higher lows to 99%; PA/TR/MT/XA buy vs RV"
+ },
+ {
+  "id": "K271",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR buy vs PA/XA sell"
+ },
+ {
+  "id": "K272",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "2m spike to +5 then dumped to 3% pos; split XA sell vs RV buy"
+ },
+ {
+  "id": "K273",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "weak buys into 2m drift down"
+ },
+ {
+  "id": "K274",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "buys into choppy mid-range, 5m flat"
+ },
+ {
+  "id": "K275",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "2m pulled back from +3 to mid, only TR weak buy"
+ },
+ {
+  "id": "K276",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2m lower highs from +6 to 6% pos, 5m rolling; PA/TR/MT sell vs RV/XA buy"
+ },
+ {
+  "id": "K277",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "four abstain, flat"
+ },
+ {
+  "id": "K278",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR sell vs XA buy"
+ },
+ {
+  "id": "K279",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2m flat base broke up to 99%, 5m higher lows from -6; PA/TR/MT/XA buy vs RV"
+ },
+ {
+  "id": "K280",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "feed break: 7 ATR one-bar drop on 5m about 80 min ago"
+ },
+ {
+  "id": "K281",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "two-bar 4 ATR spike to 96% from flat base; buys vs RV 0.56, one-burst move"
+ },
+ {
+  "id": "K282",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "2m flat 30 min at lows after drop, split"
+ },
+ {
+  "id": "K283",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR/XA buy vs PA/RV sell"
+ },
+ {
+  "id": "K284",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA/RV buy vs TR/XA sell, last bars dropped"
+ },
+ {
+  "id": "K285",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2m higher lows from -4 to 92%, 5m higher; PA/TR/XA buy vs RV"
+ },
+ {
+  "id": "K286",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, four abstain"
+ },
+ {
+  "id": "K287",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split, flat"
+ },
+ {
+  "id": "K288",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "last 2 bars dumped 3 ATR to 0% after bounce; split RV/XA buy vs sells"
+ },
+ {
+  "id": "K289",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "weak sells 0.51-0.53, flat at lows"
+ },
+ {
+  "id": "K290",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split, flat"
+ },
+ {
+  "id": "K291",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, four abstain"
+ },
+ {
+  "id": "K292",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, weak buys"
+ },
+ {
+  "id": "K293",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, only PA weak sell"
+ },
+ {
+  "id": "K294",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "smooth 5m climb from -8, 2m higher lows to 97%; PA/TR/MT/XA buy vs RV"
+ },
+ {
+  "id": "K295",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "smooth 2m/5m decline from +9 to 1% pos; PA/TR/XA sell vs RV"
+ },
+ {
+  "id": "K296",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, four abstain"
+ },
+ {
+  "id": "K297",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "weak buys, flat"
+ },
+ {
+  "id": "K298",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2m lower highs from +5 to 6% pos, 5m drifting down; PA/TR/XA sell vs RV"
+ },
+ {
+  "id": "K299",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2m broke up from -4 shelf to 98%, 5m higher lows; PA/TR/MT/XA buy vs RV"
+ },
+ {
+  "id": "K300",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2m steady decline from +8 to 6% pos, 5m rolled; PA/TR sell vs RV, MT/XA abstain"
+ },
+ {
+  "id": "K301",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR buy vs PA/XA sell, 2m fading from +3"
+ },
+ {
+  "id": "K302",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "weak buys, 2m flat"
+ },
+ {
+  "id": "K303",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2m lower highs from +9 to 3% pos, 5m steady decline; PA/TR/XA sell vs RV"
+ },
+ {
+  "id": "K304",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "2m flat at top 15 bars after 5m rally; split RV vs buys, no live push"
+ },
+ {
+  "id": "K305",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "weak sells, 2m flat"
+ },
+ {
+  "id": "K306",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, only PA weak buy"
+ },
+ {
+  "id": "K307",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "2m flat at top after rally, buys vs RV, no live push"
+ },
+ {
+  "id": "K308",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2m lower highs from +5 to 4% pos; PA/TR/MT/XA sell vs RV"
+ },
+ {
+  "id": "K309",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "last bar -2 drop after 2m rally; split"
+ },
+ {
+  "id": "K310",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "5m steady decline from +5, 2m to 6% pos; PA/TR/XA sell vs RV"
+ },
+ {
+  "id": "K311",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "feed break: 17 ATR one-bar level drop 8 min ago"
+ },
+ {
+  "id": "K312",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, weak buys"
+ },
+ {
+  "id": "K313",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2m broke down from +6 shelf to 5% pos; PA/TR/XA sell vs RV"
+ },
+ {
+  "id": "K314",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, four abstain"
+ },
+ {
+  "id": "K315",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "last bar -3 drop from flat range; split RV buy vs PA/XA sell"
+ },
+ {
+  "id": "K316",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "2m flat at lows 20 min; split TR sell vs RV/XA buy"
+ },
+ {
+  "id": "K317",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "orderly 2m/5m decline from +6 to 0% pos; PA/TR sell vs RV, XA abstain"
+ },
+ {
+  "id": "K318",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "2m rolled from +2 to mid, weak buys"
+ },
+ {
+  "id": "K319",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, only PA weak sell"
+ },
+ {
+  "id": "K320",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR sell vs XA buy, flat"
+ },
+ {
+  "id": "K321",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, all abstain"
+ },
+ {
+  "id": "K322",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "2m decline from +8 basing at 14% pos; split PA buy vs TR/XA sell"
+ },
+ {
+  "id": "K323",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, four abstain"
+ },
+ {
+  "id": "K324",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "2m flat at top 8 bars after rally; split"
+ },
+ {
+  "id": "K325",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "2m pulled back from +3 after V; sells vs RV, chop"
+ },
+ {
+  "id": "K326",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split, flat"
+ },
+ {
+  "id": "K327",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split, 2m pullback against 5m rise"
+ },
+ {
+  "id": "K328",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "weak buys, 2m drifting down"
+ },
+ {
+  "id": "K329",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, four abstain"
+ },
+ {
+  "id": "K330",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR buy vs PA/RV sell"
+ },
+ {
+  "id": "K331",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2m lower highs from +6 to 4% pos, 5m lower; PA/TR/XA sell vs RV"
+ },
+ {
+  "id": "K332",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, four abstain"
+ },
+ {
+  "id": "K333",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "feed break: 5 ATR one-bar drop with a missing bar"
+ },
+ {
+  "id": "K334",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, only PA weak sell"
+ },
+ {
+  "id": "K335",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR buy vs RV/XA sell, flat at top"
+ },
+ {
+  "id": "K336",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA sell vs TR/XA buy"
+ },
+ {
+  "id": "K337",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, four abstain"
+ },
+ {
+  "id": "K338",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "weak buys, chop"
+ },
+ {
+  "id": "K339",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2m higher lows from -5 to 99%, 5m off -6; PA/TR/MT/XA buy vs RV"
+ },
+ {
+  "id": "K340",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, weak buys"
+ },
+ {
+  "id": "K341",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "feed break: 11 ATR one-bar jump on 5m about 70 min ago"
+ },
+ {
+  "id": "K342",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "old 5m feed spike, flat chart"
+ },
+ {
+  "id": "K343",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "2m flat at top after 5m rally; split RV vs buys"
+ },
+ {
+  "id": "K344",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "V from -5 to 84%, split RV sell vs PA/XA buy, 5m still down"
+ },
+ {
+  "id": "K345",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, four abstain"
+ },
+ {
+  "id": "K346",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "2m flat at top after 5m jump; split RV vs buys"
+ },
+ {
+  "id": "K347",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "last bar broke above -2 base to 100% pos, 5m higher lows; PA/TR/MT/XA buy vs RV"
+ },
+ {
+  "id": "K348",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR buy vs XA sell"
+ },
+ {
+  "id": "K349",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "weak buys, 2m drifting down"
+ },
+ {
+  "id": "K350",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "weak buys, flat"
+ },
+ {
+  "id": "K351",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, only PA weak sell"
+ },
+ {
+  "id": "K352",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2m lower highs from +6 to 0% pos, 5m rolled from +6; PA/TR/MT/XA sell vs RV"
+ },
+ {
+  "id": "K353",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "2m drifting down, only XA sell"
+ },
+ {
+  "id": "K354",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "feed break: 20 ATR one-bar level drop on 5m about 90 min ago"
+ },
+ {
+  "id": "K355",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "2m flat at top 8 bars after jump; buys vs RV, no live push"
+ },
+ {
+  "id": "K356",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2m higher lows from -5 to 94%, 5m climbing from -6; PA/TR/MT/XA buy vs RV"
+ },
+ {
+  "id": "K357",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, only PA weak buy"
+ },
+ {
+  "id": "K358",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "8 ATR 2m rally then flat 4 bars; buys vs RV, stall at top"
+ },
+ {
+  "id": "K359",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "2m pulled back from +2, weak buys"
+ },
+ {
+  "id": "K360",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split, flat"
+ },
+ {
+  "id": "K361",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR buy vs PA/RV/XA sell"
+ },
+ {
+  "id": "K362",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2m higher lows to 97% pos, 5m higher from -5; PA/TR/MT/XA buy vs RV"
+ },
+ {
+  "id": "K363",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "2m flat at top after rally; split RV/XA vs buys"
+ },
+ {
+  "id": "K364",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA buy vs XA sell, flat"
+ },
+ {
+  "id": "K365",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, four abstain"
+ },
+ {
+  "id": "K366",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "weak sells, flat"
+ },
+ {
+  "id": "K367",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2m lower highs from +3 to 15% pos, 5m rolled from +4; PA/TR/XA sell, none opposed"
+ },
+ {
+  "id": "K368",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA/TR/MT buy vs RV/XA sell"
+ },
+ {
+  "id": "K369",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5-bar 5 ATR burst off low into 95%, PA/XA buy vs RV 0.57; 5m still down"
+ },
+ {
+  "id": "K370",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA buy vs TR/XA sell"
+ },
+ {
+  "id": "K371",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, four abstain"
+ },
+ {
+  "id": "K372",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, only TR weak sell"
+ },
+ {
+  "id": "K373",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2m lower highs from +5 to 1% pos, 5m drifting lower; PA/TR/MT/XA sell vs RV"
+ },
+ {
+  "id": "K374",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "12 ATR 5m rally now flat 2m; buys vs RV 0.59, stretched and contested"
+ },
+ {
+  "id": "K375",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split, chop"
+ },
+ {
+  "id": "K376",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "5m rolled from +5, 2m dropped to 14% pos; PA/TR/XA sell vs RV"
+ },
+ {
+  "id": "K377",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "5m lower highs from +6, 2m at 7% pos; PA/TR/XA sell vs RV"
+ },
+ {
+  "id": "K378",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA/RV buy vs TR/XA sell"
+ },
+ {
+  "id": "K379",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, weak sells"
+ },
+ {
+  "id": "K380",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA sell vs XA buy"
+ },
+ {
+  "id": "K381",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "orderly 2m decline from +7 to 4% pos, 5m lower; PA/TR/MT/XA sell vs RV"
+ },
+ {
+  "id": "K382",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA sell vs XA buy, V chop"
+ },
+ {
+  "id": "K383",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "2m pulled back from +2, weak buys"
+ },
+ {
+  "id": "K384",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "2m flat at top 4 bars after climb; TR buy vs RV, PA weak"
+ },
+ {
+  "id": "K385",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2m higher lows from -4 to 94%, 5m higher from -6; PA/TR/MT/XA buy vs RV"
+ },
+ {
+  "id": "K386",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "weak buys into 2m drift down"
+ },
+ {
+  "id": "K387",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "9 ATR V-rally to 92%; split TR buy vs RV/XA sell"
+ },
+ {
+  "id": "K388",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA sell vs XA buy"
+ },
+ {
+  "id": "K389",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split, flat"
+ },
+ {
+  "id": "K390",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, four abstain"
+ },
+ {
+  "id": "K391",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "flat, four abstain"
+ },
+ {
+  "id": "K392",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split RV buy vs PA/XA sell"
+ },
+ {
+  "id": "K393",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split PA/XA buy vs TR sell"
+ },
+ {
+  "id": "K394",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "weak sells, flat"
+ },
+ {
+  "id": "K395",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split, flat"
+ },
+ {
+  "id": "K396",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR sell vs PA/RV buy"
+ },
+ {
+  "id": "K397",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "split TR buy vs XA sell"
+ },
+ {
+  "id": "K398",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "weak buys, mid-range"
+ },
+ {
+  "id": "K399",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "feed break: 20 ATR one-bar jump on 2m inside the 2h window"
+ },
+ {
+  "id": "K400",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "last bar -2 drop from range; split"
+ }
+]

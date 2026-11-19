@@ -1,0 +1,2802 @@
+[
+ {
+  "id": "K001",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Price mid-range (pos 0.45), RSI 50, no stretch from the mean on 2m or 5m. Nothing to fade."
+ },
+ {
+  "id": "K002",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "2m RSI 28, close 3.4 ATR below its 20-bar mean at the bottom of the 2h range; last bars shrinking with upper wicks. Oversold stretch, fade down."
+ },
+ {
+  "id": "K003",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Fresh low with 2m and 5m RSI near 27-30 and close 3.4 ATR under the mean after a five-bar slide. Overextended sell-off, fade for a snap back."
+ },
+ {
+  "id": "K004",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Tagged a new 2h low then printed a +1.4 ATR bullish engulfing bar; 5m candles show long lower wicks. Rejection at range floor."
+ },
+ {
+  "id": "K005",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-upper range, RSI 55, modest z. No overextension."
+ },
+ {
+  "id": "K006",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Choppy mid-range, RSI 51, z near zero. No setup."
+ },
+ {
+  "id": "K007",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.58,
+  "reason": "2m RSI 73, close 3 ATR above mean at a fresh high with repeated upper wicks. Stretched rally, fade."
+ },
+ {
+  "id": "K008",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "5m RSI 26 and close 3.8 ATR below 5m mean near the 24h low; 2m already stabilising with a lower-wick bar. Fade the 5m stretch over 10 min."
+ },
+ {
+  "id": "K009",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Low-range drift but RSI 46 and z neutral on 2m. Nothing stretched."
+ },
+ {
+  "id": "K010",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Single +1.5 ATR spike bar into the top of the 2h range (pos 0.93) after a series of red bars. Fade the spike."
+ },
+ {
+  "id": "K011",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "Pushed to a new high on a +1.4/+0.8 run, then a -0.6 bar with wicks both sides. Exhaustion at range top."
+ },
+ {
+  "id": "K012",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Near 2h low, z -1.6, last bar closed with a long lower wick. Mild oversold bounce setup."
+ },
+ {
+  "id": "K013",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower part of range but RSI 39 and z -1 with mixed bars. No clear exhaustion."
+ },
+ {
+  "id": "K014",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Uptrend with z +1.4, last bar a small rejection, not stretched enough."
+ },
+ {
+  "id": "K015",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Near lows but already bouncing; RSI 41, no extreme."
+ },
+ {
+  "id": "K016",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.57,
+  "reason": "Extreme: 2m RSI 23, close 4.1 ATR under mean at the 2h low, 5m RSI 29. Capitulation-style drop, fade."
+ },
+ {
+  "id": "K017",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Upper half, RSI 54, z +0.2. Nothing to fade."
+ },
+ {
+  "id": "K018",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "One +1.4 bar but RSI 55, z +0.5. Not overextended."
+ },
+ {
+  "id": "K019",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower-mid range, RSI 46, neutral."
+ },
+ {
+  "id": "K020",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "At the 2h high (pos 0.89, 5m 0.92) with three small bars showing wicks after a push. Stalling at the top."
+ },
+ {
+  "id": "K021",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 57, z +1.3 on modest bars. No exhaustion."
+ },
+ {
+  "id": "K022",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Upper-mid, RSI 59, no extreme."
+ },
+ {
+  "id": "K023",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Pinned at the top of 2m and 5m ranges (0.92/0.95) with long upper wicks on recent bars. Fade into the range."
+ },
+ {
+  "id": "K024",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "At the 2h low, RSI 37, z -1.5 with upper wicks failing; selling is slowing. Mild fade."
+ },
+ {
+  "id": "K025",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.6,
+  "reason": "2m RSI 76, close 3.5 ATR above mean after +1.1/+1.2/+1.7 bars, now two doji with wicks at the high. Exhaustion top."
+ },
+ {
+  "id": "K026",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 52, 5m low. Mixed."
+ },
+ {
+  "id": "K027",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range after a pullback, RSI 54. Nothing to fade."
+ },
+ {
+  "id": "K028",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Sharp pullback of 3.4 ATR but RSI only 50 and price still upper-mid of range. No extreme."
+ },
+ {
+  "id": "K029",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "z -2.5 on 2m with a -1.4 close, RSI 36, 5m RSI 38 near lows. Stretched down, fade."
+ },
+ {
+  "id": "K030",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Just made a high (5m z +2.1) and printed two red bars. Failed push, fade."
+ },
+ {
+  "id": "K031",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 48."
+ },
+ {
+  "id": "K032",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 50."
+ },
+ {
+  "id": "K033",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "At the 2h and 24h-ish top (pos 0.94/0.99) with RSI 62/66; last bar small after a +1.0. Range-edge fade."
+ },
+ {
+  "id": "K034",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.51,
+  "reason": "Running into the top of range (0.89/0.94) on two up closes, RSI 64. Mild stretch."
+ },
+ {
+  "id": "K035",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Upper range but RSI 59 and z +1.0. Not stretched."
+ },
+ {
+  "id": "K036",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower range, RSI 39, z -0.9. No extreme."
+ },
+ {
+  "id": "K037",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Low-mid range, RSI 51."
+ },
+ {
+  "id": "K038",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Upper range on 5m, but 2m RSI 58 z +0.6. Nothing to fade."
+ },
+ {
+  "id": "K039",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 41."
+ },
+ {
+  "id": "K040",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "RSI 67, z +2.0 at a fresh high; last bar red with a long lower wick after upper-wick bars. Stretched rally stalling."
+ },
+ {
+  "id": "K041",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "Spike to a new high (+1.2) immediately reversed by a -1.0 bar. Failed breakout at the top."
+ },
+ {
+  "id": "K042",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "New 2h low on a -1.9 bar, then a +0.7 bar with a lower wick. Rejection of the low."
+ },
+ {
+  "id": "K043",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "At the 2h low with RSI 39, last bar green; many lower wicks. Base forming."
+ },
+ {
+  "id": "K044",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "z +2.6 on 2m with RSI 65 after +1.0/+1.1 bars. Stretched above the mean."
+ },
+ {
+  "id": "K045",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 49."
+ },
+ {
+  "id": "K046",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "2m RSI 25, 5m z -3.7 at the 24h low after a run of red bars. Oversold, fade."
+ },
+ {
+  "id": "K047",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "2m RSI 28, z -3.1 at a fresh low after a -1.5 bar. Stretched down, fade."
+ },
+ {
+  "id": "K048",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 46."
+ },
+ {
+  "id": "K049",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "Made a high then two -0.7/-0.8 bars; 5m RSI 68 z +2.4. Top rolling over."
+ },
+ {
+  "id": "K050",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "RSI 68, z +2.3 at the high, last bar -0.7 after a +1.2 push. Exhaustion at top."
+ },
+ {
+  "id": "K051",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower part of 2m range but RSI 42 and z -0.5; mixed bars. Nothing stretched."
+ },
+ {
+  "id": "K052",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "5m RSI 70, z +2.2 at the 24h high, and the last 2m bar is a -1.1 rejection after a +0.8 poke. Failed push at the top."
+ },
+ {
+  "id": "K053",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "2m RSI 66, z +2.6, sitting at 0.96/0.99 of the ranges after a steady climb. Overextended into the high."
+ },
+ {
+  "id": "K054",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.6,
+  "reason": "Extreme stretch: 2m RSI 79, 5m RSI 81, z +3.5/+3.9 at the 24h high with a final +1.3 thrust bar. Blow-off, fade."
+ },
+ {
+  "id": "K055",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Near range top (0.85/0.90), RSI 61, recent -0.8 rejection bar then weak +0.3 with lower wick. Mild top fade."
+ },
+ {
+  "id": "K056",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "At the 2h low, 5m RSI 36 near 24h low, a +0.8 bar and doji with lower wicks. Selling exhausting."
+ },
+ {
+  "id": "K057",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.57,
+  "reason": "2m RSI 27, 5m RSI 22, z -3.3 on both at range lows. Deeply oversold, fade."
+ },
+ {
+  "id": "K058",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Sharp 3.7 ATR drop in five bars (-2.1 then -1.0) into mid-range while 5m is neutral. Stretched short-term flush."
+ },
+ {
+  "id": "K059",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower-mid range, RSI 42, z -1. No exhaustion."
+ },
+ {
+  "id": "K060",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Near 2h low but bars alternate; RSI 41. No clear extreme."
+ },
+ {
+  "id": "K061",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "2m RSI 67, z +2.8 after a +1.8 surge, last bar red with an upper wick. Overextended run."
+ },
+ {
+  "id": "K062",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2m RSI 35, z -2.2 near the 2h low after -1.5/-1.0 bars. Stretched below mean."
+ },
+ {
+  "id": "K063",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Pullback in the upper range, RSI 48. Not extreme."
+ },
+ {
+  "id": "K064",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Upper-mid range, RSI 58, z +1.2. Nothing to fade."
+ },
+ {
+  "id": "K065",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "At the 2h low, RSI 37, z -1.5 with long lower wicks and a green last bar. Mild bounce."
+ },
+ {
+  "id": "K066",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 53."
+ },
+ {
+  "id": "K067",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 49."
+ },
+ {
+  "id": "K068",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "5m RSI 71 at the 24h top (0.96), 2m bars full of upper wicks at 0.90. Stalling near highs."
+ },
+ {
+  "id": "K069",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower-mid range, RSI 47."
+ },
+ {
+  "id": "K070",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "z -1.8 on 2m but price still upper range and RSI 45. Mixed."
+ },
+ {
+  "id": "K071",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "2m RSI 33, z -2.9 at a new low after eight red bars; last bar green with lower wick. Exhaustion at the low."
+ },
+ {
+  "id": "K072",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-upper range, RSI 51 after a reversal bar. No stretch."
+ },
+ {
+  "id": "K073",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.58,
+  "reason": "2m RSI 74, close 4.5 ATR above the mean after five straight up bars ending +1.4. Very stretched, fade."
+ },
+ {
+  "id": "K074",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2m RSI 65, z +2.0 at the top of the 2h range with alternating rejection bars. Fade from the edge."
+ },
+ {
+  "id": "K075",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Upper range but bars already fading, RSI 60. No clean setup."
+ },
+ {
+  "id": "K076",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower-mid range, RSI 45."
+ },
+ {
+  "id": "K077",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "2m z +3.1, RSI 65 after +0.9/+1.2/+0.8 bars; last bar doji with long lower wick. Stretched."
+ },
+ {
+  "id": "K078",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.57,
+  "reason": "2m RSI 70 and 5m RSI 78, z +3.6 on 5m at the 24h high. Overbought on both frames."
+ },
+ {
+  "id": "K079",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Upper range on 5m but 2m RSI 54, z +0.5. Not stretched."
+ },
+ {
+  "id": "K080",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower range but bouncing, RSI 42."
+ },
+ {
+  "id": "K081",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower range, RSI 38, z -1.2. Weak signal."
+ },
+ {
+  "id": "K082",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.52,
+  "reason": "Single +1.6 ATR spike bar to z +1.4 mid-range. Fade the spike over 2 min."
+ },
+ {
+  "id": "K083",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower range, RSI 38, 5m z -2.4 but 2m mixed. Weak."
+ },
+ {
+  "id": "K084",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "2m RSI 68, z +2.5 after +0.7/+0.8/+0.9 run. Stretched rally."
+ },
+ {
+  "id": "K085",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "2m RSI 33, 5m RSI 32, z -2.5 at the low; last bar green with lower wick. Oversold."
+ },
+ {
+  "id": "K086",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "At the 2h and 24h high (0.98/0.99) after +0.7/+1.0; RSI 63/66. Edge fade."
+ },
+ {
+  "id": "K087",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 46."
+ },
+ {
+  "id": "K088",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.57,
+  "reason": "2m RSI 23, 5m RSI 24, 5m z -3.4 at the 24h low; last bars small with lower wicks. Oversold exhaustion."
+ },
+ {
+  "id": "K089",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 46."
+ },
+ {
+  "id": "K090",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 56."
+ },
+ {
+  "id": "K091",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "2m RSI 32, z -3.0 after -1.3/-1.2 bars near the low; last bar a doji. Stretched selloff."
+ },
+ {
+  "id": "K092",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "At the low with RSI 37 then +0.7 green bar; lower wicks. Bounce off range floor."
+ },
+ {
+  "id": "K093",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2m z -1.9 near the low, choppy red bars, RSI 41. Mild stretch."
+ },
+ {
+  "id": "K094",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 49."
+ },
+ {
+  "id": "K095",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 49."
+ },
+ {
+  "id": "K096",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 50."
+ },
+ {
+  "id": "K097",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5m z +2.0 but 2m already pulled back, RSI 57. Mixed."
+ },
+ {
+  "id": "K098",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 49."
+ },
+ {
+  "id": "K099",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "New 2h low, RSI 34, last bar has a 0.9 ATR lower wick. Rejection at the floor."
+ },
+ {
+  "id": "K100",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "5m RSI 72, z +2.5 at the 24h high, 2m last bar long upper wick. Overbought at top."
+ },
+ {
+  "id": "K101",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 49."
+ },
+ {
+  "id": "K102",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "Near 2h/24h low with a -1.5 bar; RSI 42. Small stretch, quick fade."
+ },
+ {
+  "id": "K103",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "At the 24h low after -1.1/-1.6 bars, then a doji. Selling exhaustion at the floor."
+ },
+ {
+  "id": "K104",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "5m RSI 29 near the 24h low with long lower wicks on 5m; 2m just printed +0.9. Oversold rebound."
+ },
+ {
+  "id": "K105",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "2m RSI 36, z -2.3 near lows after -1.5/-1.0 bars. Stretched."
+ },
+ {
+  "id": "K106",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 51."
+ },
+ {
+  "id": "K107",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "5m RSI 35, z -2.4 near lows after a -2.2 flush; 2m stabilising. Fade the flush."
+ },
+ {
+  "id": "K108",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 52."
+ },
+ {
+  "id": "K109",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 51."
+ },
+ {
+  "id": "K110",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2m RSI 35, z -2.5; last bar doji with 0.9 upper wick though. Stretched below the mean."
+ },
+ {
+  "id": "K111",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.52,
+  "reason": "Final +1.4 ATR thrust bar into the top of the 2h range (0.91), RSI 64. Fade the spike bar."
+ },
+ {
+  "id": "K112",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2m z +2.4, RSI 65 after a +1.4 surge; 5m rallied four bars. Stretched above the mean."
+ },
+ {
+  "id": "K113",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "2m bounced hard (z +1.7) but sits low in the range while 5m is oversold. Conflicting stretch."
+ },
+ {
+  "id": "K114",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower-mid range, RSI 49."
+ },
+ {
+  "id": "K115",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower-mid range, RSI 51 after a reversal bar. No extreme."
+ },
+ {
+  "id": "K116",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "z +1.5 but RSI 57 and price mid-range. Not stretched."
+ },
+ {
+  "id": "K117",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "2m RSI 31, z -2.7 at a new low after seven red bars; last bar green with upper wick. Oversold, fade."
+ },
+ {
+  "id": "K118",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "z +1.8 mid-range with lots of lower wicks, RSI 58. Not an edge."
+ },
+ {
+  "id": "K119",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "5m RSI 31, z -2.8 at the 24h low; 2m RSI 32 slipping. Oversold at the floor."
+ },
+ {
+  "id": "K120",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2m z +2.6, RSI 62 after a +1.8 surge; bars since show upper wicks. Stretched short-term."
+ },
+ {
+  "id": "K121",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Near 2h and 24h lows, RSI 36/39, z -1.9. Mild oversold."
+ },
+ {
+  "id": "K122",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "New 2h low after -1.4 bars, RSI 38, last bar has a 0.5 lower wick. Selling into the floor slowing."
+ },
+ {
+  "id": "K123",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Upper-mid range, RSI 58."
+ },
+ {
+  "id": "K124",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Upper range and already rolling over, RSI 61. No clean fade."
+ },
+ {
+  "id": "K125",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower range, RSI 45."
+ },
+ {
+  "id": "K126",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Upper range on 5m but RSI 52, fading already."
+ },
+ {
+  "id": "K127",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 49."
+ },
+ {
+  "id": "K128",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "2m RSI 33, z -2.3 at the 2h low, many upper wicks but small bodies. Oversold drift."
+ },
+ {
+  "id": "K129",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2m z -2.5, RSI 39 after a run of red bars though mid-range on 2h. Short-term stretch."
+ },
+ {
+  "id": "K130",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2m RSI 36, z -2.2 after eight red bars, one with a 1.2 lower wick. Stretched and showing rejection."
+ },
+ {
+  "id": "K131",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower range, RSI 38 but bars mixed."
+ },
+ {
+  "id": "K132",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "5m RSI 26, z -2.9 at the 24h low; 2m RSI 30. Oversold on both."
+ },
+ {
+  "id": "K133",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "Huge -10.8 ATR collapse bar then flat; 2m RSI 9, z -6.7. Extreme dislocation, fade over 10 min."
+ },
+ {
+  "id": "K134",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Upper range, RSI 61 with mixed spike bars. No extreme."
+ },
+ {
+  "id": "K135",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "After a +3.5 spike the price drifts down; 5m RSI 68, z +2.8. Spike top unwinding."
+ },
+ {
+  "id": "K136",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Upper range, RSI 58, z +0.7."
+ },
+ {
+  "id": "K137",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.53,
+  "reason": "5m RSI 26, z -2.7 at the 24h low with tiny bars. Oversold, slow fade."
+ },
+ {
+  "id": "K138",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Upper range, RSI 60, no exhaustion."
+ },
+ {
+  "id": "K139",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.57,
+  "reason": "2m RSI 77, 5m RSI 78, 5m z +3.9 at the high; recent -0.9 bar. Overbought."
+ },
+ {
+  "id": "K140",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower range, RSI 45, choppy."
+ },
+ {
+  "id": "K141",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower range, RSI 42."
+ },
+ {
+  "id": "K142",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Run up then a -1.6 reversal bar, now mid-range; RSI 53."
+ },
+ {
+  "id": "K143",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "2m RSI 23, z -3.2 at the low after six red bars. Deeply oversold."
+ },
+ {
+  "id": "K144",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Bounced off low with +1.2, RSI 51. Fade already done."
+ },
+ {
+  "id": "K145",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower range, RSI 49, whipsaw bars."
+ },
+ {
+  "id": "K146",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "2m RSI 64, z +2.0 at 0.91 of range after +1.0 close. Stretched up."
+ },
+ {
+  "id": "K147",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 49."
+ },
+ {
+  "id": "K148",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "2m RSI 29, 5m RSI 22, z -3.0 on 5m at the 24h low. Oversold."
+ },
+ {
+  "id": "K149",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "z +2.1 at a fresh high, last bar has a 0.7 upper wick. Stalling at top."
+ },
+ {
+  "id": "K150",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "5m RSI 64, z +2.0 near high; 2m drifting with wicks. Mild top fade."
+ },
+ {
+  "id": "K151",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower range, RSI 45."
+ },
+ {
+  "id": "K152",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "2m RSI 32, z -3.1 at the low with long lower wicks; last bar green. Exhaustion at the floor."
+ },
+ {
+  "id": "K153",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "Top of 2h and 24h range (0.96/0.98) after +1.3/+0.8/+0.7 run; RSI 61. Edge fade."
+ },
+ {
+  "id": "K154",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower-mid range, RSI 51."
+ },
+ {
+  "id": "K155",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 55, last bar long upper wick only."
+ },
+ {
+  "id": "K156",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower range, RSI 51."
+ },
+ {
+  "id": "K157",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 55."
+ },
+ {
+  "id": "K158",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 51."
+ },
+ {
+  "id": "K159",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower range, RSI 46."
+ },
+ {
+  "id": "K160",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 48."
+ },
+ {
+  "id": "K161",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "5m RSI 32, z -2.3 near the 24h low. Oversold on the higher frame."
+ },
+ {
+  "id": "K162",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 52."
+ },
+ {
+  "id": "K163",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "2m RSI 69, 5m RSI 70 at the 24h top (0.99); prior bar had a 1.2 lower wick but momentum stalling. Overbought."
+ },
+ {
+  "id": "K164",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "2m RSI 30 at a new low, 5m z -3.5. Oversold."
+ },
+ {
+  "id": "K165",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-upper range, RSI 52."
+ },
+ {
+  "id": "K166",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Already bounced off low with +0.9, RSI 42."
+ },
+ {
+  "id": "K167",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.51,
+  "reason": "Climbing to 0.88/0.94 of range, RSI 58-60. Mild edge fade."
+ },
+ {
+  "id": "K168",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 47."
+ },
+ {
+  "id": "K169",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2m RSI 36, z -2.3 after a red run, last bar +0.6 green. Turning from stretch."
+ },
+ {
+  "id": "K170",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower range, RSI 45."
+ },
+ {
+  "id": "K171",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 55."
+ },
+ {
+  "id": "K172",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "After a -4.1 flush, 2m RSI 32, z -2.8, already stabilising with green bars. Fade the flush."
+ },
+ {
+  "id": "K173",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "-9.9 ATR collapse bar, 2m RSI 9, z -8.8 at the low. Extreme dislocation, fade over 10 min."
+ },
+ {
+  "id": "K174",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "At the low after -1.0/-1.4 bars, RSI 36; last bar +0.5 green. Bounce off floor."
+ },
+ {
+  "id": "K175",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 51 after a +1.5 bar."
+ },
+ {
+  "id": "K176",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "5m RSI 65, z +2.5 at the 24h high; 2m tagged a new high then printed -0.5. Stalling at the top."
+ },
+ {
+  "id": "K177",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Pulled back from upper range already, RSI 52. Nothing stretched."
+ },
+ {
+  "id": "K178",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Bounced off the low with +1.2, RSI 45. Move already faded."
+ },
+ {
+  "id": "K179",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "At low but RSI 43 and z -0.3, lots of lower wicks with no stretch."
+ },
+ {
+  "id": "K180",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "+1.2 rebound bar off the low already printed, RSI 46."
+ },
+ {
+  "id": "K181",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 44."
+ },
+ {
+  "id": "K182",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range rally, RSI 59, not at an edge."
+ },
+ {
+  "id": "K183",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2m z -1.9 after eight mostly red bars, last with a 0.8 lower wick. Short-term stretch with rejection."
+ },
+ {
+  "id": "K184",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "5m RSI 31, z -2.1 near the 24h low after seven red 2m bars. Oversold drift."
+ },
+ {
+  "id": "K185",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower range, RSI 43, mixed."
+ },
+ {
+  "id": "K186",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2m z -2.1 after steady selling, RSI 41. Mild stretch below mean."
+ },
+ {
+  "id": "K187",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2m RSI 63, z +2.0 at 0.89 of range after five up 5m bars; 2m bars show upper wicks. Stretched."
+ },
+ {
+  "id": "K188",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.54,
+  "reason": "Final +1.8 thrust bar to z +2.3, RSI 65. Fade the spike quickly."
+ },
+ {
+  "id": "K189",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Upper-mid range, RSI 57."
+ },
+ {
+  "id": "K190",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2m RSI 37, z -2.3 after a -1.5 bar; bars since have lower wicks. Stretched down."
+ },
+ {
+  "id": "K191",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-upper range after a pullback, RSI 50."
+ },
+ {
+  "id": "K192",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.6,
+  "reason": "2m RSI 80, 5m RSI 75, z +3.3/+3.6 at the 24h high. Overbought on both frames."
+ },
+ {
+  "id": "K193",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 55."
+ },
+ {
+  "id": "K194",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Upper range, RSI 55, already easing."
+ },
+ {
+  "id": "K195",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "5m RSI 73, z +2.5 at the high; 2m printed -0.7 then a doji with upper wick after a five-bar run. Exhaustion."
+ },
+ {
+  "id": "K196",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Failed high with -1.5 bar already done, RSI 56 mid-range."
+ },
+ {
+  "id": "K197",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 46."
+ },
+ {
+  "id": "K198",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "New 24h high (pos 1.00), RSI 67, z +2.1 after +1.3/+1.0 bars. Stretched at the edge."
+ },
+ {
+  "id": "K199",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "5m RSI 19, z -3.8 near the 24h low; 2m already bouncing. Deeply oversold higher frame."
+ },
+ {
+  "id": "K200",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Near low but RSI 44, z -0.9, ranging."
+ },
+ {
+  "id": "K201",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Upper-mid, RSI 58."
+ },
+ {
+  "id": "K202",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower-mid, RSI 49."
+ },
+ {
+  "id": "K203",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Upper range but RSI 55."
+ },
+ {
+  "id": "K204",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "At the 2h and 24h top (0.91/0.93), last bar -0.5 with a 0.7 upper wick. Rejection at the high."
+ },
+ {
+  "id": "K205",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "At the high, last bar -0.2 with 0.6 upper wick; 5m RSI 64. Top rejection."
+ },
+ {
+  "id": "K206",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "At 0.96 of the 2h range with a final +1.2 push, RSI 62. Range-edge fade."
+ },
+ {
+  "id": "K207",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "2m z +2.5 RSI 63 after a strong run, last bar -0.9 reversal. Top rolling over."
+ },
+ {
+  "id": "K208",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Already rebounded after the drop, RSI 54."
+ },
+ {
+  "id": "K209",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, z -1.8 but RSI 43 and a green last bar."
+ },
+ {
+  "id": "K210",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.53,
+  "reason": "+1.5 final bar to z +2.2, RSI 63. Spike fade."
+ },
+ {
+  "id": "K211",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 46."
+ },
+ {
+  "id": "K212",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 54."
+ },
+ {
+  "id": "K213",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "2m and 5m RSI 32 at the low, 5m z -2.8; selling slowing with wicks. Oversold."
+ },
+ {
+  "id": "K214",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Pulled back from highs into mid-range, RSI 56."
+ },
+ {
+  "id": "K215",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 52."
+ },
+ {
+  "id": "K216",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Upper range, RSI 53."
+ },
+ {
+  "id": "K217",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower-mid range, RSI 48."
+ },
+ {
+  "id": "K218",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.51,
+  "reason": "At the 2h high with a red bar with wicks, RSI 59. Mild edge fade."
+ },
+ {
+  "id": "K219",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower range, RSI 37, z -1.4. Weak."
+ },
+ {
+  "id": "K220",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-upper range, RSI 56."
+ },
+ {
+  "id": "K221",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "Final +1.1 bar to z +1.8 in a choppy range, RSI 62. Quick fade."
+ },
+ {
+  "id": "K222",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "5m RSI 78, z +2.4 at 0.94 of the 24h range. Overbought higher frame."
+ },
+ {
+  "id": "K223",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Upper range, RSI 61, z +1.7 after steady gains; last bar lower-wick doji. Mild stretch."
+ },
+ {
+  "id": "K224",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 50."
+ },
+ {
+  "id": "K225",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower range, RSI 44."
+ },
+ {
+  "id": "K226",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range recovery, RSI 52."
+ },
+ {
+  "id": "K227",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "2m RSI 27, 5m RSI 23 at the 24h low (pos 0.00), z -2.9. Oversold."
+ },
+ {
+  "id": "K228",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "At the 2h low, RSI 37, bars with lower wicks then green. Floor bounce."
+ },
+ {
+  "id": "K229",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "2m RSI 70, 5m RSI 79 at the 24h high. Overbought."
+ },
+ {
+  "id": "K230",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-upper range, RSI 48."
+ },
+ {
+  "id": "K231",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 54."
+ },
+ {
+  "id": "K232",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower range, RSI 40, no extreme."
+ },
+ {
+  "id": "K233",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower-mid range, RSI 49."
+ },
+ {
+  "id": "K234",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "At the 2h high (0.92), RSI 63, last bar doji with 0.6 upper wick. Edge fade."
+ },
+ {
+  "id": "K235",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower range, RSI 46."
+ },
+ {
+  "id": "K236",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 52."
+ },
+ {
+  "id": "K237",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "2m RSI 67, z +2.4 at 0.96 of range after a +1.9 burst. Stretched."
+ },
+ {
+  "id": "K238",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "5m RSI 29 at the 24h low (pos 0.04) while 2m drifts down. Oversold higher frame."
+ },
+ {
+  "id": "K239",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-upper range, RSI 50."
+ },
+ {
+  "id": "K240",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "2m RSI 69, z +2.6 at a fresh high; 5m z +2.7. Overextended rally."
+ },
+ {
+  "id": "K241",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2m RSI 37, z -2.3 after a -1.7 drop, small bars with lower wicks since. Stretched below mean."
+ },
+ {
+  "id": "K242",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Upper range but already reversing with -1.0, RSI 56."
+ },
+ {
+  "id": "K243",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 49."
+ },
+ {
+  "id": "K244",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 47."
+ },
+ {
+  "id": "K245",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "5m RSI 27 at the 24h low, 2m RSI 33 with a green last bar. Oversold at floor."
+ },
+ {
+  "id": "K246",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.51,
+  "reason": "At 0.94/0.95 of the ranges, 5m RSI 68 but 2m RSI only 58. Mild edge fade."
+ },
+ {
+  "id": "K247",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.57,
+  "reason": "2m RSI 73, z +3.2 at a fresh high after +1.0/+1.1/+1.0 bars; last bar red. Overextended."
+ },
+ {
+  "id": "K248",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "2m RSI 27, z -3.3 at the low after seven red bars. Deeply stretched."
+ },
+ {
+  "id": "K249",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower range, RSI 44, 5m z -1.4. Weak."
+ },
+ {
+  "id": "K250",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2m RSI 62, z +2.1 after a +1.2/+0.8/+0.9 run, last bar red doji. Stretched."
+ },
+ {
+  "id": "K251",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.51,
+  "reason": "5m at 0.92 of range with RSI 62; 2m last +0.8. Mild edge fade."
+ },
+ {
+  "id": "K252",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2m z -2.0 after two -0.9 bars, 5m RSI 32 near the 24h low. Stretched down."
+ },
+ {
+  "id": "K253",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 48."
+ },
+ {
+  "id": "K254",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 47."
+ },
+ {
+  "id": "K255",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Upper range, RSI 57."
+ },
+ {
+  "id": "K256",
+  "call": "sell",
+  "horizon_min": 2,
+  "confidence": 0.52,
+  "reason": "+1.6 spike bar lifting z to +1.9, RSI 63 mid-range. Fade the spike."
+ },
+ {
+  "id": "K257",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Already failed with a -1.9 bar, mid-upper range, RSI 56."
+ },
+ {
+  "id": "K258",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower range, RSI 42."
+ },
+ {
+  "id": "K259",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.51,
+  "reason": "At 0.88 of range after a +1.1 bar, RSI 61. Mild stretch."
+ },
+ {
+  "id": "K260",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "2m RSI 70, z +2.8 at a fresh high; 5m RSI 68 at 0.96. Overbought."
+ },
+ {
+  "id": "K261",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "2m z +3.2 after three +1.3/+1.4/+1.4 bars and a 5m +2.3 bar. Vertical move, fade."
+ },
+ {
+  "id": "K262",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2m RSI 31, 5m RSI 30 near the 24h low with a final -1.0 bar. Oversold."
+ },
+ {
+  "id": "K263",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "At the 24h high (0.96), last bar -0.5 with a lower wick, 5m RSI 66. Edge fade."
+ },
+ {
+  "id": "K264",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "V-shaped recovery to mid-range, RSI 56. No stretch."
+ },
+ {
+  "id": "K265",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower range, RSI 44."
+ },
+ {
+  "id": "K266",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.6,
+  "reason": "2m RSI 75, z +4.2 at the 24h high, 5m z +3.5. Extreme stretch."
+ },
+ {
+  "id": "K267",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "5m RSI 74, z +2.9 at the top; 2m printed -0.5 after a six-bar climb. Overbought."
+ },
+ {
+  "id": "K268",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "2m RSI 25, z -2.5 at a fresh low after -1.0/-1.2 bars. Oversold."
+ },
+ {
+  "id": "K269",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "At the 2h low (pos 0.01), RSI 35, upper wicks shrinking. Floor bounce."
+ },
+ {
+  "id": "K270",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.57,
+  "reason": "2m RSI 73, 5m RSI 75, z +3.2 on 5m at the 24h high. Overbought."
+ },
+ {
+  "id": "K271",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Pullback from upper range, RSI 53."
+ },
+ {
+  "id": "K272",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "Steady 3.8 ATR slide in five bars, 2m RSI 38, z -1.9. Stretched short-term."
+ },
+ {
+  "id": "K273",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Upper-mid, RSI 54."
+ },
+ {
+  "id": "K274",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-upper, RSI 60, no extreme."
+ },
+ {
+  "id": "K275",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Pullback within upper range, RSI 49."
+ },
+ {
+  "id": "K276",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "2m RSI 26, 5m RSI 30 at the low with z -2.5/-2.9; last bar green. Oversold."
+ },
+ {
+  "id": "K277",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Upper-mid, RSI 54."
+ },
+ {
+  "id": "K278",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower range, RSI 39, already bouncing."
+ },
+ {
+  "id": "K279",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "New 24h high (pos 1.00), RSI 65 after a steady climb. Edge fade."
+ },
+ {
+  "id": "K280",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 60."
+ },
+ {
+  "id": "K281",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "2m RSI 70, z +3.6 after a 4.1 ATR run in five bars. Overextended."
+ },
+ {
+  "id": "K282",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "5m RSI 29, z -2.9 at the 24h low; 2m stabilising. Oversold higher frame."
+ },
+ {
+  "id": "K283",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "At the high with last bar -0.6 after a run, RSI 59/63. Mild top fade."
+ },
+ {
+  "id": "K284",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2.9 ATR drop over five bars, RSI 36, last bar lower wick. Stretched."
+ },
+ {
+  "id": "K285",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "2m RSI 68, 5m RSI 67, z +2.2/+2.5 near the high. Overbought."
+ },
+ {
+  "id": "K286",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 52."
+ },
+ {
+  "id": "K287",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 45."
+ },
+ {
+  "id": "K288",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "New 24h low after -1.2/-1.1 bars and a 5m -2.0; 5m RSI 29, z -3.2. Stretched."
+ },
+ {
+  "id": "K289",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower range, RSI 41."
+ },
+ {
+  "id": "K290",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower range, RSI 44."
+ },
+ {
+  "id": "K291",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Bounced off low already, RSI 49."
+ },
+ {
+  "id": "K292",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Upper-mid range, RSI 56."
+ },
+ {
+  "id": "K293",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 44."
+ },
+ {
+  "id": "K294",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.58,
+  "reason": "2m and 5m RSI 78 at the 24h high, 5m z +3.8. Overbought."
+ },
+ {
+  "id": "K295",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.58,
+  "reason": "2m RSI 16, 5m RSI 20, 5m z -4.4 at the low; last bar has a 1.1 upper wick but small body. Extreme oversold."
+ },
+ {
+  "id": "K296",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-upper, RSI 52."
+ },
+ {
+  "id": "K297",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-upper, RSI 59."
+ },
+ {
+  "id": "K298",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "2m RSI 32, z -2.4 at the low, many lower wicks. Oversold."
+ },
+ {
+  "id": "K299",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.58,
+  "reason": "2m RSI 77, z +3.3 at the 24h high after five green bars. Overextended."
+ },
+ {
+  "id": "K300",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.58,
+  "reason": "2m RSI 20, z -3.7 near the low, 5m z -4.0; last bar +0.6 green. Extreme oversold, turning."
+ },
+ {
+  "id": "K301",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Pullback within upper 24h range, 2m RSI 53."
+ },
+ {
+  "id": "K302",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Upper-mid, RSI 57."
+ },
+ {
+  "id": "K303",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.58,
+  "reason": "2m RSI 19, z -4.0 at the 24h low after eight red bars. Extreme oversold."
+ },
+ {
+  "id": "K304",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "5m RSI 71, z +3.0 at the 24h top; 2m stalling with wicks. Overbought."
+ },
+ {
+  "id": "K305",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower range, 5m RSI 34 but 2m neutral."
+ },
+ {
+  "id": "K306",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 48."
+ },
+ {
+  "id": "K307",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "5m RSI 68, z +2.1 at 0.94 of range; 2m bars after +1.7 show wicks. Stretched."
+ },
+ {
+  "id": "K308",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2m RSI 35, z -2.5 at the low after choppy selling. Oversold."
+ },
+ {
+  "id": "K309",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Two red bars into mid-range, RSI 47."
+ },
+ {
+  "id": "K310",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "5m RSI 29, z -2.5 at the 24h low; last 2m bar has a 1.0 upper wick. Oversold."
+ },
+ {
+  "id": "K311",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "-7.8 ATR collapse bar, 2m RSI 21, z -5.6, price flat since. Extreme dislocation, fade over 10 min."
+ },
+ {
+  "id": "K312",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 46."
+ },
+ {
+  "id": "K313",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "2m RSI 31, z -3.5 after a run of red bars. Stretched down."
+ },
+ {
+  "id": "K314",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 56."
+ },
+ {
+  "id": "K315",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.53,
+  "reason": "Final -2.4 ATR bar drops z to -2.1 mid-range. Fade the flush quickly."
+ },
+ {
+  "id": "K316",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "At the 24h low, 5m z -2.7, 2m RSI 33 with long lower wicks. Oversold."
+ },
+ {
+  "id": "K317",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "2m RSI 25, 5m RSI 23 at the 24h low (pos 0.00). Oversold."
+ },
+ {
+  "id": "K318",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Upper range but pulled back, RSI 56."
+ },
+ {
+  "id": "K319",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower range, RSI 50."
+ },
+ {
+  "id": "K320",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 42."
+ },
+ {
+  "id": "K321",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 46."
+ },
+ {
+  "id": "K322",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Oversold flush already answered by a +1.3 rebound bar; RSI 36 but fade has fired."
+ },
+ {
+  "id": "K323",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 53."
+ },
+ {
+  "id": "K324",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "2m RSI 67, z +2.4, 5m z +2.3 near the high; recent bars with upper wicks. Stretched."
+ },
+ {
+  "id": "K325",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "2.7 ATR drop over five bars near the 24h low, 5m RSI 35. Stretched down."
+ },
+ {
+  "id": "K326",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5m RSI 33 near lows but 2m neutral, RSI 41."
+ },
+ {
+  "id": "K327",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.52,
+  "reason": "Two sharp red bars (-1.6/-1.2) to z -1.8 within an upper range. Fade the short flush quickly."
+ },
+ {
+  "id": "K328",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-upper, RSI 53."
+ },
+ {
+  "id": "K329",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower-mid, RSI 44."
+ },
+ {
+  "id": "K330",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "At the 2h high after +1.0/+1.0, last bar has a 0.9 upper wick. Rejection at top."
+ },
+ {
+  "id": "K331",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "2m RSI 27, z -2.8 at the 2h low. Oversold."
+ },
+ {
+  "id": "K332",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 49."
+ },
+ {
+  "id": "K333",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "2m RSI 28, 5m RSI 29, z -3.2 on 5m at the low; last bar green. Oversold."
+ },
+ {
+  "id": "K334",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 50."
+ },
+ {
+  "id": "K335",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "5m RSI 72, z +2.9 at 0.91; 2m last bar has 0.7 upper wick. Overbought higher frame."
+ },
+ {
+  "id": "K336",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Upper-mid, RSI 60."
+ },
+ {
+  "id": "K337",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 52."
+ },
+ {
+  "id": "K338",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-upper, RSI 54."
+ },
+ {
+  "id": "K339",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.57,
+  "reason": "2m RSI 74, z +2.7 at the 2h high; 5m RSI 73, z +3.4. Overbought."
+ },
+ {
+  "id": "K340",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 53."
+ },
+ {
+  "id": "K341",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "5m RSI 68, z +3.3 at 0.93 of range; 2m stalling after a +1.6. Stretched."
+ },
+ {
+  "id": "K342",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "5m RSI 28 but 2m mid-range and neutral; conflicting."
+ },
+ {
+  "id": "K343",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "5m z +2.8, RSI 63 near the high; 2m flat with wicks. Mild stretch."
+ },
+ {
+  "id": "K344",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "2m z +2.8, RSI 64 after +1.2/+0.9/+1.5/+1.1 bars. Overextended run."
+ },
+ {
+  "id": "K345",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-upper, RSI 54."
+ },
+ {
+  "id": "K346",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "5m RSI 65, z +2.1 at 0.93 of range; 2m choppy at top. Edge fade."
+ },
+ {
+  "id": "K347",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "New 24h high (pos 1.00), RSI 67/68 after a +1.1/+0.5 push. Edge fade."
+ },
+ {
+  "id": "K348",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 53."
+ },
+ {
+  "id": "K349",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 47."
+ },
+ {
+  "id": "K350",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 55."
+ },
+ {
+  "id": "K351",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower-mid, RSI 50."
+ },
+ {
+  "id": "K352",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "2m RSI 28, z -3.5 at the 24h low after -0.9/-1.3 bars. Oversold."
+ },
+ {
+  "id": "K353",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower-mid, RSI 46."
+ },
+ {
+  "id": "K354",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "5m RSI 25 near the 24h low; 2m already basing with a 1.0 lower wick. Oversold higher frame."
+ },
+ {
+  "id": "K355",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "2m RSI 65, z +2.4 at the high, last bar a spinning top. Stretched at the edge."
+ },
+ {
+  "id": "K356",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.58,
+  "reason": "2m RSI 73, 5m RSI 75, z +2.8/+2.9 at the 24h high. Overbought."
+ },
+ {
+  "id": "K357",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower-mid range, RSI 53."
+ },
+ {
+  "id": "K358",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "2m RSI 69, z +2.9 at the high after several +1 bars. Overextended."
+ },
+ {
+  "id": "K359",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Upper range but 2m RSI 58 and pulling back."
+ },
+ {
+  "id": "K360",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Upper-mid, RSI 52."
+ },
+ {
+  "id": "K361",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "5m RSI 71, z +3.1; 2m at 0.93 with a 0.7 upper wick on the last bar. Overbought."
+ },
+ {
+  "id": "K362",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "2m RSI 70, 5m RSI 69 at the 24h top (0.98). Overbought at edge."
+ },
+ {
+  "id": "K363",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "At the high with 5m z +2.7; last 2m bar -0.6 after +0.9. Top rejection."
+ },
+ {
+  "id": "K364",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Upper range, RSI 58, no extreme."
+ },
+ {
+  "id": "K365",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 53."
+ },
+ {
+  "id": "K366",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower-mid, RSI 47."
+ },
+ {
+  "id": "K367",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower range, already bouncing; RSI 40."
+ },
+ {
+  "id": "K368",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "5m RSI 70, z +2.3 at 0.95 of 24h range; 2m stalling after +1.1. Overbought."
+ },
+ {
+  "id": "K369",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.57,
+  "reason": "2m RSI 74, z +3.5 after eight straight green bars. Vertical run, fade."
+ },
+ {
+  "id": "K370",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower range, RSI 45."
+ },
+ {
+  "id": "K371",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower-mid, RSI 51."
+ },
+ {
+  "id": "K372",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower range, RSI 47."
+ },
+ {
+  "id": "K373",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "2m RSI 27, z -3.0 at the 24h low after five red bars. Oversold."
+ },
+ {
+  "id": "K374",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.59,
+  "reason": "5m RSI 84, z +4.6, 2m RSI 77 at the high. Extreme overbought."
+ },
+ {
+  "id": "K375",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower range, RSI 50."
+ },
+ {
+  "id": "K376",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.55,
+  "reason": "5m RSI 28, 2m RSI 34 at the low; last two 2m bars green. Oversold turning."
+ },
+ {
+  "id": "K377",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "At the 2h low, RSI 34, z -1.7 with wicks both sides. Oversold drift."
+ },
+ {
+  "id": "K378",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "2m RSI 36, z -1.7 after a -1.3, last bar 0.7 lower wick. Rejection after stretch."
+ },
+ {
+  "id": "K379",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 50."
+ },
+ {
+  "id": "K380",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower range, RSI 48."
+ },
+ {
+  "id": "K381",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.58,
+  "reason": "2m RSI 24, 5m RSI 20, z -3.7/-3.9 at the 24h low after a -1.9 bar. Extreme oversold."
+ },
+ {
+  "id": "K382",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 54."
+ },
+ {
+  "id": "K383",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Upper-mid, RSI 54."
+ },
+ {
+  "id": "K384",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.54,
+  "reason": "2m RSI 68, z +2.0 at the high; last two bars red with long lower wicks after a +1.6. Stalling."
+ },
+ {
+  "id": "K385",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.53,
+  "reason": "At 0.97/0.98 of ranges, 5m RSI 68. Edge fade."
+ },
+ {
+  "id": "K386",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 54."
+ },
+ {
+  "id": "K387",
+  "call": "sell",
+  "horizon_min": 5,
+  "confidence": 0.56,
+  "reason": "2m RSI 70, z +3.3 at the high after +1.0/+1.3. Overextended."
+ },
+ {
+  "id": "K388",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 49."
+ },
+ {
+  "id": "K389",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower range, RSI 49."
+ },
+ {
+  "id": "K390",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 50."
+ },
+ {
+  "id": "K391",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 55."
+ },
+ {
+  "id": "K392",
+  "call": "buy",
+  "horizon_min": 5,
+  "confidence": 0.52,
+  "reason": "Near the 2h/24h low after -1.3/-1.4/-1.0 bars, RSI 44. Mild stretch."
+ },
+ {
+  "id": "K393",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 51."
+ },
+ {
+  "id": "K394",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 53."
+ },
+ {
+  "id": "K395",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Bounced off the low, RSI 53."
+ },
+ {
+  "id": "K396",
+  "call": "buy",
+  "horizon_min": 10,
+  "confidence": 0.52,
+  "reason": "5m RSI 29, z -2.6 at the 24h low; 2m just printed +1.0. Oversold higher frame."
+ },
+ {
+  "id": "K397",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Upper range after a -2.0 bar; RSI 52, no stretch."
+ },
+ {
+  "id": "K398",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Mid-range, RSI 48."
+ },
+ {
+  "id": "K399",
+  "call": "abstain",
+  "horizon_min": 5,
+  "confidence": 0.5,
+  "reason": "Lower range, RSI 53."
+ },
+ {
+  "id": "K400",
+  "call": "buy",
+  "horizon_min": 2,
+  "confidence": 0.51,
+  "reason": "Final -1.6 bar to z -1.2 mid-range, RSI 46. Quick fade of the flush."
+ }
+]
