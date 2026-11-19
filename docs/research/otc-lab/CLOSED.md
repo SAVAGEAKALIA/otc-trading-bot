@@ -13,6 +13,7 @@ Every test landed at a coin flip, against a break-even of 54.35% (turbo, 0.84 pa
 | 2026-11-11 | Quant lab: 22 model types, 10 rules, bandit, crowd fade, lead-lag | 50.94% at 1,000+ trades; REJECTED ([lab report](2026-11-11-lab-report.md)) |
 | 2026-11-12 | Strict-condition research, 128 sources | no logged above-break-even result on any broker feed ([report](2026-11-12-sparse-entry-research.md)) |
 | 2026-11-13 | Frozen family of 8, run once on existing data | 50.7% to 51.9%; H2, H4, H5, H8 retired ([result](2026-11-13-sparse-entry-historical-result.md)) |
+| 2026-11-19 | Coding-agent panel: 5 forecasters plus a judge, per-case calls on 400 held-back moments | 49.9% pooled over 1,268 calls; judge 47.6% ([result](agent-forecast3/README.md)) |
 
 Untested and abandoned: H1 and H6, the payout-step rules. They would have needed about 92 to 200 days of new collection, and nothing above suggested they would differ.
 

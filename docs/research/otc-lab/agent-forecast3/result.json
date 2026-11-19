@@ -1,0 +1,208 @@
+{
+ "priceaction": {
+  "calls": 341,
+  "abstained": 59,
+  "wins": 170,
+  "losses": 168,
+  "ties": 3,
+  "win_rate": 0.503,
+  "ci95": [
+   0.448,
+   0.558
+  ],
+  "breakeven": 0.5435,
+  "pnl_units": -25.2,
+  "return_per_stake": -0.074,
+  "by_horizon": {
+   "2": {
+    "wins": 104,
+    "losses": 102,
+    "ties": 2
+   },
+   "5": {
+    "wins": 66,
+    "losses": 65,
+    "ties": 1
+   },
+   "10": {
+    "wins": 0,
+    "losses": 1,
+    "ties": 0
+   }
+  },
+  "missing": [],
+  "lower_bound": 0.4385,
+  "alpha": 0.01,
+  "certified": false
+ },
+ "trend": {
+  "calls": 294,
+  "abstained": 106,
+  "wins": 141,
+  "losses": 151,
+  "ties": 2,
+  "win_rate": 0.483,
+  "ci95": [
+   0.424,
+   0.542
+  ],
+  "breakeven": 0.5419,
+  "pnl_units": -31.78,
+  "return_per_stake": -0.108,
+  "by_horizon": {
+   "2": {
+    "wins": 2,
+    "losses": 2,
+    "ties": 0
+   },
+   "5": {
+    "wins": 100,
+    "losses": 111,
+    "ties": 2
+   },
+   "10": {
+    "wins": 39,
+    "losses": 38,
+    "ties": 0
+   }
+  },
+  "missing": [],
+  "lower_bound": 0.4138,
+  "alpha": 0.01,
+  "certified": false
+ },
+ "reversal": {
+  "calls": 194,
+  "abstained": 206,
+  "wins": 99,
+  "losses": 94,
+  "ties": 1,
+  "win_rate": 0.513,
+  "ci95": [
+   0.44,
+   0.585
+  ],
+  "breakeven": 0.5432,
+  "pnl_units": -10.76,
+  "return_per_stake": -0.055,
+  "by_horizon": {
+   "2": {
+    "wins": 5,
+    "losses": 5,
+    "ties": 0
+   },
+   "5": {
+    "wins": 90,
+    "losses": 84,
+    "ties": 1
+   },
+   "10": {
+    "wins": 4,
+    "losses": 5,
+    "ties": 0
+   }
+  },
+  "missing": [],
+  "lower_bound": 0.4271,
+  "alpha": 0.01,
+  "certified": false
+ },
+ "multitf": {
+  "calls": 100,
+  "abstained": 300,
+  "wins": 52,
+  "losses": 48,
+  "ties": 0,
+  "win_rate": 0.52,
+  "ci95": [
+   0.418,
+   0.621
+  ],
+  "breakeven": 0.5427,
+  "pnl_units": -4.18,
+  "return_per_stake": -0.042,
+  "by_horizon": {
+   "2": {
+    "wins": 27,
+    "losses": 24,
+    "ties": 0
+   },
+   "5": {
+    "wins": 18,
+    "losses": 18,
+    "ties": 0
+   },
+   "10": {
+    "wins": 7,
+    "losses": 6,
+    "ties": 0
+   }
+  },
+  "missing": [],
+  "lower_bound": 0.4,
+  "alpha": 0.01,
+  "certified": false
+ },
+ "crossasset": {
+  "calls": 339,
+  "abstained": 61,
+  "wins": 166,
+  "losses": 170,
+  "ties": 3,
+  "win_rate": 0.494,
+  "ci95": [
+   0.439,
+   0.549
+  ],
+  "breakeven": 0.5419,
+  "pnl_units": -29.76,
+  "return_per_stake": -0.088,
+  "by_horizon": {
+   "5": {
+    "wins": 126,
+    "losses": 120,
+    "ties": 3
+   },
+   "10": {
+    "wins": 40,
+    "losses": 50,
+    "ties": 0
+   }
+  },
+  "missing": [],
+  "lower_bound": 0.4295,
+  "alpha": 0.01,
+  "certified": false
+ },
+ "judge": {
+  "calls": 84,
+  "abstained": 316,
+  "wins": 40,
+  "losses": 44,
+  "ties": 0,
+  "win_rate": 0.476,
+  "ci95": [
+   0.366,
+   0.588
+  ],
+  "breakeven": 0.5435,
+  "pnl_units": -10.4,
+  "return_per_stake": -0.124,
+  "by_horizon": {
+   "5": {
+    "wins": 40,
+    "losses": 44,
+    "ties": 0
+   }
+  },
+  "missing": [],
+  "lower_bound": 0.3824,
+  "alpha": 0.05,
+  "certified": false
+ },
+ "base_rate_up": {
+  "2": 0.5025,
+  "5": 0.4125,
+  "10": 0.4625
+ }
+}
